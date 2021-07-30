@@ -1,3 +1,7 @@
+// This is an independent project of an individual developer. Dear PVS-Studio, please check it.
+
+// PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
+
 #include <iostream>
 #include <iomanip>
 #include <conio.h>
@@ -19,6 +23,7 @@ int main()
     cout << "\nInvoking print function by CEptr directed to the BPCE object:\n";
     CEptr = &employee;
     CEptr->print();
+    cout << "This is manifestation of polymorphism.\n";
     cin.get();
     return 0;
 }
