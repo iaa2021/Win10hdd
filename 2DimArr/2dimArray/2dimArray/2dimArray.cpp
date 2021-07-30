@@ -14,7 +14,7 @@ using namespace std;
 int main()
 {
     srand(time(0));
-    int row, column;
+    int row, column, aSize;
     row = rand()%10 + 1;
     column = rand()%10 + 1;
     cout << "Rows: " << row << endl;
@@ -22,6 +22,8 @@ int main()
     int** array = new int* [row];
     for (int i = 0; i < row; i++)
         array[ i ] = new int[column];
+    aSize = row * column;
+    cout << "Array size is: " << aSize << endl;
     for (int i = 0; i < row; i++)
         for (int j = 0; j < column; j++)
             array[i][j] = (i + 1) * (j + 1);
@@ -33,6 +35,16 @@ int main()
 
             cout << endl;
     }
+    double middle; int aSum = 0;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+           aSum += array[i][j];
+
+        cout << endl;
+    }
+    middle = static_cast<double>(aSum) / (aSize);
+    cout << "The sum of this array is: " << aSum << "\n the average is: " << middle << endl;
     cin.get();
     return 0;
 }
