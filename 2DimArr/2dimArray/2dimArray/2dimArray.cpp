@@ -26,7 +26,7 @@ int main()
     cout << "Array size is: " << aSize << endl;
     for (int i = 0; i < row; i++)
         for (int j = 0; j < column; j++)
-            array[i][j] = (i + 1) * (j + 1);
+            array[i][j] = rand()%200;
     cout << endl;
     for (int i = 0; i < row; i++)
     {
@@ -40,11 +40,11 @@ int main()
     {
         for (int j = 0; j < column; j++)
            aSum += array[i][j];
-
-        cout << endl;
     }
     middle = static_cast<double>(aSum) / (aSize);
+    cout << endl << fixed << setprecision(2);
     cout << "The sum of this array is: " << aSum << "\n the average is: " << middle << endl;
+    cout << endl;
     cin.get();
     return 0;
 }
