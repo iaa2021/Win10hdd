@@ -15,14 +15,16 @@ int main()
 {
     srand(time(0));
     int row, column;
-    cout << "Input rows, columns: ";
-    cin >> row >> column;
+    row = rand()%10 + 1;
+    column = rand()%10 + 1;
+    cout << "Rows: " << row << endl;
+    cout << "Columns: " << column << endl;
     int** array = new int* [row];
     for (int i = 0; i < row; i++)
         array[ i ] = new int[column];
     for (int i = 0; i < row; i++)
         for (int j = 0; j < column; j++)
-            array[i][j] = i * j;
+            array[i][j] = (i + 1) * (j + 1);
     cout << endl;
     for (int i = 0; i < row; i++)
     {
@@ -31,6 +33,7 @@ int main()
 
             cout << endl;
     }
+    cin.get();
     return 0;
 }
 
