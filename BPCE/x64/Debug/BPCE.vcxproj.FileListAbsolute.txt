@@ -1,0 +1,3 @@
+I:\GitStore\BPCE\x64\Debug\BPCE.exe
+C:\Users\ivano\OneDrive\Рабочий стол\GitStore\BPCE\x64\Debug\BPCE.exe
+I:\Other\C++\GitStore\BPCE\x64\Debug\BPCE.exe
