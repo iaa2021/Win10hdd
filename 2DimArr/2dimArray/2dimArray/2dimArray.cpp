@@ -26,7 +26,10 @@ int main()
     cout << "Array size is: " << aSize << endl;
     for (int i = 0; i < row; i++)
         for (int j = 0; j < column; j++)
-            array[i][j] = rand()%200;
+        {
+            int b = rand() % 15 + 1;
+            array[i][j] = (rand() % 200) * b;
+        }    
     cout << endl;
     for (int i = 0; i < row; i++)
     {
