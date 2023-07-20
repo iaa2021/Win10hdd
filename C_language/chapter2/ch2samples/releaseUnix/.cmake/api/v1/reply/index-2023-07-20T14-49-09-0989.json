@@ -8,34 +8,34 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "/snap/cmake/1299/bin/cmake",
-			"cpack" : "/snap/cmake/1299/bin/cpack",
-			"ctest" : "/snap/cmake/1299/bin/ctest",
-			"root" : "/snap/cmake/1299/share/cmake-3.26"
+			"cmake" : "/snap/cmake/1316/bin/cmake",
+			"cpack" : "/snap/cmake/1316/bin/cpack",
+			"ctest" : "/snap/cmake/1316/bin/ctest",
+			"root" : "/snap/cmake/1316/share/cmake-3.27"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 26,
-			"patch" : 4,
-			"string" : "3.26.4",
+			"minor" : 27,
+			"patch" : 0,
+			"string" : "3.27.0",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-9167145a0be5205d1c09.json",
+			"jsonFile" : "codemodel-v2-5d15fb9c176ae5bc0953.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 5
+				"minor" : 6
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-1b7619418e4fda338c66.json",
+			"jsonFile" : "cache-v2-0a6a1f1f08cacbee13d6.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-e1161c620f1da2ddd17d.json",
+			"jsonFile" : "cmakeFiles-v1-6a0bd0975cd6953fd4ab.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -92,16 +92,16 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "codemodel-v2-9167145a0be5205d1c09.json",
+						"jsonFile" : "codemodel-v2-5d15fb9c176ae5bc0953.json",
 						"kind" : "codemodel",
 						"version" : 
 						{
 							"major" : 2,
-							"minor" : 5
+							"minor" : 6
 						}
 					},
 					{
-						"jsonFile" : "cache-v2-1b7619418e4fda338c66.json",
+						"jsonFile" : "cache-v2-0a6a1f1f08cacbee13d6.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -110,7 +110,7 @@
 						}
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-e1161c620f1da2ddd17d.json",
+						"jsonFile" : "cmakeFiles-v1-6a0bd0975cd6953fd4ab.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{

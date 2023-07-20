@@ -1,4 +1,4 @@
 echo [*] running debug configuration with Ninja
 cd debugNinja
-src/p55
+src/ex2_20
 cd ..

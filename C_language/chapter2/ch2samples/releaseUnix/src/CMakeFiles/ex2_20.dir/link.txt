@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/ex2_20.dir/ex2_20.c.o -o ex2_20 

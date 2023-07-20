@@ -1,5 +1,8 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix/CMakeFiles/rebuild_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix/src/CMakeFiles/p55.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix/src/CMakeFiles/p70.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix/src/CMakeFiles/ex2_19.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix/src/CMakeFiles/ex2_20.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix/src/CMakeFiles/rebuild_cache.dir
