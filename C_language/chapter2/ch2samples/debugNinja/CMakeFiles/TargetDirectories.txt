@@ -4,5 +4,7 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src/CMakeFiles/p70.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src/CMakeFiles/ex2_19.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src/CMakeFiles/ex2_20.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src/CMakeFiles/ex2_24.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src/CMakeFiles/ex2_30.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src/CMakeFiles/rebuild_cache.dir

@@ -21,6 +21,7 @@ main()
     if( c > value )
     value = c;
     printf( "\nLargest is %d ", value );
+    printf( "\n%d smallest than %d", a, c );
     printf( "\n" );
     return 0;
 }

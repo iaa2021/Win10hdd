@@ -168,6 +168,32 @@ ex2_20/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_20.dir/build.make src/CMakeFiles/ex2_20.dir/build
 .PHONY : ex2_20/fast
 
+#=============================================================================
+# Target rules for targets named ex2_24
+
+# Build rule for target.
+ex2_24: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2_24
+.PHONY : ex2_24
+
+# fast build rule for target.
+ex2_24/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_24.dir/build.make src/CMakeFiles/ex2_24.dir/build
+.PHONY : ex2_24/fast
+
+#=============================================================================
+# Target rules for targets named ex2_30
+
+# Build rule for target.
+ex2_30: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2_30
+.PHONY : ex2_30
+
+# fast build rule for target.
+ex2_30/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_30.dir/build.make src/CMakeFiles/ex2_30.dir/build
+.PHONY : ex2_30/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,6 +204,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex2_19"
 	@echo "... ex2_20"
+	@echo "... ex2_24"
+	@echo "... ex2_30"
 	@echo "... p55"
 	@echo "... p70"
 .PHONY : help

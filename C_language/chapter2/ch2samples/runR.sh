@@ -1,4 +1,4 @@
 echo [*] running release configuration with Unix
 cd releaseUnix
-src/ex2_20
+src/ex2_30
 cd ..

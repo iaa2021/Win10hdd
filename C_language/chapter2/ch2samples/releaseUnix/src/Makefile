@@ -172,6 +172,34 @@ ex2_20/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_20.dir/build.make src/CMakeFiles/ex2_20.dir/build
 .PHONY : ex2_20/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex2_24.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex2_24.dir/rule
+.PHONY : src/CMakeFiles/ex2_24.dir/rule
+
+# Convenience name for target.
+ex2_24: src/CMakeFiles/ex2_24.dir/rule
+.PHONY : ex2_24
+
+# fast build rule for target.
+ex2_24/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_24.dir/build.make src/CMakeFiles/ex2_24.dir/build
+.PHONY : ex2_24/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex2_30.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex2_30.dir/rule
+.PHONY : src/CMakeFiles/ex2_30.dir/rule
+
+# Convenience name for target.
+ex2_30: src/CMakeFiles/ex2_30.dir/rule
+.PHONY : ex2_30
+
+# fast build rule for target.
+ex2_30/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_30.dir/build.make src/CMakeFiles/ex2_30.dir/build
+.PHONY : ex2_30/fast
+
 ex2_19.o: ex2_19.c.o
 .PHONY : ex2_19.o
 
@@ -219,6 +247,54 @@ ex2_20.s: ex2_20.c.s
 ex2_20.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_20.dir/build.make src/CMakeFiles/ex2_20.dir/ex2_20.c.s
 .PHONY : ex2_20.c.s
+
+ex2_24.o: ex2_24.c.o
+.PHONY : ex2_24.o
+
+# target to build an object file
+ex2_24.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_24.dir/build.make src/CMakeFiles/ex2_24.dir/ex2_24.c.o
+.PHONY : ex2_24.c.o
+
+ex2_24.i: ex2_24.c.i
+.PHONY : ex2_24.i
+
+# target to preprocess a source file
+ex2_24.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_24.dir/build.make src/CMakeFiles/ex2_24.dir/ex2_24.c.i
+.PHONY : ex2_24.c.i
+
+ex2_24.s: ex2_24.c.s
+.PHONY : ex2_24.s
+
+# target to generate assembly for a file
+ex2_24.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_24.dir/build.make src/CMakeFiles/ex2_24.dir/ex2_24.c.s
+.PHONY : ex2_24.c.s
+
+ex2_30.o: ex2_30.c.o
+.PHONY : ex2_30.o
+
+# target to build an object file
+ex2_30.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_30.dir/build.make src/CMakeFiles/ex2_30.dir/ex2_30.c.o
+.PHONY : ex2_30.c.o
+
+ex2_30.i: ex2_30.c.i
+.PHONY : ex2_30.i
+
+# target to preprocess a source file
+ex2_30.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_30.dir/build.make src/CMakeFiles/ex2_30.dir/ex2_30.c.i
+.PHONY : ex2_30.c.i
+
+ex2_30.s: ex2_30.c.s
+.PHONY : ex2_30.s
+
+# target to generate assembly for a file
+ex2_30.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/releaseUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex2_30.dir/build.make src/CMakeFiles/ex2_30.dir/ex2_30.c.s
+.PHONY : ex2_30.c.s
 
 p55.o: p55.c.o
 .PHONY : p55.o
@@ -278,6 +354,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex2_19"
 	@echo "... ex2_20"
+	@echo "... ex2_24"
+	@echo "... ex2_30"
 	@echo "... p55"
 	@echo "... p70"
 	@echo "... ex2_19.o"
@@ -286,6 +364,12 @@ help:
 	@echo "... ex2_20.o"
 	@echo "... ex2_20.i"
 	@echo "... ex2_20.s"
+	@echo "... ex2_24.o"
+	@echo "... ex2_24.i"
+	@echo "... ex2_24.s"
+	@echo "... ex2_30.o"
+	@echo "... ex2_30.i"
+	@echo "... ex2_30.s"
 	@echo "... p55.o"
 	@echo "... p55.i"
 	@echo "... p55.s"

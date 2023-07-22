@@ -197,6 +197,70 @@ build src/ex2_20: C_EXECUTABLE_LINKER__ex2_20_Debug src/CMakeFiles/ex2_20.dir/ex
   TARGET_FILE = src/ex2_20
   TARGET_PDB = ex2_20.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex2_24
+
+
+#############################################
+# Order-only phony target for ex2_24
+
+build cmake_object_order_depends_target_ex2_24: phony || src/CMakeFiles/ex2_24.dir
+
+build src/CMakeFiles/ex2_24.dir/ex2_24.c.o: C_COMPILER__ex2_24_unscanned_Debug /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/src/ex2_24.c || cmake_object_order_depends_target_ex2_24
+  DEP_FILE = src/CMakeFiles/ex2_24.dir/ex2_24.c.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/src/.
+  OBJECT_DIR = src/CMakeFiles/ex2_24.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex2_24.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex2_24
+
+
+#############################################
+# Link the executable src/ex2_24
+
+build src/ex2_24: C_EXECUTABLE_LINKER__ex2_24_Debug src/CMakeFiles/ex2_24.dir/ex2_24.c.o
+  FLAGS = -g
+  OBJECT_DIR = src/CMakeFiles/ex2_24.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex2_24
+  TARGET_PDB = ex2_24.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex2_30
+
+
+#############################################
+# Order-only phony target for ex2_30
+
+build cmake_object_order_depends_target_ex2_30: phony || src/CMakeFiles/ex2_30.dir
+
+build src/CMakeFiles/ex2_30.dir/ex2_30.c.o: C_COMPILER__ex2_30_unscanned_Debug /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/src/ex2_30.c || cmake_object_order_depends_target_ex2_30
+  DEP_FILE = src/CMakeFiles/ex2_30.dir/ex2_30.c.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/src/.
+  OBJECT_DIR = src/CMakeFiles/ex2_30.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex2_30.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex2_30
+
+
+#############################################
+# Link the executable src/ex2_30
+
+build src/ex2_30: C_EXECUTABLE_LINKER__ex2_30_Debug src/CMakeFiles/ex2_30.dir/ex2_30.c.o
+  FLAGS = -g
+  OBJECT_DIR = src/CMakeFiles/ex2_30.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex2_30
+  TARGET_PDB = ex2_30.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -228,6 +292,10 @@ build ex2_19: phony src/ex2_19
 
 build ex2_20: phony src/ex2_20
 
+build ex2_24: phony src/ex2_24
+
+build ex2_30: phony src/ex2_30
+
 build p55: phony src/p55
 
 build p70: phony src/p70
@@ -247,7 +315,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter2/ch2samples/debugNinja/src
 
-build src/all: phony src/p55 src/p70 src/ex2_19 src/ex2_20
+build src/all: phony src/p55 src/p70 src/ex2_19 src/ex2_20 src/ex2_24 src/ex2_30
 
 # =============================================================================
 # Built-in targets

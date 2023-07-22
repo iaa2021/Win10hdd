@@ -52,4 +52,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/p70.dir/DependInfo.cmake"
   "src/CMakeFiles/ex2_19.dir/DependInfo.cmake"
   "src/CMakeFiles/ex2_20.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex2_24.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex2_30.dir/DependInfo.cmake"
   )

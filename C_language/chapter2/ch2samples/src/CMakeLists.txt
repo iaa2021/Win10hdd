@@ -8,7 +8,10 @@ add_executable( p55 p55.c )
 add_executable( p70 p70.c )
 add_executable( ex2_19 ex2_19.c )
 add_executable( ex2_20 ex2_20.c )
-set( targets p55 p70 ex2_19 ex2_20 )
+add_executable( ex2_24 ex2_24.c )
+add_executable( ex2_30 ex2_30.c )
+
+set( targets p55 p70 ex2_19 ex2_20 ex2_24 ex2_30 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES
