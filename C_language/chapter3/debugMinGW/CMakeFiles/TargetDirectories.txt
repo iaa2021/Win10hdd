@@ -1,5 +1,0 @@
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/debugMinGW/CMakeFiles/edit_cache.dir
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/debugMinGW/CMakeFiles/rebuild_cache.dir
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/debugMinGW/src/CMakeFiles/ex3_17.dir
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/debugMinGW/src/CMakeFiles/edit_cache.dir
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/debugMinGW/src/CMakeFiles/rebuild_cache.dir

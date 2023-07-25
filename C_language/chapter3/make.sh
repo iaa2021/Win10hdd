@@ -1,6 +1,6 @@
-echo [*] build debug configuration with MinGW Makefiles
-cd debugMinGW
-cmake -DCMAKE_BUILD_TYPE=Debug .. -G "MinGW Makefiles"
+echo [*] build debug configuration with Unix
+cd debugUnix
+cmake -DCMAKE_BUILD_TYPE=Debug .. 
 cmake --build .
 cd ..
 echo [*] build release configuration with Ninja

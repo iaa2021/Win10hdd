@@ -1,5 +1,5 @@
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/CMakeFiles/edit_cache.dir
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/CMakeFiles/rebuild_cache.dir
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src/CMakeFiles/ex3_17.dir
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src/CMakeFiles/edit_cache.dir
-C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src/CMakeFiles/rebuild_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/CMakeFiles/edit_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/CMakeFiles/rebuild_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src/CMakeFiles/ex3_17.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src/CMakeFiles/edit_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src/CMakeFiles/rebuild_cache.dir
