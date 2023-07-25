@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\ex3_17.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\ex3_17.dir/objects.a @CMakeFiles\ex3_17.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\ex3_17.dir/objects.a -Wl,--no-whole-archive -o ex3_17.exe -Wl,--out-implib,libex3_17.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ex3_17.dir\linklibs.rsp
