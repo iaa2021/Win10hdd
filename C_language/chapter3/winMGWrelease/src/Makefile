@@ -143,6 +143,20 @@ ex3_19/fast:
 	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_19.dir\build.make src/CMakeFiles/ex3_19.dir/build
 .PHONY : ex3_19/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex3_20.dir/rule:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ex3_20.dir/rule
+.PHONY : src/CMakeFiles/ex3_20.dir/rule
+
+# Convenience name for target.
+ex3_20: src/CMakeFiles/ex3_20.dir/rule
+.PHONY : ex3_20
+
+# fast build rule for target.
+ex3_20/fast:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/build
+.PHONY : ex3_20/fast
+
 ex3_17.obj: ex3_17.c.obj
 .PHONY : ex3_17.obj
 
@@ -191,6 +205,30 @@ ex3_19.c.s:
 	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_19.dir\build.make src/CMakeFiles/ex3_19.dir/ex3_19.c.s
 .PHONY : ex3_19.c.s
 
+ex3_20.obj: ex3_20.c.obj
+.PHONY : ex3_20.obj
+
+# target to build an object file
+ex3_20.c.obj:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/ex3_20.c.obj
+.PHONY : ex3_20.c.obj
+
+ex3_20.i: ex3_20.c.i
+.PHONY : ex3_20.i
+
+# target to preprocess a source file
+ex3_20.c.i:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/ex3_20.c.i
+.PHONY : ex3_20.c.i
+
+ex3_20.s: ex3_20.c.s
+.PHONY : ex3_20.s
+
+# target to generate assembly for a file
+ex3_20.c.s:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/ex3_20.c.s
+.PHONY : ex3_20.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -201,12 +239,16 @@ help:
 	@echo ... rebuild_cache
 	@echo ... ex3_17
 	@echo ... ex3_19
+	@echo ... ex3_20
 	@echo ... ex3_17.obj
 	@echo ... ex3_17.i
 	@echo ... ex3_17.s
 	@echo ... ex3_19.obj
 	@echo ... ex3_19.i
 	@echo ... ex3_19.s
+	@echo ... ex3_20.obj
+	@echo ... ex3_20.i
+	@echo ... ex3_20.s
 .PHONY : help
 
 

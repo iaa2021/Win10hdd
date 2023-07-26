@@ -6,8 +6,9 @@ configure_file( config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h )
 
 add_executable( ex3_17 ex3_17.c )
 add_executable( ex3_19 ex3_19.c )
+add_executable( ex3_20 ex3_20.c )
 
-set( targets ex3_17 ex3_19 )
+set( targets ex3_17 ex3_19 ex3_20 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

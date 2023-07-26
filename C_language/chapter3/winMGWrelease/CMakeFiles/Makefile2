@@ -79,6 +79,7 @@ clean: src/clean
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/ex3_17.dir/all
 src/all: src/CMakeFiles/ex3_19.dir/all
+src/all: src/CMakeFiles/ex3_20.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -88,6 +89,7 @@ src/preinstall:
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/ex3_17.dir/clean
 src/clean: src/CMakeFiles/ex3_19.dir/clean
+src/clean: src/CMakeFiles/ex3_20.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -141,6 +143,32 @@ ex3_19: src/CMakeFiles/ex3_19.dir/rule
 src/CMakeFiles/ex3_19.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_19.dir\build.make src/CMakeFiles/ex3_19.dir/clean
 .PHONY : src/CMakeFiles/ex3_19.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex3_20.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex3_20.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease\CMakeFiles --progress-num=5,6 "Built target ex3_20"
+.PHONY : src/CMakeFiles/ex3_20.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex3_20.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ex3_20.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease\CMakeFiles 0
+.PHONY : src/CMakeFiles/ex3_20.dir/rule
+
+# Convenience name for target.
+ex3_20: src/CMakeFiles/ex3_20.dir/rule
+.PHONY : ex3_20
+
+# clean rule for target.
+src/CMakeFiles/ex3_20.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/clean
+.PHONY : src/CMakeFiles/ex3_20.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
