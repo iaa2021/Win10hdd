@@ -157,6 +157,34 @@ ex3_20/fast:
 	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/build
 .PHONY : ex3_20/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex3_21.dir/rule:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ex3_21.dir/rule
+.PHONY : src/CMakeFiles/ex3_21.dir/rule
+
+# Convenience name for target.
+ex3_21: src/CMakeFiles/ex3_21.dir/rule
+.PHONY : ex3_21
+
+# fast build rule for target.
+ex3_21/fast:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_21.dir\build.make src/CMakeFiles/ex3_21.dir/build
+.PHONY : ex3_21/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex3_33.dir/rule:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/ex3_33.dir/rule
+.PHONY : src/CMakeFiles/ex3_33.dir/rule
+
+# Convenience name for target.
+ex3_33: src/CMakeFiles/ex3_33.dir/rule
+.PHONY : ex3_33
+
+# fast build rule for target.
+ex3_33/fast:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_33.dir\build.make src/CMakeFiles/ex3_33.dir/build
+.PHONY : ex3_33/fast
+
 ex3_17.obj: ex3_17.c.obj
 .PHONY : ex3_17.obj
 
@@ -229,6 +257,54 @@ ex3_20.c.s:
 	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/ex3_20.c.s
 .PHONY : ex3_20.c.s
 
+ex3_21.obj: ex3_21.c.obj
+.PHONY : ex3_21.obj
+
+# target to build an object file
+ex3_21.c.obj:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_21.dir\build.make src/CMakeFiles/ex3_21.dir/ex3_21.c.obj
+.PHONY : ex3_21.c.obj
+
+ex3_21.i: ex3_21.c.i
+.PHONY : ex3_21.i
+
+# target to preprocess a source file
+ex3_21.c.i:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_21.dir\build.make src/CMakeFiles/ex3_21.dir/ex3_21.c.i
+.PHONY : ex3_21.c.i
+
+ex3_21.s: ex3_21.c.s
+.PHONY : ex3_21.s
+
+# target to generate assembly for a file
+ex3_21.c.s:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_21.dir\build.make src/CMakeFiles/ex3_21.dir/ex3_21.c.s
+.PHONY : ex3_21.c.s
+
+ex3_33.obj: ex3_33.c.obj
+.PHONY : ex3_33.obj
+
+# target to build an object file
+ex3_33.c.obj:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_33.dir\build.make src/CMakeFiles/ex3_33.dir/ex3_33.c.obj
+.PHONY : ex3_33.c.obj
+
+ex3_33.i: ex3_33.c.i
+.PHONY : ex3_33.i
+
+# target to preprocess a source file
+ex3_33.c.i:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_33.dir\build.make src/CMakeFiles/ex3_33.dir/ex3_33.c.i
+.PHONY : ex3_33.c.i
+
+ex3_33.s: ex3_33.c.s
+.PHONY : ex3_33.s
+
+# target to generate assembly for a file
+ex3_33.c.s:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\chapter3\winMGWrelease && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_33.dir\build.make src/CMakeFiles/ex3_33.dir/ex3_33.c.s
+.PHONY : ex3_33.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -240,6 +316,8 @@ help:
 	@echo ... ex3_17
 	@echo ... ex3_19
 	@echo ... ex3_20
+	@echo ... ex3_21
+	@echo ... ex3_33
 	@echo ... ex3_17.obj
 	@echo ... ex3_17.i
 	@echo ... ex3_17.s
@@ -249,6 +327,12 @@ help:
 	@echo ... ex3_20.obj
 	@echo ... ex3_20.i
 	@echo ... ex3_20.s
+	@echo ... ex3_21.obj
+	@echo ... ex3_21.i
+	@echo ... ex3_21.s
+	@echo ... ex3_33.obj
+	@echo ... ex3_33.i
+	@echo ... ex3_33.s
 .PHONY : help
 
 

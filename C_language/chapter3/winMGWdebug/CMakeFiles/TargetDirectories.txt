@@ -1,0 +1,9 @@
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/winMGWdebug/CMakeFiles/edit_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/winMGWdebug/CMakeFiles/rebuild_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/winMGWdebug/src/CMakeFiles/ex3_17.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/winMGWdebug/src/CMakeFiles/ex3_19.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/winMGWdebug/src/CMakeFiles/ex3_20.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/winMGWdebug/src/CMakeFiles/ex3_21.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/winMGWdebug/src/CMakeFiles/ex3_33.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/winMGWdebug/src/CMakeFiles/edit_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/chapter3/winMGWdebug/src/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
 echo [*] running debug configuration with MinGW
-cd winMGWrelease
-src/ex3_20
+cd winMGWdebug
+src/ex3_21
 cd ..

@@ -154,6 +154,32 @@ ex3_20/fast:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_20.dir\build.make src/CMakeFiles/ex3_20.dir/build
 .PHONY : ex3_20/fast
 
+#=============================================================================
+# Target rules for targets named ex3_21
+
+# Build rule for target.
+ex3_21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex3_21
+.PHONY : ex3_21
+
+# fast build rule for target.
+ex3_21/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_21.dir\build.make src/CMakeFiles/ex3_21.dir/build
+.PHONY : ex3_21/fast
+
+#=============================================================================
+# Target rules for targets named ex3_33
+
+# Build rule for target.
+ex3_33: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ex3_33
+.PHONY : ex3_33
+
+# fast build rule for target.
+ex3_33/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\ex3_33.dir\build.make src/CMakeFiles/ex3_33.dir/build
+.PHONY : ex3_33/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -165,6 +191,8 @@ help:
 	@echo ... ex3_17
 	@echo ... ex3_19
 	@echo ... ex3_20
+	@echo ... ex3_21
+	@echo ... ex3_33
 .PHONY : help
 
 
