@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1316/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1324/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1316/bin/cmake -E rm -f
+RM = /snap/cmake/1324/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,6 +79,7 @@ clean: src/clean
 
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/ex3_17.dir/all
+src/all: src/CMakeFiles/ex3_39.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -87,6 +88,7 @@ src/preinstall:
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/ex3_17.dir/clean
+src/clean: src/CMakeFiles/ex3_39.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -114,6 +116,32 @@ ex3_17: src/CMakeFiles/ex3_17.dir/rule
 src/CMakeFiles/ex3_17.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_17.dir/build.make src/CMakeFiles/ex3_17.dir/clean
 .PHONY : src/CMakeFiles/ex3_17.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex3_39.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex3_39.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix/CMakeFiles --progress-num=3,4 "Built target ex3_39"
+.PHONY : src/CMakeFiles/ex3_39.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex3_39.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex3_39.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/ex3_39.dir/rule
+
+# Convenience name for target.
+ex3_39: src/CMakeFiles/ex3_39.dir/rule
+.PHONY : ex3_39
+
+# clean rule for target.
+src/CMakeFiles/ex3_39.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/clean
+.PHONY : src/CMakeFiles/ex3_39.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

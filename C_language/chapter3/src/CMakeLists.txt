@@ -5,12 +5,18 @@ project( samples VERSION 3.1.5 )
 configure_file( config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h )
 
 add_executable( ex3_17 ex3_17.c )
+<<<<<<< HEAD
 add_executable( ex3_19 ex3_19.c )
 add_executable( ex3_20 ex3_20.c )
 add_executable( ex3_21 ex3_21.c )
 add_executable( ex3_33 ex3_33.c )
 
 set( targets ex3_17 ex3_19 ex3_20 ex3_21 ex3_33 )
+=======
+add_executable( ex3_39 ex3_39.c )
+
+set( targets ex3_17 ex3_39 )
+>>>>>>> temp
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES
