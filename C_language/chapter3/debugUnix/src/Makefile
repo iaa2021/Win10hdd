@@ -144,6 +144,20 @@ ex3_39/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/build
 .PHONY : ex3_39/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex3_40.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex3_40.dir/rule
+.PHONY : src/CMakeFiles/ex3_40.dir/rule
+
+# Convenience name for target.
+ex3_40: src/CMakeFiles/ex3_40.dir/rule
+.PHONY : ex3_40
+
+# fast build rule for target.
+ex3_40/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_40.dir/build.make src/CMakeFiles/ex3_40.dir/build
+.PHONY : ex3_40/fast
+
 ex3_17.o: ex3_17.c.o
 .PHONY : ex3_17.o
 
@@ -192,6 +206,30 @@ ex3_39.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/ex3_39.c.s
 .PHONY : ex3_39.c.s
 
+ex3_40.o: ex3_40.c.o
+.PHONY : ex3_40.o
+
+# target to build an object file
+ex3_40.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_40.dir/build.make src/CMakeFiles/ex3_40.dir/ex3_40.c.o
+.PHONY : ex3_40.c.o
+
+ex3_40.i: ex3_40.c.i
+.PHONY : ex3_40.i
+
+# target to preprocess a source file
+ex3_40.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_40.dir/build.make src/CMakeFiles/ex3_40.dir/ex3_40.c.i
+.PHONY : ex3_40.c.i
+
+ex3_40.s: ex3_40.c.s
+.PHONY : ex3_40.s
+
+# target to generate assembly for a file
+ex3_40.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_40.dir/build.make src/CMakeFiles/ex3_40.dir/ex3_40.c.s
+.PHONY : ex3_40.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,12 +240,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex3_17"
 	@echo "... ex3_39"
+	@echo "... ex3_40"
 	@echo "... ex3_17.o"
 	@echo "... ex3_17.i"
 	@echo "... ex3_17.s"
 	@echo "... ex3_39.o"
 	@echo "... ex3_39.i"
 	@echo "... ex3_39.s"
+	@echo "... ex3_40.o"
+	@echo "... ex3_40.i"
+	@echo "... ex3_40.s"
 .PHONY : help
 
 

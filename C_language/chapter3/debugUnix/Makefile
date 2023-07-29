@@ -142,6 +142,19 @@ ex3_39/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/build
 .PHONY : ex3_39/fast
 
+#=============================================================================
+# Target rules for targets named ex3_40
+
+# Build rule for target.
+ex3_40: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_40
+.PHONY : ex3_40
+
+# fast build rule for target.
+ex3_40/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_40.dir/build.make src/CMakeFiles/ex3_40.dir/build
+.PHONY : ex3_40/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -152,6 +165,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex3_17"
 	@echo "... ex3_39"
+	@echo "... ex3_40"
 .PHONY : help
 
 
