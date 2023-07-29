@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1316/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1324/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1316/bin/cmake -E rm -f
+RM = /snap/cmake/1324/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1316/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/1324/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -129,6 +129,19 @@ ex3_17/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_17.dir/build.make src/CMakeFiles/ex3_17.dir/build
 .PHONY : ex3_17/fast
 
+#=============================================================================
+# Target rules for targets named ex3_39
+
+# Build rule for target.
+ex3_39: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_39
+.PHONY : ex3_39
+
+# fast build rule for target.
+ex3_39/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/build
+.PHONY : ex3_39/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +151,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex3_17"
+	@echo "... ex3_39"
 .PHONY : help
 
 

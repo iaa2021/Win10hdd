@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1316/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1324/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1316/bin/cmake -E rm -f
+RM = /snap/cmake/1324/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1316/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/1324/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -130,6 +130,20 @@ ex3_17/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_17.dir/build.make src/CMakeFiles/ex3_17.dir/build
 .PHONY : ex3_17/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex3_39.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex3_39.dir/rule
+.PHONY : src/CMakeFiles/ex3_39.dir/rule
+
+# Convenience name for target.
+ex3_39: src/CMakeFiles/ex3_39.dir/rule
+.PHONY : ex3_39
+
+# fast build rule for target.
+ex3_39/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/build
+.PHONY : ex3_39/fast
+
 ex3_17.o: ex3_17.c.o
 .PHONY : ex3_17.o
 
@@ -154,6 +168,30 @@ ex3_17.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_17.dir/build.make src/CMakeFiles/ex3_17.dir/ex3_17.c.s
 .PHONY : ex3_17.c.s
 
+ex3_39.o: ex3_39.c.o
+.PHONY : ex3_39.o
+
+# target to build an object file
+ex3_39.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/ex3_39.c.o
+.PHONY : ex3_39.c.o
+
+ex3_39.i: ex3_39.c.i
+.PHONY : ex3_39.i
+
+# target to preprocess a source file
+ex3_39.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/ex3_39.c.i
+.PHONY : ex3_39.c.i
+
+ex3_39.s: ex3_39.c.s
+.PHONY : ex3_39.s
+
+# target to generate assembly for a file
+ex3_39.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_39.dir/build.make src/CMakeFiles/ex3_39.dir/ex3_39.c.s
+.PHONY : ex3_39.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +201,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex3_17"
+	@echo "... ex3_39"
 	@echo "... ex3_17.o"
 	@echo "... ex3_17.i"
 	@echo "... ex3_17.s"
+	@echo "... ex3_39.o"
+	@echo "... ex3_39.i"
+	@echo "... ex3_39.s"
 .PHONY : help
 
 
