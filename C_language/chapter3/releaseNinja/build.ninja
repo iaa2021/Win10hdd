@@ -133,6 +133,38 @@ build src/ex3_39: C_EXECUTABLE_LINKER__ex3_39_Release src/CMakeFiles/ex3_39.dir/
   TARGET_FILE = src/ex3_39
   TARGET_PDB = ex3_39.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex3_40
+
+
+#############################################
+# Order-only phony target for ex3_40
+
+build cmake_object_order_depends_target_ex3_40: phony || src/CMakeFiles/ex3_40.dir
+
+build src/CMakeFiles/ex3_40.dir/ex3_40.c.o: C_COMPILER__ex3_40_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/ex3_40.c || cmake_object_order_depends_target_ex3_40
+  DEP_FILE = src/CMakeFiles/ex3_40.dir/ex3_40.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/.
+  OBJECT_DIR = src/CMakeFiles/ex3_40.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex3_40.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex3_40
+
+
+#############################################
+# Link the executable src/ex3_40
+
+build src/ex3_40: C_EXECUTABLE_LINKER__ex3_40_Release src/CMakeFiles/ex3_40.dir/ex3_40.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_40.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex3_40
+  TARGET_PDB = ex3_40.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -164,6 +196,8 @@ build ex3_17: phony src/ex3_17
 
 build ex3_39: phony src/ex3_39
 
+build ex3_40: phony src/ex3_40
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +213,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src
 
-build src/all: phony src/ex3_17 src/ex3_39
+build src/all: phony src/ex3_17 src/ex3_39 src/ex3_40
 
 # =============================================================================
 # Built-in targets

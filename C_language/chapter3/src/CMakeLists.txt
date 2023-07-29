@@ -14,8 +14,13 @@ add_executable( ex3_33 ex3_33.c )
 set( targets ex3_17 ex3_19 ex3_20 ex3_21 ex3_33 )
 =======
 add_executable( ex3_39 ex3_39.c )
+add_executable( ex3_40 ex3_40.c )
 
+<<<<<<< HEAD
 set( targets ex3_17 ex3_39 )
+>>>>>>> temp
+=======
+set( targets ex3_17 ex3_39 ex3_40 )
 >>>>>>> temp
 
 foreach( target ${targets} )
