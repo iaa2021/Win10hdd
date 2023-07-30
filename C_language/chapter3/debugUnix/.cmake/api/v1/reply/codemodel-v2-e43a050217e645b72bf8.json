@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ch3samples"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "samples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ex3_17::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex3_17-Debug-c3a130155d5979858827.json",
+					"name" : "ex3_17",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex3_19::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex3_19-Debug-a34110150487f380a3a9.json",
+					"name" : "ex3_19",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex3_20::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex3_20-Debug-cdcb563659d78f44851b.json",
+					"name" : "ex3_20",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex3_21::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex3_21-Debug-52e4792c23da6aaf5ef4.json",
+					"name" : "ex3_21",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex3_33::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex3_33-Debug-b969aa92c9801be9a6df.json",
+					"name" : "ex3_33",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex3_39::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex3_39-Debug-39f17b0f3a5ae572971f.json",
+					"name" : "ex3_39",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex3_40::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex3_40-Debug-59a2c547dc0e68193f34.json",
+					"name" : "ex3_40",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex3_45::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex3_45-Debug-73fd682ae19b2b891118.json",
+					"name" : "ex3_45",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix",
+		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

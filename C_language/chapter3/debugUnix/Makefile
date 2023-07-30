@@ -130,6 +130,71 @@ ex3_17/fast:
 .PHONY : ex3_17/fast
 
 #=============================================================================
+# Target rules for targets named ex3_19
+
+# Build rule for target.
+ex3_19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_19
+.PHONY : ex3_19
+
+# fast build rule for target.
+ex3_19/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_19.dir/build.make src/CMakeFiles/ex3_19.dir/build
+.PHONY : ex3_19/fast
+
+#=============================================================================
+# Target rules for targets named ex3_20
+
+# Build rule for target.
+ex3_20: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_20
+.PHONY : ex3_20
+
+# fast build rule for target.
+ex3_20/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_20.dir/build.make src/CMakeFiles/ex3_20.dir/build
+.PHONY : ex3_20/fast
+
+#=============================================================================
+# Target rules for targets named ex3_21
+
+# Build rule for target.
+ex3_21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_21
+.PHONY : ex3_21
+
+# fast build rule for target.
+ex3_21/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_21.dir/build.make src/CMakeFiles/ex3_21.dir/build
+.PHONY : ex3_21/fast
+
+#=============================================================================
+# Target rules for targets named ex3_33
+
+# Build rule for target.
+ex3_33: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_33
+.PHONY : ex3_33
+
+# fast build rule for target.
+ex3_33/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_33.dir/build.make src/CMakeFiles/ex3_33.dir/build
+.PHONY : ex3_33/fast
+
+#=============================================================================
+# Target rules for targets named ex3_45
+
+# Build rule for target.
+ex3_45: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_45
+.PHONY : ex3_45
+
+# fast build rule for target.
+ex3_45/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_45.dir/build.make src/CMakeFiles/ex3_45.dir/build
+.PHONY : ex3_45/fast
+
+#=============================================================================
 # Target rules for targets named ex3_39
 
 # Build rule for target.
@@ -164,8 +229,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex3_17"
+	@echo "... ex3_19"
+	@echo "... ex3_20"
+	@echo "... ex3_21"
+	@echo "... ex3_33"
 	@echo "... ex3_39"
 	@echo "... ex3_40"
+	@echo "... ex3_45"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex3_33.dir/ex3_33.c.o -o ex3_33 

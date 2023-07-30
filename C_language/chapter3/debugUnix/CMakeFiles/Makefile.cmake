@@ -43,12 +43,18 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/config.h"
+  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/config.h"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/ex3_17.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex3_19.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex3_20.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex3_21.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex3_33.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex3_45.dir/DependInfo.cmake"
   "src/CMakeFiles/ex3_39.dir/DependInfo.cmake"
   "src/CMakeFiles/ex3_40.dir/DependInfo.cmake"
   )

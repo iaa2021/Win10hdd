@@ -131,6 +131,76 @@ ex3_17/fast:
 .PHONY : ex3_17/fast
 
 # Convenience name for target.
+src/CMakeFiles/ex3_19.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex3_19.dir/rule
+.PHONY : src/CMakeFiles/ex3_19.dir/rule
+
+# Convenience name for target.
+ex3_19: src/CMakeFiles/ex3_19.dir/rule
+.PHONY : ex3_19
+
+# fast build rule for target.
+ex3_19/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_19.dir/build.make src/CMakeFiles/ex3_19.dir/build
+.PHONY : ex3_19/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex3_20.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex3_20.dir/rule
+.PHONY : src/CMakeFiles/ex3_20.dir/rule
+
+# Convenience name for target.
+ex3_20: src/CMakeFiles/ex3_20.dir/rule
+.PHONY : ex3_20
+
+# fast build rule for target.
+ex3_20/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_20.dir/build.make src/CMakeFiles/ex3_20.dir/build
+.PHONY : ex3_20/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex3_21.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex3_21.dir/rule
+.PHONY : src/CMakeFiles/ex3_21.dir/rule
+
+# Convenience name for target.
+ex3_21: src/CMakeFiles/ex3_21.dir/rule
+.PHONY : ex3_21
+
+# fast build rule for target.
+ex3_21/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_21.dir/build.make src/CMakeFiles/ex3_21.dir/build
+.PHONY : ex3_21/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex3_33.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex3_33.dir/rule
+.PHONY : src/CMakeFiles/ex3_33.dir/rule
+
+# Convenience name for target.
+ex3_33: src/CMakeFiles/ex3_33.dir/rule
+.PHONY : ex3_33
+
+# fast build rule for target.
+ex3_33/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_33.dir/build.make src/CMakeFiles/ex3_33.dir/build
+.PHONY : ex3_33/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex3_45.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex3_45.dir/rule
+.PHONY : src/CMakeFiles/ex3_45.dir/rule
+
+# Convenience name for target.
+ex3_45: src/CMakeFiles/ex3_45.dir/rule
+.PHONY : ex3_45
+
+# fast build rule for target.
+ex3_45/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_45.dir/build.make src/CMakeFiles/ex3_45.dir/build
+.PHONY : ex3_45/fast
+
+# Convenience name for target.
 src/CMakeFiles/ex3_39.dir/rule:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex3_39.dir/rule
 .PHONY : src/CMakeFiles/ex3_39.dir/rule
@@ -182,6 +252,102 @@ ex3_17.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_17.dir/build.make src/CMakeFiles/ex3_17.dir/ex3_17.c.s
 .PHONY : ex3_17.c.s
 
+ex3_19.o: ex3_19.c.o
+.PHONY : ex3_19.o
+
+# target to build an object file
+ex3_19.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_19.dir/build.make src/CMakeFiles/ex3_19.dir/ex3_19.c.o
+.PHONY : ex3_19.c.o
+
+ex3_19.i: ex3_19.c.i
+.PHONY : ex3_19.i
+
+# target to preprocess a source file
+ex3_19.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_19.dir/build.make src/CMakeFiles/ex3_19.dir/ex3_19.c.i
+.PHONY : ex3_19.c.i
+
+ex3_19.s: ex3_19.c.s
+.PHONY : ex3_19.s
+
+# target to generate assembly for a file
+ex3_19.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_19.dir/build.make src/CMakeFiles/ex3_19.dir/ex3_19.c.s
+.PHONY : ex3_19.c.s
+
+ex3_20.o: ex3_20.c.o
+.PHONY : ex3_20.o
+
+# target to build an object file
+ex3_20.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_20.dir/build.make src/CMakeFiles/ex3_20.dir/ex3_20.c.o
+.PHONY : ex3_20.c.o
+
+ex3_20.i: ex3_20.c.i
+.PHONY : ex3_20.i
+
+# target to preprocess a source file
+ex3_20.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_20.dir/build.make src/CMakeFiles/ex3_20.dir/ex3_20.c.i
+.PHONY : ex3_20.c.i
+
+ex3_20.s: ex3_20.c.s
+.PHONY : ex3_20.s
+
+# target to generate assembly for a file
+ex3_20.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_20.dir/build.make src/CMakeFiles/ex3_20.dir/ex3_20.c.s
+.PHONY : ex3_20.c.s
+
+ex3_21.o: ex3_21.c.o
+.PHONY : ex3_21.o
+
+# target to build an object file
+ex3_21.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_21.dir/build.make src/CMakeFiles/ex3_21.dir/ex3_21.c.o
+.PHONY : ex3_21.c.o
+
+ex3_21.i: ex3_21.c.i
+.PHONY : ex3_21.i
+
+# target to preprocess a source file
+ex3_21.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_21.dir/build.make src/CMakeFiles/ex3_21.dir/ex3_21.c.i
+.PHONY : ex3_21.c.i
+
+ex3_21.s: ex3_21.c.s
+.PHONY : ex3_21.s
+
+# target to generate assembly for a file
+ex3_21.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_21.dir/build.make src/CMakeFiles/ex3_21.dir/ex3_21.c.s
+.PHONY : ex3_21.c.s
+
+ex3_33.o: ex3_33.c.o
+.PHONY : ex3_33.o
+
+# target to build an object file
+ex3_33.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_33.dir/build.make src/CMakeFiles/ex3_33.dir/ex3_33.c.o
+.PHONY : ex3_33.c.o
+
+ex3_33.i: ex3_33.c.i
+.PHONY : ex3_33.i
+
+# target to preprocess a source file
+ex3_33.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_33.dir/build.make src/CMakeFiles/ex3_33.dir/ex3_33.c.i
+.PHONY : ex3_33.c.i
+
+ex3_33.s: ex3_33.c.s
+.PHONY : ex3_33.s
+
+# target to generate assembly for a file
+ex3_33.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_33.dir/build.make src/CMakeFiles/ex3_33.dir/ex3_33.c.s
+.PHONY : ex3_33.c.s
+
 ex3_39.o: ex3_39.c.o
 .PHONY : ex3_39.o
 
@@ -230,6 +396,30 @@ ex3_40.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_40.dir/build.make src/CMakeFiles/ex3_40.dir/ex3_40.c.s
 .PHONY : ex3_40.c.s
 
+ex3_45.o: ex3_45.c.o
+.PHONY : ex3_45.o
+
+# target to build an object file
+ex3_45.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_45.dir/build.make src/CMakeFiles/ex3_45.dir/ex3_45.c.o
+.PHONY : ex3_45.c.o
+
+ex3_45.i: ex3_45.c.i
+.PHONY : ex3_45.i
+
+# target to preprocess a source file
+ex3_45.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_45.dir/build.make src/CMakeFiles/ex3_45.dir/ex3_45.c.i
+.PHONY : ex3_45.c.i
+
+ex3_45.s: ex3_45.c.s
+.PHONY : ex3_45.s
+
+# target to generate assembly for a file
+ex3_45.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_45.dir/build.make src/CMakeFiles/ex3_45.dir/ex3_45.c.s
+.PHONY : ex3_45.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -239,17 +429,37 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex3_17"
+	@echo "... ex3_19"
+	@echo "... ex3_20"
+	@echo "... ex3_21"
+	@echo "... ex3_33"
 	@echo "... ex3_39"
 	@echo "... ex3_40"
+	@echo "... ex3_45"
 	@echo "... ex3_17.o"
 	@echo "... ex3_17.i"
 	@echo "... ex3_17.s"
+	@echo "... ex3_19.o"
+	@echo "... ex3_19.i"
+	@echo "... ex3_19.s"
+	@echo "... ex3_20.o"
+	@echo "... ex3_20.i"
+	@echo "... ex3_20.s"
+	@echo "... ex3_21.o"
+	@echo "... ex3_21.i"
+	@echo "... ex3_21.s"
+	@echo "... ex3_33.o"
+	@echo "... ex3_33.i"
+	@echo "... ex3_33.s"
 	@echo "... ex3_39.o"
 	@echo "... ex3_39.i"
 	@echo "... ex3_39.s"
 	@echo "... ex3_40.o"
 	@echo "... ex3_40.i"
 	@echo "... ex3_40.s"
+	@echo "... ex3_45.o"
+	@echo "... ex3_45.i"
+	@echo "... ex3_45.s"
 .PHONY : help
 
 

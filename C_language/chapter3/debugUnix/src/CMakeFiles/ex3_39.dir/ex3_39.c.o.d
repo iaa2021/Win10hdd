@@ -1,7 +1,7 @@
 src/CMakeFiles/ex3_39.dir/ex3_39.c.o: \
  /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/ex3_39.c \
  /usr/include/stdc-predef.h \
- /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix/src/config.h \
+ /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/config.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

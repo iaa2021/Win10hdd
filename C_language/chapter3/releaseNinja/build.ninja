@@ -102,6 +102,161 @@ build src/ex3_17: C_EXECUTABLE_LINKER__ex3_17_Release src/CMakeFiles/ex3_17.dir/
   TARGET_PDB = ex3_17.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ex3_19
+
+
+#############################################
+# Order-only phony target for ex3_19
+
+build cmake_object_order_depends_target_ex3_19: phony || src/CMakeFiles/ex3_19.dir
+
+build src/CMakeFiles/ex3_19.dir/ex3_19.c.o: C_COMPILER__ex3_19_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/ex3_19.c || cmake_object_order_depends_target_ex3_19
+  DEP_FILE = src/CMakeFiles/ex3_19.dir/ex3_19.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_19.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex3_19.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex3_19
+
+
+#############################################
+# Link the executable src/ex3_19
+
+build src/ex3_19: C_EXECUTABLE_LINKER__ex3_19_Release src/CMakeFiles/ex3_19.dir/ex3_19.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_19.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex3_19
+  TARGET_PDB = ex3_19.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex3_20
+
+
+#############################################
+# Order-only phony target for ex3_20
+
+build cmake_object_order_depends_target_ex3_20: phony || src/CMakeFiles/ex3_20.dir
+
+build src/CMakeFiles/ex3_20.dir/ex3_20.c.o: C_COMPILER__ex3_20_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/ex3_20.c || cmake_object_order_depends_target_ex3_20
+  DEP_FILE = src/CMakeFiles/ex3_20.dir/ex3_20.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_20.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex3_20.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex3_20
+
+
+#############################################
+# Link the executable src/ex3_20
+
+build src/ex3_20: C_EXECUTABLE_LINKER__ex3_20_Release src/CMakeFiles/ex3_20.dir/ex3_20.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_20.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex3_20
+  TARGET_PDB = ex3_20.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex3_21
+
+
+#############################################
+# Order-only phony target for ex3_21
+
+build cmake_object_order_depends_target_ex3_21: phony || src/CMakeFiles/ex3_21.dir
+
+build src/CMakeFiles/ex3_21.dir/ex3_21.c.o: C_COMPILER__ex3_21_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/ex3_21.c || cmake_object_order_depends_target_ex3_21
+  DEP_FILE = src/CMakeFiles/ex3_21.dir/ex3_21.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_21.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex3_21.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex3_21
+
+
+#############################################
+# Link the executable src/ex3_21
+
+build src/ex3_21: C_EXECUTABLE_LINKER__ex3_21_Release src/CMakeFiles/ex3_21.dir/ex3_21.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_21.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex3_21
+  TARGET_PDB = ex3_21.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex3_33
+
+
+#############################################
+# Order-only phony target for ex3_33
+
+build cmake_object_order_depends_target_ex3_33: phony || src/CMakeFiles/ex3_33.dir
+
+build src/CMakeFiles/ex3_33.dir/ex3_33.c.o: C_COMPILER__ex3_33_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/ex3_33.c || cmake_object_order_depends_target_ex3_33
+  DEP_FILE = src/CMakeFiles/ex3_33.dir/ex3_33.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_33.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex3_33.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex3_33
+
+
+#############################################
+# Link the executable src/ex3_33
+
+build src/ex3_33: C_EXECUTABLE_LINKER__ex3_33_Release src/CMakeFiles/ex3_33.dir/ex3_33.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_33.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex3_33
+  TARGET_PDB = ex3_33.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex3_45
+
+
+#############################################
+# Order-only phony target for ex3_45
+
+build cmake_object_order_depends_target_ex3_45: phony || src/CMakeFiles/ex3_45.dir
+
+build src/CMakeFiles/ex3_45.dir/ex3_45.c.o: C_COMPILER__ex3_45_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/ex3_45.c || cmake_object_order_depends_target_ex3_45
+  DEP_FILE = src/CMakeFiles/ex3_45.dir/ex3_45.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_45.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex3_45.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex3_45
+
+
+#############################################
+# Link the executable src/ex3_45
+
+build src/ex3_45: C_EXECUTABLE_LINKER__ex3_45_Release src/CMakeFiles/ex3_45.dir/ex3_45.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex3_45.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex3_45
+  TARGET_PDB = ex3_45.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ex3_39
 
 
@@ -194,9 +349,19 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 
 build ex3_17: phony src/ex3_17
 
+build ex3_19: phony src/ex3_19
+
+build ex3_20: phony src/ex3_20
+
+build ex3_21: phony src/ex3_21
+
+build ex3_33: phony src/ex3_33
+
 build ex3_39: phony src/ex3_39
 
 build ex3_40: phony src/ex3_40
+
+build ex3_45: phony src/ex3_45
 
 # =============================================================================
 # Folder targets.
@@ -213,7 +378,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src
 
-build src/all: phony src/ex3_17 src/ex3_39 src/ex3_40
+build src/all: phony src/ex3_17 src/ex3_19 src/ex3_20 src/ex3_21 src/ex3_33 src/ex3_45 src/ex3_39 src/ex3_40
 
 # =============================================================================
 # Built-in targets
