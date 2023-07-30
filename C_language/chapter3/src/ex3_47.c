@@ -12,6 +12,15 @@ int main()
     printf( "\nInput value for factorial's calculation: " );
     scanf( "%d", &number );
     printf( "\nFactorial of %d = %d", number, factorial( number ) );
+    printf( "\nCalculation of e constant." );
+    printf( "\nInput value for e constant's calculation precision: " );
+    scanf( "%d", &number );
+    double e = 1;
+    for (int i = 1; i <= number; i++)
+    {
+        e += ( double ) 1 / factorial( i );
+    }
+    printf( "\ne constant = %.2lf", e );
     printf( "\n" );
     return 0;
 }
