@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/ex3_33"
+			"path" : "src/ex3_47"
 		}
 	],
 	"backtrace" : 1,
@@ -10,7 +10,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -24,7 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 13,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
 				"parent" : 0
 			}
 		]
@@ -38,6 +45,17 @@
 					"fragment" : "-O3 -DNDEBUG"
 				}
 			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/."
+				}
+			],
 			"language" : "C",
 			"sourceIndexes" : 
 			[
@@ -45,7 +63,7 @@
 			]
 		}
 	],
-	"id" : "ex3_33::@145eef247bfb46b6828c",
+	"id" : "ex3_47::@145eef247bfb46b6828c",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,8 +79,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "ex3_33",
-	"nameOnDisk" : "ex3_33",
+	"name" : "ex3_47",
+	"nameOnDisk" : "ex3_47",
 	"paths" : 
 	{
 		"build" : "src",
@@ -83,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/ex3_33.c",
+			"path" : "src/ex3_47.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/.
 
 C_FLAGS = -g
 
