@@ -87,6 +87,7 @@ src/all: src/CMakeFiles/ex3_39.dir/all
 src/all: src/CMakeFiles/ex3_40.dir/all
 src/all: src/CMakeFiles/ex3_45.dir/all
 src/all: src/CMakeFiles/ex3_47.dir/all
+src/all: src/CMakeFiles/math.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -103,6 +104,7 @@ src/clean: src/CMakeFiles/ex3_39.dir/clean
 src/clean: src/CMakeFiles/ex3_40.dir/clean
 src/clean: src/CMakeFiles/ex3_45.dir/clean
 src/clean: src/CMakeFiles/ex3_47.dir/clean
+src/clean: src/CMakeFiles/math.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -338,6 +340,32 @@ ex3_47: src/CMakeFiles/ex3_47.dir/rule
 src/CMakeFiles/ex3_47.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_47.dir/build.make src/CMakeFiles/ex3_47.dir/clean
 .PHONY : src/CMakeFiles/ex3_47.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/math.dir
+
+# All Build rule for target.
+src/CMakeFiles/math.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/math.dir/build.make src/CMakeFiles/math.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/math.dir/build.make src/CMakeFiles/math.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix/CMakeFiles --progress-num=19,20 "Built target math"
+.PHONY : src/CMakeFiles/math.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/math.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/math.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/math.dir/rule
+
+# Convenience name for target.
+math: src/CMakeFiles/math.dir/rule
+.PHONY : math
+
+# clean rule for target.
+src/CMakeFiles/math.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/math.dir/build.make src/CMakeFiles/math.dir/clean
+.PHONY : src/CMakeFiles/math.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

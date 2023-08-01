@@ -357,6 +357,38 @@ build src/ex3_47: C_EXECUTABLE_LINKER__ex3_47_Release src/CMakeFiles/ex3_47.dir/
   TARGET_FILE = src/ex3_47
   TARGET_PDB = ex3_47.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target math
+
+
+#############################################
+# Order-only phony target for math
+
+build cmake_object_order_depends_target_math: phony || src/CMakeFiles/math.dir
+
+build src/CMakeFiles/math.dir/math.cpp.o: CXX_COMPILER__math_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/math.cpp || cmake_object_order_depends_target_math
+  DEP_FILE = src/CMakeFiles/math.dir/math.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++11
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/src/.
+  OBJECT_DIR = src/CMakeFiles/math.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/math.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target math
+
+
+#############################################
+# Link the executable src/math
+
+build src/math: CXX_EXECUTABLE_LINKER__math_Release src/CMakeFiles/math.dir/math.cpp.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/math.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/math
+  TARGET_PDB = math.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -402,6 +434,8 @@ build ex3_45: phony src/ex3_45
 
 build ex3_47: phony src/ex3_47
 
+build math: phony src/math
+
 # =============================================================================
 # Folder targets.
 
@@ -417,7 +451,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja/src
 
-build src/all: phony src/ex3_17 src/ex3_19 src/ex3_20 src/ex3_21 src/ex3_33 src/ex3_39 src/ex3_40 src/ex3_45 src/ex3_47
+build src/all: phony src/ex3_17 src/ex3_19 src/ex3_20 src/ex3_21 src/ex3_33 src/ex3_39 src/ex3_40 src/ex3_45 src/ex3_47 src/math
 
 # =============================================================================
 # Built-in targets

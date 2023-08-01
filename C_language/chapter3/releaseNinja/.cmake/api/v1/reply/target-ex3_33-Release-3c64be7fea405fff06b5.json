@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/ex3_17"
+			"path" : "src/ex3_33"
 		}
 	],
 	"backtrace" : 1,
@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 27,
 				"parent" : 0
 			}
 		]
@@ -63,7 +63,7 @@
 			]
 		}
 	],
-	"id" : "ex3_17::@145eef247bfb46b6828c",
+	"id" : "ex3_33::@145eef247bfb46b6828c",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "ex3_17",
-	"nameOnDisk" : "ex3_17",
+	"name" : "ex3_33",
+	"nameOnDisk" : "ex3_33",
 	"paths" : 
 	{
 		"build" : "src",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/ex3_17.c",
+			"path" : "src/ex3_33.c",
 			"sourceGroupIndex" : 0
 		}
 	],

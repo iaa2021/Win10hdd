@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -20,7 +20,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -38,11 +38,12 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -73,7 +74,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -82,64 +84,71 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "ex3_17::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex3_17-Release-1d1409b506546160bf45.json",
+					"jsonFile" : "target-ex3_17-Debug-85da1c06b1b6e7a185df.json",
 					"name" : "ex3_17",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex3_19::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex3_19-Release-cb29c3f915d01a6d8f86.json",
+					"jsonFile" : "target-ex3_19-Debug-826a71d7afc9eb4dc399.json",
 					"name" : "ex3_19",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex3_20::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex3_20-Release-0eb03c856e712f504209.json",
+					"jsonFile" : "target-ex3_20-Debug-3e579573f23ca11d43e8.json",
 					"name" : "ex3_20",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex3_21::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex3_21-Release-67a2cae34a1032bce454.json",
+					"jsonFile" : "target-ex3_21-Debug-f161ae67894f3178c593.json",
 					"name" : "ex3_21",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex3_33::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex3_33-Release-66a815aefc0b6e24dbd4.json",
+					"jsonFile" : "target-ex3_33-Debug-a24139437e8e1391814a.json",
 					"name" : "ex3_33",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex3_39::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex3_39-Release-714af518be5877728a4a.json",
+					"jsonFile" : "target-ex3_39-Debug-19171d79c02ee0728ee5.json",
 					"name" : "ex3_39",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex3_40::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex3_40-Release-63433056588775357419.json",
+					"jsonFile" : "target-ex3_40-Debug-647d1a47f8a4fdf2d5a8.json",
 					"name" : "ex3_40",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex3_45::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex3_45-Release-227e81750ef057e05d11.json",
+					"jsonFile" : "target-ex3_45-Debug-7ab9dff81008446df51f.json",
 					"name" : "ex3_45",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex3_47::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex3_47-Release-f3eca49b6084fba5a57e.json",
+					"jsonFile" : "target-ex3_47-Debug-15461b4d924114e96c84.json",
 					"name" : "ex3_47",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "math::@145eef247bfb46b6828c",
+					"jsonFile" : "target-math-Debug-11ef48fb794a02391f9b.json",
+					"name" : "math",
 					"projectIndex" : 1
 				}
 			]
@@ -148,7 +157,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/releaseNinja",
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix",
 		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3"
 	},
 	"version" : 

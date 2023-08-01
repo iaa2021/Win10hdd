@@ -233,6 +233,19 @@ ex3_47/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_47.dir/build.make src/CMakeFiles/ex3_47.dir/build
 .PHONY : ex3_47/fast
 
+#=============================================================================
+# Target rules for targets named math
+
+# Build rule for target.
+math: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 math
+.PHONY : math
+
+# fast build rule for target.
+math/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/math.dir/build.make src/CMakeFiles/math.dir/build
+.PHONY : math/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,6 +263,7 @@ help:
 	@echo "... ex3_40"
 	@echo "... ex3_45"
 	@echo "... ex3_47"
+	@echo "... math"
 .PHONY : help
 
 

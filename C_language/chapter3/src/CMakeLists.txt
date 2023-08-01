@@ -14,8 +14,9 @@ add_executable( ex3_39 ex3_39.c )
 add_executable( ex3_40 ex3_40.c )
 add_executable( ex3_45 ex3_45.c )
 add_executable( ex3_47 ex3_47.c )
+add_executable( math math.cpp )
 
-set( targets ex3_17 ex3_19 ex3_20 ex3_21 ex3_33 ex3_39 ex3_40 ex3_45 ex3_47 )
+set( targets ex3_17 ex3_19 ex3_20 ex3_21 ex3_33 ex3_39 ex3_40 ex3_45 ex3_47 math )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

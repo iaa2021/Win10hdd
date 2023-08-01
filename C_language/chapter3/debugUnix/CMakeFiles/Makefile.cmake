@@ -58,4 +58,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/ex3_40.dir/DependInfo.cmake"
   "src/CMakeFiles/ex3_45.dir/DependInfo.cmake"
   "src/CMakeFiles/ex3_47.dir/DependInfo.cmake"
+  "src/CMakeFiles/math.dir/DependInfo.cmake"
   )

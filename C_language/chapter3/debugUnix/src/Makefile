@@ -242,6 +242,20 @@ ex3_47/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_47.dir/build.make src/CMakeFiles/ex3_47.dir/build
 .PHONY : ex3_47/fast
 
+# Convenience name for target.
+src/CMakeFiles/math.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/math.dir/rule
+.PHONY : src/CMakeFiles/math.dir/rule
+
+# Convenience name for target.
+math: src/CMakeFiles/math.dir/rule
+.PHONY : math
+
+# fast build rule for target.
+math/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/math.dir/build.make src/CMakeFiles/math.dir/build
+.PHONY : math/fast
+
 ex3_17.o: ex3_17.c.o
 .PHONY : ex3_17.o
 
@@ -458,6 +472,30 @@ ex3_47.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex3_47.dir/build.make src/CMakeFiles/ex3_47.dir/ex3_47.c.s
 .PHONY : ex3_47.c.s
 
+math.o: math.cpp.o
+.PHONY : math.o
+
+# target to build an object file
+math.cpp.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/math.dir/build.make src/CMakeFiles/math.dir/math.cpp.o
+.PHONY : math.cpp.o
+
+math.i: math.cpp.i
+.PHONY : math.i
+
+# target to preprocess a source file
+math.cpp.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/math.dir/build.make src/CMakeFiles/math.dir/math.cpp.i
+.PHONY : math.cpp.i
+
+math.s: math.cpp.s
+.PHONY : math.s
+
+# target to generate assembly for a file
+math.cpp.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter3/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/math.dir/build.make src/CMakeFiles/math.dir/math.cpp.s
+.PHONY : math.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -475,6 +513,7 @@ help:
 	@echo "... ex3_40"
 	@echo "... ex3_45"
 	@echo "... ex3_47"
+	@echo "... math"
 	@echo "... ex3_17.o"
 	@echo "... ex3_17.i"
 	@echo "... ex3_17.s"
@@ -502,6 +541,9 @@ help:
 	@echo "... ex3_47.o"
 	@echo "... ex3_47.i"
 	@echo "... ex3_47.s"
+	@echo "... math.o"
+	@echo "... math.i"
+	@echo "... math.s"
 .PHONY : help
 
 
