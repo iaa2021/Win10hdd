@@ -1,0 +1,5 @@
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles/edit_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles/rebuild_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_3.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/edit_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/rebuild_cache.dir
