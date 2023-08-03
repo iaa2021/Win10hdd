@@ -1,0 +1,7 @@
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseMGW/CMakeFiles/edit_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseMGW/CMakeFiles/rebuild_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseMGW/src/CMakeFiles/ex4_3.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseMGW/src/CMakeFiles/ex4_9.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseMGW/src/CMakeFiles/ex4_15.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseMGW/src/CMakeFiles/edit_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseMGW/src/CMakeFiles/rebuild_cache.dir
