@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex4_19.dir/ex4_19.c.o -o ex4_19 

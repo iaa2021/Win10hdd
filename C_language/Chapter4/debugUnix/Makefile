@@ -129,6 +129,58 @@ ex4_3/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_3.dir/build.make src/CMakeFiles/ex4_3.dir/build
 .PHONY : ex4_3/fast
 
+#=============================================================================
+# Target rules for targets named ex4_9
+
+# Build rule for target.
+ex4_9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_9
+.PHONY : ex4_9
+
+# fast build rule for target.
+ex4_9/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_9.dir/build.make src/CMakeFiles/ex4_9.dir/build
+.PHONY : ex4_9/fast
+
+#=============================================================================
+# Target rules for targets named ex4_15
+
+# Build rule for target.
+ex4_15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_15
+.PHONY : ex4_15
+
+# fast build rule for target.
+ex4_15/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_15.dir/build.make src/CMakeFiles/ex4_15.dir/build
+.PHONY : ex4_15/fast
+
+#=============================================================================
+# Target rules for targets named ex4_16
+
+# Build rule for target.
+ex4_16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_16
+.PHONY : ex4_16
+
+# fast build rule for target.
+ex4_16/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_16.dir/build.make src/CMakeFiles/ex4_16.dir/build
+.PHONY : ex4_16/fast
+
+#=============================================================================
+# Target rules for targets named ex4_19
+
+# Build rule for target.
+ex4_19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_19
+.PHONY : ex4_19
+
+# fast build rule for target.
+ex4_19/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_19.dir/build.make src/CMakeFiles/ex4_19.dir/build
+.PHONY : ex4_19/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -137,7 +189,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex4_15"
+	@echo "... ex4_16"
+	@echo "... ex4_19"
 	@echo "... ex4_3"
+	@echo "... ex4_9"
 .PHONY : help
 
 

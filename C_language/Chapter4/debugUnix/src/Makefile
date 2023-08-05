@@ -130,6 +130,134 @@ ex4_3/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_3.dir/build.make src/CMakeFiles/ex4_3.dir/build
 .PHONY : ex4_3/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex4_9.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex4_9.dir/rule
+.PHONY : src/CMakeFiles/ex4_9.dir/rule
+
+# Convenience name for target.
+ex4_9: src/CMakeFiles/ex4_9.dir/rule
+.PHONY : ex4_9
+
+# fast build rule for target.
+ex4_9/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_9.dir/build.make src/CMakeFiles/ex4_9.dir/build
+.PHONY : ex4_9/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex4_15.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex4_15.dir/rule
+.PHONY : src/CMakeFiles/ex4_15.dir/rule
+
+# Convenience name for target.
+ex4_15: src/CMakeFiles/ex4_15.dir/rule
+.PHONY : ex4_15
+
+# fast build rule for target.
+ex4_15/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_15.dir/build.make src/CMakeFiles/ex4_15.dir/build
+.PHONY : ex4_15/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex4_16.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex4_16.dir/rule
+.PHONY : src/CMakeFiles/ex4_16.dir/rule
+
+# Convenience name for target.
+ex4_16: src/CMakeFiles/ex4_16.dir/rule
+.PHONY : ex4_16
+
+# fast build rule for target.
+ex4_16/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_16.dir/build.make src/CMakeFiles/ex4_16.dir/build
+.PHONY : ex4_16/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex4_19.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex4_19.dir/rule
+.PHONY : src/CMakeFiles/ex4_19.dir/rule
+
+# Convenience name for target.
+ex4_19: src/CMakeFiles/ex4_19.dir/rule
+.PHONY : ex4_19
+
+# fast build rule for target.
+ex4_19/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_19.dir/build.make src/CMakeFiles/ex4_19.dir/build
+.PHONY : ex4_19/fast
+
+ex4_15.o: ex4_15.c.o
+.PHONY : ex4_15.o
+
+# target to build an object file
+ex4_15.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_15.dir/build.make src/CMakeFiles/ex4_15.dir/ex4_15.c.o
+.PHONY : ex4_15.c.o
+
+ex4_15.i: ex4_15.c.i
+.PHONY : ex4_15.i
+
+# target to preprocess a source file
+ex4_15.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_15.dir/build.make src/CMakeFiles/ex4_15.dir/ex4_15.c.i
+.PHONY : ex4_15.c.i
+
+ex4_15.s: ex4_15.c.s
+.PHONY : ex4_15.s
+
+# target to generate assembly for a file
+ex4_15.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_15.dir/build.make src/CMakeFiles/ex4_15.dir/ex4_15.c.s
+.PHONY : ex4_15.c.s
+
+ex4_16.o: ex4_16.c.o
+.PHONY : ex4_16.o
+
+# target to build an object file
+ex4_16.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_16.dir/build.make src/CMakeFiles/ex4_16.dir/ex4_16.c.o
+.PHONY : ex4_16.c.o
+
+ex4_16.i: ex4_16.c.i
+.PHONY : ex4_16.i
+
+# target to preprocess a source file
+ex4_16.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_16.dir/build.make src/CMakeFiles/ex4_16.dir/ex4_16.c.i
+.PHONY : ex4_16.c.i
+
+ex4_16.s: ex4_16.c.s
+.PHONY : ex4_16.s
+
+# target to generate assembly for a file
+ex4_16.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_16.dir/build.make src/CMakeFiles/ex4_16.dir/ex4_16.c.s
+.PHONY : ex4_16.c.s
+
+ex4_19.o: ex4_19.c.o
+.PHONY : ex4_19.o
+
+# target to build an object file
+ex4_19.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_19.dir/build.make src/CMakeFiles/ex4_19.dir/ex4_19.c.o
+.PHONY : ex4_19.c.o
+
+ex4_19.i: ex4_19.c.i
+.PHONY : ex4_19.i
+
+# target to preprocess a source file
+ex4_19.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_19.dir/build.make src/CMakeFiles/ex4_19.dir/ex4_19.c.i
+.PHONY : ex4_19.c.i
+
+ex4_19.s: ex4_19.c.s
+.PHONY : ex4_19.s
+
+# target to generate assembly for a file
+ex4_19.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_19.dir/build.make src/CMakeFiles/ex4_19.dir/ex4_19.c.s
+.PHONY : ex4_19.c.s
+
 ex4_3.o: ex4_3.c.o
 .PHONY : ex4_3.o
 
@@ -154,6 +282,30 @@ ex4_3.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_3.dir/build.make src/CMakeFiles/ex4_3.dir/ex4_3.c.s
 .PHONY : ex4_3.c.s
 
+ex4_9.o: ex4_9.c.o
+.PHONY : ex4_9.o
+
+# target to build an object file
+ex4_9.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_9.dir/build.make src/CMakeFiles/ex4_9.dir/ex4_9.c.o
+.PHONY : ex4_9.c.o
+
+ex4_9.i: ex4_9.c.i
+.PHONY : ex4_9.i
+
+# target to preprocess a source file
+ex4_9.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_9.dir/build.make src/CMakeFiles/ex4_9.dir/ex4_9.c.i
+.PHONY : ex4_9.c.i
+
+ex4_9.s: ex4_9.c.s
+.PHONY : ex4_9.s
+
+# target to generate assembly for a file
+ex4_9.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_9.dir/build.make src/CMakeFiles/ex4_9.dir/ex4_9.c.s
+.PHONY : ex4_9.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,10 +314,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex4_15"
+	@echo "... ex4_16"
+	@echo "... ex4_19"
 	@echo "... ex4_3"
+	@echo "... ex4_9"
+	@echo "... ex4_15.o"
+	@echo "... ex4_15.i"
+	@echo "... ex4_15.s"
+	@echo "... ex4_16.o"
+	@echo "... ex4_16.i"
+	@echo "... ex4_16.s"
+	@echo "... ex4_19.o"
+	@echo "... ex4_19.i"
+	@echo "... ex4_19.s"
 	@echo "... ex4_3.o"
 	@echo "... ex4_3.i"
 	@echo "... ex4_3.s"
+	@echo "... ex4_9.o"
+	@echo "... ex4_9.i"
+	@echo "... ex4_9.s"
 .PHONY : help
 
 
