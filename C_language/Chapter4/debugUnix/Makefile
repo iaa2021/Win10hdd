@@ -181,6 +181,32 @@ ex4_19/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_19.dir/build.make src/CMakeFiles/ex4_19.dir/build
 .PHONY : ex4_19/fast
 
+#=============================================================================
+# Target rules for targets named ex4_26
+
+# Build rule for target.
+ex4_26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_26
+.PHONY : ex4_26
+
+# fast build rule for target.
+ex4_26/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_26.dir/build.make src/CMakeFiles/ex4_26.dir/build
+.PHONY : ex4_26/fast
+
+#=============================================================================
+# Target rules for targets named ex4_27
+
+# Build rule for target.
+ex4_27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_27
+.PHONY : ex4_27
+
+# fast build rule for target.
+ex4_27/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_27.dir/build.make src/CMakeFiles/ex4_27.dir/build
+.PHONY : ex4_27/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +218,8 @@ help:
 	@echo "... ex4_15"
 	@echo "... ex4_16"
 	@echo "... ex4_19"
+	@echo "... ex4_26"
+	@echo "... ex4_27"
 	@echo "... ex4_3"
 	@echo "... ex4_9"
 .PHONY : help

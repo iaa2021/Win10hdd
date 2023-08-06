@@ -83,6 +83,8 @@ src/all: src/CMakeFiles/ex4_9.dir/all
 src/all: src/CMakeFiles/ex4_15.dir/all
 src/all: src/CMakeFiles/ex4_16.dir/all
 src/all: src/CMakeFiles/ex4_19.dir/all
+src/all: src/CMakeFiles/ex4_26.dir/all
+src/all: src/CMakeFiles/ex4_27.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -95,6 +97,8 @@ src/clean: src/CMakeFiles/ex4_9.dir/clean
 src/clean: src/CMakeFiles/ex4_15.dir/clean
 src/clean: src/CMakeFiles/ex4_16.dir/clean
 src/clean: src/CMakeFiles/ex4_19.dir/clean
+src/clean: src/CMakeFiles/ex4_26.dir/clean
+src/clean: src/CMakeFiles/ex4_27.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -104,7 +108,7 @@ src/clean: src/CMakeFiles/ex4_19.dir/clean
 src/CMakeFiles/ex4_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_3.dir/build.make src/CMakeFiles/ex4_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_3.dir/build.make src/CMakeFiles/ex4_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles --progress-num=7,8 "Built target ex4_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles --progress-num=11,12 "Built target ex4_3"
 .PHONY : src/CMakeFiles/ex4_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -130,7 +134,7 @@ src/CMakeFiles/ex4_3.dir/clean:
 src/CMakeFiles/ex4_9.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_9.dir/build.make src/CMakeFiles/ex4_9.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_9.dir/build.make src/CMakeFiles/ex4_9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles --progress-num=9,10 "Built target ex4_9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles --progress-num=13,14 "Built target ex4_9"
 .PHONY : src/CMakeFiles/ex4_9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -226,6 +230,58 @@ ex4_19: src/CMakeFiles/ex4_19.dir/rule
 src/CMakeFiles/ex4_19.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_19.dir/build.make src/CMakeFiles/ex4_19.dir/clean
 .PHONY : src/CMakeFiles/ex4_19.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex4_26.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex4_26.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_26.dir/build.make src/CMakeFiles/ex4_26.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_26.dir/build.make src/CMakeFiles/ex4_26.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles --progress-num=7,8 "Built target ex4_26"
+.PHONY : src/CMakeFiles/ex4_26.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex4_26.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex4_26.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/ex4_26.dir/rule
+
+# Convenience name for target.
+ex4_26: src/CMakeFiles/ex4_26.dir/rule
+.PHONY : ex4_26
+
+# clean rule for target.
+src/CMakeFiles/ex4_26.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_26.dir/build.make src/CMakeFiles/ex4_26.dir/clean
+.PHONY : src/CMakeFiles/ex4_26.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex4_27.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex4_27.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_27.dir/build.make src/CMakeFiles/ex4_27.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_27.dir/build.make src/CMakeFiles/ex4_27.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles --progress-num=9,10 "Built target ex4_27"
+.PHONY : src/CMakeFiles/ex4_27.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex4_27.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex4_27.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/ex4_27.dir/rule
+
+# Convenience name for target.
+ex4_27: src/CMakeFiles/ex4_27.dir/rule
+.PHONY : ex4_27
+
+# clean rule for target.
+src/CMakeFiles/ex4_27.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_27.dir/build.make src/CMakeFiles/ex4_27.dir/clean
+.PHONY : src/CMakeFiles/ex4_27.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

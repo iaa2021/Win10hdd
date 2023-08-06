@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/ex4_15"
+			"path" : "src/ex4_9"
 		}
 	],
 	"backtrace" : 1,
@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 22,
+				"line" : 24,
 				"parent" : 0
 			}
 		]
@@ -63,7 +63,7 @@
 			]
 		}
 	],
-	"id" : "ex4_15::@145eef247bfb46b6828c",
+	"id" : "ex4_9::@145eef247bfb46b6828c",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "ex4_15",
-	"nameOnDisk" : "ex4_15",
+	"name" : "ex4_9",
+	"nameOnDisk" : "ex4_9",
 	"paths" : 
 	{
 		"build" : "src",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/ex4_15.c",
+			"path" : "src/ex4_9.c",
 			"sourceGroupIndex" : 0
 		}
 	],

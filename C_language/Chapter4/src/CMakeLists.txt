@@ -10,8 +10,10 @@ add_executable( ex4_9 ex4_9.c )
 add_executable( ex4_15 ex4_15.c )
 add_executable( ex4_16 ex4_16.c )
 add_executable( ex4_19 ex4_19.c )
+add_executable( ex4_26 ex4_26.c )
+add_executable( ex4_27 ex4_27.c )
 
-set( targets ex4_3 ex4_9 ex4_15 ex4_16 ex4_19 )
+set( targets ex4_3 ex4_9 ex4_15 ex4_16 ex4_19 ex4_26 ex4_27 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES
