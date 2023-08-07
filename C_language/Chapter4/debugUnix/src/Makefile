@@ -242,6 +242,20 @@ ex4_32/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_32.dir/build.make src/CMakeFiles/ex4_32.dir/build
 .PHONY : ex4_32/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex4_33.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex4_33.dir/rule
+.PHONY : src/CMakeFiles/ex4_33.dir/rule
+
+# Convenience name for target.
+ex4_33: src/CMakeFiles/ex4_33.dir/rule
+.PHONY : ex4_33
+
+# fast build rule for target.
+ex4_33/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_33.dir/build.make src/CMakeFiles/ex4_33.dir/build
+.PHONY : ex4_33/fast
+
 ex4_15.o: ex4_15.c.o
 .PHONY : ex4_15.o
 
@@ -434,6 +448,30 @@ ex4_32.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_32.dir/build.make src/CMakeFiles/ex4_32.dir/ex4_32.c.s
 .PHONY : ex4_32.c.s
 
+ex4_33.o: ex4_33.c.o
+.PHONY : ex4_33.o
+
+# target to build an object file
+ex4_33.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_33.dir/build.make src/CMakeFiles/ex4_33.dir/ex4_33.c.o
+.PHONY : ex4_33.c.o
+
+ex4_33.i: ex4_33.c.i
+.PHONY : ex4_33.i
+
+# target to preprocess a source file
+ex4_33.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_33.dir/build.make src/CMakeFiles/ex4_33.dir/ex4_33.c.i
+.PHONY : ex4_33.c.i
+
+ex4_33.s: ex4_33.c.s
+.PHONY : ex4_33.s
+
+# target to generate assembly for a file
+ex4_33.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_33.dir/build.make src/CMakeFiles/ex4_33.dir/ex4_33.c.s
+.PHONY : ex4_33.c.s
+
 ex4_9.o: ex4_9.c.o
 .PHONY : ex4_9.o
 
@@ -474,6 +512,7 @@ help:
 	@echo "... ex4_3"
 	@echo "... ex4_31"
 	@echo "... ex4_32"
+	@echo "... ex4_33"
 	@echo "... ex4_9"
 	@echo "... ex4_15.o"
 	@echo "... ex4_15.i"
@@ -499,6 +538,9 @@ help:
 	@echo "... ex4_32.o"
 	@echo "... ex4_32.i"
 	@echo "... ex4_32.s"
+	@echo "... ex4_33.o"
+	@echo "... ex4_33.i"
+	@echo "... ex4_33.s"
 	@echo "... ex4_9.o"
 	@echo "... ex4_9.i"
 	@echo "... ex4_9.s"

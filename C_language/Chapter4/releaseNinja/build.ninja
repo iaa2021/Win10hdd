@@ -357,6 +357,38 @@ build src/ex4_32: C_EXECUTABLE_LINKER__ex4_32_Release src/CMakeFiles/ex4_32.dir/
   TARGET_FILE = src/ex4_32
   TARGET_PDB = ex4_32.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex4_33
+
+
+#############################################
+# Order-only phony target for ex4_33
+
+build cmake_object_order_depends_target_ex4_33: phony || src/CMakeFiles/ex4_33.dir
+
+build src/CMakeFiles/ex4_33.dir/ex4_33.c.o: C_COMPILER__ex4_33_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/src/ex4_33.c || cmake_object_order_depends_target_ex4_33
+  DEP_FILE = src/CMakeFiles/ex4_33.dir/ex4_33.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/src/.
+  OBJECT_DIR = src/CMakeFiles/ex4_33.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex4_33.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex4_33
+
+
+#############################################
+# Link the executable src/ex4_33
+
+build src/ex4_33: C_EXECUTABLE_LINKER__ex4_33_Release src/CMakeFiles/ex4_33.dir/ex4_33.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex4_33.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex4_33
+  TARGET_PDB = ex4_33.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -400,6 +432,8 @@ build ex4_31: phony src/ex4_31
 
 build ex4_32: phony src/ex4_32
 
+build ex4_33: phony src/ex4_33
+
 build ex4_9: phony src/ex4_9
 
 # =============================================================================
@@ -417,7 +451,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src
 
-build src/all: phony src/ex4_3 src/ex4_9 src/ex4_15 src/ex4_16 src/ex4_19 src/ex4_26 src/ex4_27 src/ex4_31 src/ex4_32
+build src/all: phony src/ex4_3 src/ex4_9 src/ex4_15 src/ex4_16 src/ex4_19 src/ex4_26 src/ex4_27 src/ex4_31 src/ex4_32 src/ex4_33
 
 # =============================================================================
 # Built-in targets

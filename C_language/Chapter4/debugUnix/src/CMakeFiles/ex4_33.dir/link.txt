@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex4_33.dir/ex4_33.c.o -o ex4_33 
