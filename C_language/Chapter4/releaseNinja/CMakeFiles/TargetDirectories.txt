@@ -7,5 +7,7 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src/CMakeFiles/ex4_19.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src/CMakeFiles/ex4_26.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src/CMakeFiles/ex4_27.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src/CMakeFiles/ex4_31.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src/CMakeFiles/ex4_32.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src/CMakeFiles/rebuild_cache.dir

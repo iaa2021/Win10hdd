@@ -214,6 +214,34 @@ ex4_27/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_27.dir/build.make src/CMakeFiles/ex4_27.dir/build
 .PHONY : ex4_27/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex4_31.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex4_31.dir/rule
+.PHONY : src/CMakeFiles/ex4_31.dir/rule
+
+# Convenience name for target.
+ex4_31: src/CMakeFiles/ex4_31.dir/rule
+.PHONY : ex4_31
+
+# fast build rule for target.
+ex4_31/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_31.dir/build.make src/CMakeFiles/ex4_31.dir/build
+.PHONY : ex4_31/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex4_32.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex4_32.dir/rule
+.PHONY : src/CMakeFiles/ex4_32.dir/rule
+
+# Convenience name for target.
+ex4_32: src/CMakeFiles/ex4_32.dir/rule
+.PHONY : ex4_32
+
+# fast build rule for target.
+ex4_32/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_32.dir/build.make src/CMakeFiles/ex4_32.dir/build
+.PHONY : ex4_32/fast
+
 ex4_15.o: ex4_15.c.o
 .PHONY : ex4_15.o
 
@@ -358,6 +386,54 @@ ex4_3.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_3.dir/build.make src/CMakeFiles/ex4_3.dir/ex4_3.c.s
 .PHONY : ex4_3.c.s
 
+ex4_31.o: ex4_31.c.o
+.PHONY : ex4_31.o
+
+# target to build an object file
+ex4_31.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_31.dir/build.make src/CMakeFiles/ex4_31.dir/ex4_31.c.o
+.PHONY : ex4_31.c.o
+
+ex4_31.i: ex4_31.c.i
+.PHONY : ex4_31.i
+
+# target to preprocess a source file
+ex4_31.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_31.dir/build.make src/CMakeFiles/ex4_31.dir/ex4_31.c.i
+.PHONY : ex4_31.c.i
+
+ex4_31.s: ex4_31.c.s
+.PHONY : ex4_31.s
+
+# target to generate assembly for a file
+ex4_31.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_31.dir/build.make src/CMakeFiles/ex4_31.dir/ex4_31.c.s
+.PHONY : ex4_31.c.s
+
+ex4_32.o: ex4_32.c.o
+.PHONY : ex4_32.o
+
+# target to build an object file
+ex4_32.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_32.dir/build.make src/CMakeFiles/ex4_32.dir/ex4_32.c.o
+.PHONY : ex4_32.c.o
+
+ex4_32.i: ex4_32.c.i
+.PHONY : ex4_32.i
+
+# target to preprocess a source file
+ex4_32.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_32.dir/build.make src/CMakeFiles/ex4_32.dir/ex4_32.c.i
+.PHONY : ex4_32.c.i
+
+ex4_32.s: ex4_32.c.s
+.PHONY : ex4_32.s
+
+# target to generate assembly for a file
+ex4_32.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex4_32.dir/build.make src/CMakeFiles/ex4_32.dir/ex4_32.c.s
+.PHONY : ex4_32.c.s
+
 ex4_9.o: ex4_9.c.o
 .PHONY : ex4_9.o
 
@@ -396,6 +472,8 @@ help:
 	@echo "... ex4_26"
 	@echo "... ex4_27"
 	@echo "... ex4_3"
+	@echo "... ex4_31"
+	@echo "... ex4_32"
 	@echo "... ex4_9"
 	@echo "... ex4_15.o"
 	@echo "... ex4_15.i"
@@ -415,6 +493,12 @@ help:
 	@echo "... ex4_3.o"
 	@echo "... ex4_3.i"
 	@echo "... ex4_3.s"
+	@echo "... ex4_31.o"
+	@echo "... ex4_31.i"
+	@echo "... ex4_31.s"
+	@echo "... ex4_32.o"
+	@echo "... ex4_32.i"
+	@echo "... ex4_32.s"
 	@echo "... ex4_9.o"
 	@echo "... ex4_9.i"
 	@echo "... ex4_9.s"

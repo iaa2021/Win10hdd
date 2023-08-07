@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter4"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "samples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_15::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_15-Release-a776d0b04c6305974159.json",
+					"name" : "ex4_15",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_16::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_16-Release-9b28ba333b6c1569e4d1.json",
+					"name" : "ex4_16",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_19::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_19-Release-64acbe69ba0a02f54765.json",
+					"name" : "ex4_19",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_26::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_26-Release-144a7d7a6eb1e703d7cd.json",
+					"name" : "ex4_26",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_27::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_27-Release-9f1b30e73e8a7a587d56.json",
+					"name" : "ex4_27",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_3::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_3-Release-d3c9c8f1adc0f7166cff.json",
+					"name" : "ex4_3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_31::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_31-Release-f4c9b75a2e929c57eda7.json",
+					"name" : "ex4_31",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_32::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_32-Release-16d765d880cf28c53863.json",
+					"name" : "ex4_32",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_9::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_9-Release-7dc2f7cc042d78e8c161.json",
+					"name" : "ex4_9",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja",
+		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

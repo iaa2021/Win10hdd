@@ -293,6 +293,70 @@ build src/ex4_27: C_EXECUTABLE_LINKER__ex4_27_Release src/CMakeFiles/ex4_27.dir/
   TARGET_FILE = src/ex4_27
   TARGET_PDB = ex4_27.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex4_31
+
+
+#############################################
+# Order-only phony target for ex4_31
+
+build cmake_object_order_depends_target_ex4_31: phony || src/CMakeFiles/ex4_31.dir
+
+build src/CMakeFiles/ex4_31.dir/ex4_31.c.o: C_COMPILER__ex4_31_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/src/ex4_31.c || cmake_object_order_depends_target_ex4_31
+  DEP_FILE = src/CMakeFiles/ex4_31.dir/ex4_31.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/src/.
+  OBJECT_DIR = src/CMakeFiles/ex4_31.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex4_31.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex4_31
+
+
+#############################################
+# Link the executable src/ex4_31
+
+build src/ex4_31: C_EXECUTABLE_LINKER__ex4_31_Release src/CMakeFiles/ex4_31.dir/ex4_31.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex4_31.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex4_31
+  TARGET_PDB = ex4_31.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex4_32
+
+
+#############################################
+# Order-only phony target for ex4_32
+
+build cmake_object_order_depends_target_ex4_32: phony || src/CMakeFiles/ex4_32.dir
+
+build src/CMakeFiles/ex4_32.dir/ex4_32.c.o: C_COMPILER__ex4_32_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/src/ex4_32.c || cmake_object_order_depends_target_ex4_32
+  DEP_FILE = src/CMakeFiles/ex4_32.dir/ex4_32.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/src/.
+  OBJECT_DIR = src/CMakeFiles/ex4_32.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex4_32.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex4_32
+
+
+#############################################
+# Link the executable src/ex4_32
+
+build src/ex4_32: C_EXECUTABLE_LINKER__ex4_32_Release src/CMakeFiles/ex4_32.dir/ex4_32.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex4_32.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex4_32
+  TARGET_PDB = ex4_32.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -332,6 +396,10 @@ build ex4_27: phony src/ex4_27
 
 build ex4_3: phony src/ex4_3
 
+build ex4_31: phony src/ex4_31
+
+build ex4_32: phony src/ex4_32
+
 build ex4_9: phony src/ex4_9
 
 # =============================================================================
@@ -349,7 +417,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/releaseNinja/src
 
-build src/all: phony src/ex4_3 src/ex4_9 src/ex4_15 src/ex4_16 src/ex4_19 src/ex4_26 src/ex4_27
+build src/all: phony src/ex4_3 src/ex4_9 src/ex4_15 src/ex4_16 src/ex4_19 src/ex4_26 src/ex4_27 src/ex4_31 src/ex4_32
 
 # =============================================================================
 # Built-in targets
