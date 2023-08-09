@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/crebs.dir/crebs.c.o -o crebs 
