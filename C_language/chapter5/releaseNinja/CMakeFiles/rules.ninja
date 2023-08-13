@@ -60,7 +60,7 @@ rule C_EXECUTABLE_LINKER__multiCrebs_Release
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__ex5_15_unscanned_Release
+rule C_COMPILER__ex5_17_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -70,7 +70,7 @@ rule C_COMPILER__ex5_15_unscanned_Release
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__ex5_15_Release
+rule C_EXECUTABLE_LINKER__ex5_17_Release
   command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT

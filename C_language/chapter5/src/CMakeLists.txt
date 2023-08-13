@@ -7,9 +7,9 @@ configure_file( config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h )
 
 add_executable( crebs crebs.c )
 add_executable( multiCrebs multiCrebs.c )
-add_executable( ex5_15 ex5_15.c )
+add_executable( ex5_17 ex5_17.c )
 
-set( targets crebs multiCrebs ex5_15 )
+set( targets crebs multiCrebs ex5_17 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

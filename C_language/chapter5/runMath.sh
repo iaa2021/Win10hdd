@@ -1,3 +1,3 @@
 echo [*] running target with hidden math function
 cd hiddenMath
-./a.out
+./ex5_15.out
