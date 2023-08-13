@@ -1,4 +1,4 @@
 echo [*] running release configuration with Ninja
 cd releaseNinja
-src/multiCrebs
+src/ex5_15
 cd ..

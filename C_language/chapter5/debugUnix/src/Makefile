@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1324/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1326/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1324/bin/cmake -E rm -f
+RM = /snap/cmake/1326/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1324/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/1326/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -144,6 +144,20 @@ multiCrebs/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/multiCrebs.dir/build.make src/CMakeFiles/multiCrebs.dir/build
 .PHONY : multiCrebs/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex5_15.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex5_15.dir/rule
+.PHONY : src/CMakeFiles/ex5_15.dir/rule
+
+# Convenience name for target.
+ex5_15: src/CMakeFiles/ex5_15.dir/rule
+.PHONY : ex5_15
+
+# fast build rule for target.
+ex5_15/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_15.dir/build.make src/CMakeFiles/ex5_15.dir/build
+.PHONY : ex5_15/fast
+
 crebs.o: crebs.c.o
 .PHONY : crebs.o
 
@@ -167,6 +181,30 @@ crebs.s: crebs.c.s
 crebs.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/crebs.dir/build.make src/CMakeFiles/crebs.dir/crebs.c.s
 .PHONY : crebs.c.s
+
+ex5_15.o: ex5_15.c.o
+.PHONY : ex5_15.o
+
+# target to build an object file
+ex5_15.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_15.dir/build.make src/CMakeFiles/ex5_15.dir/ex5_15.c.o
+.PHONY : ex5_15.c.o
+
+ex5_15.i: ex5_15.c.i
+.PHONY : ex5_15.i
+
+# target to preprocess a source file
+ex5_15.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_15.dir/build.make src/CMakeFiles/ex5_15.dir/ex5_15.c.i
+.PHONY : ex5_15.c.i
+
+ex5_15.s: ex5_15.c.s
+.PHONY : ex5_15.s
+
+# target to generate assembly for a file
+ex5_15.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_15.dir/build.make src/CMakeFiles/ex5_15.dir/ex5_15.c.s
+.PHONY : ex5_15.c.s
 
 multiCrebs.o: multiCrebs.c.o
 .PHONY : multiCrebs.o
@@ -201,10 +239,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... crebs"
+	@echo "... ex5_15"
 	@echo "... multiCrebs"
 	@echo "... crebs.o"
 	@echo "... crebs.i"
 	@echo "... crebs.s"
+	@echo "... ex5_15.o"
+	@echo "... ex5_15.i"
+	@echo "... ex5_15.s"
 	@echo "... multiCrebs.o"
 	@echo "... multiCrebs.i"
 	@echo "... multiCrebs.s"

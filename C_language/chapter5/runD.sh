@@ -1,4 +1,4 @@
 echo [*] running debug configuration with Unix
 cd debugUnix
-src/multiCrebs
+src/ex5_15
 cd ..

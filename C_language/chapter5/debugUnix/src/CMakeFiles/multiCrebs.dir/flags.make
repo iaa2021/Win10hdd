@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/.
 
-C_FLAGS = -g
+C_FLAGS = -g -std=gnu17
 

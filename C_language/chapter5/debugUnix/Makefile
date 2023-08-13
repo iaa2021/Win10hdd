@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1324/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1326/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1324/bin/cmake -E rm -f
+RM = /snap/cmake/1326/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1324/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/1326/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -142,6 +142,19 @@ multiCrebs/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/multiCrebs.dir/build.make src/CMakeFiles/multiCrebs.dir/build
 .PHONY : multiCrebs/fast
 
+#=============================================================================
+# Target rules for targets named ex5_15
+
+# Build rule for target.
+ex5_15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex5_15
+.PHONY : ex5_15
+
+# fast build rule for target.
+ex5_15/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_15.dir/build.make src/CMakeFiles/ex5_15.dir/build
+.PHONY : ex5_15/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -151,6 +164,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... crebs"
+	@echo "... ex5_15"
 	@echo "... multiCrebs"
 .PHONY : help
 

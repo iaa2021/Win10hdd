@@ -7,14 +7,14 @@ configure_file( config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h )
 
 add_executable( crebs crebs.c )
 add_executable( multiCrebs multiCrebs.c )
+add_executable( ex5_15 ex5_15.c )
 
-
-set( targets crebs multiCrebs )
+set( targets crebs multiCrebs ex5_15 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES
-CXX_STANDARD 11
-CXX_STANDARD_REQUIRED ON
+C_STANDARD 17
+C_STANDARD_REQUIRED ON
 )
 
 target_include_directories( ${target} PRIVATE ${CMAKE_CURRENT_BINARY_DIR} PRIVATE . ) 
