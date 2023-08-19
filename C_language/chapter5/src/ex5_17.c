@@ -3,6 +3,7 @@
 #include <math.h>
 #include "stdlib.h"
 #include "time.h"
+#include "string.h"
 int multiply( int, int );
 int even( int );
 int main()
@@ -29,16 +30,11 @@ int main()
     }
     printf( "\nExersize 5.20, quadrilateral's output, input size:\n" );
     scanf( "%d", &a );
+    char symbol;
     printf( "\nInput filling symbol:\n" );
-    char symbol = '#';
-    for (int i = 0; i < a; i++)
-    {
-        for (int j = 0; j < a; j++)
-        {
-            printf( "%c ", symbol );
-        }
-        printf( "\n" );
-    }
+    scanf( "%c", &symbol );
+    if( getchar() != '\n' )
+    printf( "\nYou've entered symbol %c\n", symbol );
     
     printf( "\n" );
     return 0;

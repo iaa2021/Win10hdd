@@ -1,4 +1,4 @@
 echo [*] running debug configuration with Unix
 cd debugUnix
-src/ex5_17
+src/ex5_23
 cd ..
