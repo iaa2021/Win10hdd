@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex5_23.dir/ex5_23.c.o -o ex5_23 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex4_27.dir/ex4_27.c.o -o ex4_27 

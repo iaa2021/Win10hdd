@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex5_15.dir/ex5_15.c.o -o ex5_15 

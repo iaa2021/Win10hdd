@@ -1,5 +1,14 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/CMakeFiles/rebuild_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_3.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_9.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_15.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_16.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_19.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_26.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_27.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_31.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_32.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/ex4_33.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix/src/CMakeFiles/rebuild_cache.dir

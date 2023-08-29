@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter4"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "samples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_15::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_15-Debug-bae55b9348cf1c4bcdf6.json",
+					"name" : "ex4_15",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_16::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_16-Debug-24d3fd95e159804bcaab.json",
+					"name" : "ex4_16",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_19::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_19-Debug-6116a1a797f2cfa4e254.json",
+					"name" : "ex4_19",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_26::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_26-Debug-3c5d835e86bbb264a716.json",
+					"name" : "ex4_26",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_27::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_27-Debug-eb81c81ac78e72cd89f6.json",
+					"name" : "ex4_27",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_3::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_3-Debug-e506e953eea77a2ba3e5.json",
+					"name" : "ex4_3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_31::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_31-Debug-bf2a39e39ff8abadcfcc.json",
+					"name" : "ex4_31",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_32::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_32-Debug-c884347c9271ab71c604.json",
+					"name" : "ex4_32",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_33::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_33-Debug-3aad25c1ad04df9eeab4.json",
+					"name" : "ex4_33",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex4_9::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex4_9-Debug-d66c68e61d01fd41a338.json",
+					"name" : "ex4_9",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4/debugUnix",
+		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
