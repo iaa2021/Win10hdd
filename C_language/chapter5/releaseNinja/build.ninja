@@ -57,7 +57,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja && /snap/cmake/1328/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5 -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja
+  COMMAND = cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja && /snap/cmake/1329/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5 -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -197,6 +197,38 @@ build src/ex5_23: C_EXECUTABLE_LINKER__ex5_23_Release src/CMakeFiles/ex5_23.dir/
   TARGET_FILE = src/ex5_23
   TARGET_PDB = ex5_23.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex5_26
+
+
+#############################################
+# Order-only phony target for ex5_26
+
+build cmake_object_order_depends_target_ex5_26: phony || src/CMakeFiles/ex5_26.dir
+
+build src/CMakeFiles/ex5_26.dir/ex5_26.c.o: C_COMPILER__ex5_26_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/ex5_26.c || cmake_object_order_depends_target_ex5_26
+  DEP_FILE = src/CMakeFiles/ex5_26.dir/ex5_26.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/.
+  OBJECT_DIR = src/CMakeFiles/ex5_26.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex5_26.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex5_26
+
+
+#############################################
+# Link the executable src/ex5_26
+
+build src/ex5_26: C_EXECUTABLE_LINKER__ex5_26_Release src/CMakeFiles/ex5_26.dir/ex5_26.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex5_26.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex5_26
+  TARGET_PDB = ex5_26.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -214,7 +246,7 @@ build src/edit_cache: phony src/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src && /snap/cmake/1328/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5 -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja
+  COMMAND = cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src && /snap/cmake/1329/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5 -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -229,6 +261,8 @@ build crebs: phony src/crebs
 build ex5_17: phony src/ex5_17
 
 build ex5_23: phony src/ex5_23
+
+build ex5_26: phony src/ex5_26
 
 build multiCrebs: phony src/multiCrebs
 
@@ -247,7 +281,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src
 
-build src/all: phony src/crebs src/multiCrebs src/ex5_17 src/ex5_23
+build src/all: phony src/crebs src/multiCrebs src/ex5_17 src/ex5_23 src/ex5_26
 
 # =============================================================================
 # Built-in targets
@@ -256,14 +290,14 @@ build src/all: phony src/crebs src/multiCrebs src/ex5_17 src/ex5_23
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/config.h.in /snap/cmake/1328/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.3/CMakeCCompiler.cmake CMakeFiles/3.27.3/CMakeCXXCompiler.cmake CMakeFiles/3.27.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/config.h.in /snap/cmake/1329/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.4/CMakeCCompiler.cmake CMakeFiles/3.27.4/CMakeCXXCompiler.cmake CMakeFiles/3.27.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/config.h.in /snap/cmake/1328/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/cmake/1328/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/cmake/1328/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.3/CMakeCCompiler.cmake CMakeFiles/3.27.3/CMakeCXXCompiler.cmake CMakeFiles/3.27.3/CMakeSystem.cmake: phony
+build /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/config.h.in /snap/cmake/1329/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/cmake/1329/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/cmake/1329/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.4/CMakeCCompiler.cmake CMakeFiles/3.27.4/CMakeCXXCompiler.cmake CMakeFiles/3.27.4/CMakeSystem.cmake: phony
 
 
 #############################################
