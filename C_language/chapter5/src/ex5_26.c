@@ -8,12 +8,23 @@ int main()
     printf( ".%d", PROJECT_VERSION_MINOR );
     printf( ".%d", PROJECT_VERSION_PATCH );
     printf( "\nExersise 5.26 perfect numbers:\n" );
-    for (int i = 2; i < 1000; i++)
+    int count;
+    printf( "Input range of prime numbers search:\n" );
+    scanf( "%d", &count );
+    for (int i = 2; i < count; i++)
     {
         if( perfect( i ) != 0 )
-        printf( "%d, ", i );
+        {
+            printf( "%d = ", i );
+            for (int j = 1; j < i; j++)
+            {
+                if( i % j == 0 )
+                printf( "%d + ", j );
+            }
+            printf( "\n" );
+        }
     }
-    
+    printf( "\nSearch complete." );
     printf( "\n" );
     return 0;
 }
