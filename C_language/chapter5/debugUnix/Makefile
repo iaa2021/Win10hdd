@@ -181,6 +181,19 @@ ex5_26/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_26.dir/build.make src/CMakeFiles/ex5_26.dir/build
 .PHONY : ex5_26/fast
 
+#=============================================================================
+# Target rules for targets named ex5_28
+
+# Build rule for target.
+ex5_28: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex5_28
+.PHONY : ex5_28
+
+# fast build rule for target.
+ex5_28/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_28.dir/build.make src/CMakeFiles/ex5_28.dir/build
+.PHONY : ex5_28/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -193,6 +206,7 @@ help:
 	@echo "... ex5_17"
 	@echo "... ex5_23"
 	@echo "... ex5_26"
+	@echo "... ex5_28"
 	@echo "... multiCrebs"
 .PHONY : help
 
