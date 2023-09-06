@@ -1,7 +1,8 @@
 #include "config.h"
 #include "stdio.h"
 #include "string.h"
-int perfect( int );
+#include "math.h"
+int myPow( int, int );
 int main()
 { 
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -9,22 +10,36 @@ int main()
     printf( ".%d", PROJECT_VERSION_PATCH );
     printf( "\nExersise 5.26 number's reverse order:\n" );
     printf( "Input number, you'd like to get in reverse order:\n" );
-    int number, count = 0;
+    int number, count = 0, number1;
     scanf( "%d", &number );
-    while (number != 0)
+    number1 = number;
+    while (number1 != 0)
     {
-        number /= 10;
+        number1 /= 10;
         count++;
     }
+    number1 = 0;
     printf( "\nNumber digit is: %d", count );
-    char *text = (char *)malloc((count + 1) * sizeof(char));/*declaring dynamic array*/
-    if (text == NULL) {
-        printf("Memory allocation failed.\n");
-        return 1; // Exit the program with an error code
-    }
-    sprintf( text, "%d", number );
-    printf( "\nText is: %s", text );
-    free(text);
-    printf( "\n" );
+    /*for (int i = count - 1, a = 0; i >= 1; i--, a++)
+    {
+        number1 += (number / myPow( 10, i )) * myPow( 10, a );
+        number %= myPow( 10, i );
+        a++;
+    }*/
+    printf( "\nnumber % = 100 is %d", number %=100 );
+    printf( "\nReverse order is %d\n", number1 );
     return 0;
+}
+int myPow( int nmb, int pow )
+{
+    if( pow == 0 )
+    return 1;
+    else
+    {
+        for (int i = 0; i < pow; i++)
+        {
+            nmb *= nmb;
+        }
+    }
+    return nmb;
 }
