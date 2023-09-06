@@ -11,8 +11,9 @@ add_executable( ex5_17 ex5_17.c )
 add_executable( ex5_23 ex5_23.c )
 add_executable( ex5_26 ex5_26.c )
 add_executable( ex5_28 ex5_28.c )
+add_executable( ex5_29 ex5_29.c )
 
-set( targets crebs multiCrebs ex5_17 ex5_23 ex5_26 ex5_28 )
+set( targets crebs multiCrebs ex5_17 ex5_23 ex5_26 ex5_28 ex5_29 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

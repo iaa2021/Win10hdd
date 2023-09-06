@@ -20,26 +20,26 @@ int main()
     }
     number1 = 0;
     printf( "\nNumber digit is: %d", count );
-    /*for (int i = count - 1, a = 0; i >= 1; i--, a++)
+    for (int i = count - 1, a = 0; i > 0, a < count; --i, a++)
     {
         number1 += (number / myPow( 10, i )) * myPow( 10, a );
         number %= myPow( 10, i );
-        a++;
-    }*/
-    printf( "\nnumber % = 100 is %d", number %=100 );
+        printf ( "\n i = %d, number = %d, myPow( 10, i ) = %d\n", i, number, myPow( 10, i ) );
+    }
     printf( "\nReverse order is %d\n", number1 );
     return 0;
 }
 int myPow( int nmb, int pow )
 {
+    int number = 1;
     if( pow == 0 )
     return 1;
     else
     {
-        for (int i = 0; i < pow; i++)
-        {
-            nmb *= nmb;
-        }
+    for (int i = 1; i <= pow; i++)
+    {
+        number *= nmb;
     }
-    return nmb;
+    return number;
+    }
 }

@@ -200,6 +200,20 @@ ex5_28/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_28.dir/build.make src/CMakeFiles/ex5_28.dir/build
 .PHONY : ex5_28/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex5_29.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex5_29.dir/rule
+.PHONY : src/CMakeFiles/ex5_29.dir/rule
+
+# Convenience name for target.
+ex5_29: src/CMakeFiles/ex5_29.dir/rule
+.PHONY : ex5_29
+
+# fast build rule for target.
+ex5_29/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_29.dir/build.make src/CMakeFiles/ex5_29.dir/build
+.PHONY : ex5_29/fast
+
 crebs.o: crebs.c.o
 .PHONY : crebs.o
 
@@ -320,6 +334,30 @@ ex5_28.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_28.dir/build.make src/CMakeFiles/ex5_28.dir/ex5_28.c.s
 .PHONY : ex5_28.c.s
 
+ex5_29.o: ex5_29.c.o
+.PHONY : ex5_29.o
+
+# target to build an object file
+ex5_29.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_29.dir/build.make src/CMakeFiles/ex5_29.dir/ex5_29.c.o
+.PHONY : ex5_29.c.o
+
+ex5_29.i: ex5_29.c.i
+.PHONY : ex5_29.i
+
+# target to preprocess a source file
+ex5_29.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_29.dir/build.make src/CMakeFiles/ex5_29.dir/ex5_29.c.i
+.PHONY : ex5_29.c.i
+
+ex5_29.s: ex5_29.c.s
+.PHONY : ex5_29.s
+
+# target to generate assembly for a file
+ex5_29.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_29.dir/build.make src/CMakeFiles/ex5_29.dir/ex5_29.c.s
+.PHONY : ex5_29.c.s
+
 multiCrebs.o: multiCrebs.c.o
 .PHONY : multiCrebs.o
 
@@ -357,6 +395,7 @@ help:
 	@echo "... ex5_23"
 	@echo "... ex5_26"
 	@echo "... ex5_28"
+	@echo "... ex5_29"
 	@echo "... multiCrebs"
 	@echo "... crebs.o"
 	@echo "... crebs.i"
@@ -373,6 +412,9 @@ help:
 	@echo "... ex5_28.o"
 	@echo "... ex5_28.i"
 	@echo "... ex5_28.s"
+	@echo "... ex5_29.o"
+	@echo "... ex5_29.i"
+	@echo "... ex5_29.s"
 	@echo "... multiCrebs.o"
 	@echo "... multiCrebs.i"
 	@echo "... multiCrebs.s"
