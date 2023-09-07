@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex5_37.dir/ex5_37.c.o -o ex5_37 

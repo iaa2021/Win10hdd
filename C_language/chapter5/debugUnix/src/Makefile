@@ -214,6 +214,48 @@ ex5_29/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_29.dir/build.make src/CMakeFiles/ex5_29.dir/build
 .PHONY : ex5_29/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex5_32.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex5_32.dir/rule
+.PHONY : src/CMakeFiles/ex5_32.dir/rule
+
+# Convenience name for target.
+ex5_32: src/CMakeFiles/ex5_32.dir/rule
+.PHONY : ex5_32
+
+# fast build rule for target.
+ex5_32/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_32.dir/build.make src/CMakeFiles/ex5_32.dir/build
+.PHONY : ex5_32/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex5_35.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex5_35.dir/rule
+.PHONY : src/CMakeFiles/ex5_35.dir/rule
+
+# Convenience name for target.
+ex5_35: src/CMakeFiles/ex5_35.dir/rule
+.PHONY : ex5_35
+
+# fast build rule for target.
+ex5_35/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_35.dir/build.make src/CMakeFiles/ex5_35.dir/build
+.PHONY : ex5_35/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex5_37.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex5_37.dir/rule
+.PHONY : src/CMakeFiles/ex5_37.dir/rule
+
+# Convenience name for target.
+ex5_37: src/CMakeFiles/ex5_37.dir/rule
+.PHONY : ex5_37
+
+# fast build rule for target.
+ex5_37/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_37.dir/build.make src/CMakeFiles/ex5_37.dir/build
+.PHONY : ex5_37/fast
+
 crebs.o: crebs.c.o
 .PHONY : crebs.o
 
@@ -358,6 +400,78 @@ ex5_29.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_29.dir/build.make src/CMakeFiles/ex5_29.dir/ex5_29.c.s
 .PHONY : ex5_29.c.s
 
+ex5_32.o: ex5_32.c.o
+.PHONY : ex5_32.o
+
+# target to build an object file
+ex5_32.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_32.dir/build.make src/CMakeFiles/ex5_32.dir/ex5_32.c.o
+.PHONY : ex5_32.c.o
+
+ex5_32.i: ex5_32.c.i
+.PHONY : ex5_32.i
+
+# target to preprocess a source file
+ex5_32.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_32.dir/build.make src/CMakeFiles/ex5_32.dir/ex5_32.c.i
+.PHONY : ex5_32.c.i
+
+ex5_32.s: ex5_32.c.s
+.PHONY : ex5_32.s
+
+# target to generate assembly for a file
+ex5_32.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_32.dir/build.make src/CMakeFiles/ex5_32.dir/ex5_32.c.s
+.PHONY : ex5_32.c.s
+
+ex5_35.o: ex5_35.c.o
+.PHONY : ex5_35.o
+
+# target to build an object file
+ex5_35.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_35.dir/build.make src/CMakeFiles/ex5_35.dir/ex5_35.c.o
+.PHONY : ex5_35.c.o
+
+ex5_35.i: ex5_35.c.i
+.PHONY : ex5_35.i
+
+# target to preprocess a source file
+ex5_35.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_35.dir/build.make src/CMakeFiles/ex5_35.dir/ex5_35.c.i
+.PHONY : ex5_35.c.i
+
+ex5_35.s: ex5_35.c.s
+.PHONY : ex5_35.s
+
+# target to generate assembly for a file
+ex5_35.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_35.dir/build.make src/CMakeFiles/ex5_35.dir/ex5_35.c.s
+.PHONY : ex5_35.c.s
+
+ex5_37.o: ex5_37.c.o
+.PHONY : ex5_37.o
+
+# target to build an object file
+ex5_37.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_37.dir/build.make src/CMakeFiles/ex5_37.dir/ex5_37.c.o
+.PHONY : ex5_37.c.o
+
+ex5_37.i: ex5_37.c.i
+.PHONY : ex5_37.i
+
+# target to preprocess a source file
+ex5_37.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_37.dir/build.make src/CMakeFiles/ex5_37.dir/ex5_37.c.i
+.PHONY : ex5_37.c.i
+
+ex5_37.s: ex5_37.c.s
+.PHONY : ex5_37.s
+
+# target to generate assembly for a file
+ex5_37.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_37.dir/build.make src/CMakeFiles/ex5_37.dir/ex5_37.c.s
+.PHONY : ex5_37.c.s
+
 multiCrebs.o: multiCrebs.c.o
 .PHONY : multiCrebs.o
 
@@ -396,6 +510,9 @@ help:
 	@echo "... ex5_26"
 	@echo "... ex5_28"
 	@echo "... ex5_29"
+	@echo "... ex5_32"
+	@echo "... ex5_35"
+	@echo "... ex5_37"
 	@echo "... multiCrebs"
 	@echo "... crebs.o"
 	@echo "... crebs.i"
@@ -415,6 +532,15 @@ help:
 	@echo "... ex5_29.o"
 	@echo "... ex5_29.i"
 	@echo "... ex5_29.s"
+	@echo "... ex5_32.o"
+	@echo "... ex5_32.i"
+	@echo "... ex5_32.s"
+	@echo "... ex5_35.o"
+	@echo "... ex5_35.i"
+	@echo "... ex5_35.s"
+	@echo "... ex5_37.o"
+	@echo "... ex5_37.i"
+	@echo "... ex5_37.s"
 	@echo "... multiCrebs.o"
 	@echo "... multiCrebs.i"
 	@echo "... multiCrebs.s"

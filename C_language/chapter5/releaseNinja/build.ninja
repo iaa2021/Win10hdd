@@ -293,6 +293,102 @@ build src/ex5_29: C_EXECUTABLE_LINKER__ex5_29_Release src/CMakeFiles/ex5_29.dir/
   TARGET_FILE = src/ex5_29
   TARGET_PDB = ex5_29.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex5_32
+
+
+#############################################
+# Order-only phony target for ex5_32
+
+build cmake_object_order_depends_target_ex5_32: phony || src/CMakeFiles/ex5_32.dir
+
+build src/CMakeFiles/ex5_32.dir/ex5_32.c.o: C_COMPILER__ex5_32_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/ex5_32.c || cmake_object_order_depends_target_ex5_32
+  DEP_FILE = src/CMakeFiles/ex5_32.dir/ex5_32.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/.
+  OBJECT_DIR = src/CMakeFiles/ex5_32.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex5_32.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex5_32
+
+
+#############################################
+# Link the executable src/ex5_32
+
+build src/ex5_32: C_EXECUTABLE_LINKER__ex5_32_Release src/CMakeFiles/ex5_32.dir/ex5_32.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex5_32.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex5_32
+  TARGET_PDB = ex5_32.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex5_35
+
+
+#############################################
+# Order-only phony target for ex5_35
+
+build cmake_object_order_depends_target_ex5_35: phony || src/CMakeFiles/ex5_35.dir
+
+build src/CMakeFiles/ex5_35.dir/ex5_35.c.o: C_COMPILER__ex5_35_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/ex5_35.c || cmake_object_order_depends_target_ex5_35
+  DEP_FILE = src/CMakeFiles/ex5_35.dir/ex5_35.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/.
+  OBJECT_DIR = src/CMakeFiles/ex5_35.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex5_35.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex5_35
+
+
+#############################################
+# Link the executable src/ex5_35
+
+build src/ex5_35: C_EXECUTABLE_LINKER__ex5_35_Release src/CMakeFiles/ex5_35.dir/ex5_35.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex5_35.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex5_35
+  TARGET_PDB = ex5_35.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex5_37
+
+
+#############################################
+# Order-only phony target for ex5_37
+
+build cmake_object_order_depends_target_ex5_37: phony || src/CMakeFiles/ex5_37.dir
+
+build src/CMakeFiles/ex5_37.dir/ex5_37.c.o: C_COMPILER__ex5_37_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/ex5_37.c || cmake_object_order_depends_target_ex5_37
+  DEP_FILE = src/CMakeFiles/ex5_37.dir/ex5_37.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/.
+  OBJECT_DIR = src/CMakeFiles/ex5_37.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex5_37.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex5_37
+
+
+#############################################
+# Link the executable src/ex5_37
+
+build src/ex5_37: C_EXECUTABLE_LINKER__ex5_37_Release src/CMakeFiles/ex5_37.dir/ex5_37.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex5_37.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex5_37
+  TARGET_PDB = ex5_37.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -332,6 +428,12 @@ build ex5_28: phony src/ex5_28
 
 build ex5_29: phony src/ex5_29
 
+build ex5_32: phony src/ex5_32
+
+build ex5_35: phony src/ex5_35
+
+build ex5_37: phony src/ex5_37
+
 build multiCrebs: phony src/multiCrebs
 
 # =============================================================================
@@ -349,7 +451,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src
 
-build src/all: phony src/crebs src/multiCrebs src/ex5_17 src/ex5_23 src/ex5_26 src/ex5_28 src/ex5_29
+build src/all: phony src/crebs src/multiCrebs src/ex5_17 src/ex5_23 src/ex5_26 src/ex5_28 src/ex5_29 src/ex5_32 src/ex5_35 src/ex5_37
 
 # =============================================================================
 # Built-in targets
