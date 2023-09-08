@@ -88,6 +88,7 @@ src/all: src/CMakeFiles/ex5_29.dir/all
 src/all: src/CMakeFiles/ex5_32.dir/all
 src/all: src/CMakeFiles/ex5_35.dir/all
 src/all: src/CMakeFiles/ex5_37.dir/all
+src/all: src/CMakeFiles/ex5_46.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -105,6 +106,7 @@ src/clean: src/CMakeFiles/ex5_29.dir/clean
 src/clean: src/CMakeFiles/ex5_32.dir/clean
 src/clean: src/CMakeFiles/ex5_35.dir/clean
 src/clean: src/CMakeFiles/ex5_37.dir/clean
+src/clean: src/CMakeFiles/ex5_46.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -140,7 +142,7 @@ src/CMakeFiles/crebs.dir/clean:
 src/CMakeFiles/multiCrebs.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/multiCrebs.dir/build.make src/CMakeFiles/multiCrebs.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/multiCrebs.dir/build.make src/CMakeFiles/multiCrebs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix/CMakeFiles --progress-num=19,20 "Built target multiCrebs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix/CMakeFiles --progress-num=21,22 "Built target multiCrebs"
 .PHONY : src/CMakeFiles/multiCrebs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -366,6 +368,32 @@ ex5_37: src/CMakeFiles/ex5_37.dir/rule
 src/CMakeFiles/ex5_37.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_37.dir/build.make src/CMakeFiles/ex5_37.dir/clean
 .PHONY : src/CMakeFiles/ex5_37.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex5_46.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex5_46.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_46.dir/build.make src/CMakeFiles/ex5_46.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_46.dir/build.make src/CMakeFiles/ex5_46.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix/CMakeFiles --progress-num=19,20 "Built target ex5_46"
+.PHONY : src/CMakeFiles/ex5_46.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex5_46.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex5_46.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/ex5_46.dir/rule
+
+# Convenience name for target.
+ex5_46: src/CMakeFiles/ex5_46.dir/rule
+.PHONY : ex5_46
+
+# clean rule for target.
+src/CMakeFiles/ex5_46.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex5_46.dir/build.make src/CMakeFiles/ex5_46.dir/clean
+.PHONY : src/CMakeFiles/ex5_46.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

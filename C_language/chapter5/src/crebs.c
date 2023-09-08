@@ -3,6 +3,7 @@
 #include "stdlib.h"
 #include "time.h"
 int rollDice();
+int crebs( int );
 int main()
 { 
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -10,6 +11,34 @@ int main()
     printf( ".%d", PROJECT_VERSION_PATCH );
     printf("\nExersize on page 204.Crebs.\n");
     srand( time( 0 ) );
+    int balance = 1000, bet;
+    do{
+    printf( "\nMake your bet, 0 to end game: " );
+    scanf( "%d", &bet );
+    if( bet > balance )
+    printf( "\nYou've not enough money.\n" );
+    else if( bet == balance )
+    {
+        printf ( "\nAll in?" );
+        balance += crebs( bet );
+        printf( "\nBalance = %d\n", balance );
+    }
+    else
+    {
+        balance += crebs( bet );
+        printf( "\nBalance = %d\n", balance );
+    }
+    if( balance == 0 )
+    {
+        printf( "\nYou've totally lost.\n" );
+        break;
+    }
+    }while( bet != 0 || balance != 0 );
+    
+    return 0;
+}
+int crebs( int bet )
+{
     int gameStatus = 0, sum, point;
         sum = rollDice();
         switch (sum)
@@ -35,10 +64,15 @@ int main()
         gameStatus = 2;
     }
     if( gameStatus == 1 )
-    printf( "\nYou've won with point %d.\n", sum );
+    {
+        printf( "\nYou've won with point %d, bet = %d.\n", sum, bet );
+        return bet;
+    }
     else
-    printf( "\nYou've lost with point %d.\n", sum );
-    return 0;
+    {
+        printf( "\nYou've lost with point %d, bet = %d.\n", sum, bet );
+        return -1 * bet;
+    }
 }
 int rollDice()
 {

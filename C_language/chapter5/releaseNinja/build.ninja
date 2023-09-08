@@ -389,6 +389,38 @@ build src/ex5_37: C_EXECUTABLE_LINKER__ex5_37_Release src/CMakeFiles/ex5_37.dir/
   TARGET_FILE = src/ex5_37
   TARGET_PDB = ex5_37.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex5_46
+
+
+#############################################
+# Order-only phony target for ex5_46
+
+build cmake_object_order_depends_target_ex5_46: phony || src/CMakeFiles/ex5_46.dir
+
+build src/CMakeFiles/ex5_46.dir/ex5_46.c.o: C_COMPILER__ex5_46_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/ex5_46.c || cmake_object_order_depends_target_ex5_46
+  DEP_FILE = src/CMakeFiles/ex5_46.dir/ex5_46.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/src/.
+  OBJECT_DIR = src/CMakeFiles/ex5_46.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex5_46.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex5_46
+
+
+#############################################
+# Link the executable src/ex5_46
+
+build src/ex5_46: C_EXECUTABLE_LINKER__ex5_46_Release src/CMakeFiles/ex5_46.dir/ex5_46.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex5_46.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex5_46
+  TARGET_PDB = ex5_46.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -434,6 +466,8 @@ build ex5_35: phony src/ex5_35
 
 build ex5_37: phony src/ex5_37
 
+build ex5_46: phony src/ex5_46
+
 build multiCrebs: phony src/multiCrebs
 
 # =============================================================================
@@ -451,7 +485,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/chapter5/releaseNinja/src
 
-build src/all: phony src/crebs src/multiCrebs src/ex5_17 src/ex5_23 src/ex5_26 src/ex5_28 src/ex5_29 src/ex5_32 src/ex5_35 src/ex5_37
+build src/all: phony src/crebs src/multiCrebs src/ex5_17 src/ex5_23 src/ex5_26 src/ex5_28 src/ex5_29 src/ex5_32 src/ex5_35 src/ex5_37 src/ex5_46
 
 # =============================================================================
 # Built-in targets
