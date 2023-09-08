@@ -1,0 +1,6 @@
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/CMakeFiles/edit_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/CMakeFiles/rebuild_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src/CMakeFiles/p254.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src/CMakeFiles/ex6_18.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src/CMakeFiles/edit_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src/CMakeFiles/rebuild_cache.dir
