@@ -17,7 +17,7 @@ int main()
     recReverse( sentence );
     printf( "\nExersise on page 384, getchar and puts:\n" );
     puts( sentence );
-    puts( "\nInput new text:\n " );
+    puts( "Input new text:\n " );
     char c; int i = 0;
     while ((c = getchar()) != '\n')
     {
@@ -31,6 +31,12 @@ int main()
     scanf( "%d%f", &x, &y );
     sprintf( s, "Integer:%6d\nFloat:%8.2f", x, y );
     printf( "%s\n%s\n", "\nFormatted output, stored in array is: ", s );
+    printf( "\nUsing sscanf:\n" );
+    int l; float m; char s1[] = "125 245.36";
+    sscanf( s1, "%d%f", &l, &m );
+    printf( "Array is: %s", s1 );
+    printf( "\n%s\n%s%6d\n%s%6.2f\n", "Values stored:",\
+    "Integer: ", l, "Float: ", m );
     return 0;
 }
 void reverse( char *s )
