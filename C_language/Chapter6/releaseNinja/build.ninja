@@ -133,6 +133,38 @@ build src/ex6_18: C_EXECUTABLE_LINKER__ex6_18_Release src/CMakeFiles/ex6_18.dir/
   TARGET_FILE = src/ex6_18
   TARGET_PDB = ex6_18.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target p383
+
+
+#############################################
+# Order-only phony target for p383
+
+build cmake_object_order_depends_target_p383: phony || src/CMakeFiles/p383.dir
+
+build src/CMakeFiles/p383.dir/p383.c.o: C_COMPILER__p383_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/src/p383.c || cmake_object_order_depends_target_p383
+  DEP_FILE = src/CMakeFiles/p383.dir/p383.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/src/.
+  OBJECT_DIR = src/CMakeFiles/p383.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/p383.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p383
+
+
+#############################################
+# Link the executable src/p383
+
+build src/p383: C_EXECUTABLE_LINKER__p383_Release src/CMakeFiles/p383.dir/p383.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/p383.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/p383
+  TARGET_PDB = p383.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -164,6 +196,8 @@ build ex6_18: phony src/ex6_18
 
 build p254: phony src/p254
 
+build p383: phony src/p383
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +213,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src
 
-build src/all: phony src/p254 src/ex6_18
+build src/all: phony src/p254 src/ex6_18 src/p383
 
 # =============================================================================
 # Built-in targets

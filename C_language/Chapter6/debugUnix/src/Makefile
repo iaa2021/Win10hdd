@@ -144,6 +144,20 @@ ex6_18/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex6_18.dir/build.make src/CMakeFiles/ex6_18.dir/build
 .PHONY : ex6_18/fast
 
+# Convenience name for target.
+src/CMakeFiles/p383.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p383.dir/rule
+.PHONY : src/CMakeFiles/p383.dir/rule
+
+# Convenience name for target.
+p383: src/CMakeFiles/p383.dir/rule
+.PHONY : p383
+
+# fast build rule for target.
+p383/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p383.dir/build.make src/CMakeFiles/p383.dir/build
+.PHONY : p383/fast
+
 ex6_18.o: ex6_18.c.o
 .PHONY : ex6_18.o
 
@@ -192,6 +206,30 @@ p254.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p254.dir/build.make src/CMakeFiles/p254.dir/p254.c.s
 .PHONY : p254.c.s
 
+p383.o: p383.c.o
+.PHONY : p383.o
+
+# target to build an object file
+p383.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p383.dir/build.make src/CMakeFiles/p383.dir/p383.c.o
+.PHONY : p383.c.o
+
+p383.i: p383.c.i
+.PHONY : p383.i
+
+# target to preprocess a source file
+p383.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p383.dir/build.make src/CMakeFiles/p383.dir/p383.c.i
+.PHONY : p383.c.i
+
+p383.s: p383.c.s
+.PHONY : p383.s
+
+# target to generate assembly for a file
+p383.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p383.dir/build.make src/CMakeFiles/p383.dir/p383.c.s
+.PHONY : p383.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,12 +240,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex6_18"
 	@echo "... p254"
+	@echo "... p383"
 	@echo "... ex6_18.o"
 	@echo "... ex6_18.i"
 	@echo "... ex6_18.s"
 	@echo "... p254.o"
 	@echo "... p254.i"
 	@echo "... p254.s"
+	@echo "... p383.o"
+	@echo "... p383.i"
+	@echo "... p383.s"
 .PHONY : help
 
 

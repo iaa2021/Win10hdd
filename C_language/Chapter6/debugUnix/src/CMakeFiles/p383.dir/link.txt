@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p383.dir/p383.c.o -o p383 
