@@ -158,6 +158,20 @@ p383/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p383.dir/build.make src/CMakeFiles/p383.dir/build
 .PHONY : p383/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex8_1.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex8_1.dir/rule
+.PHONY : src/CMakeFiles/ex8_1.dir/rule
+
+# Convenience name for target.
+ex8_1: src/CMakeFiles/ex8_1.dir/rule
+.PHONY : ex8_1
+
+# fast build rule for target.
+ex8_1/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_1.dir/build.make src/CMakeFiles/ex8_1.dir/build
+.PHONY : ex8_1/fast
+
 ex6_18.o: ex6_18.c.o
 .PHONY : ex6_18.o
 
@@ -181,6 +195,30 @@ ex6_18.s: ex6_18.c.s
 ex6_18.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex6_18.dir/build.make src/CMakeFiles/ex6_18.dir/ex6_18.c.s
 .PHONY : ex6_18.c.s
+
+ex8_1.o: ex8_1.c.o
+.PHONY : ex8_1.o
+
+# target to build an object file
+ex8_1.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_1.dir/build.make src/CMakeFiles/ex8_1.dir/ex8_1.c.o
+.PHONY : ex8_1.c.o
+
+ex8_1.i: ex8_1.c.i
+.PHONY : ex8_1.i
+
+# target to preprocess a source file
+ex8_1.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_1.dir/build.make src/CMakeFiles/ex8_1.dir/ex8_1.c.i
+.PHONY : ex8_1.c.i
+
+ex8_1.s: ex8_1.c.s
+.PHONY : ex8_1.s
+
+# target to generate assembly for a file
+ex8_1.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_1.dir/build.make src/CMakeFiles/ex8_1.dir/ex8_1.c.s
+.PHONY : ex8_1.c.s
 
 p254.o: p254.c.o
 .PHONY : p254.o
@@ -239,11 +277,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex6_18"
+	@echo "... ex8_1"
 	@echo "... p254"
 	@echo "... p383"
 	@echo "... ex6_18.o"
 	@echo "... ex6_18.i"
 	@echo "... ex6_18.s"
+	@echo "... ex8_1.o"
+	@echo "... ex8_1.i"
+	@echo "... ex8_1.s"
 	@echo "... p254.o"
 	@echo "... p254.i"
 	@echo "... p254.s"

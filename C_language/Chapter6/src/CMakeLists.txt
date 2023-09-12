@@ -8,8 +8,9 @@ configure_file( config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h )
 add_executable( p254 p254.c )
 add_executable( ex6_18 ex6_18.c )
 add_executable( p383 p383.c )
+add_executable( ex8_1 ex8_1.c )
 
-set( targets p254 ex6_18 p383 )
+set( targets p254 ex6_18 p383 ex8_1 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

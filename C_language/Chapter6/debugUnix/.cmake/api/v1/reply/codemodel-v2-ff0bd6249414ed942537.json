@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -20,7 +20,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -32,11 +32,12 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -61,7 +62,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -70,21 +72,28 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "ex6_18::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex6_18-Release-136cad9a9ea536695db9.json",
+					"jsonFile" : "target-ex6_18-Debug-7450e9ecf292f6466d94.json",
 					"name" : "ex6_18",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
+					"id" : "ex8_1::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex8_1-Debug-7f56f680887e7cc7763d.json",
+					"name" : "ex8_1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
 					"id" : "p254::@145eef247bfb46b6828c",
-					"jsonFile" : "target-p254-Release-b756f33482939f217a43.json",
+					"jsonFile" : "target-p254-Debug-0df5e1970c09e501d6cc.json",
 					"name" : "p254",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "p383::@145eef247bfb46b6828c",
-					"jsonFile" : "target-p383-Release-dabc6e1fc8c351b349d8.json",
+					"jsonFile" : "target-p383-Debug-18444ee92f849516d8b1.json",
 					"name" : "p383",
 					"projectIndex" : 1
 				}
@@ -94,7 +103,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja",
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix",
 		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6"
 	},
 	"version" : 

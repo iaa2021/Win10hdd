@@ -155,6 +155,19 @@ p383/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p383.dir/build.make src/CMakeFiles/p383.dir/build
 .PHONY : p383/fast
 
+#=============================================================================
+# Target rules for targets named ex8_1
+
+# Build rule for target.
+ex8_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_1
+.PHONY : ex8_1
+
+# fast build rule for target.
+ex8_1/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_1.dir/build.make src/CMakeFiles/ex8_1.dir/build
+.PHONY : ex8_1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,6 +177,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex6_18"
+	@echo "... ex8_1"
 	@echo "... p254"
 	@echo "... p383"
 .PHONY : help
