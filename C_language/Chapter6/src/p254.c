@@ -1,5 +1,6 @@
 #include "config.h"
 #include "stdio.h"
+#include "string.h"
 #define SIZE 10
 int main()
 { 
@@ -13,6 +14,11 @@ int main()
         array[ i ] = (i + 1) * 3;
         printf( "%d, ", array[ i ] ); 
     }
+    printf( "\n" );
+    char *text = "hello";
+    printf( "\nText is:\n" );
+    puts( text );
+    printf( "\nText size = %zu", strlen( text ) );
     printf( "\n" );
     return 0;
 }
