@@ -53,4 +53,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/ex6_18.dir/DependInfo.cmake"
   "src/CMakeFiles/p383.dir/DependInfo.cmake"
   "src/CMakeFiles/ex8_1.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex8_15.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex8_16.dir/DependInfo.cmake"
   )

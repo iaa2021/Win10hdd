@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -20,7 +20,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -33,11 +33,13 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -63,7 +65,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -72,28 +76,42 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "ex6_18::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex6_18-Release-c0722bebe526d501ecac.json",
+					"jsonFile" : "target-ex6_18-Debug-19145b9a5cc733387509.json",
 					"name" : "ex6_18",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex8_1::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex8_1-Release-43f83e9c21de76ece42e.json",
+					"jsonFile" : "target-ex8_1-Debug-e43341d49f57b87b8aad.json",
 					"name" : "ex8_1",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
+					"id" : "ex8_15::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex8_15-Debug-30fb79592069cdf768af.json",
+					"name" : "ex8_15",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex8_16::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex8_16-Debug-7c54b3142d6fb7bd5a97.json",
+					"name" : "ex8_16",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
 					"id" : "p254::@145eef247bfb46b6828c",
-					"jsonFile" : "target-p254-Release-175438be991cf89877ac.json",
+					"jsonFile" : "target-p254-Debug-58d96381c89f71564bc9.json",
 					"name" : "p254",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "p383::@145eef247bfb46b6828c",
-					"jsonFile" : "target-p383-Release-03ab110d96b9bac3a097.json",
+					"jsonFile" : "target-p383-Debug-66940f280d64bd13cb73.json",
 					"name" : "p383",
 					"projectIndex" : 1
 				}
@@ -103,7 +121,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja",
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix",
 		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6"
 	},
 	"version" : 

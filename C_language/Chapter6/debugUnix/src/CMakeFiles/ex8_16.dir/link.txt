@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex8_16.dir/ex8_16.c.o -o ex8_16 

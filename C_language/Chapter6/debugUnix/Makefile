@@ -168,6 +168,32 @@ ex8_1/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_1.dir/build.make src/CMakeFiles/ex8_1.dir/build
 .PHONY : ex8_1/fast
 
+#=============================================================================
+# Target rules for targets named ex8_15
+
+# Build rule for target.
+ex8_15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_15
+.PHONY : ex8_15
+
+# fast build rule for target.
+ex8_15/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_15.dir/build.make src/CMakeFiles/ex8_15.dir/build
+.PHONY : ex8_15/fast
+
+#=============================================================================
+# Target rules for targets named ex8_16
+
+# Build rule for target.
+ex8_16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_16
+.PHONY : ex8_16
+
+# fast build rule for target.
+ex8_16/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_16.dir/build.make src/CMakeFiles/ex8_16.dir/build
+.PHONY : ex8_16/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,6 +204,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex6_18"
 	@echo "... ex8_1"
+	@echo "... ex8_15"
+	@echo "... ex8_16"
 	@echo "... p254"
 	@echo "... p383"
 .PHONY : help

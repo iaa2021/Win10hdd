@@ -172,6 +172,34 @@ ex8_1/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_1.dir/build.make src/CMakeFiles/ex8_1.dir/build
 .PHONY : ex8_1/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex8_15.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex8_15.dir/rule
+.PHONY : src/CMakeFiles/ex8_15.dir/rule
+
+# Convenience name for target.
+ex8_15: src/CMakeFiles/ex8_15.dir/rule
+.PHONY : ex8_15
+
+# fast build rule for target.
+ex8_15/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_15.dir/build.make src/CMakeFiles/ex8_15.dir/build
+.PHONY : ex8_15/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex8_16.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex8_16.dir/rule
+.PHONY : src/CMakeFiles/ex8_16.dir/rule
+
+# Convenience name for target.
+ex8_16: src/CMakeFiles/ex8_16.dir/rule
+.PHONY : ex8_16
+
+# fast build rule for target.
+ex8_16/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_16.dir/build.make src/CMakeFiles/ex8_16.dir/build
+.PHONY : ex8_16/fast
+
 ex6_18.o: ex6_18.c.o
 .PHONY : ex6_18.o
 
@@ -219,6 +247,54 @@ ex8_1.s: ex8_1.c.s
 ex8_1.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_1.dir/build.make src/CMakeFiles/ex8_1.dir/ex8_1.c.s
 .PHONY : ex8_1.c.s
+
+ex8_15.o: ex8_15.c.o
+.PHONY : ex8_15.o
+
+# target to build an object file
+ex8_15.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_15.dir/build.make src/CMakeFiles/ex8_15.dir/ex8_15.c.o
+.PHONY : ex8_15.c.o
+
+ex8_15.i: ex8_15.c.i
+.PHONY : ex8_15.i
+
+# target to preprocess a source file
+ex8_15.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_15.dir/build.make src/CMakeFiles/ex8_15.dir/ex8_15.c.i
+.PHONY : ex8_15.c.i
+
+ex8_15.s: ex8_15.c.s
+.PHONY : ex8_15.s
+
+# target to generate assembly for a file
+ex8_15.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_15.dir/build.make src/CMakeFiles/ex8_15.dir/ex8_15.c.s
+.PHONY : ex8_15.c.s
+
+ex8_16.o: ex8_16.c.o
+.PHONY : ex8_16.o
+
+# target to build an object file
+ex8_16.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_16.dir/build.make src/CMakeFiles/ex8_16.dir/ex8_16.c.o
+.PHONY : ex8_16.c.o
+
+ex8_16.i: ex8_16.c.i
+.PHONY : ex8_16.i
+
+# target to preprocess a source file
+ex8_16.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_16.dir/build.make src/CMakeFiles/ex8_16.dir/ex8_16.c.i
+.PHONY : ex8_16.c.i
+
+ex8_16.s: ex8_16.c.s
+.PHONY : ex8_16.s
+
+# target to generate assembly for a file
+ex8_16.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_16.dir/build.make src/CMakeFiles/ex8_16.dir/ex8_16.c.s
+.PHONY : ex8_16.c.s
 
 p254.o: p254.c.o
 .PHONY : p254.o
@@ -278,6 +354,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex6_18"
 	@echo "... ex8_1"
+	@echo "... ex8_15"
+	@echo "... ex8_16"
 	@echo "... p254"
 	@echo "... p383"
 	@echo "... ex6_18.o"
@@ -286,6 +364,12 @@ help:
 	@echo "... ex8_1.o"
 	@echo "... ex8_1.i"
 	@echo "... ex8_1.s"
+	@echo "... ex8_15.o"
+	@echo "... ex8_15.i"
+	@echo "... ex8_15.s"
+	@echo "... ex8_16.o"
+	@echo "... ex8_16.i"
+	@echo "... ex8_16.s"
 	@echo "... p254.o"
 	@echo "... p254.i"
 	@echo "... p254.s"
