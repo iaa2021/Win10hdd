@@ -228,6 +228,44 @@ ex8_34/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/build
 .PHONY : ex8_34/fast
 
+# Convenience name for target.
+src/CMakeFiles/date.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/date.dir/rule
+.PHONY : src/CMakeFiles/date.dir/rule
+
+# Convenience name for target.
+date: src/CMakeFiles/date.dir/rule
+.PHONY : date
+
+# fast build rule for target.
+date/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/date.dir/build.make src/CMakeFiles/date.dir/build
+.PHONY : date/fast
+
+date.o: date.c.o
+.PHONY : date.o
+
+# target to build an object file
+date.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/date.dir/build.make src/CMakeFiles/date.dir/date.c.o
+.PHONY : date.c.o
+
+date.i: date.c.i
+.PHONY : date.i
+
+# target to preprocess a source file
+date.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/date.dir/build.make src/CMakeFiles/date.dir/date.c.i
+.PHONY : date.c.i
+
+date.s: date.c.s
+.PHONY : date.s
+
+# target to generate assembly for a file
+date.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/date.dir/build.make src/CMakeFiles/date.dir/date.c.s
+.PHONY : date.c.s
+
 ex6_18.o: ex6_18.c.o
 .PHONY : ex6_18.o
 
@@ -428,6 +466,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... date"
 	@echo "... ex6_18"
 	@echo "... ex8_1"
 	@echo "... ex8_15"
@@ -436,6 +475,9 @@ help:
 	@echo "... ex8_34"
 	@echo "... p254"
 	@echo "... p383"
+	@echo "... date.o"
+	@echo "... date.i"
+	@echo "... date.s"
 	@echo "... ex6_18.o"
 	@echo "... ex6_18.i"
 	@echo "... ex6_18.s"

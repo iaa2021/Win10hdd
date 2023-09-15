@@ -324,6 +324,38 @@ build src/ex8_34: C_EXECUTABLE_LINKER__ex8_34_Release src/CMakeFiles/ex8_34.dir/
   TARGET_FILE = src/ex8_34
   TARGET_PDB = ex8_34.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target date
+
+
+#############################################
+# Order-only phony target for date
+
+build cmake_object_order_depends_target_date: phony || src/CMakeFiles/date.dir
+
+build src/CMakeFiles/date.dir/date.c.o: C_COMPILER__date_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/src/date.c || cmake_object_order_depends_target_date
+  DEP_FILE = src/CMakeFiles/date.dir/date.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/src/.
+  OBJECT_DIR = src/CMakeFiles/date.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/date.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target date
+
+
+#############################################
+# Link the executable src/date
+
+build src/date: C_EXECUTABLE_LINKER__date_Release src/CMakeFiles/date.dir/date.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/date.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/date
+  TARGET_PDB = date.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -350,6 +382,8 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build date: phony src/date
 
 build ex6_18: phony src/ex6_18
 
@@ -382,7 +416,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src
 
-build src/all: phony src/p254 src/ex6_18 src/p383 src/ex8_1 src/ex8_15 src/ex8_16 src/ex8_19 src/ex8_34
+build src/all: phony src/p254 src/ex6_18 src/p383 src/ex8_1 src/ex8_15 src/ex8_16 src/ex8_19 src/ex8_34 src/date
 
 # =============================================================================
 # Built-in targets

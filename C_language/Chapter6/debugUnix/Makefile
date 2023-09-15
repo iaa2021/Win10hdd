@@ -220,6 +220,19 @@ ex8_34/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/build
 .PHONY : ex8_34/fast
 
+#=============================================================================
+# Target rules for targets named date
+
+# Build rule for target.
+date: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 date
+.PHONY : date
+
+# fast build rule for target.
+date/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/date.dir/build.make src/CMakeFiles/date.dir/build
+.PHONY : date/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -228,6 +241,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... date"
 	@echo "... ex6_18"
 	@echo "... ex8_1"
 	@echo "... ex8_15"
