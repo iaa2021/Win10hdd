@@ -22,6 +22,17 @@ int main()
     fputs( search1, stdout );
     char *searchPtr = strstr( text1, search1 );
     printf( "%s", searchPtr );
-    printf( "\n" );
+    printf( "\nExersise 8.18, strchr function:\n" );
+    char chSearch; int count = 0;
+    printf( "\nInput search character, : " );
+    chSearch = getchar() ;
+    char *searchPtr1 = strchr( text1, chSearch ); 
+    while (searchPtr1 != 0)
+    {
+        count++;
+        searchPtr1 = strchr( searchPtr1 + 1, chSearch );
+    }
+    printf( "\n'%c' was found %d times.", chSearch, count );
+    printf( "\n");
     return 0;
 }

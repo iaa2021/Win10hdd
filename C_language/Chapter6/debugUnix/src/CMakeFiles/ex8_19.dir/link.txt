@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex8_19.dir/ex8_19.c.o -o ex8_19 

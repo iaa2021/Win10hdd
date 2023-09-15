@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ch6"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "chapter6",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ex6_18::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex6_18-Release-35ae4ebeca4a81075b69.json",
+					"name" : "ex6_18",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex8_1::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex8_1-Release-5fd578d62cfbcc8d00cb.json",
+					"name" : "ex8_1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex8_15::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex8_15-Release-62b0554ad1cab7894d13.json",
+					"name" : "ex8_15",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex8_16::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex8_16-Release-a8fafe21d85154a41880.json",
+					"name" : "ex8_16",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex8_19::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex8_19-Release-1171aba60fb9c879adac.json",
+					"name" : "ex8_19",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex8_34::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex8_34-Release-1c19c5074634d11608e4.json",
+					"name" : "ex8_34",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "p254::@145eef247bfb46b6828c",
+					"jsonFile" : "target-p254-Release-734e2e9ec3b76091df5a.json",
+					"name" : "p254",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "p383::@145eef247bfb46b6828c",
+					"jsonFile" : "target-p383-Release-4b3867429aed31c391b3.json",
+					"name" : "p383",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja",
+		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

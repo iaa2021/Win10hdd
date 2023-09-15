@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1329/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1332/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1329/bin/cmake -E rm -f
+RM = /snap/cmake/1332/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1329/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/1332/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -194,6 +194,32 @@ ex8_16/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_16.dir/build.make src/CMakeFiles/ex8_16.dir/build
 .PHONY : ex8_16/fast
 
+#=============================================================================
+# Target rules for targets named ex8_19
+
+# Build rule for target.
+ex8_19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_19
+.PHONY : ex8_19
+
+# fast build rule for target.
+ex8_19/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_19.dir/build.make src/CMakeFiles/ex8_19.dir/build
+.PHONY : ex8_19/fast
+
+#=============================================================================
+# Target rules for targets named ex8_34
+
+# Build rule for target.
+ex8_34: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_34
+.PHONY : ex8_34
+
+# fast build rule for target.
+ex8_34/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/build
+.PHONY : ex8_34/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,6 +232,8 @@ help:
 	@echo "... ex8_1"
 	@echo "... ex8_15"
 	@echo "... ex8_16"
+	@echo "... ex8_19"
+	@echo "... ex8_34"
 	@echo "... p254"
 	@echo "... p383"
 .PHONY : help

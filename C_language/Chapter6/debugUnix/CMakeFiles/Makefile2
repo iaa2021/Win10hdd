@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1329/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1332/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1329/bin/cmake -E rm -f
+RM = /snap/cmake/1332/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -84,6 +84,8 @@ src/all: src/CMakeFiles/p383.dir/all
 src/all: src/CMakeFiles/ex8_1.dir/all
 src/all: src/CMakeFiles/ex8_15.dir/all
 src/all: src/CMakeFiles/ex8_16.dir/all
+src/all: src/CMakeFiles/ex8_19.dir/all
+src/all: src/CMakeFiles/ex8_34.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -97,6 +99,8 @@ src/clean: src/CMakeFiles/p383.dir/clean
 src/clean: src/CMakeFiles/ex8_1.dir/clean
 src/clean: src/CMakeFiles/ex8_15.dir/clean
 src/clean: src/CMakeFiles/ex8_16.dir/clean
+src/clean: src/CMakeFiles/ex8_19.dir/clean
+src/clean: src/CMakeFiles/ex8_34.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -106,7 +110,7 @@ src/clean: src/CMakeFiles/ex8_16.dir/clean
 src/CMakeFiles/p254.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p254.dir/build.make src/CMakeFiles/p254.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p254.dir/build.make src/CMakeFiles/p254.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles --progress-num=9,10 "Built target p254"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles --progress-num=13,14 "Built target p254"
 .PHONY : src/CMakeFiles/p254.dir/all
 
 # Build rule for subdir invocation for target.
@@ -158,7 +162,7 @@ src/CMakeFiles/ex6_18.dir/clean:
 src/CMakeFiles/p383.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p383.dir/build.make src/CMakeFiles/p383.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p383.dir/build.make src/CMakeFiles/p383.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles --progress-num=11,12 "Built target p383"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles --progress-num=15,16 "Built target p383"
 .PHONY : src/CMakeFiles/p383.dir/all
 
 # Build rule for subdir invocation for target.
@@ -254,6 +258,58 @@ ex8_16: src/CMakeFiles/ex8_16.dir/rule
 src/CMakeFiles/ex8_16.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_16.dir/build.make src/CMakeFiles/ex8_16.dir/clean
 .PHONY : src/CMakeFiles/ex8_16.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex8_19.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex8_19.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_19.dir/build.make src/CMakeFiles/ex8_19.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_19.dir/build.make src/CMakeFiles/ex8_19.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles --progress-num=9,10 "Built target ex8_19"
+.PHONY : src/CMakeFiles/ex8_19.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex8_19.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex8_19.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/ex8_19.dir/rule
+
+# Convenience name for target.
+ex8_19: src/CMakeFiles/ex8_19.dir/rule
+.PHONY : ex8_19
+
+# clean rule for target.
+src/CMakeFiles/ex8_19.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_19.dir/build.make src/CMakeFiles/ex8_19.dir/clean
+.PHONY : src/CMakeFiles/ex8_19.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex8_34.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex8_34.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles --progress-num=11,12 "Built target ex8_34"
+.PHONY : src/CMakeFiles/ex8_34.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex8_34.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex8_34.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/ex8_34.dir/rule
+
+# Convenience name for target.
+ex8_34: src/CMakeFiles/ex8_34.dir/rule
+.PHONY : ex8_34
+
+# clean rule for target.
+src/CMakeFiles/ex8_34.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/clean
+.PHONY : src/CMakeFiles/ex8_34.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

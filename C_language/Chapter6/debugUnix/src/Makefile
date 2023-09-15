@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1329/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1332/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1329/bin/cmake -E rm -f
+RM = /snap/cmake/1332/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1329/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/1332/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -200,6 +200,34 @@ ex8_16/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_16.dir/build.make src/CMakeFiles/ex8_16.dir/build
 .PHONY : ex8_16/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex8_19.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex8_19.dir/rule
+.PHONY : src/CMakeFiles/ex8_19.dir/rule
+
+# Convenience name for target.
+ex8_19: src/CMakeFiles/ex8_19.dir/rule
+.PHONY : ex8_19
+
+# fast build rule for target.
+ex8_19/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_19.dir/build.make src/CMakeFiles/ex8_19.dir/build
+.PHONY : ex8_19/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex8_34.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex8_34.dir/rule
+.PHONY : src/CMakeFiles/ex8_34.dir/rule
+
+# Convenience name for target.
+ex8_34: src/CMakeFiles/ex8_34.dir/rule
+.PHONY : ex8_34
+
+# fast build rule for target.
+ex8_34/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/build
+.PHONY : ex8_34/fast
+
 ex6_18.o: ex6_18.c.o
 .PHONY : ex6_18.o
 
@@ -296,6 +324,54 @@ ex8_16.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_16.dir/build.make src/CMakeFiles/ex8_16.dir/ex8_16.c.s
 .PHONY : ex8_16.c.s
 
+ex8_19.o: ex8_19.c.o
+.PHONY : ex8_19.o
+
+# target to build an object file
+ex8_19.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_19.dir/build.make src/CMakeFiles/ex8_19.dir/ex8_19.c.o
+.PHONY : ex8_19.c.o
+
+ex8_19.i: ex8_19.c.i
+.PHONY : ex8_19.i
+
+# target to preprocess a source file
+ex8_19.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_19.dir/build.make src/CMakeFiles/ex8_19.dir/ex8_19.c.i
+.PHONY : ex8_19.c.i
+
+ex8_19.s: ex8_19.c.s
+.PHONY : ex8_19.s
+
+# target to generate assembly for a file
+ex8_19.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_19.dir/build.make src/CMakeFiles/ex8_19.dir/ex8_19.c.s
+.PHONY : ex8_19.c.s
+
+ex8_34.o: ex8_34.c.o
+.PHONY : ex8_34.o
+
+# target to build an object file
+ex8_34.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/ex8_34.c.o
+.PHONY : ex8_34.c.o
+
+ex8_34.i: ex8_34.c.i
+.PHONY : ex8_34.i
+
+# target to preprocess a source file
+ex8_34.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/ex8_34.c.i
+.PHONY : ex8_34.c.i
+
+ex8_34.s: ex8_34.c.s
+.PHONY : ex8_34.s
+
+# target to generate assembly for a file
+ex8_34.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/ex8_34.c.s
+.PHONY : ex8_34.c.s
+
 p254.o: p254.c.o
 .PHONY : p254.o
 
@@ -356,6 +432,8 @@ help:
 	@echo "... ex8_1"
 	@echo "... ex8_15"
 	@echo "... ex8_16"
+	@echo "... ex8_19"
+	@echo "... ex8_34"
 	@echo "... p254"
 	@echo "... p383"
 	@echo "... ex6_18.o"
@@ -370,6 +448,12 @@ help:
 	@echo "... ex8_16.o"
 	@echo "... ex8_16.i"
 	@echo "... ex8_16.s"
+	@echo "... ex8_19.o"
+	@echo "... ex8_19.i"
+	@echo "... ex8_19.s"
+	@echo "... ex8_34.o"
+	@echo "... ex8_34.i"
+	@echo "... ex8_34.s"
 	@echo "... p254.o"
 	@echo "... p254.i"
 	@echo "... p254.s"
