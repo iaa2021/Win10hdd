@@ -242,6 +242,20 @@ date/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/date.dir/build.make src/CMakeFiles/date.dir/build
 .PHONY : date/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex8_37.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex8_37.dir/rule
+.PHONY : src/CMakeFiles/ex8_37.dir/rule
+
+# Convenience name for target.
+ex8_37: src/CMakeFiles/ex8_37.dir/rule
+.PHONY : ex8_37
+
+# fast build rule for target.
+ex8_37/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_37.dir/build.make src/CMakeFiles/ex8_37.dir/build
+.PHONY : ex8_37/fast
+
 date.o: date.c.o
 .PHONY : date.o
 
@@ -410,6 +424,30 @@ ex8_34.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_34.dir/build.make src/CMakeFiles/ex8_34.dir/ex8_34.c.s
 .PHONY : ex8_34.c.s
 
+ex8_37.o: ex8_37.c.o
+.PHONY : ex8_37.o
+
+# target to build an object file
+ex8_37.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_37.dir/build.make src/CMakeFiles/ex8_37.dir/ex8_37.c.o
+.PHONY : ex8_37.c.o
+
+ex8_37.i: ex8_37.c.i
+.PHONY : ex8_37.i
+
+# target to preprocess a source file
+ex8_37.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_37.dir/build.make src/CMakeFiles/ex8_37.dir/ex8_37.c.i
+.PHONY : ex8_37.c.i
+
+ex8_37.s: ex8_37.c.s
+.PHONY : ex8_37.s
+
+# target to generate assembly for a file
+ex8_37.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_37.dir/build.make src/CMakeFiles/ex8_37.dir/ex8_37.c.s
+.PHONY : ex8_37.c.s
+
 p254.o: p254.c.o
 .PHONY : p254.o
 
@@ -473,6 +511,7 @@ help:
 	@echo "... ex8_16"
 	@echo "... ex8_19"
 	@echo "... ex8_34"
+	@echo "... ex8_37"
 	@echo "... p254"
 	@echo "... p383"
 	@echo "... date.o"
@@ -496,6 +535,9 @@ help:
 	@echo "... ex8_34.o"
 	@echo "... ex8_34.i"
 	@echo "... ex8_34.s"
+	@echo "... ex8_37.o"
+	@echo "... ex8_37.i"
+	@echo "... ex8_37.s"
 	@echo "... p254.o"
 	@echo "... p254.i"
 	@echo "... p254.s"

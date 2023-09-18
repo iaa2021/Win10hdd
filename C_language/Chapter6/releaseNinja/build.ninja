@@ -304,7 +304,8 @@ build cmake_object_order_depends_target_ex8_34: phony || src/CMakeFiles/ex8_34.d
 
 build src/CMakeFiles/ex8_34.dir/ex8_34.c.o: C_COMPILER__ex8_34_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/src/ex8_34.c || cmake_object_order_depends_target_ex8_34
   DEP_FILE = src/CMakeFiles/ex8_34.dir/ex8_34.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/src/.
   OBJECT_DIR = src/CMakeFiles/ex8_34.dir
   OBJECT_FILE_DIR = src/CMakeFiles/ex8_34.dir
 
@@ -356,6 +357,38 @@ build src/date: C_EXECUTABLE_LINKER__date_Release src/CMakeFiles/date.dir/date.c
   TARGET_FILE = src/date
   TARGET_PDB = date.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex8_37
+
+
+#############################################
+# Order-only phony target for ex8_37
+
+build cmake_object_order_depends_target_ex8_37: phony || src/CMakeFiles/ex8_37.dir
+
+build src/CMakeFiles/ex8_37.dir/ex8_37.c.o: C_COMPILER__ex8_37_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/src/ex8_37.c || cmake_object_order_depends_target_ex8_37
+  DEP_FILE = src/CMakeFiles/ex8_37.dir/ex8_37.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/src/.
+  OBJECT_DIR = src/CMakeFiles/ex8_37.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex8_37.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex8_37
+
+
+#############################################
+# Link the executable src/ex8_37
+
+build src/ex8_37: C_EXECUTABLE_LINKER__ex8_37_Release src/CMakeFiles/ex8_37.dir/ex8_37.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex8_37.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex8_37
+  TARGET_PDB = ex8_37.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -397,6 +430,8 @@ build ex8_19: phony src/ex8_19
 
 build ex8_34: phony src/ex8_34
 
+build ex8_37: phony src/ex8_37
+
 build p254: phony src/p254
 
 build p383: phony src/p383
@@ -416,7 +451,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja/src
 
-build src/all: phony src/p254 src/ex6_18 src/p383 src/ex8_1 src/ex8_15 src/ex8_16 src/ex8_19 src/ex8_34 src/date
+build src/all: phony src/p254 src/ex6_18 src/p383 src/ex8_1 src/ex8_15 src/ex8_16 src/ex8_19 src/ex8_34 src/date src/ex8_37
 
 # =============================================================================
 # Built-in targets

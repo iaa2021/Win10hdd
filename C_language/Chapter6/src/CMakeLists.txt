@@ -14,8 +14,10 @@ add_executable( ex8_16 ex8_16.c )
 add_executable( ex8_19 ex8_19.c )
 add_executable( ex8_34 ex8_34.c )
 add_executable( date date.c )
+add_executable( ex8_37 ex8_37.c )
 
-set( targets p254 ex6_18 p383 ex8_1 ex8_15 ex8_16 ex8_19 date )
+set( targets p254 ex6_18 p383 ex8_1 ex8_15 ex8_16 ex8_19 date ex8_34
+ex8_37 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES
