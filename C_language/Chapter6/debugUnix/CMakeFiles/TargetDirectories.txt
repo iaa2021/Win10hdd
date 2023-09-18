@@ -10,5 +10,6 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/src/CMakeFiles/ex8_34.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/src/CMakeFiles/date.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/src/CMakeFiles/ex8_37.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/src/CMakeFiles/ex8_38.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/debugUnix/src/CMakeFiles/rebuild_cache.dir

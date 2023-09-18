@@ -246,6 +246,19 @@ ex8_37/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_37.dir/build.make src/CMakeFiles/ex8_37.dir/build
 .PHONY : ex8_37/fast
 
+#=============================================================================
+# Target rules for targets named ex8_38
+
+# Build rule for target.
+ex8_38: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex8_38
+.PHONY : ex8_38
+
+# fast build rule for target.
+ex8_38/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex8_38.dir/build.make src/CMakeFiles/ex8_38.dir/build
+.PHONY : ex8_38/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -262,6 +275,7 @@ help:
 	@echo "... ex8_19"
 	@echo "... ex8_34"
 	@echo "... ex8_37"
+	@echo "... ex8_38"
 	@echo "... p254"
 	@echo "... p383"
 .PHONY : help
