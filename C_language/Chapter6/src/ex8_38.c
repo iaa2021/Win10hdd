@@ -25,8 +25,10 @@ int main()
     for (size_t i = 0; i < 4; i++)
     {
         if( number / numbers[i] > 0 )
-            printf( "%s of %s ", array[number / numbers[i]], ranks[i] );
-
+        {    
+            if( number / numbers[i] < 10 )
+            printf( "%s of %s ", array[0][number / numbers[i]], ranks[i] );
+        }
         number %= numbers[i];
     }
     
