@@ -13,6 +13,6 @@ RUN cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build .
 
 WORKDIR /app/build/src
 
-RUN ./ex5_26
+RUN ./ex8_15
 #CMD [ "./ex5_26" ] #in this way only ex5_26 binary'll be invoked
 #RUN ./ex5_26 this way one can invoke any binary in /app/build/src
