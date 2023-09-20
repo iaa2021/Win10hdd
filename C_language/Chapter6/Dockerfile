@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y cmake
 
 WORKDIR /app/build
 
-RUN cmake -DCMAKE_BUILD_TYPE=Debug .. && cmake --build .
+RUN cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build .
 
 WORKDIR /app/build/src
 
