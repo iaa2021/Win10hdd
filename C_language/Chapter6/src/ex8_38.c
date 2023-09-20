@@ -21,7 +21,7 @@ int main()
     printf( "\nInput number:\n" );
     scanf( "%d", &number );
     int numbers[] = { 1000000, 1000, 100, 10 };
-    char *ranks[] = {"million", "thousand", "hundreed", "ten"};
+    char *ranks[] = {"million", "thousand", "hundreed", " "};
     for (size_t i = 0; i < 4; i++)
     {
         if( number / numbers[i] > 0 )
