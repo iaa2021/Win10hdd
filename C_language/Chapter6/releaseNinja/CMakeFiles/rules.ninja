@@ -232,7 +232,7 @@ rule C_EXECUTABLE_LINKER__ex8_38_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /snap/cmake/1332/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6 -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja
+  command = /snap/cmake/1334/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6 -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter6/releaseNinja
   description = Re-running CMake...
   generator = 1
 

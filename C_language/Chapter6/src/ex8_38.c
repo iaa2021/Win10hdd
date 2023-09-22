@@ -4,6 +4,7 @@
 #include "math.h"
 #define SIZE 80 
 #define SIZE1 40
+void wordNumbers( double );
 int main()
 { 
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -23,7 +24,8 @@ int main()
     scanf( "%lf", &sum );
     number = (int)floor(sum); 
     cents = (int)( (sum - floor(sum)) * 100 );
-    int numbers[] = { 1000000, 1000, 100, 10 };
+    printf( "\nSum is: %d$ %d\u00A2\n", number, cents );
+    /*int numbers[] = { 1000000, 1000, 100, 10 };
     char *ranks[] = {"million", "thousand", "hundreed", " "};
     for (size_t i = 0; i < 4; i++)
     {
@@ -64,7 +66,38 @@ int main()
         }
         number %= numbers[i];
     }
-    printf( "$, %d\u00A2\n", cents );
+    printf( "$, %d\u00A2\n", cents );*/
+    wordNumbers(sum);
     printf( "\n" );
     return 0;
+}
+void wordNumbers( double sum )
+{
+    int number = floor( sum ), cents = (int)(sum * 100) - number;
+    char *array[3][9] = {
+        { "one", "two", "three", "four", "five", "six", "seven", \
+        "eight", "nine" },
+        { "eleven", "twelve", "thirteen", "forteen", "fifteen", \
+            "sixteen", "seventeen", "eighteen", "nineteen"},
+        { "ten","twenty", "thirty", "forty", "fifty", "sixty", \
+        "seventy", "eighty", "ninety" }
+    };
+    number = (int)floor(sum); 
+    cents = (int)( (sum - floor(sum)) * 100 );
+    int numbers[] = { 1000000, 1000, 100, 10 };
+    char *ranks[] = {"million", "thousand", "hundreed", " "};
+    for (size_t i = 0; i < 4; i++)
+    {
+        int j = number / numbers[i];
+        
+        if( j > 0 )
+        {
+            if( j < 10 )
+            printf( " %s %s ", array[0][j - 1], ranks[i] );
+            if( j > 10 && j < 20 )
+            printf( " %s %s ", array[1][j - 11], ranks[i] );
+        }
+        number %= numbers[i];
+    }
+    printf( "$, %d\u00A2\n", cents );
 }
