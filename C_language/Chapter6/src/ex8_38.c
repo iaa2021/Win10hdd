@@ -23,7 +23,7 @@ int main()
     printf( "\nInput sum $.\u00A2\n:\n" );
     scanf( "%lf", &sum );
     number = (int)floor(sum); 
-    cents = (int)( (sum - floor(sum)) * 100 );
+    cents = (int)( sum * 100 ) - number * 100 ;
     printf( "\nSum is: %d$ %d\u00A2\n", number, cents );
     /*int numbers[] = { 1000000, 1000, 100, 10 };
     char *ranks[] = {"million", "thousand", "hundreed", " "};
@@ -89,13 +89,35 @@ void wordNumbers( double sum )
     for (size_t i = 0; i < 4; i++)
     {
         int j = number / numbers[i];
-        
         if( j > 0 )
         {
-            if( j < 10 )
+            if( i == 3 )
+            printf( " %s %s ", array[2][j - 1],\
+             array[0][number % numbers[i] - 1] );
+            else if( j < 10 )
             printf( " %s %s ", array[0][j - 1], ranks[i] );
-            if( j > 10 && j < 20 )
+            else if( j > 10 && j < 20 )
             printf( " %s %s ", array[1][j - 11], ranks[i] );
+            else if( j > 20 && j < 100 && j % 10 != 0 )
+            printf( " %s %s %s ", array[2][(j/10) - 1],\
+             array[0][(j%10) - 1], ranks[i] );
+            else if( j < 100 && j % 10 == 0 )
+            printf( " %s %s ", array[2][(j/10) - 1], ranks[i] );
+            else if ( j >= 100 && j < 1000 )
+            {
+                int k = j;
+                printf( " %s %s ", array[0][(k/100) - 1], ranks[2] );
+                k %= 100;
+                if( k < 10 )
+                printf( " %s %s ", array[0][k - 1], ranks[i] );
+                else if( k > 10 && k < 20 )
+                printf( " %s %s ", array[1][k - 11], ranks[i] );
+                else if( k > 20 && k < 100 && k % 10 != 0 )
+                printf( " %s %s %s ", array[2][(k/10) - 1],\
+                array[0][(k%10) - 1], ranks[i] );
+                else if( k % 10 == 0 )
+                printf( " %s %s ", array[2][(j/10) - 1], ranks[i] );
+            }
         }
         number %= numbers[i];
     }
