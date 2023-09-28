@@ -15,6 +15,11 @@ int main()
     printf( "Total characters printed in this line is: %n", &y );
     printf( "%d\n", y );
     printf( "\nPrinting %% in format string.\n" );
+    printf( "\nExersise on page 429, presision for int, float, char *:\n" );
+    x = 873; double y1 = 123.65476;
+    char *string = "\nHappy birthday.\n";
+    printf( "Using presision for integers:\n" );
+    printf( "\t%.4d\n\t%.9d\n", x, x );//with . output with zero before number
     printf( "\n" );
     return 0;
 }
