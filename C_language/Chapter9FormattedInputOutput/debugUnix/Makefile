@@ -129,6 +129,32 @@ p427/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p427.dir/build.make src/CMakeFiles/p427.dir/build
 .PHONY : p427/fast
 
+#=============================================================================
+# Target rules for targets named ex9_4
+
+# Build rule for target.
+ex9_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex9_4
+.PHONY : ex9_4
+
+# fast build rule for target.
+ex9_4/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_4.dir/build.make src/CMakeFiles/ex9_4.dir/build
+.PHONY : ex9_4/fast
+
+#=============================================================================
+# Target rules for targets named ex9_8
+
+# Build rule for target.
+ex9_8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex9_8
+.PHONY : ex9_8
+
+# fast build rule for target.
+ex9_8/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_8.dir/build.make src/CMakeFiles/ex9_8.dir/build
+.PHONY : ex9_8/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -137,6 +163,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex9_4"
+	@echo "... ex9_8"
 	@echo "... p427"
 .PHONY : help
 

@@ -50,4 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/p427.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex9_4.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex9_8.dir/DependInfo.cmake"
   )

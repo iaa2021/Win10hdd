@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ch9"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "chapter9",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ex9_4::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex9_4-Debug-64bf8911b7be55edc7ff.json",
+					"name" : "ex9_4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ex9_8::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex9_8-Debug-da57e85857caed389a86.json",
+					"name" : "ex9_8",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "p427::@145eef247bfb46b6828c",
+					"jsonFile" : "target-p427-Debug-149285d745a9041a6db5.json",
+					"name" : "p427",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix",
+		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

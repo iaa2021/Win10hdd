@@ -101,6 +101,70 @@ build src/p427: C_EXECUTABLE_LINKER__p427_Release src/CMakeFiles/p427.dir/p427.c
   TARGET_FILE = src/p427
   TARGET_PDB = p427.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex9_4
+
+
+#############################################
+# Order-only phony target for ex9_4
+
+build cmake_object_order_depends_target_ex9_4: phony || src/CMakeFiles/ex9_4.dir
+
+build src/CMakeFiles/ex9_4.dir/ex9_4.c.o: C_COMPILER__ex9_4_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/ex9_4.c || cmake_object_order_depends_target_ex9_4
+  DEP_FILE = src/CMakeFiles/ex9_4.dir/ex9_4.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/.
+  OBJECT_DIR = src/CMakeFiles/ex9_4.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex9_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex9_4
+
+
+#############################################
+# Link the executable src/ex9_4
+
+build src/ex9_4: C_EXECUTABLE_LINKER__ex9_4_Release src/CMakeFiles/ex9_4.dir/ex9_4.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex9_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex9_4
+  TARGET_PDB = ex9_4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex9_8
+
+
+#############################################
+# Order-only phony target for ex9_8
+
+build cmake_object_order_depends_target_ex9_8: phony || src/CMakeFiles/ex9_8.dir
+
+build src/CMakeFiles/ex9_8.dir/ex9_8.c.o: C_COMPILER__ex9_8_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/ex9_8.c || cmake_object_order_depends_target_ex9_8
+  DEP_FILE = src/CMakeFiles/ex9_8.dir/ex9_8.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/.
+  OBJECT_DIR = src/CMakeFiles/ex9_8.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex9_8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex9_8
+
+
+#############################################
+# Link the executable src/ex9_8
+
+build src/ex9_8: C_EXECUTABLE_LINKER__ex9_8_Release src/CMakeFiles/ex9_8.dir/ex9_8.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex9_8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex9_8
+  TARGET_PDB = ex9_8.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -128,6 +192,10 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build ex9_4: phony src/ex9_4
+
+build ex9_8: phony src/ex9_8
+
 build p427: phony src/p427
 
 # =============================================================================
@@ -145,7 +213,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja/src
 
-build src/all: phony src/p427
+build src/all: phony src/p427 src/ex9_4 src/ex9_8
 
 # =============================================================================
 # Built-in targets

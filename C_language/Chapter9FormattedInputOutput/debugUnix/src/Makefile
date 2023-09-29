@@ -130,6 +130,82 @@ p427/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p427.dir/build.make src/CMakeFiles/p427.dir/build
 .PHONY : p427/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex9_4.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex9_4.dir/rule
+.PHONY : src/CMakeFiles/ex9_4.dir/rule
+
+# Convenience name for target.
+ex9_4: src/CMakeFiles/ex9_4.dir/rule
+.PHONY : ex9_4
+
+# fast build rule for target.
+ex9_4/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_4.dir/build.make src/CMakeFiles/ex9_4.dir/build
+.PHONY : ex9_4/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex9_8.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex9_8.dir/rule
+.PHONY : src/CMakeFiles/ex9_8.dir/rule
+
+# Convenience name for target.
+ex9_8: src/CMakeFiles/ex9_8.dir/rule
+.PHONY : ex9_8
+
+# fast build rule for target.
+ex9_8/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_8.dir/build.make src/CMakeFiles/ex9_8.dir/build
+.PHONY : ex9_8/fast
+
+ex9_4.o: ex9_4.c.o
+.PHONY : ex9_4.o
+
+# target to build an object file
+ex9_4.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_4.dir/build.make src/CMakeFiles/ex9_4.dir/ex9_4.c.o
+.PHONY : ex9_4.c.o
+
+ex9_4.i: ex9_4.c.i
+.PHONY : ex9_4.i
+
+# target to preprocess a source file
+ex9_4.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_4.dir/build.make src/CMakeFiles/ex9_4.dir/ex9_4.c.i
+.PHONY : ex9_4.c.i
+
+ex9_4.s: ex9_4.c.s
+.PHONY : ex9_4.s
+
+# target to generate assembly for a file
+ex9_4.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_4.dir/build.make src/CMakeFiles/ex9_4.dir/ex9_4.c.s
+.PHONY : ex9_4.c.s
+
+ex9_8.o: ex9_8.c.o
+.PHONY : ex9_8.o
+
+# target to build an object file
+ex9_8.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_8.dir/build.make src/CMakeFiles/ex9_8.dir/ex9_8.c.o
+.PHONY : ex9_8.c.o
+
+ex9_8.i: ex9_8.c.i
+.PHONY : ex9_8.i
+
+# target to preprocess a source file
+ex9_8.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_8.dir/build.make src/CMakeFiles/ex9_8.dir/ex9_8.c.i
+.PHONY : ex9_8.c.i
+
+ex9_8.s: ex9_8.c.s
+.PHONY : ex9_8.s
+
+# target to generate assembly for a file
+ex9_8.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_8.dir/build.make src/CMakeFiles/ex9_8.dir/ex9_8.c.s
+.PHONY : ex9_8.c.s
+
 p427.o: p427.c.o
 .PHONY : p427.o
 
@@ -162,7 +238,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex9_4"
+	@echo "... ex9_8"
 	@echo "... p427"
+	@echo "... ex9_4.o"
+	@echo "... ex9_4.i"
+	@echo "... ex9_4.s"
+	@echo "... ex9_8.o"
+	@echo "... ex9_8.i"
+	@echo "... ex9_8.s"
 	@echo "... p427.o"
 	@echo "... p427.i"
 	@echo "... p427.s"
