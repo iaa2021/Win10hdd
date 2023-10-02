@@ -158,6 +158,44 @@ ex9_8/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_8.dir/build.make src/CMakeFiles/ex9_8.dir/build
 .PHONY : ex9_8/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex9_12.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex9_12.dir/rule
+.PHONY : src/CMakeFiles/ex9_12.dir/rule
+
+# Convenience name for target.
+ex9_12: src/CMakeFiles/ex9_12.dir/rule
+.PHONY : ex9_12
+
+# fast build rule for target.
+ex9_12/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_12.dir/build.make src/CMakeFiles/ex9_12.dir/build
+.PHONY : ex9_12/fast
+
+ex9_12.o: ex9_12.c.o
+.PHONY : ex9_12.o
+
+# target to build an object file
+ex9_12.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_12.dir/build.make src/CMakeFiles/ex9_12.dir/ex9_12.c.o
+.PHONY : ex9_12.c.o
+
+ex9_12.i: ex9_12.c.i
+.PHONY : ex9_12.i
+
+# target to preprocess a source file
+ex9_12.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_12.dir/build.make src/CMakeFiles/ex9_12.dir/ex9_12.c.i
+.PHONY : ex9_12.c.i
+
+ex9_12.s: ex9_12.c.s
+.PHONY : ex9_12.s
+
+# target to generate assembly for a file
+ex9_12.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_12.dir/build.make src/CMakeFiles/ex9_12.dir/ex9_12.c.s
+.PHONY : ex9_12.c.s
+
 ex9_4.o: ex9_4.c.o
 .PHONY : ex9_4.o
 
@@ -238,9 +276,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex9_12"
 	@echo "... ex9_4"
 	@echo "... ex9_8"
 	@echo "... p427"
+	@echo "... ex9_12.o"
+	@echo "... ex9_12.i"
+	@echo "... ex9_12.s"
 	@echo "... ex9_4.o"
 	@echo "... ex9_4.i"
 	@echo "... ex9_4.s"

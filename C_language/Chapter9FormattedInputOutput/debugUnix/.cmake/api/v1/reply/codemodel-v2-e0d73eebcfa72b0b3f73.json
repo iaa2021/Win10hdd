@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -20,7 +20,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -32,11 +32,12 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -61,7 +62,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -69,22 +71,29 @@
 			[
 				{
 					"directoryIndex" : 1,
+					"id" : "ex9_12::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ex9_12-Debug-5da80074156f09f270cc.json",
+					"name" : "ex9_12",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
 					"id" : "ex9_4::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex9_4-Release-4eb3827afdd56b336005.json",
+					"jsonFile" : "target-ex9_4-Debug-9939c233cd3f518db761.json",
 					"name" : "ex9_4",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex9_8::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex9_8-Release-27646b9dca695baf22ae.json",
+					"jsonFile" : "target-ex9_8-Debug-54f2d2f78313a179dd2f.json",
 					"name" : "ex9_8",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "p427::@145eef247bfb46b6828c",
-					"jsonFile" : "target-p427-Release-367a6b3c087a35b6cd29.json",
+					"jsonFile" : "target-p427-Debug-4446874e445b7071b425.json",
 					"name" : "p427",
 					"projectIndex" : 1
 				}
@@ -94,7 +103,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja",
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix",
 		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput"
 	},
 	"version" : 

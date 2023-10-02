@@ -155,6 +155,19 @@ ex9_8/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_8.dir/build.make src/CMakeFiles/ex9_8.dir/build
 .PHONY : ex9_8/fast
 
+#=============================================================================
+# Target rules for targets named ex9_12
+
+# Build rule for target.
+ex9_12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex9_12
+.PHONY : ex9_12
+
+# fast build rule for target.
+ex9_12/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_12.dir/build.make src/CMakeFiles/ex9_12.dir/build
+.PHONY : ex9_12/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,6 +176,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex9_12"
 	@echo "... ex9_4"
 	@echo "... ex9_8"
 	@echo "... p427"

@@ -165,6 +165,38 @@ build src/ex9_8: C_EXECUTABLE_LINKER__ex9_8_Release src/CMakeFiles/ex9_8.dir/ex9
   TARGET_FILE = src/ex9_8
   TARGET_PDB = ex9_8.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex9_12
+
+
+#############################################
+# Order-only phony target for ex9_12
+
+build cmake_object_order_depends_target_ex9_12: phony || src/CMakeFiles/ex9_12.dir
+
+build src/CMakeFiles/ex9_12.dir/ex9_12.c.o: C_COMPILER__ex9_12_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/ex9_12.c || cmake_object_order_depends_target_ex9_12
+  DEP_FILE = src/CMakeFiles/ex9_12.dir/ex9_12.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/.
+  OBJECT_DIR = src/CMakeFiles/ex9_12.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex9_12.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex9_12
+
+
+#############################################
+# Link the executable src/ex9_12
+
+build src/ex9_12: C_EXECUTABLE_LINKER__ex9_12_Release src/CMakeFiles/ex9_12.dir/ex9_12.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex9_12.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex9_12
+  TARGET_PDB = ex9_12.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -192,6 +224,8 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build ex9_12: phony src/ex9_12
+
 build ex9_4: phony src/ex9_4
 
 build ex9_8: phony src/ex9_8
@@ -213,7 +247,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja/src
 
-build src/all: phony src/p427 src/ex9_4 src/ex9_8
+build src/all: phony src/p427 src/ex9_4 src/ex9_8 src/ex9_12
 
 # =============================================================================
 # Built-in targets

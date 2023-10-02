@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex9_12.dir/ex9_12.c.o -o ex9_12 
