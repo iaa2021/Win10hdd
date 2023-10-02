@@ -20,6 +20,11 @@ int main()
         if( i % 7 == 0 )
         printf( "\n" );
     }
+    printf( "\nExersise 9.20\n" );
+    double number = 9876.12345;
+    printf( "%.1lf, ", number );
+    printf( "%.6lf, ", number );
+    
     printf( "\n" );
     return 0;
 }
