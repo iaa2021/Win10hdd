@@ -10,16 +10,23 @@ int main()
     printf( "\nSize of char = %zu\nunsigned = %zu\n",sizeof(char), sizeof(unsigned));
     printf( "\nint = %zu\nfloat = %zu\n", sizeof(int), sizeof(float) );
     printf("\ndouble = %zu\n", sizeof(double));
-    unsigned number;
+    unsigned number, number1;
     printf( "\nInput number: " );
     scanf( "%u", &number );
     displayBits( number );
+    printf( "\nInput number1: " );
+    scanf( "%u", &number1 );
+    printf( "\n%u OR %u = ", number, number1 );
+    displayBits( number|number1 );
+    printf( "\n%u XOR %u = ", number, number1 );
+    displayBits( number^number1 );
     printf( "\n" );
     return 0;
 }
 void displayBits( unsigned value )
 {
     unsigned c, Mask = 1 << 31;
+    printf( "\n%u = ", value );
     for (c = 1; c <= 31; c++)
     {
         putchar( value & Mask? '1' : '0' );
