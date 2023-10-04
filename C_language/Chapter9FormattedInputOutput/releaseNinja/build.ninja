@@ -197,6 +197,38 @@ build src/ex9_12: C_EXECUTABLE_LINKER__ex9_12_Release src/CMakeFiles/ex9_12.dir/
   TARGET_FILE = src/ex9_12
   TARGET_PDB = ex9_12.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target p465
+
+
+#############################################
+# Order-only phony target for p465
+
+build cmake_object_order_depends_target_p465: phony || src/CMakeFiles/p465.dir
+
+build src/CMakeFiles/p465.dir/p465.c.o: C_COMPILER__p465_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/p465.c || cmake_object_order_depends_target_p465
+  DEP_FILE = src/CMakeFiles/p465.dir/p465.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/.
+  OBJECT_DIR = src/CMakeFiles/p465.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/p465.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p465
+
+
+#############################################
+# Link the executable src/p465
+
+build src/p465: C_EXECUTABLE_LINKER__p465_Release src/CMakeFiles/p465.dir/p465.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/p465.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/p465
+  TARGET_PDB = p465.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -232,6 +264,8 @@ build ex9_8: phony src/ex9_8
 
 build p427: phony src/p427
 
+build p465: phony src/p465
+
 # =============================================================================
 # Folder targets.
 
@@ -247,7 +281,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja/src
 
-build src/all: phony src/p427 src/ex9_4 src/ex9_8 src/ex9_12
+build src/all: phony src/p427 src/ex9_4 src/ex9_8 src/ex9_12 src/p465
 
 # =============================================================================
 # Built-in targets

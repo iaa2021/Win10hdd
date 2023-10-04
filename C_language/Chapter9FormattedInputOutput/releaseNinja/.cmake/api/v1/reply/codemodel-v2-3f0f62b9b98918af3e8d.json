@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -20,7 +20,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -33,11 +33,12 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -63,7 +64,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -72,29 +74,36 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "ex9_12::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex9_12-Debug-5da80074156f09f270cc.json",
+					"jsonFile" : "target-ex9_12-Release-18c96b313abbf2890dfd.json",
 					"name" : "ex9_12",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex9_4::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex9_4-Debug-9939c233cd3f518db761.json",
+					"jsonFile" : "target-ex9_4-Release-732ec2fb78ed467a3121.json",
 					"name" : "ex9_4",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex9_8::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex9_8-Debug-54f2d2f78313a179dd2f.json",
+					"jsonFile" : "target-ex9_8-Release-8176404003191ca9ff66.json",
 					"name" : "ex9_8",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "p427::@145eef247bfb46b6828c",
-					"jsonFile" : "target-p427-Debug-4446874e445b7071b425.json",
+					"jsonFile" : "target-p427-Release-c4c913602a9783965474.json",
 					"name" : "p427",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "p465::@145eef247bfb46b6828c",
+					"jsonFile" : "target-p465-Release-5c2c6a4030e5d2a44158.json",
+					"name" : "p465",
 					"projectIndex" : 1
 				}
 			]
@@ -103,7 +112,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix",
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja",
 		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput"
 	},
 	"version" : 

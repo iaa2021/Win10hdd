@@ -9,8 +9,9 @@ add_executable( p427 p427.c )
 add_executable( ex9_4 ex9_4.c )
 add_executable( ex9_8 ex9_8.c )
 add_executable( ex9_12 ex9_12.c )
+add_executable( p465 p465.c )
 
-set( targets p427 ex9_4 ex9_8 ex9_12 )
+set( targets p427 ex9_4 ex9_8 ex9_12 p465 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

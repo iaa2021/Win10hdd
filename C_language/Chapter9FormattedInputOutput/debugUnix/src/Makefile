@@ -172,6 +172,20 @@ ex9_12/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex9_12.dir/build.make src/CMakeFiles/ex9_12.dir/build
 .PHONY : ex9_12/fast
 
+# Convenience name for target.
+src/CMakeFiles/p465.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p465.dir/rule
+.PHONY : src/CMakeFiles/p465.dir/rule
+
+# Convenience name for target.
+p465: src/CMakeFiles/p465.dir/rule
+.PHONY : p465
+
+# fast build rule for target.
+p465/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p465.dir/build.make src/CMakeFiles/p465.dir/build
+.PHONY : p465/fast
+
 ex9_12.o: ex9_12.c.o
 .PHONY : ex9_12.o
 
@@ -268,6 +282,30 @@ p427.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p427.dir/build.make src/CMakeFiles/p427.dir/p427.c.s
 .PHONY : p427.c.s
 
+p465.o: p465.c.o
+.PHONY : p465.o
+
+# target to build an object file
+p465.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p465.dir/build.make src/CMakeFiles/p465.dir/p465.c.o
+.PHONY : p465.c.o
+
+p465.i: p465.c.i
+.PHONY : p465.i
+
+# target to preprocess a source file
+p465.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p465.dir/build.make src/CMakeFiles/p465.dir/p465.c.i
+.PHONY : p465.c.i
+
+p465.s: p465.c.s
+.PHONY : p465.s
+
+# target to generate assembly for a file
+p465.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p465.dir/build.make src/CMakeFiles/p465.dir/p465.c.s
+.PHONY : p465.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -280,6 +318,7 @@ help:
 	@echo "... ex9_4"
 	@echo "... ex9_8"
 	@echo "... p427"
+	@echo "... p465"
 	@echo "... ex9_12.o"
 	@echo "... ex9_12.i"
 	@echo "... ex9_12.s"
@@ -292,6 +331,9 @@ help:
 	@echo "... p427.o"
 	@echo "... p427.i"
 	@echo "... p427.s"
+	@echo "... p465.o"
+	@echo "... p465.i"
+	@echo "... p465.s"
 .PHONY : help
 
 
