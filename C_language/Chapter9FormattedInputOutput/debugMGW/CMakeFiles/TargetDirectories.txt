@@ -1,0 +1,9 @@
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugMGW/CMakeFiles/edit_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugMGW/CMakeFiles/rebuild_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugMGW/src/CMakeFiles/p427.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugMGW/src/CMakeFiles/ex9_4.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugMGW/src/CMakeFiles/ex9_8.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugMGW/src/CMakeFiles/ex9_12.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugMGW/src/CMakeFiles/p465.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugMGW/src/CMakeFiles/edit_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugMGW/src/CMakeFiles/rebuild_cache.dir

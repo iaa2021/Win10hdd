@@ -20,6 +20,10 @@ int main()
     displayBits( number|number1 );
     printf( "\n%u XOR %u = ", number, number1 );
     displayBits( number^number1 );
+    printf( "\nLeft shift on 8 bits of %u = ", number );
+    displayBits( number << 8 );
+    printf( "\nRight shift on 8 bits of %u = ", number );
+    displayBits( number >> 8 );
     printf( "\n" );
     return 0;
 }
