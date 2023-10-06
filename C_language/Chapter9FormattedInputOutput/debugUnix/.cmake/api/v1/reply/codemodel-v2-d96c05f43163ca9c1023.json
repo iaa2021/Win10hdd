@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -20,7 +20,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -34,11 +34,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -65,7 +66,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -74,36 +76,43 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "ex9_12::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex9_12-Release-18c96b313abbf2890dfd.json",
+					"jsonFile" : "target-ex9_12-Debug-8e6c82f87a4e1ccc7d96.json",
 					"name" : "ex9_12",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex9_4::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex9_4-Release-732ec2fb78ed467a3121.json",
+					"jsonFile" : "target-ex9_4-Debug-8c6e19de69ef5d347f1b.json",
 					"name" : "ex9_4",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex9_8::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex9_8-Release-8176404003191ca9ff66.json",
+					"jsonFile" : "target-ex9_8-Debug-9bda6757757908191b8a.json",
 					"name" : "ex9_8",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "p427::@145eef247bfb46b6828c",
-					"jsonFile" : "target-p427-Release-c4c913602a9783965474.json",
+					"jsonFile" : "target-p427-Debug-994f4c10cc7d89ecf6f2.json",
 					"name" : "p427",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "p465::@145eef247bfb46b6828c",
-					"jsonFile" : "target-p465-Release-5c2c6a4030e5d2a44158.json",
+					"jsonFile" : "target-p465-Debug-df35106f7e6b99045786.json",
 					"name" : "p465",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "p473::@145eef247bfb46b6828c",
+					"jsonFile" : "target-p473-Debug-9cc2bc6874b24519a77a.json",
+					"name" : "p473",
 					"projectIndex" : 1
 				}
 			]
@@ -112,7 +121,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja",
+		"build" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix",
 		"source" : "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput"
 	},
 	"version" : 
