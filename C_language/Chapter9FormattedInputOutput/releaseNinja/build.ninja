@@ -229,6 +229,38 @@ build src/p465: C_EXECUTABLE_LINKER__p465_Release src/CMakeFiles/p465.dir/p465.c
   TARGET_FILE = src/p465
   TARGET_PDB = p465.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target p473
+
+
+#############################################
+# Order-only phony target for p473
+
+build cmake_object_order_depends_target_p473: phony || src/CMakeFiles/p473.dir
+
+build src/CMakeFiles/p473.dir/p473.c.o: C_COMPILER__p473_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/p473.c || cmake_object_order_depends_target_p473
+  DEP_FILE = src/CMakeFiles/p473.dir/p473.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/src/.
+  OBJECT_DIR = src/CMakeFiles/p473.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/p473.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p473
+
+
+#############################################
+# Link the executable src/p473
+
+build src/p473: C_EXECUTABLE_LINKER__p473_Release src/CMakeFiles/p473.dir/p473.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/p473.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/p473
+  TARGET_PDB = p473.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -266,6 +298,8 @@ build p427: phony src/p427
 
 build p465: phony src/p465
 
+build p473: phony src/p473
+
 # =============================================================================
 # Folder targets.
 
@@ -281,7 +315,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/releaseNinja/src
 
-build src/all: phony src/p427 src/ex9_4 src/ex9_8 src/ex9_12 src/p465
+build src/all: phony src/p427 src/ex9_4 src/ex9_8 src/ex9_12 src/p465 src/p473
 
 # =============================================================================
 # Built-in targets

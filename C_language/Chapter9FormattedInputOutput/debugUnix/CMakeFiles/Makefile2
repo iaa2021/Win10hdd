@@ -83,6 +83,7 @@ src/all: src/CMakeFiles/ex9_4.dir/all
 src/all: src/CMakeFiles/ex9_8.dir/all
 src/all: src/CMakeFiles/ex9_12.dir/all
 src/all: src/CMakeFiles/p465.dir/all
+src/all: src/CMakeFiles/p473.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -95,6 +96,7 @@ src/clean: src/CMakeFiles/ex9_4.dir/clean
 src/clean: src/CMakeFiles/ex9_8.dir/clean
 src/clean: src/CMakeFiles/ex9_12.dir/clean
 src/clean: src/CMakeFiles/p465.dir/clean
+src/clean: src/CMakeFiles/p473.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -226,6 +228,32 @@ p465: src/CMakeFiles/p465.dir/rule
 src/CMakeFiles/p465.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p465.dir/build.make src/CMakeFiles/p465.dir/clean
 .PHONY : src/CMakeFiles/p465.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/p473.dir
+
+# All Build rule for target.
+src/CMakeFiles/p473.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p473.dir/build.make src/CMakeFiles/p473.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p473.dir/build.make src/CMakeFiles/p473.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix/CMakeFiles --progress-num=11,12 "Built target p473"
+.PHONY : src/CMakeFiles/p473.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/p473.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p473.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/p473.dir/rule
+
+# Convenience name for target.
+p473: src/CMakeFiles/p473.dir/rule
+.PHONY : p473
+
+# clean rule for target.
+src/CMakeFiles/p473.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p473.dir/build.make src/CMakeFiles/p473.dir/clean
+.PHONY : src/CMakeFiles/p473.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
