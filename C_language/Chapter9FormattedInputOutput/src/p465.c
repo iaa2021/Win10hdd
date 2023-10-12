@@ -31,7 +31,7 @@ void displayBits( unsigned value )
 {
     unsigned c, Mask = 1 << 31;
     printf( "\n%u = ", value );
-    for (c = 1; c <= 31; c++)
+    for (c = 1; c <= 32; c++)
     {
         putchar( value & Mask? '1' : '0' );
         value <<= 1;
