@@ -51,4 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/ex10_3.dir/DependInfo.cmake"
   "src/CMakeFiles/ex10_6.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex10_10.dir/DependInfo.cmake"
   )

@@ -144,6 +144,44 @@ ex10_6/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_6.dir/build.make src/CMakeFiles/ex10_6.dir/build
 .PHONY : ex10_6/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex10_10.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex10_10.dir/rule
+.PHONY : src/CMakeFiles/ex10_10.dir/rule
+
+# Convenience name for target.
+ex10_10: src/CMakeFiles/ex10_10.dir/rule
+.PHONY : ex10_10
+
+# fast build rule for target.
+ex10_10/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_10.dir/build.make src/CMakeFiles/ex10_10.dir/build
+.PHONY : ex10_10/fast
+
+ex10_10.o: ex10_10.c.o
+.PHONY : ex10_10.o
+
+# target to build an object file
+ex10_10.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_10.dir/build.make src/CMakeFiles/ex10_10.dir/ex10_10.c.o
+.PHONY : ex10_10.c.o
+
+ex10_10.i: ex10_10.c.i
+.PHONY : ex10_10.i
+
+# target to preprocess a source file
+ex10_10.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_10.dir/build.make src/CMakeFiles/ex10_10.dir/ex10_10.c.i
+.PHONY : ex10_10.c.i
+
+ex10_10.s: ex10_10.c.s
+.PHONY : ex10_10.s
+
+# target to generate assembly for a file
+ex10_10.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_10.dir/build.make src/CMakeFiles/ex10_10.dir/ex10_10.c.s
+.PHONY : ex10_10.c.s
+
 ex10_3.o: ex10_3.c.o
 .PHONY : ex10_3.o
 
@@ -200,8 +238,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex10_10"
 	@echo "... ex10_3"
 	@echo "... ex10_6"
+	@echo "... ex10_10.o"
+	@echo "... ex10_10.i"
+	@echo "... ex10_10.s"
 	@echo "... ex10_3.o"
 	@echo "... ex10_3.i"
 	@echo "... ex10_3.s"
