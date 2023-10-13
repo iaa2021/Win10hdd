@@ -165,6 +165,38 @@ build src/ex10_10: C_EXECUTABLE_LINKER__ex10_10_Release src/CMakeFiles/ex10_10.d
   TARGET_FILE = src/ex10_10
   TARGET_PDB = ex10_10.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex10_13
+
+
+#############################################
+# Order-only phony target for ex10_13
+
+build cmake_object_order_depends_target_ex10_13: phony || src/CMakeFiles/ex10_13.dir
+
+build src/CMakeFiles/ex10_13.dir/ex10_13.c.o: C_COMPILER__ex10_13_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/src/ex10_13.c || cmake_object_order_depends_target_ex10_13
+  DEP_FILE = src/CMakeFiles/ex10_13.dir/ex10_13.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/src/.
+  OBJECT_DIR = src/CMakeFiles/ex10_13.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex10_13.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex10_13
+
+
+#############################################
+# Link the executable src/ex10_13
+
+build src/ex10_13: C_EXECUTABLE_LINKER__ex10_13_Release src/CMakeFiles/ex10_13.dir/ex10_13.c.o
+  FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = src/CMakeFiles/ex10_13.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex10_13
+  TARGET_PDB = ex10_13.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -194,6 +226,8 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 
 build ex10_10: phony src/ex10_10
 
+build ex10_13: phony src/ex10_13
+
 build ex10_3: phony src/ex10_3
 
 build ex10_6: phony src/ex10_6
@@ -213,7 +247,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/releaseNinja/src
 
-build src/all: phony src/ex10_3 src/ex10_6 src/ex10_10
+build src/all: phony src/ex10_3 src/ex10_6 src/ex10_10 src/ex10_13
 
 # =============================================================================
 # Built-in targets
