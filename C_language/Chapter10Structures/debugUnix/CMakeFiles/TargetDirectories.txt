@@ -4,5 +4,6 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/src/CMakeFiles/ex10_6.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/src/CMakeFiles/ex10_10.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/src/CMakeFiles/ex10_13.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/src/CMakeFiles/ex10_17.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/src/CMakeFiles/rebuild_cache.dir

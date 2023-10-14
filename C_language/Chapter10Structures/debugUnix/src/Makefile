@@ -172,6 +172,20 @@ ex10_13/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_13.dir/build.make src/CMakeFiles/ex10_13.dir/build
 .PHONY : ex10_13/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex10_17.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex10_17.dir/rule
+.PHONY : src/CMakeFiles/ex10_17.dir/rule
+
+# Convenience name for target.
+ex10_17: src/CMakeFiles/ex10_17.dir/rule
+.PHONY : ex10_17
+
+# fast build rule for target.
+ex10_17/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/build
+.PHONY : ex10_17/fast
+
 ex10_10.o: ex10_10.c.o
 .PHONY : ex10_10.o
 
@@ -219,6 +233,30 @@ ex10_13.s: ex10_13.c.s
 ex10_13.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_13.dir/build.make src/CMakeFiles/ex10_13.dir/ex10_13.c.s
 .PHONY : ex10_13.c.s
+
+ex10_17.o: ex10_17.c.o
+.PHONY : ex10_17.o
+
+# target to build an object file
+ex10_17.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/ex10_17.c.o
+.PHONY : ex10_17.c.o
+
+ex10_17.i: ex10_17.c.i
+.PHONY : ex10_17.i
+
+# target to preprocess a source file
+ex10_17.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/ex10_17.c.i
+.PHONY : ex10_17.c.i
+
+ex10_17.s: ex10_17.c.s
+.PHONY : ex10_17.s
+
+# target to generate assembly for a file
+ex10_17.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/ex10_17.c.s
+.PHONY : ex10_17.c.s
 
 ex10_3.o: ex10_3.c.o
 .PHONY : ex10_3.o
@@ -278,6 +316,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex10_10"
 	@echo "... ex10_13"
+	@echo "... ex10_17"
 	@echo "... ex10_3"
 	@echo "... ex10_6"
 	@echo "... ex10_10.o"
@@ -286,6 +325,9 @@ help:
 	@echo "... ex10_13.o"
 	@echo "... ex10_13.i"
 	@echo "... ex10_13.s"
+	@echo "... ex10_17.o"
+	@echo "... ex10_17.i"
+	@echo "... ex10_17.s"
 	@echo "... ex10_3.o"
 	@echo "... ex10_3.i"
 	@echo "... ex10_3.s"

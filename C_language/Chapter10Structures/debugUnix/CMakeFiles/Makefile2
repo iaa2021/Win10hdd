@@ -82,6 +82,7 @@ src/all: src/CMakeFiles/ex10_3.dir/all
 src/all: src/CMakeFiles/ex10_6.dir/all
 src/all: src/CMakeFiles/ex10_10.dir/all
 src/all: src/CMakeFiles/ex10_13.dir/all
+src/all: src/CMakeFiles/ex10_17.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -93,6 +94,7 @@ src/clean: src/CMakeFiles/ex10_3.dir/clean
 src/clean: src/CMakeFiles/ex10_6.dir/clean
 src/clean: src/CMakeFiles/ex10_10.dir/clean
 src/clean: src/CMakeFiles/ex10_13.dir/clean
+src/clean: src/CMakeFiles/ex10_17.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -102,7 +104,7 @@ src/clean: src/CMakeFiles/ex10_13.dir/clean
 src/CMakeFiles/ex10_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_3.dir/build.make src/CMakeFiles/ex10_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_3.dir/build.make src/CMakeFiles/ex10_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles --progress-num=5,6 "Built target ex10_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles --progress-num=7,8 "Built target ex10_3"
 .PHONY : src/CMakeFiles/ex10_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -128,7 +130,7 @@ src/CMakeFiles/ex10_3.dir/clean:
 src/CMakeFiles/ex10_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_6.dir/build.make src/CMakeFiles/ex10_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_6.dir/build.make src/CMakeFiles/ex10_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles --progress-num=7,8 "Built target ex10_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles --progress-num=9,10 "Built target ex10_6"
 .PHONY : src/CMakeFiles/ex10_6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -198,6 +200,32 @@ ex10_13: src/CMakeFiles/ex10_13.dir/rule
 src/CMakeFiles/ex10_13.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_13.dir/build.make src/CMakeFiles/ex10_13.dir/clean
 .PHONY : src/CMakeFiles/ex10_13.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex10_17.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex10_17.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles --progress-num=5,6 "Built target ex10_17"
+.PHONY : src/CMakeFiles/ex10_17.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex10_17.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex10_17.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/ex10_17.dir/rule
+
+# Convenience name for target.
+ex10_17: src/CMakeFiles/ex10_17.dir/rule
+.PHONY : ex10_17
+
+# clean rule for target.
+src/CMakeFiles/ex10_17.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/clean
+.PHONY : src/CMakeFiles/ex10_17.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
