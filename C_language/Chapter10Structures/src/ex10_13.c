@@ -1,7 +1,7 @@
 #include "config.h"
 #include "stdio.h"
 void displayBits( unsigned );
-unsigned packCharacters( unsigned, unsigned );
+unsigned packCharacters( char, char );
 void unpackCharacters( unsigned );
 int main()
 {
@@ -9,32 +9,37 @@ int main()
     printf( ".%d", PROJECT_VERSION_MINOR );
     printf( ".%d", PROJECT_VERSION_PATCH );
     printf( "\nExersise 10.13, pack characters.\n" );
-    printf( "Size of unsigned = %zu", sizeof(unsigned) );
-    unsigned value, value1, value2;
-    printf( "\nInput 2 integers: " );
-    scanf( "%u%u", &value, &value1 );
-    printf( "\n" ); displayBits(value);
-    printf( "\n" ); displayBits(value1);
-    printf( "\nPacked numbers yelds: %d", packCharacters( value, value1 ) );
+    printf( "Size of unsigned = %zu, size of char = %zu\n", sizeof(unsigned), \
+    sizeof( char ) );
+    unsigned value; char ch, ch1;
+    printf( "\nInput 2 characters: " );
+    scanf( "%c %c", &ch, &ch1 );
+    /*ch = getchar(); ch1 = getchar();*/
+    printf( "\nPacked numbers yelds: %d", packCharacters( ch, ch1 ) );
     printf( "\nInput value for unpack: " );
-    scanf( "%u", &value2 );
-    displayBits(value2);
-    unpackCharacters( value2 );
+    scanf( "%u", &value );
+    displayBits(value);
+    unpackCharacters( value );
     printf( "\n" );
     return 0;
 }
-unsigned packCharacters( unsigned number, unsigned number1 )
+unsigned packCharacters( char ch, char ch1 )
 {
-    unsigned number2 = number << 8;
-    number2 |= number1;
-    return number2;
+    unsigned number = 0;
+    number |= ch;
+    number <<= 8;
+    number |= ch1; 
+    return number;
 }
 void unpackCharacters( unsigned number )
 {
-    unsigned value = number >> 8;
-    unsigned value1 = number << 24;
-    value1 >>= 24;
-    printf( "\nValue %u contains %u and %u\n", number, value, value1 );
+    unsigned number1 = number;
+    char value = number1 >> 8;
+    number1 <<= 24; number1 >>= 24;
+    char value1 = number1;
+    printf( "\nValue %u contains:", number );
+    putchar( value ); printf( " and " ); putchar( value1 );
+    printf( "\nValue %u contains %c and %c.\n", number, value, value1 );
 }
 void displayBits( unsigned number )
 {
