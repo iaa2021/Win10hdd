@@ -1,7 +1,8 @@
 echo [*] running debug configuration with MinGW Makefiles
 
+cd ..
 cd debugMGW
 
-src/p465
+src/p502.exe
 
 cd ..
