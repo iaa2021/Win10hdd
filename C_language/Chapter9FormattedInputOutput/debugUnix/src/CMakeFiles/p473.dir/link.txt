@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p473.dir/p473.c.o -o p473 

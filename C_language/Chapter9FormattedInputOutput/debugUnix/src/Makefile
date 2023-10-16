@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1334/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1336/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1334/bin/cmake -E rm -f
+RM = /snap/cmake/1336/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1334/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/1336/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -185,6 +185,20 @@ p465: src/CMakeFiles/p465.dir/rule
 p465/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p465.dir/build.make src/CMakeFiles/p465.dir/build
 .PHONY : p465/fast
+
+# Convenience name for target.
+src/CMakeFiles/p473.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p473.dir/rule
+.PHONY : src/CMakeFiles/p473.dir/rule
+
+# Convenience name for target.
+p473: src/CMakeFiles/p473.dir/rule
+.PHONY : p473
+
+# fast build rule for target.
+p473/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p473.dir/build.make src/CMakeFiles/p473.dir/build
+.PHONY : p473/fast
 
 ex9_12.o: ex9_12.c.o
 .PHONY : ex9_12.o
@@ -306,6 +320,30 @@ p465.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p465.dir/build.make src/CMakeFiles/p465.dir/p465.c.s
 .PHONY : p465.c.s
 
+p473.o: p473.c.o
+.PHONY : p473.o
+
+# target to build an object file
+p473.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p473.dir/build.make src/CMakeFiles/p473.dir/p473.c.o
+.PHONY : p473.c.o
+
+p473.i: p473.c.i
+.PHONY : p473.i
+
+# target to preprocess a source file
+p473.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p473.dir/build.make src/CMakeFiles/p473.dir/p473.c.i
+.PHONY : p473.c.i
+
+p473.s: p473.c.s
+.PHONY : p473.s
+
+# target to generate assembly for a file
+p473.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter9FormattedInputOutput/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p473.dir/build.make src/CMakeFiles/p473.dir/p473.c.s
+.PHONY : p473.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -319,6 +357,7 @@ help:
 	@echo "... ex9_8"
 	@echo "... p427"
 	@echo "... p465"
+	@echo "... p473"
 	@echo "... ex9_12.o"
 	@echo "... ex9_12.i"
 	@echo "... ex9_12.s"
@@ -334,6 +373,9 @@ help:
 	@echo "... p465.o"
 	@echo "... p465.i"
 	@echo "... p465.s"
+	@echo "... p473.o"
+	@echo "... p473.i"
+	@echo "... p473.s"
 .PHONY : help
 
 

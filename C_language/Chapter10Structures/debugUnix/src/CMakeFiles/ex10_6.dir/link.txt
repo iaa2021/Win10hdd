@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex10_6.dir/ex10_6.c.o -o ex10_6 
