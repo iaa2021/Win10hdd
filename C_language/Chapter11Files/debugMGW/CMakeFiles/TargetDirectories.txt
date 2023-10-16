@@ -1,5 +1,6 @@
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugMGW/CMakeFiles/edit_cache.dir
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugMGW/CMakeFiles/rebuild_cache.dir
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugMGW/src/CMakeFiles/p502.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugMGW/src/CMakeFiles/some.dir
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugMGW/src/CMakeFiles/edit_cache.dir
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugMGW/src/CMakeFiles/rebuild_cache.dir

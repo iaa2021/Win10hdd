@@ -129,6 +129,20 @@ p502/fast:
 	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Chapter11Files\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\p502.dir\build.make src/CMakeFiles/p502.dir/build
 .PHONY : p502/fast
 
+# Convenience name for target.
+src/CMakeFiles/some.dir/rule:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Chapter11Files\debugMGW && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/some.dir/rule
+.PHONY : src/CMakeFiles/some.dir/rule
+
+# Convenience name for target.
+some: src/CMakeFiles/some.dir/rule
+.PHONY : some
+
+# fast build rule for target.
+some/fast:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Chapter11Files\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\some.dir\build.make src/CMakeFiles/some.dir/build
+.PHONY : some/fast
+
 p502.obj: p502.c.obj
 .PHONY : p502.obj
 
@@ -153,6 +167,30 @@ p502.c.s:
 	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Chapter11Files\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\p502.dir\build.make src/CMakeFiles/p502.dir/p502.c.s
 .PHONY : p502.c.s
 
+some.obj: some.c.obj
+.PHONY : some.obj
+
+# target to build an object file
+some.c.obj:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Chapter11Files\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\some.dir\build.make src/CMakeFiles/some.dir/some.c.obj
+.PHONY : some.c.obj
+
+some.i: some.c.i
+.PHONY : some.i
+
+# target to preprocess a source file
+some.c.i:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Chapter11Files\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\some.dir\build.make src/CMakeFiles/some.dir/some.c.i
+.PHONY : some.c.i
+
+some.s: some.c.s
+.PHONY : some.s
+
+# target to generate assembly for a file
+some.c.s:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Chapter11Files\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\some.dir\build.make src/CMakeFiles/some.dir/some.c.s
+.PHONY : some.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -162,9 +200,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... p502
+	@echo ... some
 	@echo ... p502.obj
 	@echo ... p502.i
 	@echo ... p502.s
+	@echo ... some.obj
+	@echo ... some.i
+	@echo ... some.s
 .PHONY : help
 
 

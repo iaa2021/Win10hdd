@@ -14,7 +14,12 @@ int main()
         printf("Input account, name, balance:\n");
         printf("Enter EOF to end input.\n");
         printf("? ");
-        scanf("%d%s%lf", account, name, balance);
+        scanf("%d%s%lf", &account, &name, &balance);
+    }
+    while(!feof(stdin)){
+        fprintf( cfPtr, "%-4d %-7s %-7.2lf\n", account, name, balance );
+        printf("? ");
+        scanf( "%d%s%lf", &account, &name, &balance );
     }
     fclose(cfPtr);
     printf( "\n" );

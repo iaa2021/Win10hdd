@@ -128,6 +128,19 @@ p502/fast:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\p502.dir\build.make src/CMakeFiles/p502.dir/build
 .PHONY : p502/fast
 
+#=============================================================================
+# Target rules for targets named some
+
+# Build rule for target.
+some: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 some
+.PHONY : some
+
+# fast build rule for target.
+some/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\some.dir\build.make src/CMakeFiles/some.dir/build
+.PHONY : some/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -137,6 +150,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... p502
+	@echo ... some
 .PHONY : help
 
 
