@@ -1,0 +1,10 @@
+^C:\USERS\IVANO\DESKTOP\GITSTORE\WIN10HDD\C_LANGUAGE\CHAPTER11FILES\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files -BC:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugVSdefault --check-stamp-file C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugVSdefault/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

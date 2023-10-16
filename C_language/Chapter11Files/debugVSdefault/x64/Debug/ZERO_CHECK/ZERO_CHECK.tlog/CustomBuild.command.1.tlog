@@ -1,0 +1,10 @@
+^C:\USERS\IVANO\DESKTOP\GITSTORE\WIN10HDD\C_LANGUAGE\CHAPTER11FILES\DEBUGVSDEFAULT\CMAKEFILES\1029DA5AE1B5E95E423C59D164522E81\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files -BC:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugVSdefault --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugVSdefault/ch10.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

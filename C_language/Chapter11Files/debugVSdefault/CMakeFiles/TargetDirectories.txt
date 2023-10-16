@@ -1,0 +1,5 @@
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugVSdefault/CMakeFiles/ALL_BUILD.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugVSdefault/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugVSdefault/src/CMakeFiles/p502.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugVSdefault/src/CMakeFiles/some.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugVSdefault/src/CMakeFiles/ALL_BUILD.dir

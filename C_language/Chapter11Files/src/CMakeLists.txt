@@ -1,5 +1,4 @@
 cmake_minimum_required( VERSION 3.5 )
-
 project( chapter10 VERSION 11.1.4 )
 
 configure_file( config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h )
@@ -18,4 +17,5 @@ C_STANDARD_REQUIRED ON
 
 target_include_directories( ${target} PRIVATE ${CMAKE_CURRENT_BINARY_DIR}
  PRIVATE . ) 
+
 endforeach()

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Chapter11Files\src\p502.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Chapter11Files\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1C90EE93-1563-3762-8B43-4CA154EA06C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
