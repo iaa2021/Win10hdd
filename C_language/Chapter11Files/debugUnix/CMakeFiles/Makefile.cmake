@@ -50,4 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/p502.dir/DependInfo.cmake"
+  "src/CMakeFiles/read.dir/DependInfo.cmake"
+  "src/CMakeFiles/inquery.dir/DependInfo.cmake"
   )

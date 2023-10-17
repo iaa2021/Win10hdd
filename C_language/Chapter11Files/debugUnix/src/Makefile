@@ -130,6 +130,58 @@ p502/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/build
 .PHONY : p502/fast
 
+# Convenience name for target.
+src/CMakeFiles/read.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/read.dir/rule
+.PHONY : src/CMakeFiles/read.dir/rule
+
+# Convenience name for target.
+read: src/CMakeFiles/read.dir/rule
+.PHONY : read
+
+# fast build rule for target.
+read/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/build
+.PHONY : read/fast
+
+# Convenience name for target.
+src/CMakeFiles/inquery.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/inquery.dir/rule
+.PHONY : src/CMakeFiles/inquery.dir/rule
+
+# Convenience name for target.
+inquery: src/CMakeFiles/inquery.dir/rule
+.PHONY : inquery
+
+# fast build rule for target.
+inquery/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/build
+.PHONY : inquery/fast
+
+inquery.o: inquery.c.o
+.PHONY : inquery.o
+
+# target to build an object file
+inquery.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/inquery.c.o
+.PHONY : inquery.c.o
+
+inquery.i: inquery.c.i
+.PHONY : inquery.i
+
+# target to preprocess a source file
+inquery.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/inquery.c.i
+.PHONY : inquery.c.i
+
+inquery.s: inquery.c.s
+.PHONY : inquery.s
+
+# target to generate assembly for a file
+inquery.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/inquery.c.s
+.PHONY : inquery.c.s
+
 p502.o: p502.c.o
 .PHONY : p502.o
 
@@ -154,6 +206,30 @@ p502.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/p502.c.s
 .PHONY : p502.c.s
 
+read.o: read.c.o
+.PHONY : read.o
+
+# target to build an object file
+read.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/read.c.o
+.PHONY : read.c.o
+
+read.i: read.c.i
+.PHONY : read.i
+
+# target to preprocess a source file
+read.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/read.c.i
+.PHONY : read.c.i
+
+read.s: read.c.s
+.PHONY : read.s
+
+# target to generate assembly for a file
+read.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/read.c.s
+.PHONY : read.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,10 +238,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... inquery"
 	@echo "... p502"
+	@echo "... read"
+	@echo "... inquery.o"
+	@echo "... inquery.i"
+	@echo "... inquery.s"
 	@echo "... p502.o"
 	@echo "... p502.i"
 	@echo "... p502.s"
+	@echo "... read.o"
+	@echo "... read.i"
+	@echo "... read.s"
 .PHONY : help
 
 

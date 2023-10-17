@@ -1,4 +1,4 @@
 echo [*]for hidden math functions
 cd ../hiddenMath
-cc ../src/ex5_28.c -lm
+gcc ../src/some.c -o some -lm 
 cd ..

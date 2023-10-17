@@ -102,6 +102,72 @@ build src/p502: C_EXECUTABLE_LINKER__p502_Release src/CMakeFiles/p502.dir/p502.c
   TARGET_FILE = src/p502
   TARGET_PDB = p502.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target read
+
+
+#############################################
+# Order-only phony target for read
+
+build cmake_object_order_depends_target_read: phony || src/CMakeFiles/read.dir
+
+build src/CMakeFiles/read.dir/read.c.o: C_COMPILER__read_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/read.c || cmake_object_order_depends_target_read
+  DEP_FILE = src/CMakeFiles/read.dir/read.c.o.d
+  FLAGS = -lm -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/.
+  OBJECT_DIR = src/CMakeFiles/read.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/read.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target read
+
+
+#############################################
+# Link the executable src/read
+
+build src/read: C_EXECUTABLE_LINKER__read_Release src/CMakeFiles/read.dir/read.c.o
+  FLAGS = -lm -O3 -DNDEBUG
+  LINK_FLAGS = -lm
+  OBJECT_DIR = src/CMakeFiles/read.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/read
+  TARGET_PDB = read.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target inquery
+
+
+#############################################
+# Order-only phony target for inquery
+
+build cmake_object_order_depends_target_inquery: phony || src/CMakeFiles/inquery.dir
+
+build src/CMakeFiles/inquery.dir/inquery.c.o: C_COMPILER__inquery_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/inquery.c || cmake_object_order_depends_target_inquery
+  DEP_FILE = src/CMakeFiles/inquery.dir/inquery.c.o.d
+  FLAGS = -lm -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/.
+  OBJECT_DIR = src/CMakeFiles/inquery.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/inquery.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target inquery
+
+
+#############################################
+# Link the executable src/inquery
+
+build src/inquery: C_EXECUTABLE_LINKER__inquery_Release src/CMakeFiles/inquery.dir/inquery.c.o
+  FLAGS = -lm -O3 -DNDEBUG
+  LINK_FLAGS = -lm
+  OBJECT_DIR = src/CMakeFiles/inquery.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/inquery
+  TARGET_PDB = inquery.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -129,7 +195,11 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build inquery: phony src/inquery
+
 build p502: phony src/p502
+
+build read: phony src/read
 
 # =============================================================================
 # Folder targets.
@@ -146,7 +216,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src
 
-build src/all: phony src/p502
+build src/all: phony src/p502 src/read src/inquery
 
 # =============================================================================
 # Built-in targets

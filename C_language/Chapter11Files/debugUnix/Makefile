@@ -129,6 +129,32 @@ p502/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/build
 .PHONY : p502/fast
 
+#=============================================================================
+# Target rules for targets named read
+
+# Build rule for target.
+read: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 read
+.PHONY : read
+
+# fast build rule for target.
+read/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/build
+.PHONY : read/fast
+
+#=============================================================================
+# Target rules for targets named inquery
+
+# Build rule for target.
+inquery: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inquery
+.PHONY : inquery
+
+# fast build rule for target.
+inquery/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/build
+.PHONY : inquery/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -137,7 +163,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... inquery"
 	@echo "... p502"
+	@echo "... read"
 .PHONY : help
 
 
