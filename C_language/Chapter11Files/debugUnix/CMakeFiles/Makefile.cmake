@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/CMakeLists.txt"
+  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/CMakeLists.txt"
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeSystem.cmake"
-  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/src/CMakeLists.txt"
-  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/src/config.h.in"
+  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/CMakeLists.txt"
+  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/config.h.in"
   "/snap/cmake/1336/share/cmake-3.27/Modules/CMakeCInformation.cmake"
   "/snap/cmake/1336/share/cmake-3.27/Modules/CMakeCXXInformation.cmake"
   "/snap/cmake/1336/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
@@ -43,15 +43,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/config.h"
-  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/src/config.h"
+  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/config.h"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/ex10_3.dir/DependInfo.cmake"
-  "src/CMakeFiles/ex10_6.dir/DependInfo.cmake"
-  "src/CMakeFiles/ex10_10.dir/DependInfo.cmake"
-  "src/CMakeFiles/ex10_13.dir/DependInfo.cmake"
-  "src/CMakeFiles/ex10_17.dir/DependInfo.cmake"
+  "src/CMakeFiles/p502.dir/DependInfo.cmake"
   )

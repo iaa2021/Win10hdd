@@ -57,10 +57,10 @@ RM = /snap/cmake/1336/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,69 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ex10_3
+# Target rules for targets named p502
 
 # Build rule for target.
-ex10_3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex10_3
-.PHONY : ex10_3
+p502: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p502
+.PHONY : p502
 
 # fast build rule for target.
-ex10_3/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_3.dir/build.make src/CMakeFiles/ex10_3.dir/build
-.PHONY : ex10_3/fast
-
-#=============================================================================
-# Target rules for targets named ex10_6
-
-# Build rule for target.
-ex10_6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex10_6
-.PHONY : ex10_6
-
-# fast build rule for target.
-ex10_6/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_6.dir/build.make src/CMakeFiles/ex10_6.dir/build
-.PHONY : ex10_6/fast
-
-#=============================================================================
-# Target rules for targets named ex10_10
-
-# Build rule for target.
-ex10_10: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex10_10
-.PHONY : ex10_10
-
-# fast build rule for target.
-ex10_10/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_10.dir/build.make src/CMakeFiles/ex10_10.dir/build
-.PHONY : ex10_10/fast
-
-#=============================================================================
-# Target rules for targets named ex10_13
-
-# Build rule for target.
-ex10_13: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex10_13
-.PHONY : ex10_13
-
-# fast build rule for target.
-ex10_13/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_13.dir/build.make src/CMakeFiles/ex10_13.dir/build
-.PHONY : ex10_13/fast
-
-#=============================================================================
-# Target rules for targets named ex10_17
-
-# Build rule for target.
-ex10_17: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex10_17
-.PHONY : ex10_17
-
-# fast build rule for target.
-ex10_17/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/build
-.PHONY : ex10_17/fast
+p502/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/build
+.PHONY : p502/fast
 
 # Help Target
 help:
@@ -189,11 +137,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ex10_10"
-	@echo "... ex10_13"
-	@echo "... ex10_17"
-	@echo "... ex10_3"
-	@echo "... ex10_6"
+	@echo "... p502"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/src
+# Install script for directory: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

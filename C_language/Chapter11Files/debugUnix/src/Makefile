@@ -57,10 +57,10 @@ RM = /snap/cmake/1336/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/src//CMakeFiles/progress.marks
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix/CMakeFiles 0
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/src//CMakeFiles/progress.marks
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,208 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/ex10_3.dir/rule:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex10_3.dir/rule
-.PHONY : src/CMakeFiles/ex10_3.dir/rule
+src/CMakeFiles/p502.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p502.dir/rule
+.PHONY : src/CMakeFiles/p502.dir/rule
 
 # Convenience name for target.
-ex10_3: src/CMakeFiles/ex10_3.dir/rule
-.PHONY : ex10_3
+p502: src/CMakeFiles/p502.dir/rule
+.PHONY : p502
 
 # fast build rule for target.
-ex10_3/fast:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_3.dir/build.make src/CMakeFiles/ex10_3.dir/build
-.PHONY : ex10_3/fast
+p502/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/build
+.PHONY : p502/fast
 
-# Convenience name for target.
-src/CMakeFiles/ex10_6.dir/rule:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex10_6.dir/rule
-.PHONY : src/CMakeFiles/ex10_6.dir/rule
-
-# Convenience name for target.
-ex10_6: src/CMakeFiles/ex10_6.dir/rule
-.PHONY : ex10_6
-
-# fast build rule for target.
-ex10_6/fast:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_6.dir/build.make src/CMakeFiles/ex10_6.dir/build
-.PHONY : ex10_6/fast
-
-# Convenience name for target.
-src/CMakeFiles/ex10_10.dir/rule:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex10_10.dir/rule
-.PHONY : src/CMakeFiles/ex10_10.dir/rule
-
-# Convenience name for target.
-ex10_10: src/CMakeFiles/ex10_10.dir/rule
-.PHONY : ex10_10
-
-# fast build rule for target.
-ex10_10/fast:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_10.dir/build.make src/CMakeFiles/ex10_10.dir/build
-.PHONY : ex10_10/fast
-
-# Convenience name for target.
-src/CMakeFiles/ex10_13.dir/rule:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex10_13.dir/rule
-.PHONY : src/CMakeFiles/ex10_13.dir/rule
-
-# Convenience name for target.
-ex10_13: src/CMakeFiles/ex10_13.dir/rule
-.PHONY : ex10_13
-
-# fast build rule for target.
-ex10_13/fast:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_13.dir/build.make src/CMakeFiles/ex10_13.dir/build
-.PHONY : ex10_13/fast
-
-# Convenience name for target.
-src/CMakeFiles/ex10_17.dir/rule:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex10_17.dir/rule
-.PHONY : src/CMakeFiles/ex10_17.dir/rule
-
-# Convenience name for target.
-ex10_17: src/CMakeFiles/ex10_17.dir/rule
-.PHONY : ex10_17
-
-# fast build rule for target.
-ex10_17/fast:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/build
-.PHONY : ex10_17/fast
-
-ex10_10.o: ex10_10.c.o
-.PHONY : ex10_10.o
+p502.o: p502.c.o
+.PHONY : p502.o
 
 # target to build an object file
-ex10_10.c.o:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_10.dir/build.make src/CMakeFiles/ex10_10.dir/ex10_10.c.o
-.PHONY : ex10_10.c.o
+p502.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/p502.c.o
+.PHONY : p502.c.o
 
-ex10_10.i: ex10_10.c.i
-.PHONY : ex10_10.i
-
-# target to preprocess a source file
-ex10_10.c.i:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_10.dir/build.make src/CMakeFiles/ex10_10.dir/ex10_10.c.i
-.PHONY : ex10_10.c.i
-
-ex10_10.s: ex10_10.c.s
-.PHONY : ex10_10.s
-
-# target to generate assembly for a file
-ex10_10.c.s:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_10.dir/build.make src/CMakeFiles/ex10_10.dir/ex10_10.c.s
-.PHONY : ex10_10.c.s
-
-ex10_13.o: ex10_13.c.o
-.PHONY : ex10_13.o
-
-# target to build an object file
-ex10_13.c.o:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_13.dir/build.make src/CMakeFiles/ex10_13.dir/ex10_13.c.o
-.PHONY : ex10_13.c.o
-
-ex10_13.i: ex10_13.c.i
-.PHONY : ex10_13.i
+p502.i: p502.c.i
+.PHONY : p502.i
 
 # target to preprocess a source file
-ex10_13.c.i:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_13.dir/build.make src/CMakeFiles/ex10_13.dir/ex10_13.c.i
-.PHONY : ex10_13.c.i
+p502.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/p502.c.i
+.PHONY : p502.c.i
 
-ex10_13.s: ex10_13.c.s
-.PHONY : ex10_13.s
-
-# target to generate assembly for a file
-ex10_13.c.s:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_13.dir/build.make src/CMakeFiles/ex10_13.dir/ex10_13.c.s
-.PHONY : ex10_13.c.s
-
-ex10_17.o: ex10_17.c.o
-.PHONY : ex10_17.o
-
-# target to build an object file
-ex10_17.c.o:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/ex10_17.c.o
-.PHONY : ex10_17.c.o
-
-ex10_17.i: ex10_17.c.i
-.PHONY : ex10_17.i
-
-# target to preprocess a source file
-ex10_17.c.i:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/ex10_17.c.i
-.PHONY : ex10_17.c.i
-
-ex10_17.s: ex10_17.c.s
-.PHONY : ex10_17.s
+p502.s: p502.c.s
+.PHONY : p502.s
 
 # target to generate assembly for a file
-ex10_17.c.s:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_17.dir/build.make src/CMakeFiles/ex10_17.dir/ex10_17.c.s
-.PHONY : ex10_17.c.s
-
-ex10_3.o: ex10_3.c.o
-.PHONY : ex10_3.o
-
-# target to build an object file
-ex10_3.c.o:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_3.dir/build.make src/CMakeFiles/ex10_3.dir/ex10_3.c.o
-.PHONY : ex10_3.c.o
-
-ex10_3.i: ex10_3.c.i
-.PHONY : ex10_3.i
-
-# target to preprocess a source file
-ex10_3.c.i:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_3.dir/build.make src/CMakeFiles/ex10_3.dir/ex10_3.c.i
-.PHONY : ex10_3.c.i
-
-ex10_3.s: ex10_3.c.s
-.PHONY : ex10_3.s
-
-# target to generate assembly for a file
-ex10_3.c.s:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_3.dir/build.make src/CMakeFiles/ex10_3.dir/ex10_3.c.s
-.PHONY : ex10_3.c.s
-
-ex10_6.o: ex10_6.c.o
-.PHONY : ex10_6.o
-
-# target to build an object file
-ex10_6.c.o:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_6.dir/build.make src/CMakeFiles/ex10_6.dir/ex10_6.c.o
-.PHONY : ex10_6.c.o
-
-ex10_6.i: ex10_6.c.i
-.PHONY : ex10_6.i
-
-# target to preprocess a source file
-ex10_6.c.i:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_6.dir/build.make src/CMakeFiles/ex10_6.dir/ex10_6.c.i
-.PHONY : ex10_6.c.i
-
-ex10_6.s: ex10_6.c.s
-.PHONY : ex10_6.s
-
-# target to generate assembly for a file
-ex10_6.c.s:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex10_6.dir/build.make src/CMakeFiles/ex10_6.dir/ex10_6.c.s
-.PHONY : ex10_6.c.s
+p502.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/p502.c.s
+.PHONY : p502.c.s
 
 # Help Target
 help:
@@ -314,26 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ex10_10"
-	@echo "... ex10_13"
-	@echo "... ex10_17"
-	@echo "... ex10_3"
-	@echo "... ex10_6"
-	@echo "... ex10_10.o"
-	@echo "... ex10_10.i"
-	@echo "... ex10_10.s"
-	@echo "... ex10_13.o"
-	@echo "... ex10_13.i"
-	@echo "... ex10_13.s"
-	@echo "... ex10_17.o"
-	@echo "... ex10_17.i"
-	@echo "... ex10_17.s"
-	@echo "... ex10_3.o"
-	@echo "... ex10_3.i"
-	@echo "... ex10_3.s"
-	@echo "... ex10_6.o"
-	@echo "... ex10_6.i"
-	@echo "... ex10_6.s"
+	@echo "... p502"
+	@echo "... p502.o"
+	@echo "... p502.i"
+	@echo "... p502.s"
 .PHONY : help
 
 
@@ -345,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

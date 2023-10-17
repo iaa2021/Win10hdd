@@ -1,0 +1,1 @@
+/usr/bin/cc  -lm -g  -lm CMakeFiles/p502.dir/p502.c.o -o p502 
