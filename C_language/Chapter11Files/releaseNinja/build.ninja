@@ -168,6 +168,39 @@ build src/inquery: C_EXECUTABLE_LINKER__inquery_Release src/CMakeFiles/inquery.d
   TARGET_FILE = src/inquery
   TARGET_PDB = inquery.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target create
+
+
+#############################################
+# Order-only phony target for create
+
+build cmake_object_order_depends_target_create: phony || src/CMakeFiles/create.dir
+
+build src/CMakeFiles/create.dir/create.c.o: C_COMPILER__create_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/create.c || cmake_object_order_depends_target_create
+  DEP_FILE = src/CMakeFiles/create.dir/create.c.o.d
+  FLAGS = -lm -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/.
+  OBJECT_DIR = src/CMakeFiles/create.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/create.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target create
+
+
+#############################################
+# Link the executable src/create
+
+build src/create: C_EXECUTABLE_LINKER__create_Release src/CMakeFiles/create.dir/create.c.o
+  FLAGS = -lm -O3 -DNDEBUG
+  LINK_FLAGS = -lm
+  OBJECT_DIR = src/CMakeFiles/create.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/create
+  TARGET_PDB = create.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -195,6 +228,8 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build create: phony src/create
+
 build inquery: phony src/inquery
 
 build p502: phony src/p502
@@ -216,7 +251,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src
 
-build src/all: phony src/p502 src/read src/inquery
+build src/all: phony src/p502 src/read src/inquery src/create
 
 # =============================================================================
 # Built-in targets

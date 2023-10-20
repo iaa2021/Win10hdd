@@ -155,6 +155,19 @@ inquery/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/build
 .PHONY : inquery/fast
 
+#=============================================================================
+# Target rules for targets named create
+
+# Build rule for target.
+create: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 create
+.PHONY : create
+
+# fast build rule for target.
+create/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/build
+.PHONY : create/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,6 +176,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... create"
 	@echo "... inquery"
 	@echo "... p502"
 	@echo "... read"

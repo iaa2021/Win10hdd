@@ -81,6 +81,7 @@ clean: src/clean
 src/all: src/CMakeFiles/p502.dir/all
 src/all: src/CMakeFiles/read.dir/all
 src/all: src/CMakeFiles/inquery.dir/all
+src/all: src/CMakeFiles/create.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -91,6 +92,7 @@ src/preinstall:
 src/clean: src/CMakeFiles/p502.dir/clean
 src/clean: src/CMakeFiles/read.dir/clean
 src/clean: src/CMakeFiles/inquery.dir/clean
+src/clean: src/CMakeFiles/create.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -100,7 +102,7 @@ src/clean: src/CMakeFiles/inquery.dir/clean
 src/CMakeFiles/p502.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=3,4 "Built target p502"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=5,6 "Built target p502"
 .PHONY : src/CMakeFiles/p502.dir/all
 
 # Build rule for subdir invocation for target.
@@ -126,7 +128,7 @@ src/CMakeFiles/p502.dir/clean:
 src/CMakeFiles/read.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=5,6 "Built target read"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=7,8 "Built target read"
 .PHONY : src/CMakeFiles/read.dir/all
 
 # Build rule for subdir invocation for target.
@@ -152,7 +154,7 @@ src/CMakeFiles/read.dir/clean:
 src/CMakeFiles/inquery.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=1,2 "Built target inquery"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=3,4 "Built target inquery"
 .PHONY : src/CMakeFiles/inquery.dir/all
 
 # Build rule for subdir invocation for target.
@@ -170,6 +172,32 @@ inquery: src/CMakeFiles/inquery.dir/rule
 src/CMakeFiles/inquery.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/clean
 .PHONY : src/CMakeFiles/inquery.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/create.dir
+
+# All Build rule for target.
+src/CMakeFiles/create.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=1,2 "Built target create"
+.PHONY : src/CMakeFiles/create.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/create.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/create.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/create.dir/rule
+
+# Convenience name for target.
+create: src/CMakeFiles/create.dir/rule
+.PHONY : create
+
+# clean rule for target.
+src/CMakeFiles/create.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/clean
+.PHONY : src/CMakeFiles/create.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

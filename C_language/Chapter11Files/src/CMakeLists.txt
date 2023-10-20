@@ -7,8 +7,9 @@ configure_file( config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h )
 add_executable( p502 p502.c )
 add_executable( read read.c )
 add_executable( inquery inquery.c )
+add_executable( create create.c)
 
-set( targets p502 read inquery )
+set( targets p502 read inquery create )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

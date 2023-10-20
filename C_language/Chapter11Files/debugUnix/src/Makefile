@@ -158,6 +158,44 @@ inquery/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/build
 .PHONY : inquery/fast
 
+# Convenience name for target.
+src/CMakeFiles/create.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/create.dir/rule
+.PHONY : src/CMakeFiles/create.dir/rule
+
+# Convenience name for target.
+create: src/CMakeFiles/create.dir/rule
+.PHONY : create
+
+# fast build rule for target.
+create/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/build
+.PHONY : create/fast
+
+create.o: create.c.o
+.PHONY : create.o
+
+# target to build an object file
+create.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/create.c.o
+.PHONY : create.c.o
+
+create.i: create.c.i
+.PHONY : create.i
+
+# target to preprocess a source file
+create.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/create.c.i
+.PHONY : create.c.i
+
+create.s: create.c.s
+.PHONY : create.s
+
+# target to generate assembly for a file
+create.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/create.c.s
+.PHONY : create.c.s
+
 inquery.o: inquery.c.o
 .PHONY : inquery.o
 
@@ -238,9 +276,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... create"
 	@echo "... inquery"
 	@echo "... p502"
 	@echo "... read"
+	@echo "... create.o"
+	@echo "... create.i"
+	@echo "... create.s"
 	@echo "... inquery.o"
 	@echo "... inquery.i"
 	@echo "... inquery.s"
