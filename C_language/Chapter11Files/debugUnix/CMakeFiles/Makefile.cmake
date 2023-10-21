@@ -53,4 +53,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/read.dir/DependInfo.cmake"
   "src/CMakeFiles/inquery.dir/DependInfo.cmake"
   "src/CMakeFiles/create.dir/DependInfo.cmake"
+  "src/CMakeFiles/arbWrite.dir/DependInfo.cmake"
+  "src/CMakeFiles/arbRead.dir/DependInfo.cmake"
   )

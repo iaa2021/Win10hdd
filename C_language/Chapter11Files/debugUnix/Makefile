@@ -168,6 +168,32 @@ create/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/build
 .PHONY : create/fast
 
+#=============================================================================
+# Target rules for targets named arbWrite
+
+# Build rule for target.
+arbWrite: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbWrite
+.PHONY : arbWrite
+
+# fast build rule for target.
+arbWrite/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbWrite.dir/build.make src/CMakeFiles/arbWrite.dir/build
+.PHONY : arbWrite/fast
+
+#=============================================================================
+# Target rules for targets named arbRead
+
+# Build rule for target.
+arbRead: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arbRead
+.PHONY : arbRead
+
+# fast build rule for target.
+arbRead/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbRead.dir/build.make src/CMakeFiles/arbRead.dir/build
+.PHONY : arbRead/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -176,6 +202,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... arbRead"
+	@echo "... arbWrite"
 	@echo "... create"
 	@echo "... inquery"
 	@echo "... p502"

@@ -8,8 +8,10 @@ add_executable( p502 p502.c )
 add_executable( read read.c )
 add_executable( inquery inquery.c )
 add_executable( create create.c)
+add_executable( arbWrite arbWrite.c )
+add_executable( arbRead arbRead.c )
 
-set( targets p502 read inquery create )
+set( targets p502 read inquery create arbWrite arbRead )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

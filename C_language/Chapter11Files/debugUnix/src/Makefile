@@ -172,6 +172,82 @@ create/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/build
 .PHONY : create/fast
 
+# Convenience name for target.
+src/CMakeFiles/arbWrite.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/arbWrite.dir/rule
+.PHONY : src/CMakeFiles/arbWrite.dir/rule
+
+# Convenience name for target.
+arbWrite: src/CMakeFiles/arbWrite.dir/rule
+.PHONY : arbWrite
+
+# fast build rule for target.
+arbWrite/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbWrite.dir/build.make src/CMakeFiles/arbWrite.dir/build
+.PHONY : arbWrite/fast
+
+# Convenience name for target.
+src/CMakeFiles/arbRead.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/arbRead.dir/rule
+.PHONY : src/CMakeFiles/arbRead.dir/rule
+
+# Convenience name for target.
+arbRead: src/CMakeFiles/arbRead.dir/rule
+.PHONY : arbRead
+
+# fast build rule for target.
+arbRead/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbRead.dir/build.make src/CMakeFiles/arbRead.dir/build
+.PHONY : arbRead/fast
+
+arbRead.o: arbRead.c.o
+.PHONY : arbRead.o
+
+# target to build an object file
+arbRead.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbRead.dir/build.make src/CMakeFiles/arbRead.dir/arbRead.c.o
+.PHONY : arbRead.c.o
+
+arbRead.i: arbRead.c.i
+.PHONY : arbRead.i
+
+# target to preprocess a source file
+arbRead.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbRead.dir/build.make src/CMakeFiles/arbRead.dir/arbRead.c.i
+.PHONY : arbRead.c.i
+
+arbRead.s: arbRead.c.s
+.PHONY : arbRead.s
+
+# target to generate assembly for a file
+arbRead.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbRead.dir/build.make src/CMakeFiles/arbRead.dir/arbRead.c.s
+.PHONY : arbRead.c.s
+
+arbWrite.o: arbWrite.c.o
+.PHONY : arbWrite.o
+
+# target to build an object file
+arbWrite.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbWrite.dir/build.make src/CMakeFiles/arbWrite.dir/arbWrite.c.o
+.PHONY : arbWrite.c.o
+
+arbWrite.i: arbWrite.c.i
+.PHONY : arbWrite.i
+
+# target to preprocess a source file
+arbWrite.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbWrite.dir/build.make src/CMakeFiles/arbWrite.dir/arbWrite.c.i
+.PHONY : arbWrite.c.i
+
+arbWrite.s: arbWrite.c.s
+.PHONY : arbWrite.s
+
+# target to generate assembly for a file
+arbWrite.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbWrite.dir/build.make src/CMakeFiles/arbWrite.dir/arbWrite.c.s
+.PHONY : arbWrite.c.s
+
 create.o: create.c.o
 .PHONY : create.o
 
@@ -276,10 +352,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... arbRead"
+	@echo "... arbWrite"
 	@echo "... create"
 	@echo "... inquery"
 	@echo "... p502"
 	@echo "... read"
+	@echo "... arbRead.o"
+	@echo "... arbRead.i"
+	@echo "... arbRead.s"
+	@echo "... arbWrite.o"
+	@echo "... arbWrite.i"
+	@echo "... arbWrite.s"
 	@echo "... create.o"
 	@echo "... create.i"
 	@echo "... create.s"
