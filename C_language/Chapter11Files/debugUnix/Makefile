@@ -194,6 +194,19 @@ arbRead/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbRead.dir/build.make src/CMakeFiles/arbRead.dir/build
 .PHONY : arbRead/fast
 
+#=============================================================================
+# Target rules for targets named choice
+
+# Build rule for target.
+choice: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 choice
+.PHONY : choice
+
+# fast build rule for target.
+choice/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/choice.dir/build.make src/CMakeFiles/choice.dir/build
+.PHONY : choice/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -204,6 +217,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... arbRead"
 	@echo "... arbWrite"
+	@echo "... choice"
 	@echo "... create"
 	@echo "... inquery"
 	@echo "... p502"

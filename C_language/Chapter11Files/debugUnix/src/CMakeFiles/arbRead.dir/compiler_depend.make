@@ -26,11 +26,11 @@ src/CMakeFiles/arbRead.dir/arbRead.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_la
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h
 
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -66,11 +66,11 @@ src/CMakeFiles/arbRead.dir/arbRead.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_la
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 

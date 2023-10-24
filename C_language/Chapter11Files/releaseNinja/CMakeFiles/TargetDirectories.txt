@@ -6,5 +6,6 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src/CMakeFiles/create.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src/CMakeFiles/arbWrite.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src/CMakeFiles/arbRead.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src/CMakeFiles/choice.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src/CMakeFiles/rebuild_cache.dir

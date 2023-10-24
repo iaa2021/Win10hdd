@@ -10,8 +10,9 @@ add_executable( inquery inquery.c )
 add_executable( create create.c)
 add_executable( arbWrite arbWrite.c )
 add_executable( arbRead arbRead.c )
+add_executable( choice choice.c )
 
-set( targets p502 read inquery create arbWrite arbRead )
+set( targets p502 read inquery create arbWrite arbRead choice )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

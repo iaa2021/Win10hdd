@@ -1,5 +1,5 @@
-src/CMakeFiles/arbWrite.dir/arbWrite.c.o: \
- /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/arbWrite.c \
+src/CMakeFiles/choice.dir/choice.c.o: \
+ /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/choice.c \
  /usr/include/stdc-predef.h \
  /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/config.h \
  /usr/include/stdio.h \

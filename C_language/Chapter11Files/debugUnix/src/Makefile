@@ -200,6 +200,20 @@ arbRead/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbRead.dir/build.make src/CMakeFiles/arbRead.dir/build
 .PHONY : arbRead/fast
 
+# Convenience name for target.
+src/CMakeFiles/choice.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/choice.dir/rule
+.PHONY : src/CMakeFiles/choice.dir/rule
+
+# Convenience name for target.
+choice: src/CMakeFiles/choice.dir/rule
+.PHONY : choice
+
+# fast build rule for target.
+choice/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/choice.dir/build.make src/CMakeFiles/choice.dir/build
+.PHONY : choice/fast
+
 arbRead.o: arbRead.c.o
 .PHONY : arbRead.o
 
@@ -247,6 +261,30 @@ arbWrite.s: arbWrite.c.s
 arbWrite.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/arbWrite.dir/build.make src/CMakeFiles/arbWrite.dir/arbWrite.c.s
 .PHONY : arbWrite.c.s
+
+choice.o: choice.c.o
+.PHONY : choice.o
+
+# target to build an object file
+choice.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/choice.dir/build.make src/CMakeFiles/choice.dir/choice.c.o
+.PHONY : choice.c.o
+
+choice.i: choice.c.i
+.PHONY : choice.i
+
+# target to preprocess a source file
+choice.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/choice.dir/build.make src/CMakeFiles/choice.dir/choice.c.i
+.PHONY : choice.c.i
+
+choice.s: choice.c.s
+.PHONY : choice.s
+
+# target to generate assembly for a file
+choice.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/choice.dir/build.make src/CMakeFiles/choice.dir/choice.c.s
+.PHONY : choice.c.s
 
 create.o: create.c.o
 .PHONY : create.o
@@ -354,6 +392,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... arbRead"
 	@echo "... arbWrite"
+	@echo "... choice"
 	@echo "... create"
 	@echo "... inquery"
 	@echo "... p502"
@@ -364,6 +403,9 @@ help:
 	@echo "... arbWrite.o"
 	@echo "... arbWrite.i"
 	@echo "... arbWrite.s"
+	@echo "... choice.o"
+	@echo "... choice.i"
+	@echo "... choice.s"
 	@echo "... create.o"
 	@echo "... create.i"
 	@echo "... create.s"
