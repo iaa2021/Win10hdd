@@ -6,8 +6,8 @@ struct clientData{
     char firstName[10]; 
     double balance;
 };
-/*void create( FILE * );
-void edit( FILE * );
+void create( FILE * );
+/*void edit( FILE * );
 void delete( FILE * );*/
 void textFile( FILE * );
 int main()
@@ -23,7 +23,7 @@ int main()
     {
         int choice;
         printf("\nInput your choice, 0 to end input:\n");
-        printf( "1 - create record;\n2 - read from file;" );
+        printf( "1 - create text file;\n2 - create record;" );
         printf( "3 - edit record;\n4 - delete record;\n" );
         scanf( "%d", &choice );
         while( choice != 0 )
@@ -33,10 +33,10 @@ int main()
                 case 1:
                 textFile( cfptr );
                 break;
-                /*case 2:
+                case 2:
                 create( cfptr );
                 break;
-                case 3:
+                /*case 3:
                 edit( cfptr );
                 break;
                 case 4:
@@ -47,7 +47,7 @@ int main()
                 break;
             }
             printf("\nInput your choice, 0 to end input:\n");
-            printf( "1 - create record;\n2 - read from file;" );
+            printf( "1 - create text file;\n2 - create record;" );
             printf( "3 - edit record;\n4 - delete record;\n" );
             scanf( "%d", &choice );
         }
@@ -71,10 +71,33 @@ void textFile( FILE *cfptr )
         fread( &blank, sizeof(struct clientData), 1, cfptr );
         if( blank.acc != 0 )
           {
-            fprintf( wPtr, "%-6d %-16s %-11s %-10.2lf", blank.acc,\
+            fprintf( wPtr, "%-6d%-16s%-11s%-10.2lf", blank.acc,\
             blank.lastName, blank.firstName, blank.balance );
           }
         }
     }
     fclose(wPtr);
+}
+void create( FILE *cfptr )
+{
+    struct clientData blank; int number;
+    printf( "\nEnter account number 1 to 100, 0 to end input: " );
+    scanf( "%d", &number );
+    while( number != 0 )
+    {
+        fseek( cfptr, ( number - 1 ) * sizeof( struct clientData ), SEEK_SET );
+        fread( &blank, sizeof( struct clientData ), 1, cfptr );
+        if( blank.acc != 0 )
+        printf( "\nRecord with this account already exists.\n" );
+        else
+        {
+            blank.acc = number;
+            printf( "\nEnter first name, last name, balance:\n" );
+            scanf( "%s%s%lf", blank.firstName, blank.lastName, \
+            &blank.balance );
+            fwrite( &blank, sizeof(struct clientData), 1, cfptr );
+            printf( "\nEnter account number 1 to 100, 0 to end input: " );
+            scanf( "%d", &number );
+        }
+    }
 }
