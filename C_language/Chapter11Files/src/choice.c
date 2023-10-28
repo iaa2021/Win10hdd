@@ -64,14 +64,14 @@ void textFile( FILE *cfptr )
     else
     {
         rewind(cfptr);
-        fprintf( wPtr, "%-6s %-16s %-11s %-10s\n", "Acc", "Last Name",\
+        fprintf( wPtr, "%-6s%-16s%-16s%-10s\n", "Acc", "Last Name",\
         "First Name", "Balance" );
         while(!feof(cfptr))
         {
         fread( &blank, sizeof(struct clientData), 1, cfptr );
         if( blank.acc != 0 )
           {
-            fprintf( wPtr, "%-6d%-16s%-11s%-10.2lf\n", blank.acc,\
+            fprintf( wPtr, "%-6d%-16s%-16s%-10.2lf\n", blank.acc,\
             blank.lastName, blank.firstName, blank.balance );
           }
         }
