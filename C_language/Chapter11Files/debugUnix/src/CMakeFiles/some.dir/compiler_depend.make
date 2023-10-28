@@ -34,11 +34,9 @@ src/CMakeFiles/some.dir/some.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_language
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h
 
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -70,6 +68,8 @@ src/CMakeFiles/some.dir/some.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_language
 
 /usr/include/math.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
+
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/features-time64.h:
@@ -100,9 +100,9 @@ src/CMakeFiles/some.dir/some.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_language
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 

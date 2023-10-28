@@ -1,1 +1,1 @@
-/usr/bin/cc  -lm -g  -lm CMakeFiles/arbWrite.dir/arbWrite.c.o -o arbWrite 
+/usr/bin/cc  -lm -g  -lm CMakeFiles/arbWrite.dir/arbWrite.c.o -o arbWrite  -lm 

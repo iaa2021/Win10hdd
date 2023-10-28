@@ -1,1 +1,1 @@
-/usr/bin/cc  -lm -g  -lm CMakeFiles/inquery.dir/inquery.c.o -o inquery 
+/usr/bin/cc  -lm -g  -lm CMakeFiles/inquery.dir/inquery.c.o -o inquery  -lm 

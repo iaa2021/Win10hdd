@@ -1,1 +1,1 @@
-/usr/bin/cc  -lm -g  -lm CMakeFiles/create.dir/create.c.o -o create 
+/usr/bin/cc  -lm -g  -lm CMakeFiles/create.dir/create.c.o -o create  -lm 

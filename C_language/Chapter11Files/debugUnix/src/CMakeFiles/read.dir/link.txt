@@ -1,1 +1,1 @@
-/usr/bin/cc  -lm -g  -lm CMakeFiles/read.dir/read.c.o -o read 
+/usr/bin/cc  -lm -g  -lm CMakeFiles/read.dir/read.c.o -o read  -lm 

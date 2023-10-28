@@ -214,6 +214,20 @@ choice/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/choice.dir/build.make src/CMakeFiles/choice.dir/build
 .PHONY : choice/fast
 
+# Convenience name for target.
+src/CMakeFiles/some.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/some.dir/rule
+.PHONY : src/CMakeFiles/some.dir/rule
+
+# Convenience name for target.
+some: src/CMakeFiles/some.dir/rule
+.PHONY : some
+
+# fast build rule for target.
+some/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/some.dir/build.make src/CMakeFiles/some.dir/build
+.PHONY : some/fast
+
 arbRead.o: arbRead.c.o
 .PHONY : arbRead.o
 
@@ -382,6 +396,30 @@ read.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/read.c.s
 .PHONY : read.c.s
 
+some.o: some.c.o
+.PHONY : some.o
+
+# target to build an object file
+some.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/some.dir/build.make src/CMakeFiles/some.dir/some.c.o
+.PHONY : some.c.o
+
+some.i: some.c.i
+.PHONY : some.i
+
+# target to preprocess a source file
+some.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/some.dir/build.make src/CMakeFiles/some.dir/some.c.i
+.PHONY : some.c.i
+
+some.s: some.c.s
+.PHONY : some.s
+
+# target to generate assembly for a file
+some.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/some.dir/build.make src/CMakeFiles/some.dir/some.c.s
+.PHONY : some.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -397,6 +435,7 @@ help:
 	@echo "... inquery"
 	@echo "... p502"
 	@echo "... read"
+	@echo "... some"
 	@echo "... arbRead.o"
 	@echo "... arbRead.i"
 	@echo "... arbRead.s"
@@ -418,6 +457,9 @@ help:
 	@echo "... read.o"
 	@echo "... read.i"
 	@echo "... read.s"
+	@echo "... some.o"
+	@echo "... some.i"
+	@echo "... some.s"
 .PHONY : help
 
 

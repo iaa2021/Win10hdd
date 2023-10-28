@@ -17,14 +17,12 @@ int main()
     printf( "\nFile cannot be opened.\n" );
     else
     {
-        fwrite( &blankClient, sizeof(struct clientData), 100, cfptr );
-        fclose(cfptr);
-    }
-    /*{
+        fwrite( &blankClient, sizeof(struct clientData), 1, cfptr );
+        
         for( int i = 1; i <=100; i++ )
         fwrite( &blankClient, sizeof(struct clientData), 1, cfptr );
 
         fclose(cfptr);
-    }*/
+    }
     return 0;
 }

@@ -1,1 +1,1 @@
-/usr/bin/cc  -lm -g  -lm CMakeFiles/choice.dir/choice.c.o -o choice 
+/usr/bin/cc  -lm -g  -lm CMakeFiles/choice.dir/choice.c.o -o choice  -lm 

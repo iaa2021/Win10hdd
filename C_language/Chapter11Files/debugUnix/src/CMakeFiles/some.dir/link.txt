@@ -1,1 +1,1 @@
-/usr/bin/cc  -lm -g  -lm CMakeFiles/some.dir/some.c.o -o some 
+/usr/bin/cc  -lm -g  -lm CMakeFiles/some.dir/some.c.o -o some  -lm 

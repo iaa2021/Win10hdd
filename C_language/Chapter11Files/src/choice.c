@@ -7,8 +7,8 @@ struct clientData{
     double balance;
 };
 void create( FILE * );
-/*void edit( FILE * );
-void delete( FILE * );*/
+/*void edit( FILE * );*/
+void delete( FILE * );
 void textFile( FILE * );
 int main()
 {
@@ -17,7 +17,7 @@ int main()
     printf( ".%d", PROJECT_VERSION_PATCH );
     printf( "\nExersise on page 506, arbitrary file's reading.\n" );
     FILE *cfptr;
-    if( (cfptr = fopen( "credit.txt", "r" )) == NULL )
+    if( (cfptr = fopen( "credit.txt", "r+" )) == NULL )
     printf( "\nFile cannot be opened.\n" );
     else
     {
@@ -38,10 +38,10 @@ int main()
                 break;
                 /*case 3:
                 edit( cfptr );
-                break;
+                break;*/
                 case 4:
                 delete( cfptr );
-                break;*/
+                break;
                 default:
                 printf("\nYou've entered wrong choice.\n");
                 break;
@@ -64,14 +64,14 @@ void textFile( FILE *cfptr )
     else
     {
         rewind(cfptr);
-        fprintf( wPtr, "%-6s %-16s %-11s %-10s", "Account", "Last Name",\
+        fprintf( wPtr, "%-6s %-16s %-11s %-10s\n", "Acc", "Last Name",\
         "First Name", "Balance" );
-        while(feof(cfptr))
+        while(!feof(cfptr))
         {
         fread( &blank, sizeof(struct clientData), 1, cfptr );
         if( blank.acc != 0 )
           {
-            fprintf( wPtr, "%-6d%-16s%-11s%-10.2lf", blank.acc,\
+            fprintf( wPtr, "%-6d%-16s%-11s%-10.2lf\n", blank.acc,\
             blank.lastName, blank.firstName, blank.balance );
           }
         }
@@ -83,12 +83,16 @@ void create( FILE *cfptr )
     struct clientData blank; int number;
     printf( "\nEnter account number 1 to 100, 0 to end input: " );
     scanf( "%d", &number );
+    rewind(cfptr);
     while( number != 0 )
     {
         fseek( cfptr, ( number - 1 ) * sizeof( struct clientData ), SEEK_SET );
         fread( &blank, sizeof( struct clientData ), 1, cfptr );
         if( blank.acc != 0 )
-        printf( "\nRecord with this account already exists.\n" );
+        {
+            printf( "\nRecord with this account already exists.\n" );
+            break;    
+        }
         else
         {
             blank.acc = number;
@@ -99,5 +103,21 @@ void create( FILE *cfptr )
             printf( "\nEnter account number 1 to 100, 0 to end input: " );
             scanf( "%d", &number );
         }
+    }
+}
+void delete( FILE *cfptr )
+{
+    struct clientData blank, blank1 = {0, "", "", 0.0}; int number;
+    rewind( cfptr );
+    printf("\nInput acc's number to delete:\n");
+    scanf("%d", &number);
+    fseek(cfptr, (number)*sizeof(struct clientData), SEEK_SET);
+    fread(&blank, sizeof(struct clientData), 1, cfptr);
+    if( blank.acc == 0 )
+    printf( "\nAccount #%d doesn't exists.\n", number );
+    else{
+        fseek(cfptr, (number)*sizeof(struct clientData), SEEK_SET);
+        fwrite(&blank1, sizeof(struct clientData), 1, cfptr );
+        printf( "\nAccount #%d already destroyed.\n", number );
     }
 }

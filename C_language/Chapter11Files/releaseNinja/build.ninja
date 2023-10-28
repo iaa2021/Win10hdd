@@ -96,6 +96,7 @@ build src/CMakeFiles/p502.dir/p502.c.o: C_COMPILER__p502_unscanned_Release /home
 build src/p502: C_EXECUTABLE_LINKER__p502_Release src/CMakeFiles/p502.dir/p502.c.o
   FLAGS = -lm -O3 -DNDEBUG
   LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = src/CMakeFiles/p502.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -129,6 +130,7 @@ build src/CMakeFiles/read.dir/read.c.o: C_COMPILER__read_unscanned_Release /home
 build src/read: C_EXECUTABLE_LINKER__read_Release src/CMakeFiles/read.dir/read.c.o
   FLAGS = -lm -O3 -DNDEBUG
   LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = src/CMakeFiles/read.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -162,6 +164,7 @@ build src/CMakeFiles/inquery.dir/inquery.c.o: C_COMPILER__inquery_unscanned_Rele
 build src/inquery: C_EXECUTABLE_LINKER__inquery_Release src/CMakeFiles/inquery.dir/inquery.c.o
   FLAGS = -lm -O3 -DNDEBUG
   LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = src/CMakeFiles/inquery.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -195,6 +198,7 @@ build src/CMakeFiles/create.dir/create.c.o: C_COMPILER__create_unscanned_Release
 build src/create: C_EXECUTABLE_LINKER__create_Release src/CMakeFiles/create.dir/create.c.o
   FLAGS = -lm -O3 -DNDEBUG
   LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = src/CMakeFiles/create.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -228,6 +232,7 @@ build src/CMakeFiles/arbWrite.dir/arbWrite.c.o: C_COMPILER__arbWrite_unscanned_R
 build src/arbWrite: C_EXECUTABLE_LINKER__arbWrite_Release src/CMakeFiles/arbWrite.dir/arbWrite.c.o
   FLAGS = -lm -O3 -DNDEBUG
   LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = src/CMakeFiles/arbWrite.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -261,6 +266,7 @@ build src/CMakeFiles/arbRead.dir/arbRead.c.o: C_COMPILER__arbRead_unscanned_Rele
 build src/arbRead: C_EXECUTABLE_LINKER__arbRead_Release src/CMakeFiles/arbRead.dir/arbRead.c.o
   FLAGS = -lm -O3 -DNDEBUG
   LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = src/CMakeFiles/arbRead.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -294,11 +300,46 @@ build src/CMakeFiles/choice.dir/choice.c.o: C_COMPILER__choice_unscanned_Release
 build src/choice: C_EXECUTABLE_LINKER__choice_Release src/CMakeFiles/choice.dir/choice.c.o
   FLAGS = -lm -O3 -DNDEBUG
   LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = src/CMakeFiles/choice.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = src/choice
   TARGET_PDB = choice.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target some
+
+
+#############################################
+# Order-only phony target for some
+
+build cmake_object_order_depends_target_some: phony || src/CMakeFiles/some.dir
+
+build src/CMakeFiles/some.dir/some.c.o: C_COMPILER__some_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/some.c || cmake_object_order_depends_target_some
+  DEP_FILE = src/CMakeFiles/some.dir/some.c.o.d
+  FLAGS = -lm -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/.
+  OBJECT_DIR = src/CMakeFiles/some.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/some.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target some
+
+
+#############################################
+# Link the executable src/some
+
+build src/some: C_EXECUTABLE_LINKER__some_Release src/CMakeFiles/some.dir/some.c.o
+  FLAGS = -lm -O3 -DNDEBUG
+  LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/some.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/some
+  TARGET_PDB = some.dbg
 
 
 #############################################
@@ -341,6 +382,8 @@ build p502: phony src/p502
 
 build read: phony src/read
 
+build some: phony src/some
+
 # =============================================================================
 # Folder targets.
 
@@ -356,7 +399,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src
 
-build src/all: phony src/p502 src/read src/inquery src/create src/arbWrite src/arbRead src/choice
+build src/all: phony src/p502 src/read src/inquery src/create src/arbWrite src/arbRead src/choice src/some
 
 # =============================================================================
 # Built-in targets

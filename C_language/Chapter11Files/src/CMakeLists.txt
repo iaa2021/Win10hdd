@@ -11,8 +11,9 @@ add_executable( create create.c)
 add_executable( arbWrite arbWrite.c )
 add_executable( arbRead arbRead.c )
 add_executable( choice choice.c )
+add_executable( some some.c )
 
-set( targets p502 read inquery create arbWrite arbRead choice )
+set( targets p502 read inquery create arbWrite arbRead choice some )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES
@@ -22,5 +23,7 @@ C_STANDARD_REQUIRED ON
 
 target_include_directories( ${target} PRIVATE ${CMAKE_CURRENT_BINARY_DIR}
  PRIVATE . ) 
+
+target_link_libraries( ${target} m )
 
 endforeach()

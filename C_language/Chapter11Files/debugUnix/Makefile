@@ -207,6 +207,19 @@ choice/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/choice.dir/build.make src/CMakeFiles/choice.dir/build
 .PHONY : choice/fast
 
+#=============================================================================
+# Target rules for targets named some
+
+# Build rule for target.
+some: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 some
+.PHONY : some
+
+# fast build rule for target.
+some/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/some.dir/build.make src/CMakeFiles/some.dir/build
+.PHONY : some/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +235,7 @@ help:
 	@echo "... inquery"
 	@echo "... p502"
 	@echo "... read"
+	@echo "... some"
 .PHONY : help
 
 
