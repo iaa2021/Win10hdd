@@ -11,7 +11,7 @@ int main()
     printf( "Input double and pow:\n" );
     scanf( "%lf %lf", &a, &c );
     printf( "%.2lf in pow %.2lf = %.2lf", a, c, pow(a, c) );
-    printf( "\nInput double for square root:\n" );
+    printf( "\nInput double number for square root:\n" );
     scanf("%lf", &b);
     printf( "\nSquare root from %.2lf  = %.2lf", b, sqrt(b) );
     printf("\n");
