@@ -1,6 +1,6 @@
 Acc   Last Name       First Name      Balance   
-29    Brown           Nancy           -24.54    
+29    Brown           Nancy           -19.13    
 33    Dunn            Stacey          330.01    
-37    Doug            Barkey          41.33     
-88    Smith           Dave            52.69     
-94    Stone           Sam             258.97    
+37    Doug            Barkey          57.20     
+88    Smith           Dave            64.04     
+94    Stone           Sam             107.64    
