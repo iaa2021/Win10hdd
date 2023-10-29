@@ -19,7 +19,7 @@ int main()
     {
         fwrite( &blankClient, sizeof(struct clientData), 1, cfptr );
         
-        for( int i = 1; i <=100; i++ )
+        for( int i = 0; i < 100; i++ )
         fwrite( &blankClient, sizeof(struct clientData), 1, cfptr );
 
         fclose(cfptr);

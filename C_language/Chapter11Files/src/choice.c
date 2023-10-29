@@ -7,7 +7,7 @@ struct clientData{
     double balance;
 };
 void create( FILE * );
-/*void edit( FILE * );*/
+void edit( FILE * );
 void delete( FILE * );
 void textFile( FILE * );
 int main()
@@ -24,7 +24,7 @@ int main()
         int choice;
         printf("\nInput your choice, 0 to end input:\n");
         printf( "1 - create text file;\n2 - create record;" );
-        printf( "3 - edit record;\n4 - delete record;\n" );
+        printf( "\n3 - edit record;\n4 - delete record;\n" );
         scanf( "%d", &choice );
         while( choice != 0 )
         {
@@ -36,9 +36,9 @@ int main()
                 case 2:
                 create( cfptr );
                 break;
-                /*case 3:
+                case 3:
                 edit( cfptr );
-                break;*/
+                break;
                 case 4:
                 delete( cfptr );
                 break;
@@ -48,7 +48,7 @@ int main()
             }
             printf("\nInput your choice, 0 to end input:\n");
             printf( "1 - create text file;\n2 - create record;" );
-            printf( "3 - edit record;\n4 - delete record;\n" );
+            printf( "\n3 - edit record;\n4 - delete record;\n" );
             scanf( "%d", &choice );
         }
     }
@@ -77,6 +77,7 @@ void textFile( FILE *cfptr )
         }
     }
     fclose(wPtr);
+    printf("\nText file've been created.\n");
 }
 void create( FILE *cfptr )
 {
@@ -99,6 +100,7 @@ void create( FILE *cfptr )
             printf( "\nEnter first name, last name, balance:\n" );
             scanf( "%s%s%lf", blank.firstName, blank.lastName, \
             &blank.balance );
+            fseek(cfptr, ( number - 1 ) * sizeof(struct clientData), SEEK_SET);
             fwrite( &blank, sizeof(struct clientData), 1, cfptr );
             printf( "\nEnter account number 1 to 100, 0 to end input: " );
             scanf( "%d", &number );
@@ -111,13 +113,40 @@ void delete( FILE *cfptr )
     rewind( cfptr );
     printf("\nInput acc's number to delete:\n");
     scanf("%d", &number);
-    fseek(cfptr, (number)*sizeof(struct clientData), SEEK_SET);
+    fseek(cfptr, (number - 1)*sizeof(struct clientData), SEEK_SET);
     fread(&blank, sizeof(struct clientData), 1, cfptr);
     if( blank.acc == 0 )
     printf( "\nAccount #%d doesn't exists.\n", number );
     else{
-        fseek(cfptr, (number)*sizeof(struct clientData), SEEK_SET);
+        fseek(cfptr, (number - 1)*sizeof(struct clientData), SEEK_SET);
         fwrite(&blank1, sizeof(struct clientData), 1, cfptr );
         printf( "\nAccount #%d already destroyed.\n", number );
+    }
+}
+void edit( FILE *cfptr )
+{
+    struct clientData blank; int number; double transaction;
+    rewind(cfptr);
+    printf("\nInput acc's number to edit:\n");
+    scanf("%d", &number);
+    fseek(cfptr, (number - 1)*sizeof(struct clientData), SEEK_SET);
+    fread(&blank, sizeof(struct clientData), 1, cfptr);
+    if( blank.acc == 0 )
+    printf( "\nAccount #%d doesn't exists.\n", number );
+    else{
+        printf("\nAcc's data:\n");
+        printf("\n%-6d%-10s%-10s%-7.2lf\n", blank.acc, blank.firstName,\
+        blank.lastName, blank.balance );
+        printf("\nInput sum of transaction, +/-:\n");
+        scanf( "%lf", &transaction );
+        blank.balance += transaction;
+        printf( "\nNew acc #%d balance = %.2lf.\n", blank.acc, blank.balance );
+        fseek(cfptr, (number - 1)*sizeof(struct clientData), SEEK_SET);
+        fwrite( &blank, sizeof(struct clientData), 1, cfptr );
+        fseek(cfptr, (number - 1)*sizeof(struct clientData), SEEK_SET);
+        fread(&blank, sizeof(struct clientData), 1, cfptr);
+        printf("\nNew acc's data:\n");
+        printf("\n%-6d%-10s%-10s%-7.2lf\n", blank.acc, blank.firstName,\
+        blank.lastName, blank.balance );
     }
 }
