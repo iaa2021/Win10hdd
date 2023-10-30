@@ -220,6 +220,19 @@ some/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/some.dir/build.make src/CMakeFiles/some.dir/build
 .PHONY : some/fast
 
+#=============================================================================
+# Target rules for targets named ex11_3
+
+# Build rule for target.
+ex11_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex11_3
+.PHONY : ex11_3
+
+# fast build rule for target.
+ex11_3/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_3.dir/build.make src/CMakeFiles/ex11_3.dir/build
+.PHONY : ex11_3/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -232,6 +245,7 @@ help:
 	@echo "... arbWrite"
 	@echo "... choice"
 	@echo "... create"
+	@echo "... ex11_3"
 	@echo "... inquery"
 	@echo "... p502"
 	@echo "... read"

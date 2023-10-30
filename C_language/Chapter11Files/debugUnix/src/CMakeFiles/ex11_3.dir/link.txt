@@ -1,0 +1,1 @@
+/usr/bin/cc  -lm -g  -lm CMakeFiles/ex11_3.dir/ex11_3.c.o -o ex11_3  -lm 
