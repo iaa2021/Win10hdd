@@ -23,7 +23,7 @@ int main()
     printf( "\nExersise 11.8, creating transaction and client's lists.\n" );
     int accountNumber; char name[15]; double balance, amount;
     FILE *tfPtr;
-    if((tfPtr = fopen("trans.txt", "w+")) == NULL)
+    if((tfPtr = fopen("trans.txt", "r+")) == NULL)
     printf("File trans.txt cannot be opened.\n");
     else{
         fprintf(tfPtr,"%-9s%-12s", "Account", "Transaction");
