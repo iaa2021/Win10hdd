@@ -9,5 +9,6 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/src/CMakeFiles/choice.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/src/CMakeFiles/some.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/src/CMakeFiles/ex11_3.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/src/CMakeFiles/ex11_7trans.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/src/CMakeFiles/rebuild_cache.dir

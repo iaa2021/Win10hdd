@@ -242,6 +242,20 @@ ex11_3/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_3.dir/build.make src/CMakeFiles/ex11_3.dir/build
 .PHONY : ex11_3/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex11_7trans.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex11_7trans.dir/rule
+.PHONY : src/CMakeFiles/ex11_7trans.dir/rule
+
+# Convenience name for target.
+ex11_7trans: src/CMakeFiles/ex11_7trans.dir/rule
+.PHONY : ex11_7trans
+
+# fast build rule for target.
+ex11_7trans/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_7trans.dir/build.make src/CMakeFiles/ex11_7trans.dir/build
+.PHONY : ex11_7trans/fast
+
 arbRead.o: arbRead.c.o
 .PHONY : arbRead.o
 
@@ -362,6 +376,30 @@ ex11_3.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_3.dir/build.make src/CMakeFiles/ex11_3.dir/ex11_3.c.s
 .PHONY : ex11_3.c.s
 
+ex11_7trans.o: ex11_7trans.c.o
+.PHONY : ex11_7trans.o
+
+# target to build an object file
+ex11_7trans.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_7trans.dir/build.make src/CMakeFiles/ex11_7trans.dir/ex11_7trans.c.o
+.PHONY : ex11_7trans.c.o
+
+ex11_7trans.i: ex11_7trans.c.i
+.PHONY : ex11_7trans.i
+
+# target to preprocess a source file
+ex11_7trans.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_7trans.dir/build.make src/CMakeFiles/ex11_7trans.dir/ex11_7trans.c.i
+.PHONY : ex11_7trans.c.i
+
+ex11_7trans.s: ex11_7trans.c.s
+.PHONY : ex11_7trans.s
+
+# target to generate assembly for a file
+ex11_7trans.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_7trans.dir/build.make src/CMakeFiles/ex11_7trans.dir/ex11_7trans.c.s
+.PHONY : ex11_7trans.c.s
+
 inquery.o: inquery.c.o
 .PHONY : inquery.o
 
@@ -471,6 +509,7 @@ help:
 	@echo "... choice"
 	@echo "... create"
 	@echo "... ex11_3"
+	@echo "... ex11_7trans"
 	@echo "... inquery"
 	@echo "... p502"
 	@echo "... read"
@@ -490,6 +529,9 @@ help:
 	@echo "... ex11_3.o"
 	@echo "... ex11_3.i"
 	@echo "... ex11_3.s"
+	@echo "... ex11_7trans.o"
+	@echo "... ex11_7trans.i"
+	@echo "... ex11_7trans.s"
 	@echo "... inquery.o"
 	@echo "... inquery.i"
 	@echo "... inquery.s"

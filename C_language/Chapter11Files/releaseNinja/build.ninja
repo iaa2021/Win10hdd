@@ -375,6 +375,40 @@ build src/ex11_3: C_EXECUTABLE_LINKER__ex11_3_Release src/CMakeFiles/ex11_3.dir/
   TARGET_FILE = src/ex11_3
   TARGET_PDB = ex11_3.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex11_7trans
+
+
+#############################################
+# Order-only phony target for ex11_7trans
+
+build cmake_object_order_depends_target_ex11_7trans: phony || src/CMakeFiles/ex11_7trans.dir
+
+build src/CMakeFiles/ex11_7trans.dir/ex11_7trans.c.o: C_COMPILER__ex11_7trans_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/ex11_7trans.c || cmake_object_order_depends_target_ex11_7trans
+  DEP_FILE = src/CMakeFiles/ex11_7trans.dir/ex11_7trans.c.o.d
+  FLAGS = -lm -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/.
+  OBJECT_DIR = src/CMakeFiles/ex11_7trans.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex11_7trans.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex11_7trans
+
+
+#############################################
+# Link the executable src/ex11_7trans
+
+build src/ex11_7trans: C_EXECUTABLE_LINKER__ex11_7trans_Release src/CMakeFiles/ex11_7trans.dir/ex11_7trans.c.o
+  FLAGS = -lm -O3 -DNDEBUG
+  LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/ex11_7trans.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex11_7trans
+  TARGET_PDB = ex11_7trans.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -412,6 +446,8 @@ build create: phony src/create
 
 build ex11_3: phony src/ex11_3
 
+build ex11_7trans: phony src/ex11_7trans
+
 build inquery: phony src/inquery
 
 build p502: phony src/p502
@@ -435,7 +471,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src
 
-build src/all: phony src/p502 src/read src/inquery src/create src/arbWrite src/arbRead src/choice src/some src/ex11_3
+build src/all: phony src/p502 src/read src/inquery src/create src/arbWrite src/arbRead src/choice src/some src/ex11_3 src/ex11_7trans
 
 # =============================================================================
 # Built-in targets

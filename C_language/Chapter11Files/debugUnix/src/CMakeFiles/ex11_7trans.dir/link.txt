@@ -1,0 +1,1 @@
+/usr/bin/cc  -lm -g  -lm CMakeFiles/ex11_7trans.dir/ex11_7trans.c.o -o ex11_7trans  -lm 
