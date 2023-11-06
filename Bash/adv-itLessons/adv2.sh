@@ -9,14 +9,15 @@ echo "Hello my younger sone $1"
 else echo "Hello, stranger"
 fi
 echo "Start CASE selection"
-read -p "Input number 1 to 30: " var3 #input parameter from keyboard
+read -p "Input number 1 to 30, or name: " var3 #input parameter from keyboard
 case $var3 in
 	1) echo "This is $var3";;
 	[2-9]) echo "Number $var3 is more than 1 and less than 10";;
+	[10-30]) echo "Number $var3 is more than 9 and less than 31";;
  	"Vit") echo "Hello, $var3";;
 	*) echo "Parametr unknown" #;; don't need to be taped
 esac
-echo "Work with loops"
+echo "Work with while loops"
 count=0
 while [ $count -lt 10 ]; do
 echo "Current count * 11 is $(($count*11))"
