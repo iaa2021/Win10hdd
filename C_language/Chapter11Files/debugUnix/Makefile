@@ -246,6 +246,19 @@ ex11_7trans/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_7trans.dir/build.make src/CMakeFiles/ex11_7trans.dir/build
 .PHONY : ex11_7trans/fast
 
+#=============================================================================
+# Target rules for targets named ex11_10
+
+# Build rule for target.
+ex11_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex11_10
+.PHONY : ex11_10
+
+# fast build rule for target.
+ex11_10/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_10.dir/build.make src/CMakeFiles/ex11_10.dir/build
+.PHONY : ex11_10/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -258,6 +271,7 @@ help:
 	@echo "... arbWrite"
 	@echo "... choice"
 	@echo "... create"
+	@echo "... ex11_10"
 	@echo "... ex11_3"
 	@echo "... ex11_7trans"
 	@echo "... inquery"

@@ -14,9 +14,10 @@ add_executable( choice choice.c )
 add_executable( some some.c )
 add_executable( ex11_3 ex11_3.c )
 add_executable( ex11_7trans ex11_7trans.c)
+add_executable( ex11_10 ex11_10.c )
 
 set( targets p502 read inquery create arbWrite arbRead choice some ex11_3
-ex11_7trans )
+ex11_7trans ex11_10 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

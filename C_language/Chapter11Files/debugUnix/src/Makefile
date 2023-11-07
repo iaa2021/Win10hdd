@@ -256,6 +256,20 @@ ex11_7trans/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_7trans.dir/build.make src/CMakeFiles/ex11_7trans.dir/build
 .PHONY : ex11_7trans/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex11_10.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex11_10.dir/rule
+.PHONY : src/CMakeFiles/ex11_10.dir/rule
+
+# Convenience name for target.
+ex11_10: src/CMakeFiles/ex11_10.dir/rule
+.PHONY : ex11_10
+
+# fast build rule for target.
+ex11_10/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_10.dir/build.make src/CMakeFiles/ex11_10.dir/build
+.PHONY : ex11_10/fast
+
 arbRead.o: arbRead.c.o
 .PHONY : arbRead.o
 
@@ -351,6 +365,30 @@ create.s: create.c.s
 create.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/create.dir/build.make src/CMakeFiles/create.dir/create.c.s
 .PHONY : create.c.s
+
+ex11_10.o: ex11_10.c.o
+.PHONY : ex11_10.o
+
+# target to build an object file
+ex11_10.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_10.dir/build.make src/CMakeFiles/ex11_10.dir/ex11_10.c.o
+.PHONY : ex11_10.c.o
+
+ex11_10.i: ex11_10.c.i
+.PHONY : ex11_10.i
+
+# target to preprocess a source file
+ex11_10.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_10.dir/build.make src/CMakeFiles/ex11_10.dir/ex11_10.c.i
+.PHONY : ex11_10.c.i
+
+ex11_10.s: ex11_10.c.s
+.PHONY : ex11_10.s
+
+# target to generate assembly for a file
+ex11_10.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_10.dir/build.make src/CMakeFiles/ex11_10.dir/ex11_10.c.s
+.PHONY : ex11_10.c.s
 
 ex11_3.o: ex11_3.c.o
 .PHONY : ex11_3.o
@@ -508,6 +546,7 @@ help:
 	@echo "... arbWrite"
 	@echo "... choice"
 	@echo "... create"
+	@echo "... ex11_10"
 	@echo "... ex11_3"
 	@echo "... ex11_7trans"
 	@echo "... inquery"
@@ -526,6 +565,9 @@ help:
 	@echo "... create.o"
 	@echo "... create.i"
 	@echo "... create.s"
+	@echo "... ex11_10.o"
+	@echo "... ex11_10.i"
+	@echo "... ex11_10.s"
 	@echo "... ex11_3.o"
 	@echo "... ex11_3.i"
 	@echo "... ex11_3.s"

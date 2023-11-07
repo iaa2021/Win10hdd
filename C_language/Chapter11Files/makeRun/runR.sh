@@ -1,4 +1,4 @@
 echo [*] running release configuration with Ninja
 cd ../releaseNinja
-src/ex11_7trans
+src/ex11_10
 cd ..

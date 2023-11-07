@@ -409,6 +409,40 @@ build src/ex11_7trans: C_EXECUTABLE_LINKER__ex11_7trans_Release src/CMakeFiles/e
   TARGET_FILE = src/ex11_7trans
   TARGET_PDB = ex11_7trans.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex11_10
+
+
+#############################################
+# Order-only phony target for ex11_10
+
+build cmake_object_order_depends_target_ex11_10: phony || src/CMakeFiles/ex11_10.dir
+
+build src/CMakeFiles/ex11_10.dir/ex11_10.c.o: C_COMPILER__ex11_10_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/ex11_10.c || cmake_object_order_depends_target_ex11_10
+  DEP_FILE = src/CMakeFiles/ex11_10.dir/ex11_10.c.o.d
+  FLAGS = -lm -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/.
+  OBJECT_DIR = src/CMakeFiles/ex11_10.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex11_10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex11_10
+
+
+#############################################
+# Link the executable src/ex11_10
+
+build src/ex11_10: C_EXECUTABLE_LINKER__ex11_10_Release src/CMakeFiles/ex11_10.dir/ex11_10.c.o
+  FLAGS = -lm -O3 -DNDEBUG
+  LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/ex11_10.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex11_10
+  TARGET_PDB = ex11_10.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -444,6 +478,8 @@ build choice: phony src/choice
 
 build create: phony src/create
 
+build ex11_10: phony src/ex11_10
+
 build ex11_3: phony src/ex11_3
 
 build ex11_7trans: phony src/ex11_7trans
@@ -471,7 +507,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src
 
-build src/all: phony src/p502 src/read src/inquery src/create src/arbWrite src/arbRead src/choice src/some src/ex11_3 src/ex11_7trans
+build src/all: phony src/p502 src/read src/inquery src/create src/arbWrite src/arbRead src/choice src/some src/ex11_3 src/ex11_7trans src/ex11_10
 
 # =============================================================================
 # Built-in targets
