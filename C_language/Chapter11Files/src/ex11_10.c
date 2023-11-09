@@ -18,21 +18,22 @@ int main()
     if((ofPtr = fopen("oldmast.txt", "r")) == NULL)
     printf("\nFile oldmast.txt cannot be opened");
     else
-    fscanf(ofPtr, "%d%lf", &acc, &balance);
-
-    while(!feof(ofPtr))
     {
-        accs[count] = acc;
-        balances[count] = balance;    
-        count++;
         fscanf(ofPtr, "%d%lf", &acc, &balance);
     }
-    printf("\n%-10s%-7s\n", "Account", "Balance");
+    while(!feof(ofPtr))
+    {
+        if( acc != 0)
+        printf("\n%d\t%lf\n", acc, balance);  
+      
+        fscanf(ofPtr, "%d%lf", &acc, &balance);
+    }
+    /*printf("\n%-10s%-7s\n", "Account", "Balance");
     for(int i = 0; i < 10; i++)
     {
         if(accs[i] != 0)
         printf("\n%-10d%-7lf\n", accs[i], balances[i]);
-    }
+    }*/
     fclose(ofPtr); fclose(tfPtr); fclose(nfPtr);
     printf( "\n" );
     return 0;
