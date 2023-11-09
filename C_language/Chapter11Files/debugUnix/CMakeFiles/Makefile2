@@ -89,6 +89,8 @@ src/all: src/CMakeFiles/some.dir/all
 src/all: src/CMakeFiles/ex11_3.dir/all
 src/all: src/CMakeFiles/ex11_7trans.dir/all
 src/all: src/CMakeFiles/ex11_10.dir/all
+src/all: src/CMakeFiles/ex11_11.dir/all
+src/all: src/CMakeFiles/pr11_11.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -107,6 +109,8 @@ src/clean: src/CMakeFiles/some.dir/clean
 src/clean: src/CMakeFiles/ex11_3.dir/clean
 src/clean: src/CMakeFiles/ex11_7trans.dir/clean
 src/clean: src/CMakeFiles/ex11_10.dir/clean
+src/clean: src/CMakeFiles/ex11_11.dir/clean
+src/clean: src/CMakeFiles/pr11_11.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -116,7 +120,7 @@ src/clean: src/CMakeFiles/ex11_10.dir/clean
 src/CMakeFiles/p502.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=17,18 "Built target p502"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=19,20 "Built target p502"
 .PHONY : src/CMakeFiles/p502.dir/all
 
 # Build rule for subdir invocation for target.
@@ -142,7 +146,7 @@ src/CMakeFiles/p502.dir/clean:
 src/CMakeFiles/read.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/read.dir/build.make src/CMakeFiles/read.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=19,20 "Built target read"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=23,24 "Built target read"
 .PHONY : src/CMakeFiles/read.dir/all
 
 # Build rule for subdir invocation for target.
@@ -168,7 +172,7 @@ src/CMakeFiles/read.dir/clean:
 src/CMakeFiles/inquery.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/inquery.dir/build.make src/CMakeFiles/inquery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=15,16 "Built target inquery"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=17,18 "Built target inquery"
 .PHONY : src/CMakeFiles/inquery.dir/all
 
 # Build rule for subdir invocation for target.
@@ -298,7 +302,7 @@ src/CMakeFiles/choice.dir/clean:
 src/CMakeFiles/some.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/some.dir/build.make src/CMakeFiles/some.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/some.dir/build.make src/CMakeFiles/some.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=21,22 "Built target some"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=25,26 "Built target some"
 .PHONY : src/CMakeFiles/some.dir/all
 
 # Build rule for subdir invocation for target.
@@ -324,7 +328,7 @@ src/CMakeFiles/some.dir/clean:
 src/CMakeFiles/ex11_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_3.dir/build.make src/CMakeFiles/ex11_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_3.dir/build.make src/CMakeFiles/ex11_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=11,12 "Built target ex11_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=13,14 "Built target ex11_3"
 .PHONY : src/CMakeFiles/ex11_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -350,7 +354,7 @@ src/CMakeFiles/ex11_3.dir/clean:
 src/CMakeFiles/ex11_7trans.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_7trans.dir/build.make src/CMakeFiles/ex11_7trans.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_7trans.dir/build.make src/CMakeFiles/ex11_7trans.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=13,14 "Built target ex11_7trans"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=15,16 "Built target ex11_7trans"
 .PHONY : src/CMakeFiles/ex11_7trans.dir/all
 
 # Build rule for subdir invocation for target.
@@ -394,6 +398,58 @@ ex11_10: src/CMakeFiles/ex11_10.dir/rule
 src/CMakeFiles/ex11_10.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_10.dir/build.make src/CMakeFiles/ex11_10.dir/clean
 .PHONY : src/CMakeFiles/ex11_10.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex11_11.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex11_11.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_11.dir/build.make src/CMakeFiles/ex11_11.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_11.dir/build.make src/CMakeFiles/ex11_11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=11,12 "Built target ex11_11"
+.PHONY : src/CMakeFiles/ex11_11.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex11_11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex11_11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/ex11_11.dir/rule
+
+# Convenience name for target.
+ex11_11: src/CMakeFiles/ex11_11.dir/rule
+.PHONY : ex11_11
+
+# clean rule for target.
+src/CMakeFiles/ex11_11.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_11.dir/build.make src/CMakeFiles/ex11_11.dir/clean
+.PHONY : src/CMakeFiles/ex11_11.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/pr11_11.dir
+
+# All Build rule for target.
+src/CMakeFiles/pr11_11.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/pr11_11.dir/build.make src/CMakeFiles/pr11_11.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/pr11_11.dir/build.make src/CMakeFiles/pr11_11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles --progress-num=21,22 "Built target pr11_11"
+.PHONY : src/CMakeFiles/pr11_11.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/pr11_11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/pr11_11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/pr11_11.dir/rule
+
+# Convenience name for target.
+pr11_11: src/CMakeFiles/pr11_11.dir/rule
+.PHONY : pr11_11
+
+# clean rule for target.
+src/CMakeFiles/pr11_11.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/pr11_11.dir/build.make src/CMakeFiles/pr11_11.dir/clean
+.PHONY : src/CMakeFiles/pr11_11.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

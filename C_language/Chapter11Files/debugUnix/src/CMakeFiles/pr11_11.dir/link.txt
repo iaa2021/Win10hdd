@@ -1,0 +1,1 @@
+/usr/bin/cc  -lm -g  -lm CMakeFiles/pr11_11.dir/pr11_11.c.o -o pr11_11  -lm 

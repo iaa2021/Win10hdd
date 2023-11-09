@@ -443,6 +443,74 @@ build src/ex11_10: C_EXECUTABLE_LINKER__ex11_10_Release src/CMakeFiles/ex11_10.d
   TARGET_FILE = src/ex11_10
   TARGET_PDB = ex11_10.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex11_11
+
+
+#############################################
+# Order-only phony target for ex11_11
+
+build cmake_object_order_depends_target_ex11_11: phony || src/CMakeFiles/ex11_11.dir
+
+build src/CMakeFiles/ex11_11.dir/ex11_11.c.o: C_COMPILER__ex11_11_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/ex11_11.c || cmake_object_order_depends_target_ex11_11
+  DEP_FILE = src/CMakeFiles/ex11_11.dir/ex11_11.c.o.d
+  FLAGS = -lm -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/.
+  OBJECT_DIR = src/CMakeFiles/ex11_11.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex11_11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex11_11
+
+
+#############################################
+# Link the executable src/ex11_11
+
+build src/ex11_11: C_EXECUTABLE_LINKER__ex11_11_Release src/CMakeFiles/ex11_11.dir/ex11_11.c.o
+  FLAGS = -lm -O3 -DNDEBUG
+  LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/ex11_11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex11_11
+  TARGET_PDB = ex11_11.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pr11_11
+
+
+#############################################
+# Order-only phony target for pr11_11
+
+build cmake_object_order_depends_target_pr11_11: phony || src/CMakeFiles/pr11_11.dir
+
+build src/CMakeFiles/pr11_11.dir/pr11_11.c.o: C_COMPILER__pr11_11_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/pr11_11.c || cmake_object_order_depends_target_pr11_11
+  DEP_FILE = src/CMakeFiles/pr11_11.dir/pr11_11.c.o.d
+  FLAGS = -lm -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/src/.
+  OBJECT_DIR = src/CMakeFiles/pr11_11.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/pr11_11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pr11_11
+
+
+#############################################
+# Link the executable src/pr11_11
+
+build src/pr11_11: C_EXECUTABLE_LINKER__pr11_11_Release src/CMakeFiles/pr11_11.dir/pr11_11.c.o
+  FLAGS = -lm -O3 -DNDEBUG
+  LINK_FLAGS = -lm
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/pr11_11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/pr11_11
+  TARGET_PDB = pr11_11.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -480,6 +548,8 @@ build create: phony src/create
 
 build ex11_10: phony src/ex11_10
 
+build ex11_11: phony src/ex11_11
+
 build ex11_3: phony src/ex11_3
 
 build ex11_7trans: phony src/ex11_7trans
@@ -487,6 +557,8 @@ build ex11_7trans: phony src/ex11_7trans
 build inquery: phony src/inquery
 
 build p502: phony src/p502
+
+build pr11_11: phony src/pr11_11
 
 build read: phony src/read
 
@@ -507,7 +579,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/releaseNinja/src
 
-build src/all: phony src/p502 src/read src/inquery src/create src/arbWrite src/arbRead src/choice src/some src/ex11_3 src/ex11_7trans src/ex11_10
+build src/all: phony src/p502 src/read src/inquery src/create src/arbWrite src/arbRead src/choice src/some src/ex11_3 src/ex11_7trans src/ex11_10 src/ex11_11 src/pr11_11
 
 # =============================================================================
 # Built-in targets

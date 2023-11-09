@@ -270,6 +270,34 @@ ex11_10/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_10.dir/build.make src/CMakeFiles/ex11_10.dir/build
 .PHONY : ex11_10/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex11_11.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex11_11.dir/rule
+.PHONY : src/CMakeFiles/ex11_11.dir/rule
+
+# Convenience name for target.
+ex11_11: src/CMakeFiles/ex11_11.dir/rule
+.PHONY : ex11_11
+
+# fast build rule for target.
+ex11_11/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_11.dir/build.make src/CMakeFiles/ex11_11.dir/build
+.PHONY : ex11_11/fast
+
+# Convenience name for target.
+src/CMakeFiles/pr11_11.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/pr11_11.dir/rule
+.PHONY : src/CMakeFiles/pr11_11.dir/rule
+
+# Convenience name for target.
+pr11_11: src/CMakeFiles/pr11_11.dir/rule
+.PHONY : pr11_11
+
+# fast build rule for target.
+pr11_11/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pr11_11.dir/build.make src/CMakeFiles/pr11_11.dir/build
+.PHONY : pr11_11/fast
+
 arbRead.o: arbRead.c.o
 .PHONY : arbRead.o
 
@@ -390,6 +418,30 @@ ex11_10.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_10.dir/build.make src/CMakeFiles/ex11_10.dir/ex11_10.c.s
 .PHONY : ex11_10.c.s
 
+ex11_11.o: ex11_11.c.o
+.PHONY : ex11_11.o
+
+# target to build an object file
+ex11_11.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_11.dir/build.make src/CMakeFiles/ex11_11.dir/ex11_11.c.o
+.PHONY : ex11_11.c.o
+
+ex11_11.i: ex11_11.c.i
+.PHONY : ex11_11.i
+
+# target to preprocess a source file
+ex11_11.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_11.dir/build.make src/CMakeFiles/ex11_11.dir/ex11_11.c.i
+.PHONY : ex11_11.c.i
+
+ex11_11.s: ex11_11.c.s
+.PHONY : ex11_11.s
+
+# target to generate assembly for a file
+ex11_11.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_11.dir/build.make src/CMakeFiles/ex11_11.dir/ex11_11.c.s
+.PHONY : ex11_11.c.s
+
 ex11_3.o: ex11_3.c.o
 .PHONY : ex11_3.o
 
@@ -486,6 +538,30 @@ p502.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p502.dir/build.make src/CMakeFiles/p502.dir/p502.c.s
 .PHONY : p502.c.s
 
+pr11_11.o: pr11_11.c.o
+.PHONY : pr11_11.o
+
+# target to build an object file
+pr11_11.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pr11_11.dir/build.make src/CMakeFiles/pr11_11.dir/pr11_11.c.o
+.PHONY : pr11_11.c.o
+
+pr11_11.i: pr11_11.c.i
+.PHONY : pr11_11.i
+
+# target to preprocess a source file
+pr11_11.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pr11_11.dir/build.make src/CMakeFiles/pr11_11.dir/pr11_11.c.i
+.PHONY : pr11_11.c.i
+
+pr11_11.s: pr11_11.c.s
+.PHONY : pr11_11.s
+
+# target to generate assembly for a file
+pr11_11.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pr11_11.dir/build.make src/CMakeFiles/pr11_11.dir/pr11_11.c.s
+.PHONY : pr11_11.c.s
+
 read.o: read.c.o
 .PHONY : read.o
 
@@ -547,10 +623,12 @@ help:
 	@echo "... choice"
 	@echo "... create"
 	@echo "... ex11_10"
+	@echo "... ex11_11"
 	@echo "... ex11_3"
 	@echo "... ex11_7trans"
 	@echo "... inquery"
 	@echo "... p502"
+	@echo "... pr11_11"
 	@echo "... read"
 	@echo "... some"
 	@echo "... arbRead.o"
@@ -568,6 +646,9 @@ help:
 	@echo "... ex11_10.o"
 	@echo "... ex11_10.i"
 	@echo "... ex11_10.s"
+	@echo "... ex11_11.o"
+	@echo "... ex11_11.i"
+	@echo "... ex11_11.s"
 	@echo "... ex11_3.o"
 	@echo "... ex11_3.i"
 	@echo "... ex11_3.s"
@@ -580,6 +661,9 @@ help:
 	@echo "... p502.o"
 	@echo "... p502.i"
 	@echo "... p502.s"
+	@echo "... pr11_11.o"
+	@echo "... pr11_11.i"
+	@echo "... pr11_11.s"
 	@echo "... read.o"
 	@echo "... read.i"
 	@echo "... read.s"
