@@ -3,8 +3,8 @@
 struct person{
     char last[15];
     char first[15];
-    char age[2];
-} one = {"unassigned", "", "0"};
+    int age;
+} one = {"unassigned", "", 0};
 int main()
 {
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
