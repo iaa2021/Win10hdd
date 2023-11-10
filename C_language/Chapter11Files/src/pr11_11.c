@@ -1,5 +1,6 @@
 #include "config.h"
 #include "stdio.h"
+#include "string.h"
 struct person{
     char last[15];
     char first[15];
@@ -8,7 +9,7 @@ struct person{
 void input(FILE *);
 void createTF(FILE *);
 void edit(FILE *);
-/*void delete(FILE *);*/
+void delete(FILE *);
 int main()
 {
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -20,8 +21,8 @@ int main()
     printf("\nFile nameage.txt cannot be opened");
     else
     {
-        printf("\nInput your choice:\n1 - to input record;\n\
-        2 - to edit record;\n3 - to delete record;\
+        printf("\nInput your choice:\n1 - to input record;\
+        \n2 - to edit record;\n3 - to delete record;\
         \n4 - create text file;\n0 - to quit.");
         printf("\n? ");
         scanf("%d", &choice);
@@ -35,17 +36,17 @@ int main()
                 case 2:
                 edit(ptr);
                 break;
-                /*case 3:
+                case 3:
                 delete(ptr);
-                break;*/
+                break;
                 case 4:
                 createTF(ptr);
                 break;
                 default:
                 printf("\nYou've entered wrong choice.\n");
             }
-            printf("\nInput your choice:\n1 - to input record;\n\
-            2 - to edit record;\n3 - to delete record;\
+            printf("\nInput your choice:\n1 - to input record;\
+            \n2 - to edit record;\n3 - to delete record;\
             \n4 - create text file;\n0 - to quit.");
             printf("\n? ");
             scanf("%d", &choice);
@@ -64,6 +65,7 @@ void input(FILE *cfptr)
         if(one.age != 0)
         count++;
     }
+    printf("\nList already has %d records.\n", count);
     rewind(cfptr);
     printf("\nInput last, first names and age:");
     printf("\n? ");
@@ -77,40 +79,87 @@ void edit(FILE *cfptr)
     struct person one, two, three; int count = 0, existence = 0;
     printf("\nInput last and first names, age to edit record:\n");
     scanf("%s%s%d", two.last, two.first, &two.age);
-    while(feof(cfptr))
+    printf("\nYou request person is: %s %s, %d\n", two.last, two.first,\
+     two.age);
+    fread( &one, sizeof(struct person), 1, cfptr);
+    while(!feof(cfptr))
     {
-        fread( &one, sizeof(struct person), 1, cfptr);
         count++;
-        if( one.age == two.age )
+        if(one.age != 0)
+        printf("\nRecord #%d: %s %s, %d;\n", count, one.last, one.first,\
+             one.age);
+        if( strcmp(one.last, two.last) == 0 && strcmp(one.first, two.first) == 0\
+         &&  one.age == two.age )
         {
             printf("\nInput new data:\n");
             scanf("%s%s%d", three.last, three.first, &three.age);
             fseek(cfptr, sizeof(struct person) * (count - 1), SEEK_SET);
             fwrite(&three, sizeof(struct person), 1, cfptr);
             existence++;
+            break;
         }
+        else
+        fread( &one, sizeof(struct person), 1, cfptr);
     }
     if(existence == 0)
-    printf("\nNo information about%s %s %d years old.\n", \
+    printf("\nNo information about %s %s %d years old.\n", \
     two.last, two.first, two.age);
 }
 void createTF(FILE *cfptr)
 {
     struct person one; 
-    FILE *tfptr;
+    FILE *tfptr; int count = 0;
     if( (tfptr = fopen("result.txt", "w")) == NULL )
     printf("\nFile result.txt cannot be opened");
     else{
         rewind(cfptr);
-        fprintf(tfptr, "%-9s%-9s%-3s", "Last", "First", "Age");
+        fprintf(tfptr, "%-3s%-9s%-9s%-3s","#", "Last", "First", "Age");
         fread(&one, sizeof(struct person), 1, cfptr);
         while(!feof(cfptr))
         {
             if(one.age != 0)
-            fprintf(tfptr, "\n%-9s%-9s%-3d", one.last, one.first, one.age);
+            {
+                count++;
+                fprintf(tfptr, "\n%-3d%-9s%-9s%-3d",count, one.last,\
+                 one.first, one.age);
+            }
 
             fread(&one, sizeof(struct person), 1, cfptr);
         }
         fclose(tfptr);
     }
+}
+void delete(FILE *cfptr)
+{
+    struct person one, two, empty = {"unassigned", "", 0};
+    int count = 0, exist = 0;
+    printf("\nInput last and first names, age to edit record:\n");
+    scanf("%s%s%d", two.last, two.first, &two.age);
+    printf("\nYou request person is: %s %s, %d years old.\n", two.last,\
+     two.first, two.age);
+    rewind(cfptr);
+    fread(&one, sizeof(struct person),1, cfptr);
+    while(!feof(cfptr))
+    {
+        if(one.age != 0)
+        {
+            count++;
+            printf("\n%-3d%-9s%-9s%-3d", count, one.last, one.first, one.age);
+        }  
+        if( strcmp(one.last, two.last) == 0 && strcmp(one.first, two.first) == 0\
+         && one.age == two.age )
+            {
+                exist++;
+                fseek(cfptr, sizeof(struct person) * (count - 1), SEEK_SET);
+                fwrite(&empty, sizeof(struct person), 1, cfptr);
+                printf("\nRecord %-3d%-9s%-9s%-3d destroyed.\n", count, one.last,\
+                 one.first, one.age);
+                break;
+            }
+             else
+             fread(&one, sizeof(struct person), 1, cfptr);
+    }
+    if(exist == 0)
+    printf("\nNo information about %s %s %d years old.\n", \
+    two.last, two.first, two.age);
 }
