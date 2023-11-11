@@ -298,6 +298,20 @@ pr11_11/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pr11_11.dir/build.make src/CMakeFiles/pr11_11.dir/build
 .PHONY : pr11_11/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex11_13.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex11_13.dir/rule
+.PHONY : src/CMakeFiles/ex11_13.dir/rule
+
+# Convenience name for target.
+ex11_13: src/CMakeFiles/ex11_13.dir/rule
+.PHONY : ex11_13
+
+# fast build rule for target.
+ex11_13/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_13.dir/build.make src/CMakeFiles/ex11_13.dir/build
+.PHONY : ex11_13/fast
+
 arbRead.o: arbRead.c.o
 .PHONY : arbRead.o
 
@@ -441,6 +455,30 @@ ex11_11.s: ex11_11.c.s
 ex11_11.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_11.dir/build.make src/CMakeFiles/ex11_11.dir/ex11_11.c.s
 .PHONY : ex11_11.c.s
+
+ex11_13.o: ex11_13.c.o
+.PHONY : ex11_13.o
+
+# target to build an object file
+ex11_13.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_13.dir/build.make src/CMakeFiles/ex11_13.dir/ex11_13.c.o
+.PHONY : ex11_13.c.o
+
+ex11_13.i: ex11_13.c.i
+.PHONY : ex11_13.i
+
+# target to preprocess a source file
+ex11_13.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_13.dir/build.make src/CMakeFiles/ex11_13.dir/ex11_13.c.i
+.PHONY : ex11_13.c.i
+
+ex11_13.s: ex11_13.c.s
+.PHONY : ex11_13.s
+
+# target to generate assembly for a file
+ex11_13.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter11Files/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_13.dir/build.make src/CMakeFiles/ex11_13.dir/ex11_13.c.s
+.PHONY : ex11_13.c.s
 
 ex11_3.o: ex11_3.c.o
 .PHONY : ex11_3.o
@@ -624,6 +662,7 @@ help:
 	@echo "... create"
 	@echo "... ex11_10"
 	@echo "... ex11_11"
+	@echo "... ex11_13"
 	@echo "... ex11_3"
 	@echo "... ex11_7trans"
 	@echo "... inquery"
@@ -649,6 +688,9 @@ help:
 	@echo "... ex11_11.o"
 	@echo "... ex11_11.i"
 	@echo "... ex11_11.s"
+	@echo "... ex11_13.o"
+	@echo "... ex11_13.i"
+	@echo "... ex11_13.s"
 	@echo "... ex11_3.o"
 	@echo "... ex11_3.i"
 	@echo "... ex11_3.s"

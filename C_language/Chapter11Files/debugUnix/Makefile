@@ -285,6 +285,19 @@ pr11_11/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/pr11_11.dir/build.make src/CMakeFiles/pr11_11.dir/build
 .PHONY : pr11_11/fast
 
+#=============================================================================
+# Target rules for targets named ex11_13
+
+# Build rule for target.
+ex11_13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex11_13
+.PHONY : ex11_13
+
+# fast build rule for target.
+ex11_13/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex11_13.dir/build.make src/CMakeFiles/ex11_13.dir/build
+.PHONY : ex11_13/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -299,6 +312,7 @@ help:
 	@echo "... create"
 	@echo "... ex11_10"
 	@echo "... ex11_11"
+	@echo "... ex11_13"
 	@echo "... ex11_3"
 	@echo "... ex11_7trans"
 	@echo "... inquery"

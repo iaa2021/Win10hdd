@@ -84,10 +84,12 @@ void edit(FILE *cfptr)
     fread( &one, sizeof(struct person), 1, cfptr);
     while(!feof(cfptr))
     {
-        count++;
         if(one.age != 0)
-        printf("\nRecord #%d: %s %s, %d;\n", count, one.last, one.first,\
+        {
+            count++;
+            printf("\nRecord #%d: %s %s, %d;\n", count, one.last, one.first,\
              one.age);
+        }
         if( strcmp(one.last, two.last) == 0 && strcmp(one.first, two.first) == 0\
          &&  one.age == two.age )
         {
@@ -107,7 +109,7 @@ void edit(FILE *cfptr)
 }
 void createTF(FILE *cfptr)
 {
-    struct person one; 
+    struct person one; char *l = "unassigned"; char *f = "";
     FILE *tfptr; int count = 0;
     if( (tfptr = fopen("result.txt", "w")) == NULL )
     printf("\nFile result.txt cannot be opened");
@@ -117,7 +119,8 @@ void createTF(FILE *cfptr)
         fread(&one, sizeof(struct person), 1, cfptr);
         while(!feof(cfptr))
         {
-            if(one.age != 0)
+            if(one.age != 0 && strcmp(one.last, l) != 0 &&\
+             strcmp(one.first, f) != 0)
             {
                 count++;
                 fprintf(tfptr, "\n%-3d%-9s%-9s%-3d",count, one.last,\

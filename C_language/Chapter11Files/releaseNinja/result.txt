@@ -1,11 +1,6 @@
 #  Last     First    Age
-1  Smith    John     27 
-2  d:¥¿ü            1801675082
-3  White    Nickolas 49 
-4  Purple   Dasy     37 
-5                    -556739735
-6                    324465513
-7                    -940493975
-8                    -591252631
-9  Ruby     David    47 
-10 Jackson  Ivan     33 
+1  Green    Jack     25 
+2  Smith    John     33 
+3  White    Sarah    45 
+4  Blue     Samantha 51 
+5  Collins  Dasy     41 
