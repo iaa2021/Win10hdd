@@ -42,6 +42,7 @@ src/CMakeFiles/ex11_13.dir/ex11_13.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
@@ -61,6 +62,6 @@ src/CMakeFiles/ex11_13.dir/ex11_13.c.o
  /usr/include/x86_64-linux-gnu/sys/cdefs.h
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/sys/types.h
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 

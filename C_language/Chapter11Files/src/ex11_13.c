@@ -10,6 +10,8 @@ int main()
     printf( "\nExersise on 11.13, phone number via letters.\n" );
     srand(time(0));
     int array[10][3] = { 0 }; int number = 0;
+    char numbLetters[7][3];
+
     int phoneNumber[7] = {0};
     char *alphabeth = "abcdefghijklmnoprstuvxyz";
     for(int i = 2; i < 10; i++)
@@ -45,8 +47,31 @@ int main()
         for(int j = 0; j < 3; j++)/*pass by literal value of the number*/
         {
             printf("%c", alphabeth[array[phoneNumber[i]][j]]);
+            numbLetters[i][j] = alphabeth[array[phoneNumber[i]][j]];
         }
         printf("-");
+    }
+    printf("\nNumber accomplishes in array numbLetters:\n");
+    for(int i = 0; i < 7; i++)/*pass by phone numbers*/
+    {
+        for(int j = 0; j < 3; j++)/*pass by literal value of the number*/
+        {
+            printf("%c", numbLetters[i][j]);
+        }
+        printf(" - ");
+    }
+    printf("\nPossible words:\n");
+    for(int i = 0; i < 100; i++)
+    {
+        for(int j = 0; j < 7; j++)
+        {
+            int k = rand()%2;
+            printf("%c", numbLetters[j][k]);
+        }
+        if(((i+1) % 10) == 0)
+        printf(",\n");
+        else
+        printf(", ");
     }
     printf("\n");
     return 0;
