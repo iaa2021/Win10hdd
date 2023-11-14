@@ -11,7 +11,6 @@ int main()
     srand(time(0));
     int array[10][3] = { 0 }; int number = 0;
     char numbLetters[7][3];
-
     int phoneNumber[7] = {0};
     char *alphabeth = "abcdefghijklmnoprstuvxyz";
     for(int i = 2; i < 10; i++)
