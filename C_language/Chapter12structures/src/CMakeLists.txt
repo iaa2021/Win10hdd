@@ -4,10 +4,10 @@ project( chapter11 VERSION 12.1.3 )
 configure_file( config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h )
 configure_file( config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h )
 
-add_executable( p502 p502.c )
+add_executable( p541 p541.c )
 
 
-set( targets  )
+set( targets p541 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

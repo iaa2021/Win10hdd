@@ -1,0 +1,5 @@
+/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles/edit_cache.dir
+/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles/rebuild_cache.dir
+/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/src/CMakeFiles/p541.dir
+/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/src/CMakeFiles/edit_cache.dir
+/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/src/CMakeFiles/rebuild_cache.dir
