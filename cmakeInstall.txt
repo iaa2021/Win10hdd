@@ -1,0 +1,29 @@
+#Install CMake through the Ubuntu Command Line
+
+#If you prefer the command line over the UI, here is the method you must follow to install the latest version of CMake. I also tried installing CMake through default Ubuntu repositories and PPA, but none of them gave me the latest version. The only workable method involves downloading the source code from the Official CMake website “https://cmake.org/download/”, compiling it, and then installing CMake through it.
+
+#Open the Ubuntu command line, the Terminal, either through the Ctrl+Alt+T shortcut or the Application launcher search.
+
+#Install build tools and libraries that CMake depends on:
+
+$ sudo apt-get install build-essential libssl-dev
+
+#Go to the temp directory:
+
+$ cd /tmp
+
+#Then, enter the following command to download the source code:
+
+$ wget https://github.com/Kitware/CMake/releases/download/v3.20.0/cmake-3.20.0.tar.gz
+
+#Once the tar.gz file is downloaded, enter the following command to extract it:
+
+$ tar -zxvf cmake-3.20.0.tar.gz
+
+#Then move to the extracted folder as follows:
+
+$ cd cmake-3.20.0
+
+#Finally, run the following commands to compile and install CMake:
+
+./bootstrap
