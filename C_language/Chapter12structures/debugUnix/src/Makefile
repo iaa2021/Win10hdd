@@ -57,10 +57,10 @@ RM = /snap/cmake/1345/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures"
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix"
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles" "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/src//CMakeFiles/progress.marks"
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles" 0
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src//CMakeFiles/progress.marks
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,56 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/p541.dir/rule:
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p541.dir/rule
-.PHONY : src/CMakeFiles/p541.dir/rule
+src/CMakeFiles/p533.dir/rule:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p533.dir/rule
+.PHONY : src/CMakeFiles/p533.dir/rule
 
 # Convenience name for target.
-p541: src/CMakeFiles/p541.dir/rule
-.PHONY : p541
+p533: src/CMakeFiles/p533.dir/rule
+.PHONY : p533
 
 # fast build rule for target.
-p541/fast:
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p541.dir/build.make src/CMakeFiles/p541.dir/build
-.PHONY : p541/fast
+p533/fast:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/build
+.PHONY : p533/fast
 
-p541.o: p541.c.o
-.PHONY : p541.o
+p533.o: p533.c.o
+.PHONY : p533.o
 
 # target to build an object file
-p541.c.o:
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p541.dir/build.make src/CMakeFiles/p541.dir/p541.c.o
-.PHONY : p541.c.o
+p533.c.o:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.o
+.PHONY : p533.c.o
 
-p541.i: p541.c.i
-.PHONY : p541.i
+p533.i: p533.c.i
+.PHONY : p533.i
 
 # target to preprocess a source file
-p541.c.i:
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p541.dir/build.make src/CMakeFiles/p541.dir/p541.c.i
-.PHONY : p541.c.i
+p533.c.i:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.i
+.PHONY : p533.c.i
 
-p541.s: p541.c.s
-.PHONY : p541.s
+p533.s: p533.c.s
+.PHONY : p533.s
 
 # target to generate assembly for a file
-p541.c.s:
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p541.dir/build.make src/CMakeFiles/p541.dir/p541.c.s
-.PHONY : p541.c.s
+p533.c.s:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.s
+.PHONY : p533.c.s
 
 # Help Target
 help:
@@ -162,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... p541"
-	@echo "... p541.o"
-	@echo "... p541.i"
-	@echo "... p541.s"
+	@echo "... p533"
+	@echo "... p533.o"
+	@echo "... p533.i"
+	@echo "... p533.s"
 .PHONY : help
 
 
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

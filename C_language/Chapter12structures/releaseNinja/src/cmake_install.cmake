@@ -1,4 +1,4 @@
-# Install script for directory: /home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/src
+# Install script for directory: /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

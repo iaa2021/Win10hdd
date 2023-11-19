@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/CMakeLists.txt"
+  "/home/iaa/Desktop/gitStore/C_language/Chapter12structures/CMakeLists.txt"
   "CMakeFiles/3.27.8/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.8/CMakeSystem.cmake"
-  "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/src/CMakeLists.txt"
-  "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/src/config.h.in"
+  "/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/CMakeLists.txt"
+  "/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/config.h.in"
   "/snap/cmake/1345/share/cmake-3.27/Modules/CMakeCInformation.cmake"
   "/snap/cmake/1345/share/cmake-3.27/Modules/CMakeCXXInformation.cmake"
   "/snap/cmake/1345/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
@@ -43,11 +43,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/config.h"
-  "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/src/config.h"
+  "/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/config.h"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/p541.dir/DependInfo.cmake"
+  "src/CMakeFiles/p533.dir/DependInfo.cmake"
   )

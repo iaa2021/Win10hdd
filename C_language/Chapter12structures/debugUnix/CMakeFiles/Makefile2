@@ -54,10 +54,10 @@ RM = /snap/cmake/1345/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures"
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix"
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -78,7 +78,7 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/p541.dir/all
+src/all: src/CMakeFiles/p533.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -86,34 +86,34 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/p541.dir/clean
+src/clean: src/CMakeFiles/p533.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/p541.dir
+# Target rules for target src/CMakeFiles/p533.dir
 
 # All Build rule for target.
-src/CMakeFiles/p541.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p541.dir/build.make src/CMakeFiles/p541.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p541.dir/build.make src/CMakeFiles/p541.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles" --progress-num=1,2 "Built target p541"
-.PHONY : src/CMakeFiles/p541.dir/all
+src/CMakeFiles/p533.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=1,2 "Built target p533"
+.PHONY : src/CMakeFiles/p533.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/p541.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p541.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles" 0
-.PHONY : src/CMakeFiles/p541.dir/rule
+src/CMakeFiles/p533.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p533.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/p533.dir/rule
 
 # Convenience name for target.
-p541: src/CMakeFiles/p541.dir/rule
-.PHONY : p541
+p533: src/CMakeFiles/p533.dir/rule
+.PHONY : p533
 
 # clean rule for target.
-src/CMakeFiles/p541.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p541.dir/build.make src/CMakeFiles/p541.dir/clean
-.PHONY : src/CMakeFiles/p541.dir/clean
+src/CMakeFiles/p533.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/clean
+.PHONY : src/CMakeFiles/p533.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

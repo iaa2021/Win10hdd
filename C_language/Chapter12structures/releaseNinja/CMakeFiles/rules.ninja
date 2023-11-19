@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: ch12
+# Project: ch13
 # Configurations: Release
 # =============================================================================
 # =============================================================================
@@ -22,7 +22,7 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__p541_unscanned_Release
+rule C_COMPILER__p533_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -32,7 +32,7 @@ rule C_COMPILER__p541_unscanned_Release
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__p541_Release
+rule C_EXECUTABLE_LINKER__p533_Release
   command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__p541_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /snap/cmake/1345/bin/cmake --regenerate-during-build -S"/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures" -B"/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/releaseNinja"
+  command = /snap/cmake/1345/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/C_language/Chapter12structures -B/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja
   description = Re-running CMake...
   generator = 1
 

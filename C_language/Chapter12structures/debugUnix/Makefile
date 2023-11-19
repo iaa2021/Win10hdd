@@ -57,10 +57,10 @@ RM = /snap/cmake/1345/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures"
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix"
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles" "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/iaa/Рабочий стол/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named p541
+# Target rules for targets named p533
 
 # Build rule for target.
-p541: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p541
-.PHONY : p541
+p533: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p533
+.PHONY : p533
 
 # fast build rule for target.
-p541/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p541.dir/build.make src/CMakeFiles/p541.dir/build
-.PHONY : p541/fast
+p533/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/build
+.PHONY : p533/fast
 
 # Help Target
 help:
@@ -137,7 +137,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... p541"
+	@echo "... p533"
 .PHONY : help
 
 

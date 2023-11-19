@@ -8,7 +8,7 @@ struct listNode{
 typedef struct listNode LISTNODE;
 typedef LISTNODE * LISTNODEPTR;
 void insert(LISTNODEPTR *, char);
-void delete(LISTNODEPTR *, char);
+char delete(LISTNODEPTR *, char);
 int empty(LISTNODEPTR);
 void printList(LISTNODEPTR);
 void instructions(void);
@@ -27,13 +27,14 @@ int main()
         switch(choice){
             case 1:
             printf("Enter a character: ");
-            scanf("%c", &item );
+            scanf("\n%c", &item );
+            insert(&start, item);
             printList(start);
             break;
             case 2:
             if(!empty(start)){
                 printf("Enter character to be deleted: ");
-                scanf("%c", &item );
+                scanf("\n%c", &item );
                 if(delete(&start, item)){
                     printf("%c deleted.\n", item);
                     printList(start);
@@ -83,7 +84,7 @@ void insert(LISTNODEPTR *sptr, char value){
     else
     printf("\n%c not inserted, no memory availiable.\n", value);
 }
-char delete(LISTNODEPTR *sptr, char value){
+char delete(LISTNODEPTR *sptr, char value){/*char delete(LISTNODEPTR *, char);*/
     LISTNODEPTR temp, previous, current;
     if(value == (*sptr) ->data){
         temp = *sptr;
