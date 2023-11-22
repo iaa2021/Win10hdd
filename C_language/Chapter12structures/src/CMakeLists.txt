@@ -5,9 +5,9 @@ configure_file( config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h )
 configure_file( config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h )
 
 add_executable( p533 p533.c )
+add_executable( list list.c )
 
-
-set( targets p533 )
+set( targets p533 list )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

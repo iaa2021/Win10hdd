@@ -1,5 +1,6 @@
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/CMakeFiles/rebuild_cache.dir
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/p533.dir
+/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/list.dir
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/rebuild_cache.dir

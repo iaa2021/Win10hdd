@@ -79,6 +79,7 @@ clean: src/clean
 
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/p533.dir/all
+src/all: src/CMakeFiles/list.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -87,6 +88,7 @@ src/preinstall:
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/p533.dir/clean
+src/clean: src/CMakeFiles/list.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -96,7 +98,7 @@ src/clean: src/CMakeFiles/p533.dir/clean
 src/CMakeFiles/p533.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=1,2 "Built target p533"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=3,4 "Built target p533"
 .PHONY : src/CMakeFiles/p533.dir/all
 
 # Build rule for subdir invocation for target.
@@ -114,6 +116,32 @@ p533: src/CMakeFiles/p533.dir/rule
 src/CMakeFiles/p533.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/clean
 .PHONY : src/CMakeFiles/p533.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/list.dir
+
+# All Build rule for target.
+src/CMakeFiles/list.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=1,2 "Built target list"
+.PHONY : src/CMakeFiles/list.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/list.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/list.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/list.dir/rule
+
+# Convenience name for target.
+list: src/CMakeFiles/list.dir/rule
+.PHONY : list
+
+# clean rule for target.
+src/CMakeFiles/list.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/clean
+.PHONY : src/CMakeFiles/list.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

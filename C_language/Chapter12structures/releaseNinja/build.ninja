@@ -102,6 +102,39 @@ build src/p533: C_EXECUTABLE_LINKER__p533_Release src/CMakeFiles/p533.dir/p533.c
   TARGET_FILE = src/p533
   TARGET_PDB = p533.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target list
+
+
+#############################################
+# Order-only phony target for list
+
+build cmake_object_order_depends_target_list: phony || src/CMakeFiles/list.dir
+
+build src/CMakeFiles/list.dir/list.c.o: C_COMPILER__list_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/list.c || cmake_object_order_depends_target_list
+  DEP_FILE = src/CMakeFiles/list.dir/list.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  OBJECT_DIR = src/CMakeFiles/list.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/list.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list
+
+
+#############################################
+# Link the executable src/list
+
+build src/list: C_EXECUTABLE_LINKER__list_Release src/CMakeFiles/list.dir/list.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/list.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/list
+  TARGET_PDB = list.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -129,6 +162,8 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build list: phony src/list
+
 build p533: phony src/p533
 
 # =============================================================================
@@ -146,7 +181,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src
 
-build src/all: phony src/p533
+build src/all: phony src/p533 src/list
 
 # =============================================================================
 # Built-in targets
