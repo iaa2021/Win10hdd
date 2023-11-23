@@ -6,8 +6,10 @@ struct listNode{
     struct listNode *nextPtr;
 } *start = NULL;
 void insert(struct listNode **, char);
+void delete(struct listNode **, char);
 void instructions();
 void printList(struct listNode*);
+int isEmpty( struct listNode*);
 int main()
 {
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -25,6 +27,9 @@ int main()
         insert(&start, item);
         printList(start);
         break;
+        case 2:
+        delete(&start, item);
+        break;
         case 3:
         printList(start);
         break;
@@ -33,6 +38,8 @@ int main()
         instructions();
         break;
     }
+        printf("? ");
+        scanf("%d", &choice);
     }
     printf( "\nEnd of run.\n" );
     return 0;
@@ -72,11 +79,48 @@ void printList(struct listNode *start)
     if(start == NULL)
     printf("\nThe list is empty.\n");
     else{
-        printf("\nThe list is |n");
+        printf("\nThe list is: |n");
         while(start != NULL){
         printf("%c -> ", start ->data);
         start = start ->nextPtr;
         }
     }
     printf("NULL\n");
+}
+int isEmpty( struct listNode *start)
+{
+    return start == NULL;
+}
+void delete(struct listNode **start, char value)
+{
+    struct listNode * current; struct listNode *previous; struct listNode * temp;
+    previous = NULL;
+    current = *start;
+    if(isEmpty(*start))
+    printf("\nThe list is empty.\n");
+    else{
+        printf("\nInput value: ");
+        scanf("%c", &value);
+        temp = *start;
+        if((*start) ->data == value){
+            *start = (*start) ->nextPtr;
+            free(temp);
+        }
+        else{
+            previous = *start;
+            current = (*start) ->nextPtr;
+            while(current ->data != value && current != NULL){
+                previous = current;
+                current = current ->nextPtr;
+            }
+            if(current ->data == value){
+                temp = current;
+                previous ->nextPtr = current ->nextPtr;
+                free(temp);
+            }
+        }
+
+        if(current ->data != value && current -> nextPtr == NULL)
+        printf("\nThere isn't such value, like %c.\n", value);
+    }
 }
