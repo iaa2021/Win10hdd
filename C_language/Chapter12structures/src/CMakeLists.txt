@@ -6,8 +6,9 @@ configure_file( config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h )
 
 add_executable( p533 p533.c )
 add_executable( list list.c )
+add_executable( clemens152 clemens152.c)
 
-set( targets p533 list )
+set( targets p533 list clemens152 )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

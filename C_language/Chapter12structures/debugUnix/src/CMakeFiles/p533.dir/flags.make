@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
+C_INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
 
 C_FLAGS = -g -std=gnu17
 
