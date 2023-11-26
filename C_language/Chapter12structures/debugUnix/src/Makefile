@@ -144,6 +144,20 @@ list/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/build
 .PHONY : list/fast
 
+# Convenience name for target.
+src/CMakeFiles/stack544.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/stack544.dir/rule
+.PHONY : src/CMakeFiles/stack544.dir/rule
+
+# Convenience name for target.
+stack544: src/CMakeFiles/stack544.dir/rule
+.PHONY : stack544
+
+# fast build rule for target.
+stack544/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/build
+.PHONY : stack544/fast
+
 list.o: list.c.o
 .PHONY : list.o
 
@@ -192,6 +206,30 @@ p533.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.s
 .PHONY : p533.c.s
 
+stack544.o: stack544.c.o
+.PHONY : stack544.o
+
+# target to build an object file
+stack544.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.o
+.PHONY : stack544.c.o
+
+stack544.i: stack544.c.i
+.PHONY : stack544.i
+
+# target to preprocess a source file
+stack544.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.i
+.PHONY : stack544.c.i
+
+stack544.s: stack544.c.s
+.PHONY : stack544.s
+
+# target to generate assembly for a file
+stack544.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.s
+.PHONY : stack544.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,12 +240,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... list"
 	@echo "... p533"
+	@echo "... stack544"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
 	@echo "... p533.o"
 	@echo "... p533.i"
 	@echo "... p533.s"
+	@echo "... stack544.o"
+	@echo "... stack544.i"
+	@echo "... stack544.s"
 .PHONY : help
 
 

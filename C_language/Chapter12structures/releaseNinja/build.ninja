@@ -135,6 +135,39 @@ build src/list: C_EXECUTABLE_LINKER__list_Release src/CMakeFiles/list.dir/list.c
   TARGET_FILE = src/list
   TARGET_PDB = list.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target stack544
+
+
+#############################################
+# Order-only phony target for stack544
+
+build cmake_object_order_depends_target_stack544: phony || src/CMakeFiles/stack544.dir
+
+build src/CMakeFiles/stack544.dir/stack544.c.o: C_COMPILER__stack544_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/stack544.c || cmake_object_order_depends_target_stack544
+  DEP_FILE = src/CMakeFiles/stack544.dir/stack544.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
+  OBJECT_DIR = src/CMakeFiles/stack544.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/stack544.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack544
+
+
+#############################################
+# Link the executable src/stack544
+
+build src/stack544: C_EXECUTABLE_LINKER__stack544_Release src/CMakeFiles/stack544.dir/stack544.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/stack544.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/stack544
+  TARGET_PDB = stack544.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -166,6 +199,8 @@ build list: phony src/list
 
 build p533: phony src/p533
 
+build stack544: phony src/stack544
+
 # =============================================================================
 # Folder targets.
 
@@ -181,7 +216,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src
 
-build src/all: phony src/p533 src/list
+build src/all: phony src/p533 src/list src/stack544
 
 # =============================================================================
 # Built-in targets

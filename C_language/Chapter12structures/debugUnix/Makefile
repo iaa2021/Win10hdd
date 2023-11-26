@@ -142,6 +142,19 @@ list/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/build
 .PHONY : list/fast
 
+#=============================================================================
+# Target rules for targets named stack544
+
+# Build rule for target.
+stack544: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack544
+.PHONY : stack544
+
+# fast build rule for target.
+stack544/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/build
+.PHONY : stack544/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -152,6 +165,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... list"
 	@echo "... p533"
+	@echo "... stack544"
 .PHONY : help
 
 
