@@ -3,7 +3,7 @@
 #include "stdlib.h"
 struct stackNode{
     int data;
-    struct listNode *nextPtr;
+    struct stackNode *nextPtr;
 } *top = NULL;
 typedef struct stackNode STACKNODE;
 typedef struct stackNode * STACKNODEPTR;

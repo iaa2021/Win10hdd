@@ -145,7 +145,6 @@ list/fast:
 .PHONY : list/fast
 
 # Convenience name for target.
-<<<<<<< HEAD
 src/CMakeFiles/clemens152.dir/rule:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/clemens152.dir/rule
 .PHONY : src/CMakeFiles/clemens152.dir/rule
@@ -158,6 +157,34 @@ clemens152: src/CMakeFiles/clemens152.dir/rule
 clemens152/fast:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/build
 .PHONY : clemens152/fast
+
+# Convenience name for target.
+src/CMakeFiles/stack544.dir/rule:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/stack544.dir/rule
+.PHONY : src/CMakeFiles/stack544.dir/rule
+
+# Convenience name for target.
+stack544: src/CMakeFiles/stack544.dir/rule
+.PHONY : stack544
+
+# fast build rule for target.
+stack544/fast:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/build
+.PHONY : stack544/fast
+
+# Convenience name for target.
+src/CMakeFiles/queue554.dir/rule:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/queue554.dir/rule
+.PHONY : src/CMakeFiles/queue554.dir/rule
+
+# Convenience name for target.
+queue554: src/CMakeFiles/queue554.dir/rule
+.PHONY : queue554
+
+# fast build rule for target.
+queue554/fast:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/build
+.PHONY : queue554/fast
 
 clemens152.o: clemens152.c.o
 .PHONY : clemens152.o
@@ -182,20 +209,6 @@ clemens152.s: clemens152.c.s
 clemens152.c.s:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/clemens152.c.s
 .PHONY : clemens152.c.s
-=======
-src/CMakeFiles/stack544.dir/rule:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/stack544.dir/rule
-.PHONY : src/CMakeFiles/stack544.dir/rule
-
-# Convenience name for target.
-stack544: src/CMakeFiles/stack544.dir/rule
-.PHONY : stack544
-
-# fast build rule for target.
-stack544/fast:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/build
-.PHONY : stack544/fast
->>>>>>> temp
 
 list.o: list.c.o
 .PHONY : list.o
@@ -245,12 +258,36 @@ p533.c.s:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.s
 .PHONY : p533.c.s
 
+queue554.o: queue554.c.o
+.PHONY : queue554.o
+
+# target to build an object file
+queue554.c.o:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/queue554.c.o
+.PHONY : queue554.c.o
+
+queue554.i: queue554.c.i
+.PHONY : queue554.i
+
+# target to preprocess a source file
+queue554.c.i:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/queue554.c.i
+.PHONY : queue554.c.i
+
+queue554.s: queue554.c.s
+.PHONY : queue554.s
+
+# target to generate assembly for a file
+queue554.c.s:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/queue554.c.s
+.PHONY : queue554.c.s
+
 stack544.o: stack544.c.o
 .PHONY : stack544.o
 
 # target to build an object file
 stack544.c.o:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.o
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.o
 .PHONY : stack544.c.o
 
 stack544.i: stack544.c.i
@@ -258,7 +295,7 @@ stack544.i: stack544.c.i
 
 # target to preprocess a source file
 stack544.c.i:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.i
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.i
 .PHONY : stack544.c.i
 
 stack544.s: stack544.c.s
@@ -266,7 +303,7 @@ stack544.s: stack544.c.s
 
 # target to generate assembly for a file
 stack544.c.s:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.s
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.s
 .PHONY : stack544.c.s
 
 # Help Target
@@ -280,19 +317,20 @@ help:
 	@echo "... clemens152"
 	@echo "... list"
 	@echo "... p533"
-<<<<<<< HEAD
+	@echo "... queue554"
+	@echo "... stack544"
 	@echo "... clemens152.o"
 	@echo "... clemens152.i"
 	@echo "... clemens152.s"
-=======
-	@echo "... stack544"
->>>>>>> temp
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
 	@echo "... p533.o"
 	@echo "... p533.i"
 	@echo "... p533.s"
+	@echo "... queue554.o"
+	@echo "... queue554.i"
+	@echo "... queue554.s"
 	@echo "... stack544.o"
 	@echo "... stack544.i"
 	@echo "... stack544.s"

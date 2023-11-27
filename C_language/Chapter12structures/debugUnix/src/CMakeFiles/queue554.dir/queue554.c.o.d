@@ -1,5 +1,5 @@
-src/CMakeFiles/stack544.dir/stack544.c.o: \
- /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/stack544.c \
+src/CMakeFiles/queue554.dir/queue554.c.o: \
+ /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/queue554.c \
  /usr/include/stdc-predef.h \
  /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/config.h \
  /usr/include/stdio.h \

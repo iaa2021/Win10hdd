@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1345/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /snap/cmake/1345/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/stack544.dir/depend.make
@@ -70,18 +70,18 @@ include src/CMakeFiles/stack544.dir/progress.make
 include src/CMakeFiles/stack544.dir/flags.make
 
 src/CMakeFiles/stack544.dir/stack544.c.o: src/CMakeFiles/stack544.dir/flags.make
-src/CMakeFiles/stack544.dir/stack544.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/stack544.c
+src/CMakeFiles/stack544.dir/stack544.c.o: /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/stack544.c
 src/CMakeFiles/stack544.dir/stack544.c.o: src/CMakeFiles/stack544.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/stack544.dir/stack544.c.o"
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/stack544.dir/stack544.c.o -MF CMakeFiles/stack544.dir/stack544.c.o.d -o CMakeFiles/stack544.dir/stack544.c.o -c /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/stack544.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/stack544.dir/stack544.c.o"
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/stack544.dir/stack544.c.o -MF CMakeFiles/stack544.dir/stack544.c.o.d -o CMakeFiles/stack544.dir/stack544.c.o -c /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/stack544.c
 
 src/CMakeFiles/stack544.dir/stack544.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stack544.dir/stack544.c.i"
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/stack544.c > CMakeFiles/stack544.dir/stack544.c.i
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/stack544.c > CMakeFiles/stack544.dir/stack544.c.i
 
 src/CMakeFiles/stack544.dir/stack544.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stack544.dir/stack544.c.s"
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/stack544.c -o CMakeFiles/stack544.dir/stack544.c.s
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/stack544.c -o CMakeFiles/stack544.dir/stack544.c.s
 
 # Object files for target stack544
 stack544_OBJECTS = \
@@ -93,18 +93,18 @@ stack544_EXTERNAL_OBJECTS =
 src/stack544: src/CMakeFiles/stack544.dir/stack544.c.o
 src/stack544: src/CMakeFiles/stack544.dir/build.make
 src/stack544: src/CMakeFiles/stack544.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable stack544"
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stack544.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable stack544"
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stack544.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/stack544.dir/build: src/stack544
 .PHONY : src/CMakeFiles/stack544.dir/build
 
 src/CMakeFiles/stack544.dir/clean:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -P CMakeFiles/stack544.dir/cmake_clean.cmake
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -P CMakeFiles/stack544.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/stack544.dir/clean
 
 src/CMakeFiles/stack544.dir/depend:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src/CMakeFiles/stack544.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iaa/Desktop/gitStore/C_language/Chapter12structures /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src/CMakeFiles/stack544.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/stack544.dir/depend
 

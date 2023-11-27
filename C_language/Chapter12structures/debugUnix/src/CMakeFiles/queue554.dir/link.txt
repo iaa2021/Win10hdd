@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/queue554.dir/queue554.c.o -o queue554  -lm 

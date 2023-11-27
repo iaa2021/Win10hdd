@@ -143,7 +143,6 @@ list/fast:
 .PHONY : list/fast
 
 #=============================================================================
-<<<<<<< HEAD
 # Target rules for targets named clemens152
 
 # Build rule for target.
@@ -155,7 +154,8 @@ clemens152: cmake_check_build_system
 clemens152/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/build
 .PHONY : clemens152/fast
-=======
+
+#=============================================================================
 # Target rules for targets named stack544
 
 # Build rule for target.
@@ -167,7 +167,19 @@ stack544: cmake_check_build_system
 stack544/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/build
 .PHONY : stack544/fast
->>>>>>> temp
+
+#=============================================================================
+# Target rules for targets named queue554
+
+# Build rule for target.
+queue554: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queue554
+.PHONY : queue554
+
+# fast build rule for target.
+queue554/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/build
+.PHONY : queue554/fast
 
 # Help Target
 help:
@@ -180,6 +192,7 @@ help:
 	@echo "... clemens152"
 	@echo "... list"
 	@echo "... p533"
+	@echo "... queue554"
 	@echo "... stack544"
 .PHONY : help
 

@@ -136,7 +136,6 @@ build src/list: C_EXECUTABLE_LINKER__list_Release src/CMakeFiles/list.dir/list.c
   TARGET_PDB = list.dbg
 
 # =============================================================================
-<<<<<<< HEAD
 # Object build statements for EXECUTABLE target clemens152
 
 
@@ -168,7 +167,8 @@ build src/clemens152: C_EXECUTABLE_LINKER__clemens152_Release src/CMakeFiles/cle
   PRE_LINK = :
   TARGET_FILE = src/clemens152
   TARGET_PDB = clemens152.dbg
-=======
+
+# =============================================================================
 # Object build statements for EXECUTABLE target stack544
 
 
@@ -177,10 +177,10 @@ build src/clemens152: C_EXECUTABLE_LINKER__clemens152_Release src/CMakeFiles/cle
 
 build cmake_object_order_depends_target_stack544: phony || src/CMakeFiles/stack544.dir
 
-build src/CMakeFiles/stack544.dir/stack544.c.o: C_COMPILER__stack544_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/stack544.c || cmake_object_order_depends_target_stack544
+build src/CMakeFiles/stack544.dir/stack544.c.o: C_COMPILER__stack544_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/stack544.c || cmake_object_order_depends_target_stack544
   DEP_FILE = src/CMakeFiles/stack544.dir/stack544.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/stack544.dir
   OBJECT_FILE_DIR = src/CMakeFiles/stack544.dir
 
@@ -200,7 +200,39 @@ build src/stack544: C_EXECUTABLE_LINKER__stack544_Release src/CMakeFiles/stack54
   PRE_LINK = :
   TARGET_FILE = src/stack544
   TARGET_PDB = stack544.dbg
->>>>>>> temp
+
+# =============================================================================
+# Object build statements for EXECUTABLE target queue554
+
+
+#############################################
+# Order-only phony target for queue554
+
+build cmake_object_order_depends_target_queue554: phony || src/CMakeFiles/queue554.dir
+
+build src/CMakeFiles/queue554.dir/queue554.c.o: C_COMPILER__queue554_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/queue554.c || cmake_object_order_depends_target_queue554
+  DEP_FILE = src/CMakeFiles/queue554.dir/queue554.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  OBJECT_DIR = src/CMakeFiles/queue554.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/queue554.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target queue554
+
+
+#############################################
+# Link the executable src/queue554
+
+build src/queue554: C_EXECUTABLE_LINKER__queue554_Release src/CMakeFiles/queue554.dir/queue554.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/queue554.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/queue554
+  TARGET_PDB = queue554.dbg
 
 
 #############################################
@@ -235,6 +267,8 @@ build list: phony src/list
 
 build p533: phony src/p533
 
+build queue554: phony src/queue554
+
 build stack544: phony src/stack544
 
 # =============================================================================
@@ -252,11 +286,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src
 
-<<<<<<< HEAD
-build src/all: phony src/p533 src/list src/clemens152
-=======
-build src/all: phony src/p533 src/list src/stack544
->>>>>>> temp
+build src/all: phony src/p533 src/list src/clemens152 src/stack544 src/queue554
 
 # =============================================================================
 # Built-in targets
