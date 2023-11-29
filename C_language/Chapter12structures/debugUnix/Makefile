@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1345/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1345/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/deb
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/snap/cmake/1345/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1345/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -181,6 +181,19 @@ queue554/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/build
 .PHONY : queue554/fast
 
+#=============================================================================
+# Target rules for targets named tree
+
+# Build rule for target.
+tree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tree
+.PHONY : tree
+
+# fast build rule for target.
+tree/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/build
+.PHONY : tree/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,6 +207,7 @@ help:
 	@echo "... p533"
 	@echo "... queue554"
 	@echo "... stack544"
+	@echo "... tree"
 .PHONY : help
 
 

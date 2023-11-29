@@ -9,8 +9,9 @@ add_executable( list list.c )
 add_executable( clemens152 clemens152.c)
 add_executable(stack544 stack544.c)
 add_executable(queue554 queue554.c)
+add_executable(tree tree.c)
 
-set( targets p533 list clemens152 stack544 queue554 )
+set( targets p533 list clemens152 stack544 queue554 tree )
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES
