@@ -1,4 +1,4 @@
 echo [*] running debug configuration with Unix
 cd ../debugUnix
-src/queue554
+src/ex12_4
 cd ..

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1356/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /snap/cmake/1356/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/queue554.dir/depend.make
@@ -70,18 +70,18 @@ include src/CMakeFiles/queue554.dir/progress.make
 include src/CMakeFiles/queue554.dir/flags.make
 
 src/CMakeFiles/queue554.dir/queue554.c.o: src/CMakeFiles/queue554.dir/flags.make
-src/CMakeFiles/queue554.dir/queue554.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/queue554.c
+src/CMakeFiles/queue554.dir/queue554.c.o: /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/queue554.c
 src/CMakeFiles/queue554.dir/queue554.c.o: src/CMakeFiles/queue554.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/queue554.dir/queue554.c.o"
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/queue554.dir/queue554.c.o -MF CMakeFiles/queue554.dir/queue554.c.o.d -o CMakeFiles/queue554.dir/queue554.c.o -c /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/queue554.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/queue554.dir/queue554.c.o"
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/queue554.dir/queue554.c.o -MF CMakeFiles/queue554.dir/queue554.c.o.d -o CMakeFiles/queue554.dir/queue554.c.o -c /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/queue554.c
 
 src/CMakeFiles/queue554.dir/queue554.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/queue554.dir/queue554.c.i"
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/queue554.c > CMakeFiles/queue554.dir/queue554.c.i
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/queue554.c > CMakeFiles/queue554.dir/queue554.c.i
 
 src/CMakeFiles/queue554.dir/queue554.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/queue554.dir/queue554.c.s"
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/queue554.c -o CMakeFiles/queue554.dir/queue554.c.s
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/queue554.c -o CMakeFiles/queue554.dir/queue554.c.s
 
 # Object files for target queue554
 queue554_OBJECTS = \
@@ -93,18 +93,18 @@ queue554_EXTERNAL_OBJECTS =
 src/queue554: src/CMakeFiles/queue554.dir/queue554.c.o
 src/queue554: src/CMakeFiles/queue554.dir/build.make
 src/queue554: src/CMakeFiles/queue554.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable queue554"
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/queue554.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable queue554"
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/queue554.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/queue554.dir/build: src/queue554
 .PHONY : src/CMakeFiles/queue554.dir/build
 
 src/CMakeFiles/queue554.dir/clean:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -P CMakeFiles/queue554.dir/cmake_clean.cmake
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -P CMakeFiles/queue554.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/queue554.dir/clean
 
 src/CMakeFiles/queue554.dir/depend:
-	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src/CMakeFiles/queue554.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iaa/Desktop/gitStore/C_language/Chapter12structures /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src/CMakeFiles/queue554.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/queue554.dir/depend
 
