@@ -220,6 +220,19 @@ vlfunc/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/build
 .PHONY : vlfunc/fast
 
+#=============================================================================
+# Target rules for targets named ex12_6
+
+# Build rule for target.
+ex12_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex12_6
+.PHONY : ex12_6
+
+# fast build rule for target.
+ex12_6/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/build
+.PHONY : ex12_6/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -230,6 +243,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... clemens152"
 	@echo "... ex12_4"
+	@echo "... ex12_6"
 	@echo "... list"
 	@echo "... p533"
 	@echo "... queue554"

@@ -5,6 +5,10 @@
 #include "stdarg.h"
 double average(int, ...);
 int main(){
+    printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
+    printf( ".%d", PROJECT_VERSION_MINOR );
+    printf( ".%d", PROJECT_VERSION_PATCH );
+    printf("\nCreation function with volatile arg's number.\n");
     srand(time(0));
     double a = rand()%50 + 1;
     double b = rand()%50 + 1;

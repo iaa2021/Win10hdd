@@ -57,4 +57,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/tree.dir/DependInfo.cmake"
   "src/CMakeFiles/ex12_4.dir/DependInfo.cmake"
   "src/CMakeFiles/vlfunc.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex12_6.dir/DependInfo.cmake"
   )

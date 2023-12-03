@@ -228,6 +228,20 @@ vlfunc/fast:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/build
 .PHONY : vlfunc/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex12_6.dir/rule:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_6.dir/rule
+.PHONY : src/CMakeFiles/ex12_6.dir/rule
+
+# Convenience name for target.
+ex12_6: src/CMakeFiles/ex12_6.dir/rule
+.PHONY : ex12_6
+
+# fast build rule for target.
+ex12_6/fast:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/build
+.PHONY : ex12_6/fast
+
 clemens152.o: clemens152.c.o
 .PHONY : clemens152.o
 
@@ -275,6 +289,30 @@ ex12_4.s: ex12_4.c.s
 ex12_4.c.s:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/ex12_4.c.s
 .PHONY : ex12_4.c.s
+
+ex12_6.o: ex12_6.c.o
+.PHONY : ex12_6.o
+
+# target to build an object file
+ex12_6.c.o:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/ex12_6.c.o
+.PHONY : ex12_6.c.o
+
+ex12_6.i: ex12_6.c.i
+.PHONY : ex12_6.i
+
+# target to preprocess a source file
+ex12_6.c.i:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/ex12_6.c.i
+.PHONY : ex12_6.c.i
+
+ex12_6.s: ex12_6.c.s
+.PHONY : ex12_6.s
+
+# target to generate assembly for a file
+ex12_6.c.s:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/ex12_6.c.s
+.PHONY : ex12_6.c.s
 
 list.o: list.c.o
 .PHONY : list.o
@@ -430,6 +468,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... clemens152"
 	@echo "... ex12_4"
+	@echo "... ex12_6"
 	@echo "... list"
 	@echo "... p533"
 	@echo "... queue554"
@@ -442,6 +481,9 @@ help:
 	@echo "... ex12_4.o"
 	@echo "... ex12_4.i"
 	@echo "... ex12_4.s"
+	@echo "... ex12_6.o"
+	@echo "... ex12_6.i"
+	@echo "... ex12_6.s"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
