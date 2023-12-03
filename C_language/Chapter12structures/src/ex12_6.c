@@ -7,9 +7,10 @@ struct ex12_6
 {
     int data;
     struct ex12_6 *next;
-} *start1 = NULL, *start2 = NULL;
+} *start1 = NULL, *start2 = NULL, *start3 = NULL;
 void insert(struct ex12_6 **, int);
 struct ex12_6 * concatenate(struct ex12_6 **, struct ex12_6 **);
+struct ex12_6 * merge(struct ex12_6 **, struct ex12_6 **);
 void print(struct ex12_6 *);
 int main(){
 printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -33,8 +34,12 @@ printf("\nList2 is: ");
 print(start2);
 printf("\nConcatenating 2 lists.\n");
 start1 = concatenate(&start1, &start2);
-printf("\nList1 after concatenation is: ");
+printf("\nList1 after concatenation is:\n");
 print(start1);
+printf("\nExersize 12.7, merge 2 lists.\n");
+start3 = merge(&start1, &start2);
+printf("\nList3 after merging list1 and list2 is:\n");
+print(start3);
 printf( "\nEnd of run.\n" );
     return 0;
 }
@@ -80,4 +85,49 @@ struct ex12_6 * concatenate(struct ex12_6 **start1, struct ex12_6 **start2)
     current ->next = *start2;
     
     return *start1;
+}
+struct ex12_6 * merge(struct ex12_6 **start1, struct ex12_6 **start2){
+    int count = 1, i = 0; struct ex12_6 *start3;
+    struct ex12_6 *current, *previous, *new;
+    current = *start1;
+    while(current ->next != NULL){
+        count++;
+        current = current ->next;
+    }
+    printf("\nSize of list1 = %d\n", count);
+    current = *start2; count++;
+    while(current ->next != NULL){
+        count++;
+        current = current ->next;
+    }
+    printf("\nSize of list1 and list2 = %d\n", count);
+    int *array = malloc(sizeof(int) * count);
+    for (int i = 0; i < count; i++)
+    array[i] = 0;
+    current = *start1;
+    while(current != NULL){
+        array[i] = current ->data;
+        i++;
+        current = current ->next;
+    }
+    current = *start2;
+    while(current != NULL){
+        array[i] = current ->data;
+        i++;
+        current = current ->next;
+    }
+    printf("\nArray is:\n");
+    for (int i = 0; i < count; i++)
+    {
+        if((i + 1)%10 == 0)
+        printf("%d\n", array[i]);
+        else
+        printf("%d, ", array[i]);
+    }
+    
+    for (int j = 0; j < count; j++)
+    {
+        insert(&start3, array[j]);
+    }
+    return start3;
 }
