@@ -85,6 +85,7 @@ src/all: src/CMakeFiles/stack544.dir/all
 src/all: src/CMakeFiles/queue554.dir/all
 src/all: src/CMakeFiles/tree.dir/all
 src/all: src/CMakeFiles/ex12_4.dir/all
+src/all: src/CMakeFiles/vlfunc.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -99,6 +100,7 @@ src/clean: src/CMakeFiles/stack544.dir/clean
 src/clean: src/CMakeFiles/queue554.dir/clean
 src/clean: src/CMakeFiles/tree.dir/clean
 src/clean: src/CMakeFiles/ex12_4.dir/clean
+src/clean: src/CMakeFiles/vlfunc.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -282,6 +284,32 @@ ex12_4: src/CMakeFiles/ex12_4.dir/rule
 src/CMakeFiles/ex12_4.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/clean
 .PHONY : src/CMakeFiles/ex12_4.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/vlfunc.dir
+
+# All Build rule for target.
+src/CMakeFiles/vlfunc.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=15,16 "Built target vlfunc"
+.PHONY : src/CMakeFiles/vlfunc.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/vlfunc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/vlfunc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/vlfunc.dir/rule
+
+# Convenience name for target.
+vlfunc: src/CMakeFiles/vlfunc.dir/rule
+.PHONY : vlfunc
+
+# clean rule for target.
+src/CMakeFiles/vlfunc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/clean
+.PHONY : src/CMakeFiles/vlfunc.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

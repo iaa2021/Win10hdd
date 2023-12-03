@@ -7,5 +7,6 @@
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/queue554.dir
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/tree.dir
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/ex12_4.dir
+/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/vlfunc.dir
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/rebuild_cache.dir

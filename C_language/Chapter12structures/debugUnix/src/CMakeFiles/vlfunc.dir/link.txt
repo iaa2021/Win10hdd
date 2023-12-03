@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/vlfunc.dir/vlfunc.c.o -o vlfunc  -lm 

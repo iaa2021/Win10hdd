@@ -214,6 +214,20 @@ ex12_4/fast:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/build
 .PHONY : ex12_4/fast
 
+# Convenience name for target.
+src/CMakeFiles/vlfunc.dir/rule:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/vlfunc.dir/rule
+.PHONY : src/CMakeFiles/vlfunc.dir/rule
+
+# Convenience name for target.
+vlfunc: src/CMakeFiles/vlfunc.dir/rule
+.PHONY : vlfunc
+
+# fast build rule for target.
+vlfunc/fast:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/build
+.PHONY : vlfunc/fast
+
 clemens152.o: clemens152.c.o
 .PHONY : clemens152.o
 
@@ -382,6 +396,30 @@ tree.c.s:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/tree.c.s
 .PHONY : tree.c.s
 
+vlfunc.o: vlfunc.c.o
+.PHONY : vlfunc.o
+
+# target to build an object file
+vlfunc.c.o:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/vlfunc.c.o
+.PHONY : vlfunc.c.o
+
+vlfunc.i: vlfunc.c.i
+.PHONY : vlfunc.i
+
+# target to preprocess a source file
+vlfunc.c.i:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/vlfunc.c.i
+.PHONY : vlfunc.c.i
+
+vlfunc.s: vlfunc.c.s
+.PHONY : vlfunc.s
+
+# target to generate assembly for a file
+vlfunc.c.s:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/vlfunc.c.s
+.PHONY : vlfunc.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -397,6 +435,7 @@ help:
 	@echo "... queue554"
 	@echo "... stack544"
 	@echo "... tree"
+	@echo "... vlfunc"
 	@echo "... clemens152.o"
 	@echo "... clemens152.i"
 	@echo "... clemens152.s"
@@ -418,6 +457,9 @@ help:
 	@echo "... tree.o"
 	@echo "... tree.i"
 	@echo "... tree.s"
+	@echo "... vlfunc.o"
+	@echo "... vlfunc.i"
+	@echo "... vlfunc.s"
 .PHONY : help
 
 

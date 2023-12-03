@@ -207,6 +207,19 @@ ex12_4/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/build
 .PHONY : ex12_4/fast
 
+#=============================================================================
+# Target rules for targets named vlfunc
+
+# Build rule for target.
+vlfunc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vlfunc
+.PHONY : vlfunc
+
+# fast build rule for target.
+vlfunc/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/build
+.PHONY : vlfunc/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +235,7 @@ help:
 	@echo "... queue554"
 	@echo "... stack544"
 	@echo "... tree"
+	@echo "... vlfunc"
 .PHONY : help
 
 
