@@ -12,6 +12,7 @@ void insert(struct ex12_6 **, int);
 struct ex12_6 * concatenate(struct ex12_6 **, struct ex12_6 **);
 struct ex12_6 * merge(struct ex12_6 **, struct ex12_6 **);
 void print(struct ex12_6 *);
+void *total(struct ex12_6 *, double *);
 int main(){
 printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
 printf( ".%d", PROJECT_VERSION_MINOR );
@@ -40,6 +41,12 @@ printf("\nExersize 12.7, merge 2 lists.\n");
 start3 = merge(&start1, &start2);
 printf("\nList3 after merging list1 and list2 is:\n");
 print(start3);
+printf("\nExersize 12.8, sum and average of linked list1.\n");
+printf("\nList2 is: ");
+print(start2);
+double ptr[3];
+total(start2, ptr);
+printf("\nSize of list2 = %.0lf, sum of list2 = %.0lf, list2's average = %.2lf\n", ptr[2], ptr[0], ptr[1]);
 printf( "\nEnd of run.\n" );
     return 0;
 }
@@ -124,10 +131,16 @@ struct ex12_6 * merge(struct ex12_6 **start1, struct ex12_6 **start2){
         else
         printf("%d, ", array[i]);
     }
-    
-    for (int j = 0; j < count; j++)
-    {
-        insert(&start3, array[j]);
-    }
     return start3;
+}
+void *total(struct ex12_6 *start, double *array){
+    int sum = 0, count = 1; 
+    while(start ->next != NULL){
+        sum += start ->data;
+        count++;
+        start = start ->next;
+    }
+    array[0] = (double)sum;
+    array[1] = sum / (double)count;
+    array[2] = (double)count;
 }
