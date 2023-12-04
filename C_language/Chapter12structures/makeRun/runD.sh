@@ -1,4 +1,4 @@
 echo [*] running debug configuration with Unix
 cd ../debugUnix
-src/vlfunc
+src/ex12_9
 cd ..
