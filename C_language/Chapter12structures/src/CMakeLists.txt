@@ -13,8 +13,9 @@ add_executable(tree tree.c)
 add_executable(ex12_4 ex12_4.c)
 add_executable(vlfunc vlfunc.c)
 add_executable(ex12_6 ex12_6.c)
+add_executable(ex12_9 ex12_9.c)
 
-set(targets p533 list clemens152 stack544 queue554 tree ex12_4 vlfunc ex12_6) 
+set(targets p533 list clemens152 stack544 queue554 tree ex12_4 vlfunc ex12_6 ex12_9) 
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES
