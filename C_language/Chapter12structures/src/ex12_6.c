@@ -111,6 +111,7 @@ struct ex12_6 * merge(struct ex12_6 **start1, struct ex12_6 **start2){
     int *array = malloc(sizeof(int) * count);
     for (int i = 0; i < count; i++)
     array[i] = 0;
+
     current = *start1;
     while(current != NULL){
         array[i] = current ->data;

@@ -7,7 +7,8 @@ struct ex12_9{
     struct ex12_9 *next;
 } *start = NULL, *start1 = NULL;
 void insert(struct ex12_9 **, int);
-struct ex12_9* reverse(struct ex12_9*, struct ex12_9 ** );
+void insert1(struct ex12_9 **, int);/*unordered inserting*/
+struct ex12_9* reverse(struct ex12_9*, struct ex12_9 * );
 void print(struct ex12_9 *);
 int main(){
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -21,7 +22,7 @@ int main(){
     }
     printf("\nList is:\n");
     print(start);
-    start1 = reverse(start, &start1);
+    start1 = reverse(start, start1);
     printf("\nReversed list is:\n");
     print(start1);
     printf( "\nEnd of run.\n" );
@@ -60,23 +61,36 @@ void print(struct ex12_9 *start){
         start = start ->next;
     }
 }
-struct ex12_9* reverse(struct ex12_9* start, struct ex12_9 **start1 ){
-    int array[10], i = 0; struct ex12_9 *new, *current, *previous;
+void insert1(struct ex12_9 **start, int value){
+    struct ex12_9 *new, *current, *previous;
     new = malloc(sizeof(struct ex12_9));
     if(new != NULL){
+        new ->data = value;
+        previous = NULL; current = *start;
+        while(current != NULL){
+            previous = current;
+            current = current ->next;
+        }
+        if(previous == NULL){
+            new ->next = *start;
+            *start = new;
+        }
+        else{
+            previous ->next = new;
+            new ->next = current;
+        }
+    }
+    else
+    printf("\nNo memory allocated.\n");
+}
+struct ex12_9* reverse(struct ex12_9* start, struct ex12_9 *start1 ){
+    int array[10], i = 0;
     while(start != NULL){
         array[i] = start ->data;
         i++;
         start = start ->next;
     } 
-    current = *start1;
-    for(int i = 9; i >= 0; i--){
-        insert(start1, i);
-    }
-    while(current != NULL){
-        current ->data = array[current ->data];
-        current = current ->next;
-    }
-}
-return *start1;
+    for(int i = 9; i >= 0; i--)
+    insert1(&start1, array[i]);
+return start1;
 }
