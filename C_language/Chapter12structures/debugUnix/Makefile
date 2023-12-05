@@ -246,6 +246,19 @@ ex12_9/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/build
 .PHONY : ex12_9/fast
 
+#=============================================================================
+# Target rules for targets named ex12_10
+
+# Build rule for target.
+ex12_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex12_10
+.PHONY : ex12_10
+
+# fast build rule for target.
+ex12_10/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/build
+.PHONY : ex12_10/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -255,6 +268,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... clemens152"
+	@echo "... ex12_10"
 	@echo "... ex12_4"
 	@echo "... ex12_6"
 	@echo "... ex12_9"

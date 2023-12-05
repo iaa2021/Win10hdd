@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex12_10.dir/ex12_10.c.o -o ex12_10  -lm 

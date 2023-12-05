@@ -127,10 +127,7 @@ struct ex12_6 * merge(struct ex12_6 **start1, struct ex12_6 **start2){
     printf("\nArray is:\n");
     for (int i = 0; i < count; i++)
     {
-        if((i + 1)%10 == 0)
-        printf("%d\n", array[i]);
-        else
-        printf("%d, ", array[i]);
+        insert(&start3, array[i]);
     }
     return start3;
 }

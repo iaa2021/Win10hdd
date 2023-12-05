@@ -256,6 +256,20 @@ ex12_9/fast:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/build
 .PHONY : ex12_9/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex12_10.dir/rule:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_10.dir/rule
+.PHONY : src/CMakeFiles/ex12_10.dir/rule
+
+# Convenience name for target.
+ex12_10: src/CMakeFiles/ex12_10.dir/rule
+.PHONY : ex12_10
+
+# fast build rule for target.
+ex12_10/fast:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/build
+.PHONY : ex12_10/fast
+
 clemens152.o: clemens152.c.o
 .PHONY : clemens152.o
 
@@ -279,6 +293,30 @@ clemens152.s: clemens152.c.s
 clemens152.c.s:
 	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/clemens152.c.s
 .PHONY : clemens152.c.s
+
+ex12_10.o: ex12_10.c.o
+.PHONY : ex12_10.o
+
+# target to build an object file
+ex12_10.c.o:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/ex12_10.c.o
+.PHONY : ex12_10.c.o
+
+ex12_10.i: ex12_10.c.i
+.PHONY : ex12_10.i
+
+# target to preprocess a source file
+ex12_10.c.i:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/ex12_10.c.i
+.PHONY : ex12_10.c.i
+
+ex12_10.s: ex12_10.c.s
+.PHONY : ex12_10.s
+
+# target to generate assembly for a file
+ex12_10.c.s:
+	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/ex12_10.c.s
+.PHONY : ex12_10.c.s
 
 ex12_4.o: ex12_4.c.o
 .PHONY : ex12_4.o
@@ -505,6 +543,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... clemens152"
+	@echo "... ex12_10"
 	@echo "... ex12_4"
 	@echo "... ex12_6"
 	@echo "... ex12_9"
@@ -517,6 +556,9 @@ help:
 	@echo "... clemens152.o"
 	@echo "... clemens152.i"
 	@echo "... clemens152.s"
+	@echo "... ex12_10.o"
+	@echo "... ex12_10.i"
+	@echo "... ex12_10.s"
 	@echo "... ex12_4.o"
 	@echo "... ex12_4.i"
 	@echo "... ex12_4.s"
