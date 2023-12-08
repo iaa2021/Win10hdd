@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1356/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1356/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/vlfunc.dir/depend.make
@@ -70,18 +70,18 @@ include src/CMakeFiles/vlfunc.dir/progress.make
 include src/CMakeFiles/vlfunc.dir/flags.make
 
 src/CMakeFiles/vlfunc.dir/vlfunc.c.o: src/CMakeFiles/vlfunc.dir/flags.make
-src/CMakeFiles/vlfunc.dir/vlfunc.c.o: /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/vlfunc.c
+src/CMakeFiles/vlfunc.dir/vlfunc.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/vlfunc.c
 src/CMakeFiles/vlfunc.dir/vlfunc.c.o: src/CMakeFiles/vlfunc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/vlfunc.dir/vlfunc.c.o"
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/vlfunc.dir/vlfunc.c.o -MF CMakeFiles/vlfunc.dir/vlfunc.c.o.d -o CMakeFiles/vlfunc.dir/vlfunc.c.o -c /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/vlfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/vlfunc.dir/vlfunc.c.o"
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/vlfunc.dir/vlfunc.c.o -MF CMakeFiles/vlfunc.dir/vlfunc.c.o.d -o CMakeFiles/vlfunc.dir/vlfunc.c.o -c /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/vlfunc.c
 
 src/CMakeFiles/vlfunc.dir/vlfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vlfunc.dir/vlfunc.c.i"
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/vlfunc.c > CMakeFiles/vlfunc.dir/vlfunc.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/vlfunc.c > CMakeFiles/vlfunc.dir/vlfunc.c.i
 
 src/CMakeFiles/vlfunc.dir/vlfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vlfunc.dir/vlfunc.c.s"
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/vlfunc.c -o CMakeFiles/vlfunc.dir/vlfunc.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/vlfunc.c -o CMakeFiles/vlfunc.dir/vlfunc.c.s
 
 # Object files for target vlfunc
 vlfunc_OBJECTS = \
@@ -93,18 +93,18 @@ vlfunc_EXTERNAL_OBJECTS =
 src/vlfunc: src/CMakeFiles/vlfunc.dir/vlfunc.c.o
 src/vlfunc: src/CMakeFiles/vlfunc.dir/build.make
 src/vlfunc: src/CMakeFiles/vlfunc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable vlfunc"
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vlfunc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable vlfunc"
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vlfunc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/vlfunc.dir/build: src/vlfunc
 .PHONY : src/CMakeFiles/vlfunc.dir/build
 
 src/CMakeFiles/vlfunc.dir/clean:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -P CMakeFiles/vlfunc.dir/cmake_clean.cmake
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src && $(CMAKE_COMMAND) -P CMakeFiles/vlfunc.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/vlfunc.dir/clean
 
 src/CMakeFiles/vlfunc.dir/depend:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iaa/Desktop/gitStore/C_language/Chapter12structures /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src/CMakeFiles/vlfunc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src/CMakeFiles/vlfunc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/vlfunc.dir/depend
 

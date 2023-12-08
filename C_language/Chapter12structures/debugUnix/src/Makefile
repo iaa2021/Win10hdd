@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1356/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1356/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures
+CMAKE_SOURCE_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix
+CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/deb
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/snap/cmake/1356/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1356/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/src//CMakeFiles/progress.marks
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix/CMakeFiles 0
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src//CMakeFiles/progress.marks
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/p533.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p533.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p533.dir/rule
 .PHONY : src/CMakeFiles/p533.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ p533: src/CMakeFiles/p533.dir/rule
 
 # fast build rule for target.
 p533/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/build
 .PHONY : p533/fast
 
 # Convenience name for target.
 src/CMakeFiles/list.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/list.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/list.dir/rule
 .PHONY : src/CMakeFiles/list.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ list: src/CMakeFiles/list.dir/rule
 
 # fast build rule for target.
 list/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/build
 .PHONY : list/fast
 
 # Convenience name for target.
 src/CMakeFiles/clemens152.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/clemens152.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/clemens152.dir/rule
 .PHONY : src/CMakeFiles/clemens152.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ clemens152: src/CMakeFiles/clemens152.dir/rule
 
 # fast build rule for target.
 clemens152/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/build
 .PHONY : clemens152/fast
 
 # Convenience name for target.
 src/CMakeFiles/stack544.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/stack544.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/stack544.dir/rule
 .PHONY : src/CMakeFiles/stack544.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ stack544: src/CMakeFiles/stack544.dir/rule
 
 # fast build rule for target.
 stack544/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/build
 .PHONY : stack544/fast
 
 # Convenience name for target.
 src/CMakeFiles/queue554.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/queue554.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/queue554.dir/rule
 .PHONY : src/CMakeFiles/queue554.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ queue554: src/CMakeFiles/queue554.dir/rule
 
 # fast build rule for target.
 queue554/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/build
 .PHONY : queue554/fast
 
 # Convenience name for target.
 src/CMakeFiles/tree.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/tree.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/tree.dir/rule
 .PHONY : src/CMakeFiles/tree.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ tree: src/CMakeFiles/tree.dir/rule
 
 # fast build rule for target.
 tree/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/build
 .PHONY : tree/fast
 
 # Convenience name for target.
 src/CMakeFiles/ex12_4.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_4.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_4.dir/rule
 .PHONY : src/CMakeFiles/ex12_4.dir/rule
 
 # Convenience name for target.
@@ -211,12 +211,12 @@ ex12_4: src/CMakeFiles/ex12_4.dir/rule
 
 # fast build rule for target.
 ex12_4/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/build
 .PHONY : ex12_4/fast
 
 # Convenience name for target.
 src/CMakeFiles/vlfunc.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/vlfunc.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/vlfunc.dir/rule
 .PHONY : src/CMakeFiles/vlfunc.dir/rule
 
 # Convenience name for target.
@@ -225,12 +225,12 @@ vlfunc: src/CMakeFiles/vlfunc.dir/rule
 
 # fast build rule for target.
 vlfunc/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/build
 .PHONY : vlfunc/fast
 
 # Convenience name for target.
 src/CMakeFiles/ex12_6.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_6.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_6.dir/rule
 .PHONY : src/CMakeFiles/ex12_6.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ ex12_6: src/CMakeFiles/ex12_6.dir/rule
 
 # fast build rule for target.
 ex12_6/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/build
 .PHONY : ex12_6/fast
 
 # Convenience name for target.
 src/CMakeFiles/ex12_9.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_9.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_9.dir/rule
 .PHONY : src/CMakeFiles/ex12_9.dir/rule
 
 # Convenience name for target.
@@ -253,12 +253,12 @@ ex12_9: src/CMakeFiles/ex12_9.dir/rule
 
 # fast build rule for target.
 ex12_9/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/build
 .PHONY : ex12_9/fast
 
 # Convenience name for target.
 src/CMakeFiles/ex12_10.dir/rule:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_10.dir/rule
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_10.dir/rule
 .PHONY : src/CMakeFiles/ex12_10.dir/rule
 
 # Convenience name for target.
@@ -267,15 +267,29 @@ ex12_10: src/CMakeFiles/ex12_10.dir/rule
 
 # fast build rule for target.
 ex12_10/fast:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/build
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/build
 .PHONY : ex12_10/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex12_15.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_15.dir/rule
+.PHONY : src/CMakeFiles/ex12_15.dir/rule
+
+# Convenience name for target.
+ex12_15: src/CMakeFiles/ex12_15.dir/rule
+.PHONY : ex12_15
+
+# fast build rule for target.
+ex12_15/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_15.dir/build.make src/CMakeFiles/ex12_15.dir/build
+.PHONY : ex12_15/fast
 
 clemens152.o: clemens152.c.o
 .PHONY : clemens152.o
 
 # target to build an object file
 clemens152.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/clemens152.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/clemens152.c.o
 .PHONY : clemens152.c.o
 
 clemens152.i: clemens152.c.i
@@ -283,7 +297,7 @@ clemens152.i: clemens152.c.i
 
 # target to preprocess a source file
 clemens152.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/clemens152.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/clemens152.c.i
 .PHONY : clemens152.c.i
 
 clemens152.s: clemens152.c.s
@@ -291,7 +305,7 @@ clemens152.s: clemens152.c.s
 
 # target to generate assembly for a file
 clemens152.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/clemens152.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clemens152.dir/build.make src/CMakeFiles/clemens152.dir/clemens152.c.s
 .PHONY : clemens152.c.s
 
 ex12_10.o: ex12_10.c.o
@@ -299,7 +313,7 @@ ex12_10.o: ex12_10.c.o
 
 # target to build an object file
 ex12_10.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/ex12_10.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/ex12_10.c.o
 .PHONY : ex12_10.c.o
 
 ex12_10.i: ex12_10.c.i
@@ -307,7 +321,7 @@ ex12_10.i: ex12_10.c.i
 
 # target to preprocess a source file
 ex12_10.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/ex12_10.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/ex12_10.c.i
 .PHONY : ex12_10.c.i
 
 ex12_10.s: ex12_10.c.s
@@ -315,15 +329,39 @@ ex12_10.s: ex12_10.c.s
 
 # target to generate assembly for a file
 ex12_10.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/ex12_10.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_10.dir/build.make src/CMakeFiles/ex12_10.dir/ex12_10.c.s
 .PHONY : ex12_10.c.s
+
+ex12_15.o: ex12_15.c.o
+.PHONY : ex12_15.o
+
+# target to build an object file
+ex12_15.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_15.dir/build.make src/CMakeFiles/ex12_15.dir/ex12_15.c.o
+.PHONY : ex12_15.c.o
+
+ex12_15.i: ex12_15.c.i
+.PHONY : ex12_15.i
+
+# target to preprocess a source file
+ex12_15.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_15.dir/build.make src/CMakeFiles/ex12_15.dir/ex12_15.c.i
+.PHONY : ex12_15.c.i
+
+ex12_15.s: ex12_15.c.s
+.PHONY : ex12_15.s
+
+# target to generate assembly for a file
+ex12_15.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_15.dir/build.make src/CMakeFiles/ex12_15.dir/ex12_15.c.s
+.PHONY : ex12_15.c.s
 
 ex12_4.o: ex12_4.c.o
 .PHONY : ex12_4.o
 
 # target to build an object file
 ex12_4.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/ex12_4.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/ex12_4.c.o
 .PHONY : ex12_4.c.o
 
 ex12_4.i: ex12_4.c.i
@@ -331,7 +369,7 @@ ex12_4.i: ex12_4.c.i
 
 # target to preprocess a source file
 ex12_4.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/ex12_4.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/ex12_4.c.i
 .PHONY : ex12_4.c.i
 
 ex12_4.s: ex12_4.c.s
@@ -339,7 +377,7 @@ ex12_4.s: ex12_4.c.s
 
 # target to generate assembly for a file
 ex12_4.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/ex12_4.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/ex12_4.c.s
 .PHONY : ex12_4.c.s
 
 ex12_6.o: ex12_6.c.o
@@ -347,7 +385,7 @@ ex12_6.o: ex12_6.c.o
 
 # target to build an object file
 ex12_6.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/ex12_6.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/ex12_6.c.o
 .PHONY : ex12_6.c.o
 
 ex12_6.i: ex12_6.c.i
@@ -355,7 +393,7 @@ ex12_6.i: ex12_6.c.i
 
 # target to preprocess a source file
 ex12_6.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/ex12_6.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/ex12_6.c.i
 .PHONY : ex12_6.c.i
 
 ex12_6.s: ex12_6.c.s
@@ -363,7 +401,7 @@ ex12_6.s: ex12_6.c.s
 
 # target to generate assembly for a file
 ex12_6.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/ex12_6.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/ex12_6.c.s
 .PHONY : ex12_6.c.s
 
 ex12_9.o: ex12_9.c.o
@@ -371,7 +409,7 @@ ex12_9.o: ex12_9.c.o
 
 # target to build an object file
 ex12_9.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/ex12_9.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/ex12_9.c.o
 .PHONY : ex12_9.c.o
 
 ex12_9.i: ex12_9.c.i
@@ -379,7 +417,7 @@ ex12_9.i: ex12_9.c.i
 
 # target to preprocess a source file
 ex12_9.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/ex12_9.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/ex12_9.c.i
 .PHONY : ex12_9.c.i
 
 ex12_9.s: ex12_9.c.s
@@ -387,7 +425,7 @@ ex12_9.s: ex12_9.c.s
 
 # target to generate assembly for a file
 ex12_9.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/ex12_9.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/ex12_9.c.s
 .PHONY : ex12_9.c.s
 
 list.o: list.c.o
@@ -395,7 +433,7 @@ list.o: list.c.o
 
 # target to build an object file
 list.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/list.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/list.c.o
 .PHONY : list.c.o
 
 list.i: list.c.i
@@ -403,7 +441,7 @@ list.i: list.c.i
 
 # target to preprocess a source file
 list.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/list.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/list.c.i
 .PHONY : list.c.i
 
 list.s: list.c.s
@@ -411,7 +449,7 @@ list.s: list.c.s
 
 # target to generate assembly for a file
 list.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/list.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/list.c.s
 .PHONY : list.c.s
 
 p533.o: p533.c.o
@@ -419,7 +457,7 @@ p533.o: p533.c.o
 
 # target to build an object file
 p533.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.o
 .PHONY : p533.c.o
 
 p533.i: p533.c.i
@@ -427,7 +465,7 @@ p533.i: p533.c.i
 
 # target to preprocess a source file
 p533.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.i
 .PHONY : p533.c.i
 
 p533.s: p533.c.s
@@ -435,7 +473,7 @@ p533.s: p533.c.s
 
 # target to generate assembly for a file
 p533.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/p533.c.s
 .PHONY : p533.c.s
 
 queue554.o: queue554.c.o
@@ -443,7 +481,7 @@ queue554.o: queue554.c.o
 
 # target to build an object file
 queue554.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/queue554.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/queue554.c.o
 .PHONY : queue554.c.o
 
 queue554.i: queue554.c.i
@@ -451,7 +489,7 @@ queue554.i: queue554.c.i
 
 # target to preprocess a source file
 queue554.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/queue554.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/queue554.c.i
 .PHONY : queue554.c.i
 
 queue554.s: queue554.c.s
@@ -459,7 +497,7 @@ queue554.s: queue554.c.s
 
 # target to generate assembly for a file
 queue554.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/queue554.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/queue554.c.s
 .PHONY : queue554.c.s
 
 stack544.o: stack544.c.o
@@ -467,7 +505,7 @@ stack544.o: stack544.c.o
 
 # target to build an object file
 stack544.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.o
 .PHONY : stack544.c.o
 
 stack544.i: stack544.c.i
@@ -475,7 +513,7 @@ stack544.i: stack544.c.i
 
 # target to preprocess a source file
 stack544.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.i
 .PHONY : stack544.c.i
 
 stack544.s: stack544.c.s
@@ -483,7 +521,7 @@ stack544.s: stack544.c.s
 
 # target to generate assembly for a file
 stack544.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/stack544.c.s
 .PHONY : stack544.c.s
 
 tree.o: tree.c.o
@@ -491,7 +529,7 @@ tree.o: tree.c.o
 
 # target to build an object file
 tree.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/tree.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/tree.c.o
 .PHONY : tree.c.o
 
 tree.i: tree.c.i
@@ -499,7 +537,7 @@ tree.i: tree.c.i
 
 # target to preprocess a source file
 tree.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/tree.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/tree.c.i
 .PHONY : tree.c.i
 
 tree.s: tree.c.s
@@ -507,7 +545,7 @@ tree.s: tree.c.s
 
 # target to generate assembly for a file
 tree.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/tree.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/tree.c.s
 .PHONY : tree.c.s
 
 vlfunc.o: vlfunc.c.o
@@ -515,7 +553,7 @@ vlfunc.o: vlfunc.c.o
 
 # target to build an object file
 vlfunc.c.o:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/vlfunc.c.o
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/vlfunc.c.o
 .PHONY : vlfunc.c.o
 
 vlfunc.i: vlfunc.c.i
@@ -523,7 +561,7 @@ vlfunc.i: vlfunc.c.i
 
 # target to preprocess a source file
 vlfunc.c.i:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/vlfunc.c.i
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/vlfunc.c.i
 .PHONY : vlfunc.c.i
 
 vlfunc.s: vlfunc.c.s
@@ -531,7 +569,7 @@ vlfunc.s: vlfunc.c.s
 
 # target to generate assembly for a file
 vlfunc.c.s:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/vlfunc.c.s
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/vlfunc.c.s
 .PHONY : vlfunc.c.s
 
 # Help Target
@@ -544,6 +582,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... clemens152"
 	@echo "... ex12_10"
+	@echo "... ex12_15"
 	@echo "... ex12_4"
 	@echo "... ex12_6"
 	@echo "... ex12_9"
@@ -559,6 +598,9 @@ help:
 	@echo "... ex12_10.o"
 	@echo "... ex12_10.i"
 	@echo "... ex12_10.s"
+	@echo "... ex12_15.o"
+	@echo "... ex12_15.i"
+	@echo "... ex12_15.s"
 	@echo "... ex12_4.o"
 	@echo "... ex12_4.i"
 	@echo "... ex12_4.s"
@@ -597,6 +639,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

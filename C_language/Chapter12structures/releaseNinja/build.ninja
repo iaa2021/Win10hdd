@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/
+cmake_ninja_workdir = /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja && /snap/cmake/1356/bin/ccmake -S/home/iaa/Desktop/gitStore/C_language/Chapter12structures -B/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja
+  COMMAND = cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja && /usr/bin/ccmake -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja && /snap/cmake/1356/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/C_language/Chapter12structures -B/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja
+  COMMAND = cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja && /usr/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -66,7 +66,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/iaa/Desktop/gitStore/C_language/Chapter12structures/CMakeLists.txt
+# /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -78,10 +78,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_p533: phony || src/CMakeFiles/p533.dir
 
-build src/CMakeFiles/p533.dir/p533.c.o: C_COMPILER__p533_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/p533.c || cmake_object_order_depends_target_p533
+build src/CMakeFiles/p533.dir/p533.c.o: C_COMPILER__p533_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/p533.c || cmake_object_order_depends_target_p533
   DEP_FILE = src/CMakeFiles/p533.dir/p533.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/p533.dir
   OBJECT_FILE_DIR = src/CMakeFiles/p533.dir
 
@@ -111,10 +111,10 @@ build src/p533: C_EXECUTABLE_LINKER__p533_Release src/CMakeFiles/p533.dir/p533.c
 
 build cmake_object_order_depends_target_list: phony || src/CMakeFiles/list.dir
 
-build src/CMakeFiles/list.dir/list.c.o: C_COMPILER__list_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/list.c || cmake_object_order_depends_target_list
+build src/CMakeFiles/list.dir/list.c.o: C_COMPILER__list_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/list.c || cmake_object_order_depends_target_list
   DEP_FILE = src/CMakeFiles/list.dir/list.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/list.dir
   OBJECT_FILE_DIR = src/CMakeFiles/list.dir
 
@@ -144,10 +144,10 @@ build src/list: C_EXECUTABLE_LINKER__list_Release src/CMakeFiles/list.dir/list.c
 
 build cmake_object_order_depends_target_clemens152: phony || src/CMakeFiles/clemens152.dir
 
-build src/CMakeFiles/clemens152.dir/clemens152.c.o: C_COMPILER__clemens152_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/clemens152.c || cmake_object_order_depends_target_clemens152
+build src/CMakeFiles/clemens152.dir/clemens152.c.o: C_COMPILER__clemens152_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/clemens152.c || cmake_object_order_depends_target_clemens152
   DEP_FILE = src/CMakeFiles/clemens152.dir/clemens152.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/clemens152.dir
   OBJECT_FILE_DIR = src/CMakeFiles/clemens152.dir
 
@@ -177,10 +177,10 @@ build src/clemens152: C_EXECUTABLE_LINKER__clemens152_Release src/CMakeFiles/cle
 
 build cmake_object_order_depends_target_stack544: phony || src/CMakeFiles/stack544.dir
 
-build src/CMakeFiles/stack544.dir/stack544.c.o: C_COMPILER__stack544_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/stack544.c || cmake_object_order_depends_target_stack544
+build src/CMakeFiles/stack544.dir/stack544.c.o: C_COMPILER__stack544_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/stack544.c || cmake_object_order_depends_target_stack544
   DEP_FILE = src/CMakeFiles/stack544.dir/stack544.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/stack544.dir
   OBJECT_FILE_DIR = src/CMakeFiles/stack544.dir
 
@@ -210,10 +210,10 @@ build src/stack544: C_EXECUTABLE_LINKER__stack544_Release src/CMakeFiles/stack54
 
 build cmake_object_order_depends_target_queue554: phony || src/CMakeFiles/queue554.dir
 
-build src/CMakeFiles/queue554.dir/queue554.c.o: C_COMPILER__queue554_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/queue554.c || cmake_object_order_depends_target_queue554
+build src/CMakeFiles/queue554.dir/queue554.c.o: C_COMPILER__queue554_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/queue554.c || cmake_object_order_depends_target_queue554
   DEP_FILE = src/CMakeFiles/queue554.dir/queue554.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/queue554.dir
   OBJECT_FILE_DIR = src/CMakeFiles/queue554.dir
 
@@ -243,10 +243,10 @@ build src/queue554: C_EXECUTABLE_LINKER__queue554_Release src/CMakeFiles/queue55
 
 build cmake_object_order_depends_target_tree: phony || src/CMakeFiles/tree.dir
 
-build src/CMakeFiles/tree.dir/tree.c.o: C_COMPILER__tree_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/tree.c || cmake_object_order_depends_target_tree
+build src/CMakeFiles/tree.dir/tree.c.o: C_COMPILER__tree_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/tree.c || cmake_object_order_depends_target_tree
   DEP_FILE = src/CMakeFiles/tree.dir/tree.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/tree.dir
   OBJECT_FILE_DIR = src/CMakeFiles/tree.dir
 
@@ -276,10 +276,10 @@ build src/tree: C_EXECUTABLE_LINKER__tree_Release src/CMakeFiles/tree.dir/tree.c
 
 build cmake_object_order_depends_target_ex12_4: phony || src/CMakeFiles/ex12_4.dir
 
-build src/CMakeFiles/ex12_4.dir/ex12_4.c.o: C_COMPILER__ex12_4_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/ex12_4.c || cmake_object_order_depends_target_ex12_4
+build src/CMakeFiles/ex12_4.dir/ex12_4.c.o: C_COMPILER__ex12_4_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/ex12_4.c || cmake_object_order_depends_target_ex12_4
   DEP_FILE = src/CMakeFiles/ex12_4.dir/ex12_4.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/ex12_4.dir
   OBJECT_FILE_DIR = src/CMakeFiles/ex12_4.dir
 
@@ -309,10 +309,10 @@ build src/ex12_4: C_EXECUTABLE_LINKER__ex12_4_Release src/CMakeFiles/ex12_4.dir/
 
 build cmake_object_order_depends_target_vlfunc: phony || src/CMakeFiles/vlfunc.dir
 
-build src/CMakeFiles/vlfunc.dir/vlfunc.c.o: C_COMPILER__vlfunc_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/vlfunc.c || cmake_object_order_depends_target_vlfunc
+build src/CMakeFiles/vlfunc.dir/vlfunc.c.o: C_COMPILER__vlfunc_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/vlfunc.c || cmake_object_order_depends_target_vlfunc
   DEP_FILE = src/CMakeFiles/vlfunc.dir/vlfunc.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/vlfunc.dir
   OBJECT_FILE_DIR = src/CMakeFiles/vlfunc.dir
 
@@ -342,10 +342,10 @@ build src/vlfunc: C_EXECUTABLE_LINKER__vlfunc_Release src/CMakeFiles/vlfunc.dir/
 
 build cmake_object_order_depends_target_ex12_6: phony || src/CMakeFiles/ex12_6.dir
 
-build src/CMakeFiles/ex12_6.dir/ex12_6.c.o: C_COMPILER__ex12_6_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/ex12_6.c || cmake_object_order_depends_target_ex12_6
+build src/CMakeFiles/ex12_6.dir/ex12_6.c.o: C_COMPILER__ex12_6_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/ex12_6.c || cmake_object_order_depends_target_ex12_6
   DEP_FILE = src/CMakeFiles/ex12_6.dir/ex12_6.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/ex12_6.dir
   OBJECT_FILE_DIR = src/CMakeFiles/ex12_6.dir
 
@@ -375,10 +375,10 @@ build src/ex12_6: C_EXECUTABLE_LINKER__ex12_6_Release src/CMakeFiles/ex12_6.dir/
 
 build cmake_object_order_depends_target_ex12_9: phony || src/CMakeFiles/ex12_9.dir
 
-build src/CMakeFiles/ex12_9.dir/ex12_9.c.o: C_COMPILER__ex12_9_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/ex12_9.c || cmake_object_order_depends_target_ex12_9
+build src/CMakeFiles/ex12_9.dir/ex12_9.c.o: C_COMPILER__ex12_9_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/ex12_9.c || cmake_object_order_depends_target_ex12_9
   DEP_FILE = src/CMakeFiles/ex12_9.dir/ex12_9.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/ex12_9.dir
   OBJECT_FILE_DIR = src/CMakeFiles/ex12_9.dir
 
@@ -408,10 +408,10 @@ build src/ex12_9: C_EXECUTABLE_LINKER__ex12_9_Release src/CMakeFiles/ex12_9.dir/
 
 build cmake_object_order_depends_target_ex12_10: phony || src/CMakeFiles/ex12_10.dir
 
-build src/CMakeFiles/ex12_10.dir/ex12_10.c.o: C_COMPILER__ex12_10_unscanned_Release /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/ex12_10.c || cmake_object_order_depends_target_ex12_10
+build src/CMakeFiles/ex12_10.dir/ex12_10.c.o: C_COMPILER__ex12_10_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/ex12_10.c || cmake_object_order_depends_target_ex12_10
   DEP_FILE = src/CMakeFiles/ex12_10.dir/ex12_10.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
   OBJECT_DIR = src/CMakeFiles/ex12_10.dir
   OBJECT_FILE_DIR = src/CMakeFiles/ex12_10.dir
 
@@ -432,12 +432,45 @@ build src/ex12_10: C_EXECUTABLE_LINKER__ex12_10_Release src/CMakeFiles/ex12_10.d
   TARGET_FILE = src/ex12_10
   TARGET_PDB = ex12_10.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex12_15
+
+
+#############################################
+# Order-only phony target for ex12_15
+
+build cmake_object_order_depends_target_ex12_15: phony || src/CMakeFiles/ex12_15.dir
+
+build src/CMakeFiles/ex12_15.dir/ex12_15.c.o: C_COMPILER__ex12_15_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/ex12_15.c || cmake_object_order_depends_target_ex12_15
+  DEP_FILE = src/CMakeFiles/ex12_15.dir/ex12_15.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
+  OBJECT_DIR = src/CMakeFiles/ex12_15.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex12_15.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex12_15
+
+
+#############################################
+# Link the executable src/ex12_15
+
+build src/ex12_15: C_EXECUTABLE_LINKER__ex12_15_Release src/CMakeFiles/ex12_15.dir/ex12_15.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/ex12_15.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex12_15
+  TARGET_PDB = ex12_15.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src && /snap/cmake/1356/bin/ccmake -S/home/iaa/Desktop/gitStore/C_language/Chapter12structures -B/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja
+  COMMAND = cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src && /usr/bin/ccmake -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -449,7 +482,7 @@ build src/edit_cache: phony src/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src && /snap/cmake/1356/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/C_language/Chapter12structures -B/home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja
+  COMMAND = cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src && /usr/bin/cmake --regenerate-during-build -S/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures -B/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -462,6 +495,8 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 build clemens152: phony src/clemens152
 
 build ex12_10: phony src/ex12_10
+
+build ex12_15: phony src/ex12_15
 
 build ex12_4: phony src/ex12_4
 
@@ -487,16 +522,16 @@ build vlfunc: phony src/vlfunc
 # =============================================================================
 
 #############################################
-# Folder: /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja
+# Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja
 
 build all: phony src/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/iaa/Desktop/gitStore/C_language/Chapter12structures/releaseNinja/src
+# Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src
 
-build src/all: phony src/p533 src/list src/clemens152 src/stack544 src/queue554 src/tree src/ex12_4 src/vlfunc src/ex12_6 src/ex12_9 src/ex12_10
+build src/all: phony src/p533 src/list src/clemens152 src/stack544 src/queue554 src/tree src/ex12_4 src/vlfunc src/ex12_6 src/ex12_9 src/ex12_10 src/ex12_15
 
 # =============================================================================
 # Built-in targets
@@ -505,14 +540,14 @@ build src/all: phony src/p533 src/list src/clemens152 src/stack544 src/queue554 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/iaa/Desktop/gitStore/C_language/Chapter12structures/CMakeLists.txt /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/CMakeLists.txt /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/config.h.in /snap/cmake/1356/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.9/CMakeCCompiler.cmake CMakeFiles/3.27.9/CMakeCXXCompiler.cmake CMakeFiles/3.27.9/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/config.h.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/iaa/Desktop/gitStore/C_language/Chapter12structures/CMakeLists.txt /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/CMakeLists.txt /home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/config.h.in /snap/cmake/1356/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/cmake/1356/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/cmake/1356/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.9/CMakeCCompiler.cmake CMakeFiles/3.27.9/CMakeCXXCompiler.cmake CMakeFiles/3.27.9/CMakeSystem.cmake: phony
+build /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/CMakeLists.txt /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/config.h.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
