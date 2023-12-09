@@ -5,11 +5,11 @@
 struct buyer{
     int enter;/*absolute time of buyer's appear*/
     int service;/*time of buyer's service*/
-    int exit;/*absolute time of buyer's exit*/
+    /*int exit; absolute time of buyer's exit*/
     struct buyer *next;
-} *one = NULL, *exiter = NULL;
-struct buyer * pop(struct buyer **);
-void push(struct buyer **, int, int, int);
+} *head = NULL, *tail = NULL; *exiter = NULL;
+struct buyer * pop(struct buyer **, struct buyer **);
+void push(struct buyer **, struct buyer **, int, int);
 int isEmpty(struct buyer *);
 int main()
 {
@@ -23,73 +23,49 @@ int main()
     processing = rand()%4 + 1;
     total += appear;
     out = total + processing;
-    push(&one, total, processing, out);/*first buyer's visit*/
+    push(&head, &tail, total, processing);/*first buyer's visit*/
     count++;
-    exiter = pop(&one);
-    while(total <= 720)
-    {
+    while(total < 720){
         appear = rand()%4 + 1;
         processing = rand()%4 + 1;
         total += appear;
-        if(exiter ->exit <= total)/*1buyer exited earlier, than 2 came in*/
+        if(total < out)
+        out += processing;
+        else
         out = total + processing;
-        else/*2buyer came earlier, than 1 exited*/
-        out = exiter ->exit + processing; 
-        
-        push(&one, appear, processing, out);
+        if(total < 720)
+        push(&head, &tail, total, processing);
     }
-    while(!isEmpty(one)){
-        exiter = pop(one);
-        printf("\nArrive time %d, service time %d, exit time %d\n", exiter ->enter,\
-        exiter ->service, exiter ->exit);
-    }
+    exiter = pop(&head, &tail);
+    printf("Appear time is %d, service time is %d.\n", exiter ->enter, exiter ->service);
+    printf("Common visitors number is %d", count);
+    printf("\nEnd of run.\n");
 
-    printf( "\nEnd of run.\n" );
     return 0;
 }
-void push(struct buyer **start, int appear, int processing, int out){
-    struct buyer *new, *previous, *current;
+void push(struct buyer **head, struct buyer **tail, int appear, int processing){
+    struct buyer *new;
     new = malloc(sizeof(struct buyer));
     if(new != NULL){
-        new ->enter = appear; new ->service = processing; new ->exit = out;
-        current = (*start);
-        while(current != NULL){
-            previous = current;
-            current = current ->next;
-        }
-        if(previous == NULL){
-            new ->next = *start;
-            *start = new;
-        }
-        else{
-            previous ->next = new;
-            new ->next = current;
-        }
-        free(new);
+        new ->enter = appear; new ->service = processing; new ->next = NULL;
+        if(*head == NULL)
+        *head = new;
+        else
+            (*tail) ->next = new;
+        
+            *tail = new;
     }
     else
     printf("\nNo memory allocated.\n");
 }
-struct buyer * pop(struct buyer **start){
-    struct buyer *current, *previous = NULL;
-    current = *start;
-    if(current == NULL){
-    printf("\nQueue is empty.\n");
+struct buyer * pop(struct buyer **head, struct buyer **tail){
+    struct buyer *current;
+    current = *head;
+    *head = (*head) ->next;
+    return current;
+    if(*head == NULL){
+    *tail = NULL;
     return;
-    }
-    else{
-        while(current ->next != NULL){
-            previous = current;
-            current = current ->next;
-        }
-        if(previous == NULL){
-            *start = NULL;
-        }
-            
-        else{
-            previous ->next = NULL;
-        }
-        return current;
     }
 }
 int isEmpty(struct buyer  *start){
