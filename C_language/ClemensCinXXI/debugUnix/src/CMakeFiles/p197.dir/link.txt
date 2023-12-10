@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p197.dir/p197.c.o -o p197  -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p199.dir/p199.c.o -o p199  -lm 

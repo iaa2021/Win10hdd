@@ -284,6 +284,20 @@ ex12_15/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_15.dir/build.make src/CMakeFiles/ex12_15.dir/build
 .PHONY : ex12_15/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex12_17.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_17.dir/rule
+.PHONY : src/CMakeFiles/ex12_17.dir/rule
+
+# Convenience name for target.
+ex12_17: src/CMakeFiles/ex12_17.dir/rule
+.PHONY : ex12_17
+
+# fast build rule for target.
+ex12_17/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_17.dir/build.make src/CMakeFiles/ex12_17.dir/build
+.PHONY : ex12_17/fast
+
 clemens152.o: clemens152.c.o
 .PHONY : clemens152.o
 
@@ -355,6 +369,30 @@ ex12_15.s: ex12_15.c.s
 ex12_15.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_15.dir/build.make src/CMakeFiles/ex12_15.dir/ex12_15.c.s
 .PHONY : ex12_15.c.s
+
+ex12_17.o: ex12_17.c.o
+.PHONY : ex12_17.o
+
+# target to build an object file
+ex12_17.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_17.dir/build.make src/CMakeFiles/ex12_17.dir/ex12_17.c.o
+.PHONY : ex12_17.c.o
+
+ex12_17.i: ex12_17.c.i
+.PHONY : ex12_17.i
+
+# target to preprocess a source file
+ex12_17.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_17.dir/build.make src/CMakeFiles/ex12_17.dir/ex12_17.c.i
+.PHONY : ex12_17.c.i
+
+ex12_17.s: ex12_17.c.s
+.PHONY : ex12_17.s
+
+# target to generate assembly for a file
+ex12_17.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_17.dir/build.make src/CMakeFiles/ex12_17.dir/ex12_17.c.s
+.PHONY : ex12_17.c.s
 
 ex12_4.o: ex12_4.c.o
 .PHONY : ex12_4.o
@@ -583,6 +621,7 @@ help:
 	@echo "... clemens152"
 	@echo "... ex12_10"
 	@echo "... ex12_15"
+	@echo "... ex12_17"
 	@echo "... ex12_4"
 	@echo "... ex12_6"
 	@echo "... ex12_9"
@@ -601,6 +640,9 @@ help:
 	@echo "... ex12_15.o"
 	@echo "... ex12_15.i"
 	@echo "... ex12_15.s"
+	@echo "... ex12_17.o"
+	@echo "... ex12_17.i"
+	@echo "... ex12_17.s"
 	@echo "... ex12_4.o"
 	@echo "... ex12_4.i"
 	@echo "... ex12_4.s"
