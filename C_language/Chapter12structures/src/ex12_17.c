@@ -28,7 +28,7 @@ int main()
     printf("\nOrdered tokens are:\n");
     if(root == NULL)
     printf("\nTree is empty.");
-
+    printf("\nInordered tokens are:\n");
     inorder(root);
     printf("\nPostordered tokens are:\n");
     postorder(root);

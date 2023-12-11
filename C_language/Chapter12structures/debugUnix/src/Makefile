@@ -298,6 +298,20 @@ ex12_17/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_17.dir/build.make src/CMakeFiles/ex12_17.dir/build
 .PHONY : ex12_17/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex12_19.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_19.dir/rule
+.PHONY : src/CMakeFiles/ex12_19.dir/rule
+
+# Convenience name for target.
+ex12_19: src/CMakeFiles/ex12_19.dir/rule
+.PHONY : ex12_19
+
+# fast build rule for target.
+ex12_19/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_19.dir/build.make src/CMakeFiles/ex12_19.dir/build
+.PHONY : ex12_19/fast
+
 clemens152.o: clemens152.c.o
 .PHONY : clemens152.o
 
@@ -393,6 +407,30 @@ ex12_17.s: ex12_17.c.s
 ex12_17.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_17.dir/build.make src/CMakeFiles/ex12_17.dir/ex12_17.c.s
 .PHONY : ex12_17.c.s
+
+ex12_19depth.o: ex12_19depth.c.o
+.PHONY : ex12_19depth.o
+
+# target to build an object file
+ex12_19depth.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_19.dir/build.make src/CMakeFiles/ex12_19.dir/ex12_19depth.c.o
+.PHONY : ex12_19depth.c.o
+
+ex12_19depth.i: ex12_19depth.c.i
+.PHONY : ex12_19depth.i
+
+# target to preprocess a source file
+ex12_19depth.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_19.dir/build.make src/CMakeFiles/ex12_19.dir/ex12_19depth.c.i
+.PHONY : ex12_19depth.c.i
+
+ex12_19depth.s: ex12_19depth.c.s
+.PHONY : ex12_19depth.s
+
+# target to generate assembly for a file
+ex12_19depth.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_19.dir/build.make src/CMakeFiles/ex12_19.dir/ex12_19depth.c.s
+.PHONY : ex12_19depth.c.s
 
 ex12_4.o: ex12_4.c.o
 .PHONY : ex12_4.o
@@ -622,6 +660,7 @@ help:
 	@echo "... ex12_10"
 	@echo "... ex12_15"
 	@echo "... ex12_17"
+	@echo "... ex12_19"
 	@echo "... ex12_4"
 	@echo "... ex12_6"
 	@echo "... ex12_9"
@@ -643,6 +682,9 @@ help:
 	@echo "... ex12_17.o"
 	@echo "... ex12_17.i"
 	@echo "... ex12_17.s"
+	@echo "... ex12_19depth.o"
+	@echo "... ex12_19depth.i"
+	@echo "... ex12_19depth.s"
 	@echo "... ex12_4.o"
 	@echo "... ex12_4.i"
 	@echo "... ex12_4.s"
