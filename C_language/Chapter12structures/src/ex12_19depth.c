@@ -10,6 +10,7 @@ struct treeNode{
     struct treeNode *right;
     struct treeNode *parent;
 } *root = NULL;
+int max = 0;
 void insert(struct treeNode **, int);
 void inorder(struct treeNode *);
 void preorder(struct treeNode *);
@@ -17,7 +18,7 @@ void preorder1(struct treeNode **);
 void postorder(struct treeNode *);
 void level(struct treeNode **);/*assign levels to a tree*/
 void printLevel(struct treeNode *, int);/*tree level traversal*/
-
+void depth(struct treeNode *root);
 int main()
 {
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -32,6 +33,9 @@ int main()
     if(root == NULL)
     printf("\nTree is empty.\n");
     level(&root); 
+    
+    depth(root);
+    printf("\nTree has %d levels.\n", max);
     printf("\nInordered tree is:\n");
     inorder(root);
     printf("\nPostordered tree is:\n");
@@ -41,7 +45,7 @@ int main()
     printf("\nPreordered1 tree is:\n");
     preorder(root);
     printf("\nLevel ordered1 tree is:\n");
-    for(int i = 0; i < 10; i++)
+    for(int i = 1; i <= max; i++)
     {
         printLevel(root, i);
 
@@ -121,5 +125,14 @@ void printLevel(struct treeNode *root, int max){
 
         printLevel(((root) ->left), max);
         printLevel(((root) ->right), max);
+    }
+}
+void depth(struct treeNode *root){
+    if(root != NULL){
+    if(root ->level > max)
+    max = root ->level;
+
+    depth(root ->left);
+    depth(root ->right);
     }
 }
