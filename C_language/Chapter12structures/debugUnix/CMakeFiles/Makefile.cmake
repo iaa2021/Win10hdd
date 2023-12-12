@@ -63,4 +63,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/ex12_15.dir/DependInfo.cmake"
   "src/CMakeFiles/ex12_17.dir/DependInfo.cmake"
   "src/CMakeFiles/ex12_19.dir/DependInfo.cmake"
+  "src/CMakeFiles/ex12_20.dir/DependInfo.cmake"
   )

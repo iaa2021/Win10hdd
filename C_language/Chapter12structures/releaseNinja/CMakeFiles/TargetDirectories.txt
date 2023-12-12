@@ -14,5 +14,6 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/ex12_15.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/ex12_17.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/ex12_19.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/ex12_20.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src/CMakeFiles/rebuild_cache.dir
