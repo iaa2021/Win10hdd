@@ -10,6 +10,7 @@ struct listNode{
 void insert(struct listNode **, int);
 void delete(struct listNode **, int);
 int isEmpty(struct listNode *);
+struct listNode *searchList(struct listNode *, int);
 void print(struct listNode *);
 void recursivePrint(struct listNode *);
 int main(){
@@ -49,6 +50,13 @@ int main(){
         4 -recursive print list; 5 - stop.\n");
         scanf("%d", &choice);
     }
+    printf( "\nEx 12.21, recursive function, of list's reverce search.\n" );
+    printf("\nInput value to look for:\n");
+    int value1;  struct listNode *result;
+    scanf("%d", &value1);
+    result = searchList(root, value1);
+    if(result != NULL)
+    printf("\n%d is situated into the list.\n", result ->data);
     printf("\nEnd of run.\n");
     return 0;
 }
@@ -125,5 +133,15 @@ void recursivePrint(struct listNode *root){
     if(root != NULL){
     recursivePrint(root ->next);
     printf("%d -> ",root ->data);
+    }
+}
+struct listNode *searchList(struct listNode *root, int value){
+    if(root ->data == value)
+    return root;
+    else if(root != NULL)
+    return searchList(root ->next, value);
+    else if(root ->next == NULL && root ->data != value){
+        printf("\nThere isn't such value as %d.\n", value);
+        return NULL;
     }
 }

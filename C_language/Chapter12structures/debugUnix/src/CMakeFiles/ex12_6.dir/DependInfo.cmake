@@ -8,11 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/ex12_6.c" "src/CMakeFiles/ex12_6.dir/ex12_6.c.o" "gcc" "src/CMakeFiles/ex12_6.dir/ex12_6.c.o.d"
+  "/home/iaa/Desktop/gitStore/C_language/Chapter12structures/src/ex12_6.c" "src/CMakeFiles/ex12_6.dir/ex12_6.c.o" "gcc" "src/CMakeFiles/ex12_6.dir/ex12_6.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
