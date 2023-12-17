@@ -93,6 +93,7 @@ src/all: src/CMakeFiles/ex12_15.dir/all
 src/all: src/CMakeFiles/ex12_17.dir/all
 src/all: src/CMakeFiles/ex12_19.dir/all
 src/all: src/CMakeFiles/ex12_20.dir/all
+src/all: src/CMakeFiles/ex12_23.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -115,6 +116,7 @@ src/clean: src/CMakeFiles/ex12_15.dir/clean
 src/clean: src/CMakeFiles/ex12_17.dir/clean
 src/clean: src/CMakeFiles/ex12_19.dir/clean
 src/clean: src/CMakeFiles/ex12_20.dir/clean
+src/clean: src/CMakeFiles/ex12_23.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -124,7 +126,7 @@ src/clean: src/CMakeFiles/ex12_20.dir/clean
 src/CMakeFiles/p533.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p533.dir/build.make src/CMakeFiles/p533.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=21,22 "Built target p533"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=23,24 "Built target p533"
 .PHONY : src/CMakeFiles/p533.dir/all
 
 # Build rule for subdir invocation for target.
@@ -150,7 +152,7 @@ src/CMakeFiles/p533.dir/clean:
 src/CMakeFiles/list.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/list.dir/build.make src/CMakeFiles/list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=19,20 "Built target list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=21,22 "Built target list"
 .PHONY : src/CMakeFiles/list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -202,7 +204,7 @@ src/CMakeFiles/clemens152.dir/clean:
 src/CMakeFiles/stack544.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/stack544.dir/build.make src/CMakeFiles/stack544.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=25,26 "Built target stack544"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=27,28 "Built target stack544"
 .PHONY : src/CMakeFiles/stack544.dir/all
 
 # Build rule for subdir invocation for target.
@@ -228,7 +230,7 @@ src/CMakeFiles/stack544.dir/clean:
 src/CMakeFiles/queue554.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue554.dir/build.make src/CMakeFiles/queue554.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=23,24 "Built target queue554"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=25,26 "Built target queue554"
 .PHONY : src/CMakeFiles/queue554.dir/all
 
 # Build rule for subdir invocation for target.
@@ -254,7 +256,7 @@ src/CMakeFiles/queue554.dir/clean:
 src/CMakeFiles/tree.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tree.dir/build.make src/CMakeFiles/tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=27,28 "Built target tree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=29,30 "Built target tree"
 .PHONY : src/CMakeFiles/tree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -280,7 +282,7 @@ src/CMakeFiles/tree.dir/clean:
 src/CMakeFiles/ex12_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_4.dir/build.make src/CMakeFiles/ex12_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=13,14 "Built target ex12_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=15,16 "Built target ex12_4"
 .PHONY : src/CMakeFiles/ex12_4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -306,7 +308,7 @@ src/CMakeFiles/ex12_4.dir/clean:
 src/CMakeFiles/vlfunc.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/vlfunc.dir/build.make src/CMakeFiles/vlfunc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=29,30 "Built target vlfunc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=31,32 "Built target vlfunc"
 .PHONY : src/CMakeFiles/vlfunc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -332,7 +334,7 @@ src/CMakeFiles/vlfunc.dir/clean:
 src/CMakeFiles/ex12_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_6.dir/build.make src/CMakeFiles/ex12_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=15,16 "Built target ex12_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=17,18 "Built target ex12_6"
 .PHONY : src/CMakeFiles/ex12_6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -358,7 +360,7 @@ src/CMakeFiles/ex12_6.dir/clean:
 src/CMakeFiles/ex12_9.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_9.dir/build.make src/CMakeFiles/ex12_9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=17,18 "Built target ex12_9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=19,20 "Built target ex12_9"
 .PHONY : src/CMakeFiles/ex12_9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -506,6 +508,32 @@ ex12_20: src/CMakeFiles/ex12_20.dir/rule
 src/CMakeFiles/ex12_20.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_20.dir/build.make src/CMakeFiles/ex12_20.dir/clean
 .PHONY : src/CMakeFiles/ex12_20.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ex12_23.dir
+
+# All Build rule for target.
+src/CMakeFiles/ex12_23.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_23.dir/build.make src/CMakeFiles/ex12_23.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_23.dir/build.make src/CMakeFiles/ex12_23.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles --progress-num=13,14 "Built target ex12_23"
+.PHONY : src/CMakeFiles/ex12_23.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ex12_23.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex12_23.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/ex12_23.dir/rule
+
+# Convenience name for target.
+ex12_23: src/CMakeFiles/ex12_23.dir/rule
+.PHONY : ex12_23
+
+# clean rule for target.
+src/CMakeFiles/ex12_23.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_23.dir/build.make src/CMakeFiles/ex12_23.dir/clean
+.PHONY : src/CMakeFiles/ex12_23.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
