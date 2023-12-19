@@ -564,6 +564,39 @@ build src/ex12_20: C_EXECUTABLE_LINKER__ex12_20_Release src/CMakeFiles/ex12_20.d
   TARGET_PDB = ex12_20.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ex12_22
+
+
+#############################################
+# Order-only phony target for ex12_22
+
+build cmake_object_order_depends_target_ex12_22: phony || src/CMakeFiles/ex12_22.dir
+
+build src/CMakeFiles/ex12_22.dir/ex12_22.c.o: C_COMPILER__ex12_22_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/ex12_22.c || cmake_object_order_depends_target_ex12_22
+  DEP_FILE = src/CMakeFiles/ex12_22.dir/ex12_22.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
+  OBJECT_DIR = src/CMakeFiles/ex12_22.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex12_22.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex12_22
+
+
+#############################################
+# Link the executable src/ex12_22
+
+build src/ex12_22: C_EXECUTABLE_LINKER__ex12_22_Release src/CMakeFiles/ex12_22.dir/ex12_22.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/ex12_22.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex12_22
+  TARGET_PDB = ex12_22.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ex12_23
 
 
@@ -634,6 +667,8 @@ build ex12_19: phony src/ex12_19
 
 build ex12_20: phony src/ex12_20
 
+build ex12_22: phony src/ex12_22
+
 build ex12_23: phony src/ex12_23
 
 build ex12_4: phony src/ex12_4
@@ -669,7 +704,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src
 
-build src/all: phony src/p533 src/list src/clemens152 src/stack544 src/queue554 src/tree src/ex12_4 src/vlfunc src/ex12_6 src/ex12_9 src/ex12_10 src/ex12_15 src/ex12_17 src/ex12_19 src/ex12_20 src/ex12_23
+build src/all: phony src/p533 src/list src/clemens152 src/stack544 src/queue554 src/tree src/ex12_4 src/vlfunc src/ex12_6 src/ex12_9 src/ex12_10 src/ex12_15 src/ex12_17 src/ex12_19 src/ex12_20 src/ex12_22 src/ex12_23
 
 # =============================================================================
 # Built-in targets

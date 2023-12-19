@@ -19,10 +19,11 @@ add_executable(ex12_15 ex12_15.c)
 add_executable(ex12_17 ex12_17.c)
 add_executable(ex12_19 ex12_19depth.c)
 add_executable(ex12_20 ex12_20.c)
+add_executable(ex12_22 ex12_22.c tree.h)
 add_executable(ex12_23 ex12_23.c tree.h)
 
 set(targets p533 list clemens152 stack544 queue554 tree ex12_4 vlfunc ex12_6 ex12_9 ex12_10
-ex12_15 ex12_17 ex12_19 ex12_20 ex12_23) 
+ex12_15 ex12_17 ex12_19 ex12_20 ex12_22 ex12_23) 
 
 foreach( target ${targets} )
 set_target_properties( ${target} PROPERTIES

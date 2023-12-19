@@ -56,7 +56,14 @@ void preorder(struct treeNode *root){
     preorder(root ->right);
     }
 }
-void level(struct treeNode **root){
+void preLevel(struct treeNode *root){/*set tree levels to null*/
+    if(root != NULL){
+    root ->level = 0;
+    preLevel(root ->left);
+    preLevel(root ->right);
+    }
+}
+void level(struct treeNode **root){/*marking tree levels*/
     if(*root != NULL){
         if((*root) ->left != NULL){
         ((*root) ->left) ->level = 1 + (*root) ->level;
@@ -77,7 +84,7 @@ void preorder1(struct treeNode **root){
     preorder1(&((*root) ->right));
     }
 }
-void printLevel(struct treeNode *root, int max){
+void printLevel(struct treeNode *root, int max){/*tree output via levels*/
         if(root != NULL){
         if((root ->level) == max)
         {printf("%d, l = %d; ", (root) ->data, (root) ->level);}
@@ -86,7 +93,7 @@ void printLevel(struct treeNode *root, int max){
         printLevel(((root) ->right), max);
     }
 }
-void depth(struct treeNode *root){
+void depth(struct treeNode *root){/*finding out level number*/
     if(root != NULL){
     if(root ->level > max)
     max = root ->level;
@@ -95,20 +102,56 @@ void depth(struct treeNode *root){
     depth(root ->right);
     }
 }
-struct treeNode *binaryTreeSearch(struct treeNode *root, int value){
-    if(root != NULL){
-        if(root ->data == value){
-            printf("\n%d is located in %d level.\n", root ->data, root ->level);
-            return root;
-        }
+struct treeNode *binaryTreeSearch(struct treeNode **root, int value){
+    if((*root) != NULL){
+        if(value > (*root) ->data)
+        binaryTreeSearch(&((*root) ->right), value);
+        else if(value < (*root) ->data)
+        binaryTreeSearch(&((*root) ->left), value);
         else{
-            binaryTreeSearch(root ->left, value);
-            binaryTreeSearch(root ->right, value);
-        }
+            printf("\n%d is located in %d level.\n", (*root) ->data, (*root) ->level);
+            return *root;
+        }   
     }
     else{
-        printf("\n%d is absent.\n", root ->data);
+        printf("\n%d is absent.\n", (*root) ->data);
         return NULL;
     } 
+}
+void deleteNode(struct treeNode *root, int value){
+    if(root != NULL){
+        struct treeNode *temp;
+        if(value > root ->data)
+        deleteNode(root ->right, value);
+        else if(value < root ->data)
+        deleteNode(root ->left, value);
+        else{
+            temp = root;
+            if(root ->left == NULL && root ->right == NULL){/*root is a leaf*/
+            if((root ->parent) -> left == root)/*root is left child*/
+            (root ->parent) ->left = NULL;
+            else if((root ->parent) -> right == root)/*root is right child*/
+            (root ->parent) ->right = NULL;
+            free(temp);
+            }
+            else if(root ->right !=NULL && root ->left == NULL){/*root has only right child*/
+            if((root ->parent) -> left == root)/*root is left child*/
+            (root ->parent) ->left = root ->right;
+            
+            else if((root ->parent) -> right == root)/*root is right child*/
+            (root ->parent) ->right = root ->right;
+            
+            free(temp);
+            }
+            else if(root ->right ==NULL && root ->left != NULL){/*root has only left child*/
+            if((root ->parent) -> left == root)/*root is left child*/
+            (root ->parent) ->left = root ->left;
+            else if((root ->parent) -> right == root)/*root is right child*/
+            (root ->parent) ->right = root ->left;
+
+            free(temp);
+            }
+        }
+    }
 }
 #endif

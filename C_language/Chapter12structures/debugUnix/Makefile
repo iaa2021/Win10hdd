@@ -312,6 +312,19 @@ ex12_20/fast:
 .PHONY : ex12_20/fast
 
 #=============================================================================
+# Target rules for targets named ex12_22
+
+# Build rule for target.
+ex12_22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex12_22
+.PHONY : ex12_22
+
+# fast build rule for target.
+ex12_22/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex12_22.dir/build.make src/CMakeFiles/ex12_22.dir/build
+.PHONY : ex12_22/fast
+
+#=============================================================================
 # Target rules for targets named ex12_23
 
 # Build rule for target.
@@ -338,6 +351,7 @@ help:
 	@echo "... ex12_17"
 	@echo "... ex12_19"
 	@echo "... ex12_20"
+	@echo "... ex12_22"
 	@echo "... ex12_23"
 	@echo "... ex12_4"
 	@echo "... ex12_6"
