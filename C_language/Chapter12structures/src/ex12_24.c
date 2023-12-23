@@ -2,16 +2,10 @@
 struct queueNode{
     struct treeNode *unit;
     struct queueNode *next;
-<<<<<<< HEAD
-} *head = NULL, *tail = NULL;
-void levelOrder(struct queueNode *, struct queueNode *, struct treeNode *);
-=======
 } *head = NULL, *tail = NULL, *head1 = NULL, *tail1 = NULL;
 void enqueue(struct queueNode **, struct queueNode **, struct treeNode *);
 struct queueNode *dequeue(struct queueNode **, struct queueNode **);
-void levelOrder(struct treeNode *, struct queueNode **, struct queueNode **,\
- struct queueNode **, struct queueNode **);
->>>>>>> 421a87e (ex12_24 tree level print via queue, processing1)
+void levelOrder(struct treeNode *, struct queueNode **, struct queueNode **, struct queueNode **, struct queueNode **);
 int main(){
     struct treeNode *root = NULL; int value;
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -35,33 +29,6 @@ int main(){
 
         printf("\n");
     }
-<<<<<<< HEAD
-}
-void levelOrder(struct queueNode *firstQueue, struct queueNode *secondQueue, struct treeNode *start){
-    if(start != NULL){
-        enqueue(&head, &tail);
-    }
-}
-void enqueue(struct queueNode **head, struct queueNode **tail, struct treeNode *oneTree){
-    struct queueNode * new = malloc(sizeof(struct queueNode));
-    if(new != NULL){
-        new ->unit = oneTree;
-        new ->next = NULL;
-        if(isEmpty(*head)){
-            *head = new;
-            (*head) ->next = *tail;
-        }
-        else
-            (*tail) ->next = new;/*attach new to a tail*/
-
-        *tail = new;/*marking new as a tail*/
-    }
-    else
-    printf("\n%d not inserted, no memory avaliable.\n", oneTree ->data);
-}
-=======
-    printf("\nLevel ordered tree via queue is:\n");
-    levelOrder(root, head, tail, head1, tail1);
 }
 void enqueue(struct queueNode **head, struct queueNode **tail, struct treeNode *root){
     struct queueNode *new = malloc(sizeof(struct queueNode *));
@@ -86,8 +53,7 @@ struct queueNode *dequeue(struct queueNode **head, struct queueNode **tail){
 
     return start;
 }
-void levelOrder(struct treeNode *root, struct queueNode **head, struct queueNode **tail,\
- struct queueNode **head1, struct queueNode **tail1){
+void levelOrder(struct treeNode *root, struct queueNode **head, struct queueNode **tail, struct queueNode **head1, struct queueNode **tail1){
     if(root != NULL){
         enqueue(&head, &tail, root);/*1 queue*/
         if(root ->left != NULL)
@@ -102,4 +68,3 @@ void levelOrder(struct treeNode *root, struct queueNode **head, struct queueNode
     levelOrder(root ->left, &head, &tail, &head1, &tail1);
     levelOrder(root ->right, &head, &tail, &head1, &tail1);
  }
->>>>>>> 421a87e (ex12_24 tree level print via queue, processing1)

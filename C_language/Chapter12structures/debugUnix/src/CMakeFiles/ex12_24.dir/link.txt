@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 /usr/bin/cc -g CMakeFiles/ex12_24.dir/ex12_24.c.o -o ex12_24  -lm 
-=======
-/usr/bin/cc -g CMakeFiles/ex12_24.dir/ex12_24.c.o -o ex12_24 
->>>>>>> 421a87e (ex12_24 tree level print via queue, processing1)

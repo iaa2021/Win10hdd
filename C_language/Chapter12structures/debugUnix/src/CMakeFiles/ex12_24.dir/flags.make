@@ -4,13 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-<<<<<<< HEAD
 C_INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
 
 C_FLAGS = -g -std=gnu17
-=======
-C_INCLUDES = 
-
-C_FLAGS = -g
->>>>>>> 421a87e (ex12_24 tree level print via queue, processing1)
 
