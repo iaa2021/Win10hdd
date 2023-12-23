@@ -640,8 +640,12 @@ build cmake_object_order_depends_target_ex12_24: phony || src/CMakeFiles/ex12_24
 
 build src/CMakeFiles/ex12_24.dir/ex12_24.c.o: C_COMPILER__ex12_24_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/ex12_24.c || cmake_object_order_depends_target_ex12_24
   DEP_FILE = src/CMakeFiles/ex12_24.dir/ex12_24.c.o.d
+<<<<<<< HEAD
   FLAGS = -O3 -DNDEBUG -std=gnu17
   INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/src/.
+=======
+  FLAGS = -O3 -DNDEBUG
+>>>>>>> 421a87e (ex12_24 tree level print via queue, processing1)
   OBJECT_DIR = src/CMakeFiles/ex12_24.dir
   OBJECT_FILE_DIR = src/CMakeFiles/ex12_24.dir
 
@@ -655,7 +659,10 @@ build src/CMakeFiles/ex12_24.dir/ex12_24.c.o: C_COMPILER__ex12_24_Release /home/
 
 build src/ex12_24: C_EXECUTABLE_LINKER__ex12_24_Release src/CMakeFiles/ex12_24.dir/ex12_24.c.o
   FLAGS = -O3 -DNDEBUG
+<<<<<<< HEAD
   LINK_LIBRARIES = -lm
+=======
+>>>>>>> 421a87e (ex12_24 tree level print via queue, processing1)
   OBJECT_DIR = src/CMakeFiles/ex12_24.dir
   POST_BUILD = :
   PRE_LINK = :

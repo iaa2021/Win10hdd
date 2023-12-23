@@ -6,14 +6,13 @@ struct queueNode{
     struct queueNode *next;
 } *head = NULL, *tail = NULL;
 typedef struct queueNode QUEUENODE;
-typedef QUEUENODE * QUEUENODEPTR;
+typedef QUEUENODE *QUEUENODEPTR;
 void printQueue(QUEUENODEPTR);
 char dequeue(QUEUENODEPTR *, QUEUENODEPTR *);
 void enqueue(QUEUENODEPTR *, QUEUENODEPTR *, char);
 int isEmpty(QUEUENODEPTR);
 void instructions();
-int main()
-{
+int main(){
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
     printf( ".%d", PROJECT_VERSION_MINOR );
     printf( ".%d", PROJECT_VERSION_PATCH );
