@@ -30,9 +30,14 @@ int main(){
 
         printf("\n");
     }
-     printf("\nLevel ordered tree via queue is:\n");
+    printf("\nLevel ordered tree via queue is:\n");
     treeEnqueue(&head, &tail, root);
-    printQueue(head);
+    /*printQueue(head);*/
+    if(head == NULL)
+    printf("\nThe queue is empty.\n");
+    else
+    printf("\nThe queue is full.\n");
+    return 0;
 }
 void enqueue(struct queueNode **head, struct queueNode **tail, struct treeNode *root){
     struct queueNode *new = malloc(sizeof(struct queueNode *));
@@ -62,11 +67,12 @@ struct treeNode *dequeue(struct queueNode **head, struct queueNode **tail){
     return start;
 }
 void treeEnqueue(struct queueNode **head, struct queueNode **tail, struct treeNode *root){
-    if(root != NULL)
+    if(root == NULL){
     enqueue(head, tail, root);
 
     treeEnqueue(head, tail, root -> left);
     treeEnqueue(head, tail, root -> right);
+    }
 }
 void printQueue(struct queueNode *head){
     if(head == NULL)
