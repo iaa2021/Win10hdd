@@ -4,8 +4,9 @@ struct queueNode{
     struct queueNode *next;
 } *head = NULL, *tail = NULL, *head1 = NULL, *tail1 = NULL;
 void enqueue(struct queueNode **, struct queueNode **, struct treeNode *);
-struct queueNode *dequeue(struct queueNode **, struct queueNode **);
-void levelOrder(struct treeNode *, struct queueNode **, struct queueNode **, struct queueNode **, struct queueNode **);
+struct treeNode *dequeue(struct queueNode **, struct queueNode **);
+void treeEnqueue(struct queueNode **, struct queueNode **, struct treeNode *);
+void printQueue(struct queueNode *);
 int main(){
     struct treeNode *root = NULL; int value;
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
@@ -29,42 +30,62 @@ int main(){
 
         printf("\n");
     }
+     printf("\nLevel ordered tree via queue is:\n");
+    treeEnqueue(&head, &tail, root);
+    printQueue(head);
 }
 void enqueue(struct queueNode **head, struct queueNode **tail, struct treeNode *root){
     struct queueNode *new = malloc(sizeof(struct queueNode *));
-    if(*head == NULL){
-        (*head) ->unit = root;
+    if(new != NULL){
+        new ->unit = root;
+        new ->next = NULL;
+    }
+       if(*head == NULL){
+        *head = new;
         (*head) ->next = *tail;
-    }
-    else{
-        (*tail) ->next = root;
-        (*tail) = root;
-    }
+       }
+       else{
+        (*tail) ->next = new;
+        *tail = (*tail) ->next;
+       }
 }
-struct queueNode *dequeue(struct queueNode **head, struct queueNode **tail){
+struct treeNode *dequeue(struct queueNode **head, struct queueNode **tail){
     struct queueNode *temp;
-    struct treeNode *start;
+    struct treeNode *start = malloc(sizeof(struct treeNode *));
     temp = *head;
+    start = (*head) ->unit;
     *head = (*head) ->next;
-    start = temp ->unit;
     free(temp);
     if(*head == NULL)
     *tail = NULL;
 
     return start;
 }
-void levelOrder(struct treeNode *root, struct queueNode **head, struct queueNode **tail, struct queueNode **head1, struct queueNode **tail1){
-    if(root != NULL){
-        enqueue(&head, &tail, root);/*1 queue*/
-        if(root ->left != NULL)
-        enqueue(&head, &tail, root ->left);/*2 queue*/
-        if(root ->right != NULL)
-        enqueue(&head1, &tail1, root ->right);/*2 queue*/
-        while(*head != NULL)
-        printf(" %d ", ((dequeue(&head, &tail)) ->unit) ->data);
-        while(*head1 != NULL)
-        enqueue(*head, *tail, dequeue(&head, &tail));
+void treeEnqueue(struct queueNode **head, struct queueNode **tail, struct treeNode *root){
+    if(root != NULL)
+    enqueue(head, tail, root);
+
+    treeEnqueue(head, tail, root -> left);
+    treeEnqueue(head, tail, root -> right);
+}
+void printQueue(struct queueNode *head){
+    if(head == NULL)
+    printf("\nQueue is empty.\n");
+    else{
+        while(head != NULL){
+        printf(" %d ", (head ->unit) ->data);
+        head = head ->next;
+        }
     }
-    levelOrder(root ->left, &head, &tail, &head1, &tail1);
-    levelOrder(root ->right, &head, &tail, &head1, &tail1);
- }
+}
+/*void printQueue(QUEUENODEPTR head){
+    if(head == NULL)
+    printf("\nQueue is empty.\n");
+    else{
+        while(head != NULL){
+        printf("%c -> ", head ->data);
+        head = head ->next;
+        }
+    }
+    printf("\nNULL\n");
+}*/
