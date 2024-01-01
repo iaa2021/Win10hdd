@@ -19,5 +19,6 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src/CMakeFiles/ex12_23.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src/CMakeFiles/ex12_24.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src/CMakeFiles/ex13_4.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src/CMakeFiles/ex13_8.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix/src/CMakeFiles/rebuild_cache.dir

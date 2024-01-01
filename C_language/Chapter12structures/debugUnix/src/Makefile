@@ -382,6 +382,20 @@ ex13_4/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex13_4.dir/build.make src/CMakeFiles/ex13_4.dir/build
 .PHONY : ex13_4/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex13_8.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex13_8.dir/rule
+.PHONY : src/CMakeFiles/ex13_8.dir/rule
+
+# Convenience name for target.
+ex13_8: src/CMakeFiles/ex13_8.dir/rule
+.PHONY : ex13_8
+
+# fast build rule for target.
+ex13_8/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex13_8.dir/build.make src/CMakeFiles/ex13_8.dir/build
+.PHONY : ex13_8/fast
+
 clemens152.o: clemens152.c.o
 .PHONY : clemens152.o
 
@@ -694,6 +708,30 @@ ex13_4.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex13_4.dir/build.make src/CMakeFiles/ex13_4.dir/ex13_4.c.s
 .PHONY : ex13_4.c.s
 
+ex13_8.o: ex13_8.c.o
+.PHONY : ex13_8.o
+
+# target to build an object file
+ex13_8.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex13_8.dir/build.make src/CMakeFiles/ex13_8.dir/ex13_8.c.o
+.PHONY : ex13_8.c.o
+
+ex13_8.i: ex13_8.c.i
+.PHONY : ex13_8.i
+
+# target to preprocess a source file
+ex13_8.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex13_8.dir/build.make src/CMakeFiles/ex13_8.dir/ex13_8.c.i
+.PHONY : ex13_8.c.i
+
+ex13_8.s: ex13_8.c.s
+.PHONY : ex13_8.s
+
+# target to generate assembly for a file
+ex13_8.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter12structures/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex13_8.dir/build.make src/CMakeFiles/ex13_8.dir/ex13_8.c.s
+.PHONY : ex13_8.c.s
+
 list.o: list.c.o
 .PHONY : list.o
 
@@ -859,6 +897,7 @@ help:
 	@echo "... ex12_6"
 	@echo "... ex12_9"
 	@echo "... ex13_4"
+	@echo "... ex13_8"
 	@echo "... list"
 	@echo "... p533"
 	@echo "... queue554"
@@ -904,6 +943,9 @@ help:
 	@echo "... ex13_4.o"
 	@echo "... ex13_4.i"
 	@echo "... ex13_4.s"
+	@echo "... ex13_8.o"
+	@echo "... ex13_8.i"
+	@echo "... ex13_8.s"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
