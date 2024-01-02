@@ -142,6 +142,32 @@ p606/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p606.dir/build.make src/CMakeFiles/p606.dir/build
 .PHONY : p606/fast
 
+#=============================================================================
+# Target rules for targets named p610
+
+# Build rule for target.
+p610: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p610
+.PHONY : p610
+
+# fast build rule for target.
+p610/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p610.dir/build.make src/CMakeFiles/p610.dir/build
+.PHONY : p610/fast
+
+#=============================================================================
+# Target rules for targets named p612
+
+# Build rule for target.
+p612: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p612
+.PHONY : p612
+
+# fast build rule for target.
+p612/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/p612.dir/build.make src/CMakeFiles/p612.dir/build
+.PHONY : p612/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -152,6 +178,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... p605"
 	@echo "... p606"
+	@echo "... p610"
+	@echo "... p612"
 .PHONY : help
 
 

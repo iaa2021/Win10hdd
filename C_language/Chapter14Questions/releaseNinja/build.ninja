@@ -135,6 +135,72 @@ build src/p606: C_EXECUTABLE_LINKER__p606_Release src/CMakeFiles/p606.dir/p606.c
   TARGET_FILE = src/p606
   TARGET_PDB = p606.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target p610
+
+
+#############################################
+# Order-only phony target for p610
+
+build cmake_object_order_depends_target_p610: phony || src/CMakeFiles/p610.dir
+
+build src/CMakeFiles/p610.dir/p610.c.o: C_COMPILER__p610_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/p610.c || cmake_object_order_depends_target_p610
+  DEP_FILE = src/CMakeFiles/p610.dir/p610.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/.
+  OBJECT_DIR = src/CMakeFiles/p610.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/p610.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p610
+
+
+#############################################
+# Link the executable src/p610
+
+build src/p610: C_EXECUTABLE_LINKER__p610_Release src/CMakeFiles/p610.dir/p610.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/p610.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/p610
+  TARGET_PDB = p610.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p612
+
+
+#############################################
+# Order-only phony target for p612
+
+build cmake_object_order_depends_target_p612: phony || src/CMakeFiles/p612.dir
+
+build src/CMakeFiles/p612.dir/p612.c.o: C_COMPILER__p612_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/p612.c || cmake_object_order_depends_target_p612
+  DEP_FILE = src/CMakeFiles/p612.dir/p612.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/.
+  OBJECT_DIR = src/CMakeFiles/p612.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/p612.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p612
+
+
+#############################################
+# Link the executable src/p612
+
+build src/p612: C_EXECUTABLE_LINKER__p612_Release src/CMakeFiles/p612.dir/p612.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/p612.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/p612
+  TARGET_PDB = p612.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -166,6 +232,10 @@ build p605: phony src/p605
 
 build p606: phony src/p606
 
+build p610: phony src/p610
+
+build p612: phony src/p612
+
 # =============================================================================
 # Folder targets.
 
@@ -181,7 +251,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src
 
-build src/all: phony src/p605 src/p606
+build src/all: phony src/p605 src/p606 src/p610 src/p612
 
 # =============================================================================
 # Built-in targets

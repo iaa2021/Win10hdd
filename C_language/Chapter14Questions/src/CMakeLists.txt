@@ -6,8 +6,10 @@ configure_file(config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h)
 
 add_executable(p605 p605.c)
 add_executable(p606 p606.c)
+add_executable(p610 p610.c)
+add_executable(p612 p612.c)
 
-set(targets p605 p606)
+set(targets p605 p606 p610 p612)
 
 foreach(target ${targets})
 

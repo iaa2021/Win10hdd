@@ -2,5 +2,7 @@
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/CMakeFiles/rebuild_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src/CMakeFiles/p605.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src/CMakeFiles/p606.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src/CMakeFiles/p610.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src/CMakeFiles/p612.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src/CMakeFiles/edit_cache.dir
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src/CMakeFiles/rebuild_cache.dir

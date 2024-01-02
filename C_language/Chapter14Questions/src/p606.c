@@ -6,7 +6,7 @@ int main( int argc, char *argv[]){
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
     printf( ".%d", PROJECT_VERSION_MINOR );
     printf( ".%d", PROJECT_VERSION_PATCH );
-    printf( "\nEx on p606, command line's arguments.\n" );
+    printf( "\nEx on p610, command line's arguments.\n" );
     FILE *inFilePtr, *outFilePtr;
     int c;
     if(argc != 3)

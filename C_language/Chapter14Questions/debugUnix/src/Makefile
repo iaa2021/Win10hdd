@@ -144,6 +144,34 @@ p606/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p606.dir/build.make src/CMakeFiles/p606.dir/build
 .PHONY : p606/fast
 
+# Convenience name for target.
+src/CMakeFiles/p610.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p610.dir/rule
+.PHONY : src/CMakeFiles/p610.dir/rule
+
+# Convenience name for target.
+p610: src/CMakeFiles/p610.dir/rule
+.PHONY : p610
+
+# fast build rule for target.
+p610/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p610.dir/build.make src/CMakeFiles/p610.dir/build
+.PHONY : p610/fast
+
+# Convenience name for target.
+src/CMakeFiles/p612.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p612.dir/rule
+.PHONY : src/CMakeFiles/p612.dir/rule
+
+# Convenience name for target.
+p612: src/CMakeFiles/p612.dir/rule
+.PHONY : p612
+
+# fast build rule for target.
+p612/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p612.dir/build.make src/CMakeFiles/p612.dir/build
+.PHONY : p612/fast
+
 p605.o: p605.c.o
 .PHONY : p605.o
 
@@ -192,6 +220,54 @@ p606.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p606.dir/build.make src/CMakeFiles/p606.dir/p606.c.s
 .PHONY : p606.c.s
 
+p610.o: p610.c.o
+.PHONY : p610.o
+
+# target to build an object file
+p610.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p610.dir/build.make src/CMakeFiles/p610.dir/p610.c.o
+.PHONY : p610.c.o
+
+p610.i: p610.c.i
+.PHONY : p610.i
+
+# target to preprocess a source file
+p610.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p610.dir/build.make src/CMakeFiles/p610.dir/p610.c.i
+.PHONY : p610.c.i
+
+p610.s: p610.c.s
+.PHONY : p610.s
+
+# target to generate assembly for a file
+p610.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p610.dir/build.make src/CMakeFiles/p610.dir/p610.c.s
+.PHONY : p610.c.s
+
+p612.o: p612.c.o
+.PHONY : p612.o
+
+# target to build an object file
+p612.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p612.dir/build.make src/CMakeFiles/p612.dir/p612.c.o
+.PHONY : p612.c.o
+
+p612.i: p612.c.i
+.PHONY : p612.i
+
+# target to preprocess a source file
+p612.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p612.dir/build.make src/CMakeFiles/p612.dir/p612.c.i
+.PHONY : p612.c.i
+
+p612.s: p612.c.s
+.PHONY : p612.s
+
+# target to generate assembly for a file
+p612.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p612.dir/build.make src/CMakeFiles/p612.dir/p612.c.s
+.PHONY : p612.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,12 +278,20 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... p605"
 	@echo "... p606"
+	@echo "... p610"
+	@echo "... p612"
 	@echo "... p605.o"
 	@echo "... p605.i"
 	@echo "... p605.s"
 	@echo "... p606.o"
 	@echo "... p606.i"
 	@echo "... p606.s"
+	@echo "... p610.o"
+	@echo "... p610.i"
+	@echo "... p610.s"
+	@echo "... p612.o"
+	@echo "... p612.i"
+	@echo "... p612.s"
 .PHONY : help
 
 

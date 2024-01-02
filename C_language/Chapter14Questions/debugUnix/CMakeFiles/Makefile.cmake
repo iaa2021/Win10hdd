@@ -51,4 +51,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/p605.dir/DependInfo.cmake"
   "src/CMakeFiles/p606.dir/DependInfo.cmake"
+  "src/CMakeFiles/p610.dir/DependInfo.cmake"
+  "src/CMakeFiles/p612.dir/DependInfo.cmake"
   )

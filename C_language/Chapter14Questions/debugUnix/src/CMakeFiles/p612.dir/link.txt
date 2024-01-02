@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p612.dir/p612.c.o -o p612  -lm 
