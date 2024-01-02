@@ -5,7 +5,7 @@
 #include "time.h"
 #define PRINT(x) printf("Hello, "#x"\n")
 #define PRINTARRAY(x, y) (print(x, y))
-#define SUMARRAY(x, y) (sumArray(x, y))
+#define SUMARRAY(x, y) (sumArray0(x, y))
 void print(int *, int);
 int sumArray(int *, int);
 int main(){

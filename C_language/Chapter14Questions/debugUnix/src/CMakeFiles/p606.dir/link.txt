@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p606.dir/p606.c.o -o p606  -lm 
