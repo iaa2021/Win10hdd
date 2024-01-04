@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p216.dir/p216.c.o -o p216  -lm 
