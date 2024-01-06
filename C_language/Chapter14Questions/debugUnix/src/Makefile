@@ -172,6 +172,20 @@ p612/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p612.dir/build.make src/CMakeFiles/p612.dir/build
 .PHONY : p612/fast
 
+# Convenience name for target.
+src/CMakeFiles/p614.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/p614.dir/rule
+.PHONY : src/CMakeFiles/p614.dir/rule
+
+# Convenience name for target.
+p614: src/CMakeFiles/p614.dir/rule
+.PHONY : p614
+
+# fast build rule for target.
+p614/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p614.dir/build.make src/CMakeFiles/p614.dir/build
+.PHONY : p614/fast
+
 p605.o: p605.c.o
 .PHONY : p605.o
 
@@ -268,6 +282,30 @@ p612.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p612.dir/build.make src/CMakeFiles/p612.dir/p612.c.s
 .PHONY : p612.c.s
 
+p614.o: p614.c.o
+.PHONY : p614.o
+
+# target to build an object file
+p614.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p614.dir/build.make src/CMakeFiles/p614.dir/p614.c.o
+.PHONY : p614.c.o
+
+p614.i: p614.c.i
+.PHONY : p614.i
+
+# target to preprocess a source file
+p614.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p614.dir/build.make src/CMakeFiles/p614.dir/p614.c.i
+.PHONY : p614.c.i
+
+p614.s: p614.c.s
+.PHONY : p614.s
+
+# target to generate assembly for a file
+p614.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/p614.dir/build.make src/CMakeFiles/p614.dir/p614.c.s
+.PHONY : p614.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -280,6 +318,7 @@ help:
 	@echo "... p606"
 	@echo "... p610"
 	@echo "... p612"
+	@echo "... p614"
 	@echo "... p605.o"
 	@echo "... p605.i"
 	@echo "... p605.s"
@@ -292,6 +331,9 @@ help:
 	@echo "... p612.o"
 	@echo "... p612.i"
 	@echo "... p612.s"
+	@echo "... p614.o"
+	@echo "... p614.i"
+	@echo "... p614.s"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p614.dir/p614.c.o -o p614  -lm 

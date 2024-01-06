@@ -201,6 +201,39 @@ build src/p612: C_EXECUTABLE_LINKER__p612_Release src/CMakeFiles/p612.dir/p612.c
   TARGET_FILE = src/p612
   TARGET_PDB = p612.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target p614
+
+
+#############################################
+# Order-only phony target for p614
+
+build cmake_object_order_depends_target_p614: phony || src/CMakeFiles/p614.dir
+
+build src/CMakeFiles/p614.dir/p614.c.o: C_COMPILER__p614_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/p614.c || cmake_object_order_depends_target_p614
+  DEP_FILE = src/CMakeFiles/p614.dir/p614.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/.
+  OBJECT_DIR = src/CMakeFiles/p614.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/p614.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p614
+
+
+#############################################
+# Link the executable src/p614
+
+build src/p614: C_EXECUTABLE_LINKER__p614_Release src/CMakeFiles/p614.dir/p614.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/p614.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/p614
+  TARGET_PDB = p614.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -236,6 +269,8 @@ build p610: phony src/p610
 
 build p612: phony src/p612
 
+build p614: phony src/p614
+
 # =============================================================================
 # Folder targets.
 
@@ -251,7 +286,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src
 
-build src/all: phony src/p605 src/p606 src/p610 src/p612
+build src/all: phony src/p605 src/p606 src/p610 src/p612 src/p614
 
 # =============================================================================
 # Built-in targets
