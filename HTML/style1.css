@@ -1,0 +1,18 @@
+p{
+    background-color: aquamarine;
+    font-size: 3rem;
+}
+h1{
+    background-color: blueviolet;
+    font-size: 4rem;
+}
+.red-text{
+    color: red;
+}
+.blue-text{
+    color: blueviolet;
+}
+#usual-paragraph{
+    background-color: goldenrod;
+    font-size: 10rex;
+}

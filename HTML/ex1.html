@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>My first web-page</title>
+        <style>
+            h1, p{
+                background-color: greenyellow;
+                font-size: 4rem;
+            }
+            .red-text{
+                color: red;
+            }
+            .blue-text{
+                color: blueviolet;
+            }
+            #usual-paragraph{
+                background-color: violet;
+                font-size: 3rem;
+            }
+        </style>
     </head>
     <body>
-        <h1>Header of page</h1>
-        <p>Main text</p>
+        <h1 class="red-text">Header of page</h1>
+        <p class="blue-text">Main text</p>
+        <p class="red-text" id="usual-paragraph">Supporting text</p>
     </body>
 </html>
