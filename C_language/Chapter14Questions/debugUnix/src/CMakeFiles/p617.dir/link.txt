@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p617.dir/p617.c.o -o p617  -lm 
