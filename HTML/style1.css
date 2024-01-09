@@ -5,6 +5,8 @@ p{
 h1{
     background-color: blueviolet;
     font-size: 4rem;
+    width: 50%;
+    border: 10px groove green;
 }
 .red-text{
     color: red;
@@ -15,4 +17,14 @@ h1{
 #usual-paragraph{
     background-color: goldenrod;
     font-size: 10rex;
+}
+#inner-div{
+    width: 400px;
+    height: 200px;
+    background-color: greenyellow;
+}
+#outer-div{
+    width: 800px;
+    height: 800px;
+    background-color: orange;
 }
