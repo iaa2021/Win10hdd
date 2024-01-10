@@ -19,12 +19,15 @@ h1{
     font-size: 10rex;
 }
 #inner-div{
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 450px;
     background-color: greenyellow;
+    padding: 25px;
 }
 #outer-div{
     width: 800px;
-    height: 800px;
+    height: 900px;
+    border: 10px groove green;
+    padding: 25px;
     background-color: orange;
 }
