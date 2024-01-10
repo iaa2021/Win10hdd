@@ -1,12 +1,16 @@
 p{
     background-color: aquamarine;
     font-size: 3rem;
+    border: 10px groove rosybrown;
+    padding: 25px;
+    margin: 10px;
 }
 h1{
     background-color: blueviolet;
     font-size: 4rem;
     width: 50%;
     border: 10px groove green;
+    box-sizing: border-box;
 }
 .red-text{
     color: red;
@@ -20,9 +24,10 @@ h1{
 }
 #inner-div{
     width: 600px;
-    height: 450px;
+    height: 500px;
     background-color: greenyellow;
     padding: 25px;
+    box-sizing: border-box;
 }
 #outer-div{
     width: 800px;
