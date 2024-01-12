@@ -214,6 +214,20 @@ ex14_3/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_3.dir/build.make src/CMakeFiles/ex14_3.dir/build
 .PHONY : ex14_3/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex14_5.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex14_5.dir/rule
+.PHONY : src/CMakeFiles/ex14_5.dir/rule
+
+# Convenience name for target.
+ex14_5: src/CMakeFiles/ex14_5.dir/rule
+.PHONY : ex14_5
+
+# fast build rule for target.
+ex14_5/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_5.dir/build.make src/CMakeFiles/ex14_5.dir/build
+.PHONY : ex14_5/fast
+
 ex14_3.o: ex14_3.c.o
 .PHONY : ex14_3.o
 
@@ -237,6 +251,30 @@ ex14_3.s: ex14_3.c.s
 ex14_3.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_3.dir/build.make src/CMakeFiles/ex14_3.dir/ex14_3.c.s
 .PHONY : ex14_3.c.s
+
+ex14_5.o: ex14_5.c.o
+.PHONY : ex14_5.o
+
+# target to build an object file
+ex14_5.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_5.dir/build.make src/CMakeFiles/ex14_5.dir/ex14_5.c.o
+.PHONY : ex14_5.c.o
+
+ex14_5.i: ex14_5.c.i
+.PHONY : ex14_5.i
+
+# target to preprocess a source file
+ex14_5.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_5.dir/build.make src/CMakeFiles/ex14_5.dir/ex14_5.c.i
+.PHONY : ex14_5.c.i
+
+ex14_5.s: ex14_5.c.s
+.PHONY : ex14_5.s
+
+# target to generate assembly for a file
+ex14_5.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_5.dir/build.make src/CMakeFiles/ex14_5.dir/ex14_5.c.s
+.PHONY : ex14_5.c.s
 
 p605.o: p605.c.o
 .PHONY : p605.o
@@ -391,6 +429,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex14_3"
+	@echo "... ex14_5"
 	@echo "... p605"
 	@echo "... p606"
 	@echo "... p610"
@@ -400,6 +439,9 @@ help:
 	@echo "... ex14_3.o"
 	@echo "... ex14_3.i"
 	@echo "... ex14_3.s"
+	@echo "... ex14_5.o"
+	@echo "... ex14_5.i"
+	@echo "... ex14_5.s"
 	@echo "... p605.o"
 	@echo "... p605.i"
 	@echo "... p605.s"
