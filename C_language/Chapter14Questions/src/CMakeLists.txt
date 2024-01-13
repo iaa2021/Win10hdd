@@ -12,8 +12,9 @@ add_executable(p614 p614.c)
 add_executable(p617 p617.c)
 add_executable(ex14_3 ex14_3.c)
 add_executable(ex14_5 ex14_5.c)
+add_executable(ex14_6 ex14_6.c)
 
-set(targets p605 p606 p610 p612 p614 p617 ex14_3 ex14_5)
+set(targets p605 p606 p610 p612 p614 p617 ex14_3 ex14_5 ex14_6)
 
 foreach(target ${targets})
 
