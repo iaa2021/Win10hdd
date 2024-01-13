@@ -333,6 +333,39 @@ build src/ex14_5: C_EXECUTABLE_LINKER__ex14_5_Release src/CMakeFiles/ex14_5.dir/
   TARGET_FILE = src/ex14_5
   TARGET_PDB = ex14_5.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex14_6
+
+
+#############################################
+# Order-only phony target for ex14_6
+
+build cmake_object_order_depends_target_ex14_6: phony || src/CMakeFiles/ex14_6.dir
+
+build src/CMakeFiles/ex14_6.dir/ex14_6.c.o: C_COMPILER__ex14_6_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/ex14_6.c || cmake_object_order_depends_target_ex14_6
+  DEP_FILE = src/CMakeFiles/ex14_6.dir/ex14_6.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/.
+  OBJECT_DIR = src/CMakeFiles/ex14_6.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex14_6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex14_6
+
+
+#############################################
+# Link the executable src/ex14_6
+
+build src/ex14_6: C_EXECUTABLE_LINKER__ex14_6_Release src/CMakeFiles/ex14_6.dir/ex14_6.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/ex14_6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex14_6
+  TARGET_PDB = ex14_6.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -364,6 +397,8 @@ build ex14_3: phony src/ex14_3
 
 build ex14_5: phony src/ex14_5
 
+build ex14_6: phony src/ex14_6
+
 build p605: phony src/p605
 
 build p606: phony src/p606
@@ -391,7 +426,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src
 
-build src/all: phony src/p605 src/p606 src/p610 src/p612 src/p614 src/p617 src/ex14_3 src/ex14_5
+build src/all: phony src/p605 src/p606 src/p610 src/p612 src/p614 src/p617 src/ex14_3 src/ex14_5 src/ex14_6
 
 # =============================================================================
 # Built-in targets

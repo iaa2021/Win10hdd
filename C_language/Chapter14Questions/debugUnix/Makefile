@@ -220,6 +220,19 @@ ex14_5/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_5.dir/build.make src/CMakeFiles/ex14_5.dir/build
 .PHONY : ex14_5/fast
 
+#=============================================================================
+# Target rules for targets named ex14_6
+
+# Build rule for target.
+ex14_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex14_6
+.PHONY : ex14_6
+
+# fast build rule for target.
+ex14_6/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_6.dir/build.make src/CMakeFiles/ex14_6.dir/build
+.PHONY : ex14_6/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -230,6 +243,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ex14_3"
 	@echo "... ex14_5"
+	@echo "... ex14_6"
 	@echo "... p605"
 	@echo "... p606"
 	@echo "... p610"
