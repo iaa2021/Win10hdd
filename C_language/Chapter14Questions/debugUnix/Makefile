@@ -233,6 +233,32 @@ ex14_6/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_6.dir/build.make src/CMakeFiles/ex14_6.dir/build
 .PHONY : ex14_6/fast
 
+#=============================================================================
+# Target rules for targets named ex14_7
+
+# Build rule for target.
+ex14_7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex14_7
+.PHONY : ex14_7
+
+# fast build rule for target.
+ex14_7/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_7.dir/build.make src/CMakeFiles/ex14_7.dir/build
+.PHONY : ex14_7/fast
+
+#=============================================================================
+# Target rules for targets named ex14_8
+
+# Build rule for target.
+ex14_8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex14_8
+.PHONY : ex14_8
+
+# fast build rule for target.
+ex14_8/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_8.dir/build.make src/CMakeFiles/ex14_8.dir/build
+.PHONY : ex14_8/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -244,6 +270,8 @@ help:
 	@echo "... ex14_3"
 	@echo "... ex14_5"
 	@echo "... ex14_6"
+	@echo "... ex14_7"
+	@echo "... ex14_8"
 	@echo "... p605"
 	@echo "... p606"
 	@echo "... p610"

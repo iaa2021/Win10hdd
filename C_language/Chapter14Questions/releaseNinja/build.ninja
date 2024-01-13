@@ -366,6 +366,72 @@ build src/ex14_6: C_EXECUTABLE_LINKER__ex14_6_Release src/CMakeFiles/ex14_6.dir/
   TARGET_FILE = src/ex14_6
   TARGET_PDB = ex14_6.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex14_7
+
+
+#############################################
+# Order-only phony target for ex14_7
+
+build cmake_object_order_depends_target_ex14_7: phony || src/CMakeFiles/ex14_7.dir
+
+build src/CMakeFiles/ex14_7.dir/ex14_7.c.o: C_COMPILER__ex14_7_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/ex14_7.c || cmake_object_order_depends_target_ex14_7
+  DEP_FILE = src/CMakeFiles/ex14_7.dir/ex14_7.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/.
+  OBJECT_DIR = src/CMakeFiles/ex14_7.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex14_7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex14_7
+
+
+#############################################
+# Link the executable src/ex14_7
+
+build src/ex14_7: C_EXECUTABLE_LINKER__ex14_7_Release src/CMakeFiles/ex14_7.dir/ex14_7.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/ex14_7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex14_7
+  TARGET_PDB = ex14_7.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex14_8
+
+
+#############################################
+# Order-only phony target for ex14_8
+
+build cmake_object_order_depends_target_ex14_8: phony || src/CMakeFiles/ex14_8.dir
+
+build src/CMakeFiles/ex14_8.dir/ex14_8.c.o: C_COMPILER__ex14_8_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/ex14_8.c || cmake_object_order_depends_target_ex14_8
+  DEP_FILE = src/CMakeFiles/ex14_8.dir/ex14_8.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/.
+  OBJECT_DIR = src/CMakeFiles/ex14_8.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/ex14_8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex14_8
+
+
+#############################################
+# Link the executable src/ex14_8
+
+build src/ex14_8: C_EXECUTABLE_LINKER__ex14_8_Release src/CMakeFiles/ex14_8.dir/ex14_8.c.o
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm
+  OBJECT_DIR = src/CMakeFiles/ex14_8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ex14_8
+  TARGET_PDB = ex14_8.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -399,6 +465,10 @@ build ex14_5: phony src/ex14_5
 
 build ex14_6: phony src/ex14_6
 
+build ex14_7: phony src/ex14_7
+
+build ex14_8: phony src/ex14_8
+
 build p605: phony src/p605
 
 build p606: phony src/p606
@@ -426,7 +496,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/releaseNinja/src
 
-build src/all: phony src/p605 src/p606 src/p610 src/p612 src/p614 src/p617 src/ex14_3 src/ex14_5 src/ex14_6
+build src/all: phony src/p605 src/p606 src/p610 src/p612 src/p614 src/p617 src/ex14_3 src/ex14_5 src/ex14_6 src/ex14_7 src/ex14_8
 
 # =============================================================================
 # Built-in targets

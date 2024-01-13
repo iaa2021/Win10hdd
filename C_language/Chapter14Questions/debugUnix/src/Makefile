@@ -242,6 +242,34 @@ ex14_6/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_6.dir/build.make src/CMakeFiles/ex14_6.dir/build
 .PHONY : ex14_6/fast
 
+# Convenience name for target.
+src/CMakeFiles/ex14_7.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex14_7.dir/rule
+.PHONY : src/CMakeFiles/ex14_7.dir/rule
+
+# Convenience name for target.
+ex14_7: src/CMakeFiles/ex14_7.dir/rule
+.PHONY : ex14_7
+
+# fast build rule for target.
+ex14_7/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_7.dir/build.make src/CMakeFiles/ex14_7.dir/build
+.PHONY : ex14_7/fast
+
+# Convenience name for target.
+src/CMakeFiles/ex14_8.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ex14_8.dir/rule
+.PHONY : src/CMakeFiles/ex14_8.dir/rule
+
+# Convenience name for target.
+ex14_8: src/CMakeFiles/ex14_8.dir/rule
+.PHONY : ex14_8
+
+# fast build rule for target.
+ex14_8/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_8.dir/build.make src/CMakeFiles/ex14_8.dir/build
+.PHONY : ex14_8/fast
+
 ex14_3.o: ex14_3.c.o
 .PHONY : ex14_3.o
 
@@ -313,6 +341,54 @@ ex14_6.s: ex14_6.c.s
 ex14_6.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_6.dir/build.make src/CMakeFiles/ex14_6.dir/ex14_6.c.s
 .PHONY : ex14_6.c.s
+
+ex14_7.o: ex14_7.c.o
+.PHONY : ex14_7.o
+
+# target to build an object file
+ex14_7.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_7.dir/build.make src/CMakeFiles/ex14_7.dir/ex14_7.c.o
+.PHONY : ex14_7.c.o
+
+ex14_7.i: ex14_7.c.i
+.PHONY : ex14_7.i
+
+# target to preprocess a source file
+ex14_7.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_7.dir/build.make src/CMakeFiles/ex14_7.dir/ex14_7.c.i
+.PHONY : ex14_7.c.i
+
+ex14_7.s: ex14_7.c.s
+.PHONY : ex14_7.s
+
+# target to generate assembly for a file
+ex14_7.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_7.dir/build.make src/CMakeFiles/ex14_7.dir/ex14_7.c.s
+.PHONY : ex14_7.c.s
+
+ex14_8.o: ex14_8.c.o
+.PHONY : ex14_8.o
+
+# target to build an object file
+ex14_8.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_8.dir/build.make src/CMakeFiles/ex14_8.dir/ex14_8.c.o
+.PHONY : ex14_8.c.o
+
+ex14_8.i: ex14_8.c.i
+.PHONY : ex14_8.i
+
+# target to preprocess a source file
+ex14_8.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_8.dir/build.make src/CMakeFiles/ex14_8.dir/ex14_8.c.i
+.PHONY : ex14_8.c.i
+
+ex14_8.s: ex14_8.c.s
+.PHONY : ex14_8.s
+
+# target to generate assembly for a file
+ex14_8.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ex14_8.dir/build.make src/CMakeFiles/ex14_8.dir/ex14_8.c.s
+.PHONY : ex14_8.c.s
 
 p605.o: p605.c.o
 .PHONY : p605.o
@@ -469,6 +545,8 @@ help:
 	@echo "... ex14_3"
 	@echo "... ex14_5"
 	@echo "... ex14_6"
+	@echo "... ex14_7"
+	@echo "... ex14_8"
 	@echo "... p605"
 	@echo "... p606"
 	@echo "... p610"
@@ -484,6 +562,12 @@ help:
 	@echo "... ex14_6.o"
 	@echo "... ex14_6.i"
 	@echo "... ex14_6.s"
+	@echo "... ex14_7.o"
+	@echo "... ex14_7.i"
+	@echo "... ex14_7.s"
+	@echo "... ex14_8.o"
+	@echo "... ex14_8.i"
+	@echo "... ex14_8.s"
 	@echo "... p605.o"
 	@echo "... p605.i"
 	@echo "... p605.s"
