@@ -21,8 +21,13 @@ int main( int argc, char *argv[]){
             }
             printf("\nSize of char *text is %d.\n", count);
             printf("\nCreate reverse file.\n");
-
+            char *content = malloc(sizeof(char) * count);
+            fread(content, sizeof(char), count, out);
             printf("\nChar text is:\n");
+            for (int i = 0; i < count; i++)
+            {
+                printf("%c", content[i]);
+            }
             
             
         }
