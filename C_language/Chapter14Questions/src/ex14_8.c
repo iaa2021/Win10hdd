@@ -2,6 +2,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "time.h"
+#include "string.h"
 int main( int argc, char *argv[]){
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
     printf( ".%d", PROJECT_VERSION_MINOR );
@@ -14,22 +15,33 @@ int main( int argc, char *argv[]){
             fseek(out, 0, SEEK_END);
             size_t fileSize = ftell(out);
             rewind(out);
-            printf("\nSize of char *text via chat GPT is %d.\n", fileSize);
+            printf("\nSize of char *text via chat GPT is %zu.\n", fileSize);
             while((c = getc(out)) != EOF){
                 putchar(c);/*file output and finding out it's size*/
                 count++;
             }
+            rewind(out);
             printf("\nSize of char *text is %d.\n", count);
             printf("\nCreate reverse file.\n");
-            char *content = malloc(sizeof(char) * count);
-            fread(content, sizeof(char), count, out);
+            char *content = (char *)malloc((sizeof(char) * (count + 1)));
+            count = 0;
+            while((content[count] = getc(out)) != EOF){
+                count++;
+            }
+            count = (int)fileSize + 1;
+            content[count] = '\0';
+            printf("\nSize of char *text is %d.\n", count);
             printf("\nChar text is:\n");
             for (int i = 0; i < count; i++)
             {
                 printf("%c", content[i]);
             }
+            for (int i = count; i >= 0; i--)
+            {
+                fputc(content[i], in);
+            }
             
-            
+            free(content);
         }
     }
     printf("\nEnd of run.\n");

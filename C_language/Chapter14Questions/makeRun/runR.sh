@@ -1,4 +1,4 @@
 echo [*] running release configuration with Ninja
 cd ../releaseNinja
-src/p614
+src/ex14_9
 cd ..

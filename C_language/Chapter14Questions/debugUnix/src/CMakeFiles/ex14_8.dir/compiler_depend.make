@@ -10,6 +10,8 @@ src/CMakeFiles/ex14_8.dir/ex14_8.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_lang
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
@@ -69,11 +71,7 @@ src/CMakeFiles/ex14_8.dir/ex14_8.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_lang
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -107,9 +105,23 @@ src/CMakeFiles/ex14_8.dir/ex14_8.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_lang
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/config.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/features-time64.h:
 
@@ -133,8 +145,6 @@ src/CMakeFiles/ex14_8.dir/ex14_8.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_lang
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/stdc-predef.h:
@@ -147,19 +157,21 @@ src/CMakeFiles/ex14_8.dir/ex14_8.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_lang
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /home/iaa/Desktop/gitStore/Win10hdd/C_language/Chapter14Questions/src/ex14_8.c:
 
 /usr/include/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -170,10 +182,6 @@ src/CMakeFiles/ex14_8.dir/ex14_8.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_lang
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -186,5 +194,3 @@ src/CMakeFiles/ex14_8.dir/ex14_8.c.o: /home/iaa/Desktop/gitStore/Win10hdd/C_lang
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:

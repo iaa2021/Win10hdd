@@ -15,6 +15,7 @@ add_executable(ex14_5 ex14_5.c)
 add_executable(ex14_6 ex14_6.c)
 add_executable(ex14_7 ex14_7.c)
 add_executable(ex14_8 ex14_8.c)
+add_executable(ex14_9 ex14_9.c)
 
 set(targets p605 p606 p610 p612 p614 p617 ex14_3 ex14_5 ex14_6 ex14_7 ex14_8)
 

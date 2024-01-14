@@ -55,4 +55,5 @@ src/CMakeFiles/ex14_8.dir/ex14_8.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/string.h /usr/include/strings.h
