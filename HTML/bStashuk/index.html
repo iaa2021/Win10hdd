@@ -5,19 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+     .rounded-img {
+        width: 90%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
+        padding: 0.6em;
+        margin-bottom: 1em;
+     }
+    </style>
 </head>
 <body>
-    <div class="container text-center">
+    <div class="container text-center my-5">
         <div class="row">
             <div class="col-lg-4 col-md-8 mx-auto"> <!--col-lg-6 for line wrappingб, mx-auto to center -->
                 <!--lg in col-lg-4 means large, display's width-->
-                <img src="school_35_4a.jpg" alt="Dania's 4a class" height="300" width="400"/>
-                <h1>Dania's 4a class</h1>
-                <p>School #35, Odessa, 2009.
+                <img src="school_35_4a.jpg" alt="Dania's 4a class" height="400" width="4800" class="rounded-img"/>
+                <h1 class="fw-light">Dania's 4a class</h1>
+                <p class="lead text-muted">School #35, Odessa, 2009.
                     These are his teacher and classmates.
                     School #35 is situated on Gagarina, 35.
                 </p>
-                <button>Like!</button>
+                <a href="https://twitter.com/home" target="_blank" class="btn btn-primary">
+                    <!--<button class="btn btn-primary">Like!</button>-->
+                    My twitter
+                </a>
+                <a href="https://www.youtube.com/feed/subscriptions" target="_blank" class="btn btn-secondary">
+                    <!--<button class="btn btn-primary">Like!</button>-->
+                    My youtube
+                </a>
             </div>
         </div>
     </div>
