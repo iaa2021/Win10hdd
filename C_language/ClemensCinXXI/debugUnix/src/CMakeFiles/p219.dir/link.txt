@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/p219.dir/p219.c.o -o p219  -lm 
