@@ -1,9 +1,9 @@
+// example.m
 #import <Foundation/Foundation.h>
 
-int main(int argc, char *argv[]){
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    pool {
-        NSLog (@"Programming is fun.");
+int main(void) {
+    NSAutoreleasePool {
+        NSLog(@"Hello, Objective-C on Linux!\n");
     }
-    return 0;
+        return 0;
 }

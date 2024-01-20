@@ -37,12 +37,6 @@ p13: p13.m /usr/include/GNUstep/Foundation/Foundation.h \
  /usr/include/GNUstep/Foundation/NSBackgroundActivityScheduler.h \
  /usr/include/GNUstep/Foundation/NSBundle.h \
  /usr/include/GNUstep/GNUstepBase/NSBundle+GNUstepBase.h \
- /usr/include/GNUstep/Foundation/NSByteCountFormatter.h \
- /usr/include/GNUstep/Foundation/NSFormatter.h \
- /usr/include/GNUstep/Foundation/NSDecimalNumber.h \
- /usr/include/GNUstep/Foundation/NSDecimal.h \
- /usr/include/GNUstep/Foundation/NSValue.h \
- /usr/include/GNUstep/GNUstepBase/NSNumber+GNUstepBase.h \
  /usr/include/GNUstep/Foundation/NSByteOrder.h \
  /usr/include/GNUstep/Foundation/NSCache.h \
  /usr/include/GNUstep/Foundation/NSCalendar.h \
@@ -64,9 +58,14 @@ p13: p13.m /usr/include/GNUstep/Foundation/Foundation.h \
  /usr/include/GNUstep/Foundation/NSSerialization.h \
  /usr/include/GNUstep/GNUstepBase/NSData+GNUstepBase.h \
  /usr/include/GNUstep/Foundation/NSDateComponentsFormatter.h \
+ /usr/include/GNUstep/Foundation/NSFormatter.h \
  /usr/include/GNUstep/Foundation/NSDateFormatter.h \
  /usr/include/GNUstep/Foundation/NSDateInterval.h \
  /usr/include/GNUstep/Foundation/NSDateIntervalFormatter.h \
+ /usr/include/GNUstep/Foundation/NSDecimalNumber.h \
+ /usr/include/GNUstep/Foundation/NSDecimal.h \
+ /usr/include/GNUstep/Foundation/NSValue.h \
+ /usr/include/GNUstep/GNUstepBase/NSNumber+GNUstepBase.h \
  /usr/include/GNUstep/Foundation/NSDistantObject.h \
  /usr/include/GNUstep/Foundation/NSProxy.h \
  /usr/include/GNUstep/Foundation/NSDistributedLock.h \
@@ -223,12 +222,6 @@ p13: p13.m /usr/include/GNUstep/Foundation/Foundation.h \
 /usr/include/GNUstep/Foundation/NSBackgroundActivityScheduler.h:
 /usr/include/GNUstep/Foundation/NSBundle.h:
 /usr/include/GNUstep/GNUstepBase/NSBundle+GNUstepBase.h:
-/usr/include/GNUstep/Foundation/NSByteCountFormatter.h:
-/usr/include/GNUstep/Foundation/NSFormatter.h:
-/usr/include/GNUstep/Foundation/NSDecimalNumber.h:
-/usr/include/GNUstep/Foundation/NSDecimal.h:
-/usr/include/GNUstep/Foundation/NSValue.h:
-/usr/include/GNUstep/GNUstepBase/NSNumber+GNUstepBase.h:
 /usr/include/GNUstep/Foundation/NSByteOrder.h:
 /usr/include/GNUstep/Foundation/NSCache.h:
 /usr/include/GNUstep/Foundation/NSCalendar.h:
@@ -250,9 +243,14 @@ p13: p13.m /usr/include/GNUstep/Foundation/Foundation.h \
 /usr/include/GNUstep/Foundation/NSSerialization.h:
 /usr/include/GNUstep/GNUstepBase/NSData+GNUstepBase.h:
 /usr/include/GNUstep/Foundation/NSDateComponentsFormatter.h:
+/usr/include/GNUstep/Foundation/NSFormatter.h:
 /usr/include/GNUstep/Foundation/NSDateFormatter.h:
 /usr/include/GNUstep/Foundation/NSDateInterval.h:
 /usr/include/GNUstep/Foundation/NSDateIntervalFormatter.h:
+/usr/include/GNUstep/Foundation/NSDecimalNumber.h:
+/usr/include/GNUstep/Foundation/NSDecimal.h:
+/usr/include/GNUstep/Foundation/NSValue.h:
+/usr/include/GNUstep/GNUstepBase/NSNumber+GNUstepBase.h:
 /usr/include/GNUstep/Foundation/NSDistantObject.h:
 /usr/include/GNUstep/Foundation/NSProxy.h:
 /usr/include/GNUstep/Foundation/NSDistributedLock.h:
