@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lists</title>
+    <style>
+        ul{
+            display: inline-flex;
+        }
+        li{
+            margin: 1em;
+        }
+        img{
+            width: 15em;
+            height: 10em;
+        }
+        .red-text{
+            color: red;
+        }
+        .blue-text{
+            color: blueviolet;
+        }
+        .green-text{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unordered list</h1>
+    <ul>
+        <li class="green-text">
+            Crocodile
+            <p>very dangerous water predator</p>
+            <img src="images/crocodile.jpg" alt="crocodile" title="megacroc">
+        </li>
+        <li class="red-text">
+            Tiger
+            <p>very dangerous jungle predator</p>
+            <img src="images/tiger.jpg" alt="tiger" title="tiger in wild nature">
+        </li>
+        <li>
+            Snake
+            <p class="blue-text">very dangerous desert predator</p>
+            <img src="images/snake.jpg" alt="" title="king cobra">
+        </li>
+    </ul>
+    <p>Text after unordered list</p>
+    <h1>Ordered list</h1>
+    <ol type="I" start="8" reversed>
+        <li>octopus</li>
+        <li>shark</li>
+        <li value="28">jellyfish</li>
+    </ol>
+    <h1>Description list</h1>
+    <dl>
+        <dt>Student</dt>
+        <dd class="red-text">Guy or girl study in university</dd>
+        <dt>School children</dt>
+        <dd class="green-text">Children studying in school</dd>
+    </dl>
+    <h1>figure element</h1>
+    <figure>
+        <figcaption>Luca's interview</figcaption>
+        <video src="images/luca.mp4" loop></video>
+    </figure>
+</body>
+</html>

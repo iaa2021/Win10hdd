@@ -18,6 +18,9 @@ h1{
 .blue-text{
     color: blueviolet;
 }
+.green-text{
+    color: green;
+}
 #usual-paragraph{
     background-color: goldenrod;
     font-size: 10rex;
