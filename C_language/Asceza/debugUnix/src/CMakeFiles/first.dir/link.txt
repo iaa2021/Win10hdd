@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/first.dir/first.c.o -o first  -lm /usr/lib/libraylib.so -L/usr/lib -lraylib 

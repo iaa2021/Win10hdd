@@ -1,0 +1,7 @@
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/CMakeFiles/edit_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/CMakeFiles/rebuild_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src/CMakeFiles/first.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src/CMakeFiles/timer.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src/CMakeFiles/clock.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src/CMakeFiles/edit_cache.dir
+/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src/CMakeFiles/rebuild_cache.dir
