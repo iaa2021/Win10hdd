@@ -23,7 +23,7 @@ void draw_clock_field(Vector2 *c){
     DrawCircle(SCREEN_WIDTH/2.0f, SCREEN_HEIGH/2.0f, 108, BLACK);
     /*static tablo numbers*/
     DrawText("12", SCREEN_WIDTH/2.0f - 8, 80, 20, GOLD);
-    DrawText("3", SCREEN_WIDTH/2.0f - 93, 190, 20, GOLD);
+    DrawText("3", SCREEN_WIDTH/2.0f + 93, 190, 20, GOLD);
     DrawText("6", SCREEN_WIDTH/2.0f - 6, SCREEN_HEIGH - 96, 20, GOLD);
     DrawText("9", 84, 190, 20, GOLD);
 }
