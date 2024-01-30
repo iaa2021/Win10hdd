@@ -58,4 +58,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/timer.dir/DependInfo.cmake"
   "src/CMakeFiles/clock.dir/DependInfo.cmake"
   "src/CMakeFiles/core1.dir/DependInfo.cmake"
+  "src/CMakeFiles/core2.dir/DependInfo.cmake"
   )

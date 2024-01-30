@@ -172,6 +172,20 @@ core1/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core1.dir/build.make src/CMakeFiles/core1.dir/build
 .PHONY : core1/fast
 
+# Convenience name for target.
+src/CMakeFiles/core2.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/core2.dir/rule
+.PHONY : src/CMakeFiles/core2.dir/rule
+
+# Convenience name for target.
+core2: src/CMakeFiles/core2.dir/rule
+.PHONY : core2
+
+# fast build rule for target.
+core2/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/build
+.PHONY : core2/fast
+
 clock.o: clock.c.o
 .PHONY : clock.o
 
@@ -219,6 +233,30 @@ core1.s: core1.c.s
 core1.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core1.dir/build.make src/CMakeFiles/core1.dir/core1.c.s
 .PHONY : core1.c.s
+
+core2.o: core2.c.o
+.PHONY : core2.o
+
+# target to build an object file
+core2.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/core2.c.o
+.PHONY : core2.c.o
+
+core2.i: core2.c.i
+.PHONY : core2.i
+
+# target to preprocess a source file
+core2.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/core2.c.i
+.PHONY : core2.c.i
+
+core2.s: core2.c.s
+.PHONY : core2.s
+
+# target to generate assembly for a file
+core2.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/core2.c.s
+.PHONY : core2.c.s
 
 first.o: first.c.o
 .PHONY : first.o
@@ -278,6 +316,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... clock"
 	@echo "... core1"
+	@echo "... core2"
 	@echo "... first"
 	@echo "... timer"
 	@echo "... clock.o"
@@ -286,6 +325,9 @@ help:
 	@echo "... core1.o"
 	@echo "... core1.i"
 	@echo "... core1.s"
+	@echo "... core2.o"
+	@echo "... core2.i"
+	@echo "... core2.s"
 	@echo "... first.o"
 	@echo "... first.i"
 	@echo "... first.s"

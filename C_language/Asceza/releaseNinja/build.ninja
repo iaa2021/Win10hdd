@@ -201,6 +201,39 @@ build src/core1: C_EXECUTABLE_LINKER__core1_Release src/CMakeFiles/core1.dir/cor
   TARGET_FILE = src/core1
   TARGET_PDB = core1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target core2
+
+
+#############################################
+# Order-only phony target for core2
+
+build cmake_object_order_depends_target_core2: phony || src/CMakeFiles/core2.dir
+
+build src/CMakeFiles/core2.dir/core2.c.o: C_COMPILER__core2_unscanned_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/core2.c || cmake_object_order_depends_target_core2
+  DEP_FILE = src/CMakeFiles/core2.dir/core2.c.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu17 -I/usr/include
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/.
+  OBJECT_DIR = src/CMakeFiles/core2.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/core2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target core2
+
+
+#############################################
+# Link the executable src/core2
+
+build src/core2: C_EXECUTABLE_LINKER__core2_Release src/CMakeFiles/core2.dir/core2.c.o | /usr/lib/libraylib.so
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = -lm  /usr/lib/libraylib.so  -L/usr/lib -lraylib
+  OBJECT_DIR = src/CMakeFiles/core2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/core2
+  TARGET_PDB = core2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -232,6 +265,8 @@ build clock: phony src/clock
 
 build core1: phony src/core1
 
+build core2: phony src/core2
+
 build first: phony src/first
 
 build timer: phony src/timer
@@ -251,7 +286,7 @@ build all: phony src/all
 #############################################
 # Folder: /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src
 
-build src/all: phony src/first src/timer src/clock src/core1
+build src/all: phony src/first src/timer src/clock src/core1 src/core2
 
 # =============================================================================
 # Built-in targets

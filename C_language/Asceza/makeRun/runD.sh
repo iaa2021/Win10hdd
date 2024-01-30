@@ -1,4 +1,4 @@
 echo [*] running debug configuration with Unix
 cd ../debugUnix
-src/core1
+src/core2
 cd ..

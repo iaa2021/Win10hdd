@@ -13,8 +13,9 @@ add_executable(first first.c)
 add_executable(timer timer.c)
 add_executable(clock clock.c)
 add_executable(core1 core1.c)
+add_executable(core2 core2.c)
 
-set(targets first timer clock core1)
+set(targets first timer clock core1 core2)
 
 foreach(target ${targets})
 

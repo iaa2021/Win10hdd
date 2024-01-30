@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/core2.dir/core2.c.o -o core2  -lm /usr/lib/libraylib.so -L/usr/lib -lraylib 

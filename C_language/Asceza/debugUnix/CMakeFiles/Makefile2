@@ -82,6 +82,7 @@ src/all: src/CMakeFiles/first.dir/all
 src/all: src/CMakeFiles/timer.dir/all
 src/all: src/CMakeFiles/clock.dir/all
 src/all: src/CMakeFiles/core1.dir/all
+src/all: src/CMakeFiles/core2.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -93,6 +94,7 @@ src/clean: src/CMakeFiles/first.dir/clean
 src/clean: src/CMakeFiles/timer.dir/clean
 src/clean: src/CMakeFiles/clock.dir/clean
 src/clean: src/CMakeFiles/core1.dir/clean
+src/clean: src/CMakeFiles/core2.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -102,7 +104,7 @@ src/clean: src/CMakeFiles/core1.dir/clean
 src/CMakeFiles/first.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/first.dir/build.make src/CMakeFiles/first.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/first.dir/build.make src/CMakeFiles/first.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles --progress-num=5,6 "Built target first"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles --progress-num=7,8 "Built target first"
 .PHONY : src/CMakeFiles/first.dir/all
 
 # Build rule for subdir invocation for target.
@@ -128,7 +130,7 @@ src/CMakeFiles/first.dir/clean:
 src/CMakeFiles/timer.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/timer.dir/build.make src/CMakeFiles/timer.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/timer.dir/build.make src/CMakeFiles/timer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles --progress-num=7,8 "Built target timer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles --progress-num=9,10 "Built target timer"
 .PHONY : src/CMakeFiles/timer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -198,6 +200,32 @@ core1: src/CMakeFiles/core1.dir/rule
 src/CMakeFiles/core1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core1.dir/build.make src/CMakeFiles/core1.dir/clean
 .PHONY : src/CMakeFiles/core1.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/core2.dir
+
+# All Build rule for target.
+src/CMakeFiles/core2.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles --progress-num=5,6 "Built target core2"
+.PHONY : src/CMakeFiles/core2.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/core2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/core2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/core2.dir/rule
+
+# Convenience name for target.
+core2: src/CMakeFiles/core2.dir/rule
+.PHONY : core2
+
+# clean rule for target.
+src/CMakeFiles/core2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/clean
+.PHONY : src/CMakeFiles/core2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -168,6 +168,19 @@ core1/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core1.dir/build.make src/CMakeFiles/core1.dir/build
 .PHONY : core1/fast
 
+#=============================================================================
+# Target rules for targets named core2
+
+# Build rule for target.
+core2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core2
+.PHONY : core2
+
+# fast build rule for target.
+core2/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/build
+.PHONY : core2/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,6 +191,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... clock"
 	@echo "... core1"
+	@echo "... core2"
 	@echo "... first"
 	@echo "... timer"
 .PHONY : help
