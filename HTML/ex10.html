@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form sending, text field</title>
+</head>
+<body>
+   <form>
+    <p><input placeholder="your name" name="user"></p>
+    <p><input type="submit" value="send" formaction="mailto:ivanovandrey45@gmail.com"> </p>
+   </form> 
+   <form>
+    <p><em>What's your city name?</em></p>
+    <p><input name="city" list="city"></p>
+   </form>
+   <datalist id="city" aria-setsize="7">
+    <option>Odessa</option>
+    <option>Kyiv</option>
+    <option>Lviv</option>
+    <option>Kharkiv</option>
+   </datalist>
+   <button>Send via button</button>
+</body>
+</html>
