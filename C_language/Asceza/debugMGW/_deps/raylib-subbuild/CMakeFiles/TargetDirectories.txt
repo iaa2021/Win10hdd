@@ -1,0 +1,3 @@
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+# Target labels
+ raylib-populate
+# Source files and their labels
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule

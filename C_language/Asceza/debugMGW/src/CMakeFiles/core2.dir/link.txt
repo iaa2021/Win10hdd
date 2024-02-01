@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\core2.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\core2.dir/objects.a @CMakeFiles\core2.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\core2.dir/objects.a -Wl,--no-whole-archive -o core2.exe -Wl,--out-implib,libcore2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\core2.dir\linklibs.rsp
