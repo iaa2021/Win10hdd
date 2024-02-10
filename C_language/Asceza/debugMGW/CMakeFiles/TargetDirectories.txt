@@ -11,6 +11,7 @@ C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src/CMakeFil
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src/CMakeFiles/clock.dir
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src/CMakeFiles/core1.dir
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src/CMakeFiles/core2.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src/CMakeFiles/wClock.dir
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src/CMakeFiles/package.dir
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src/CMakeFiles/package_source.dir
 C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src/CMakeFiles/edit_cache.dir

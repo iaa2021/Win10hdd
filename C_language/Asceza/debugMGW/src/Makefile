@@ -250,6 +250,20 @@ core2/fast:
 	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Asceza\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\core2.dir\build.make src/CMakeFiles/core2.dir/build
 .PHONY : core2/fast
 
+# Convenience name for target.
+src/CMakeFiles/wClock.dir/rule:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Asceza\debugMGW && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/wClock.dir/rule
+.PHONY : src/CMakeFiles/wClock.dir/rule
+
+# Convenience name for target.
+wClock: src/CMakeFiles/wClock.dir/rule
+.PHONY : wClock
+
+# fast build rule for target.
+wClock/fast:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Asceza\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\wClock.dir\build.make src/CMakeFiles/wClock.dir/build
+.PHONY : wClock/fast
+
 clock.obj: clock.c.obj
 .PHONY : clock.obj
 
@@ -370,6 +384,30 @@ timer.c.s:
 	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Asceza\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\timer.dir\build.make src/CMakeFiles/timer.dir/timer.c.s
 .PHONY : timer.c.s
 
+wClock.obj: wClock.c.obj
+.PHONY : wClock.obj
+
+# target to build an object file
+wClock.c.obj:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Asceza\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\wClock.dir\build.make src/CMakeFiles/wClock.dir/wClock.c.obj
+.PHONY : wClock.c.obj
+
+wClock.i: wClock.c.i
+.PHONY : wClock.i
+
+# target to preprocess a source file
+wClock.c.i:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Asceza\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\wClock.dir\build.make src/CMakeFiles/wClock.dir/wClock.c.i
+.PHONY : wClock.c.i
+
+wClock.s: wClock.c.s
+.PHONY : wClock.s
+
+# target to generate assembly for a file
+wClock.c.s:
+	cd /d C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Asceza\debugMGW && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\wClock.dir\build.make src/CMakeFiles/wClock.dir/wClock.c.s
+.PHONY : wClock.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -389,6 +427,7 @@ help:
 	@echo ... core2
 	@echo ... first
 	@echo ... timer
+	@echo ... wClock
 	@echo ... clock.obj
 	@echo ... clock.i
 	@echo ... clock.s
@@ -404,6 +443,9 @@ help:
 	@echo ... timer.obj
 	@echo ... timer.i
 	@echo ... timer.s
+	@echo ... wClock.obj
+	@echo ... wClock.i
+	@echo ... wClock.s
 .PHONY : help
 
 

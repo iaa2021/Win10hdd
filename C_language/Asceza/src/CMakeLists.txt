@@ -39,6 +39,7 @@ add_executable(timer timer.c)
 add_executable(clock clock.c)
 add_executable(core1 core1.c)
 add_executable(core2 core2.c)
+add_executable(wClock wClock.c)
 
 set(targets first timer clock core1 core2)
 

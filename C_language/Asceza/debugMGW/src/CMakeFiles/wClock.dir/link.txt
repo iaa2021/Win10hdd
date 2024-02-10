@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\wClock.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\wClock.dir/objects.a @CMakeFiles\wClock.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\wClock.dir/objects.a -Wl,--no-whole-archive -o wClock.exe -Wl,--out-implib,libwClock.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\wClock.dir\linklibs.rsp
