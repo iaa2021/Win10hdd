@@ -83,6 +83,7 @@ src/all: src/CMakeFiles/timer.dir/all
 src/all: src/CMakeFiles/clock.dir/all
 src/all: src/CMakeFiles/core1.dir/all
 src/all: src/CMakeFiles/core2.dir/all
+src/all: src/CMakeFiles/wClock.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -95,6 +96,7 @@ src/clean: src/CMakeFiles/timer.dir/clean
 src/clean: src/CMakeFiles/clock.dir/clean
 src/clean: src/CMakeFiles/core1.dir/clean
 src/clean: src/CMakeFiles/core2.dir/clean
+src/clean: src/CMakeFiles/wClock.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -226,6 +228,32 @@ core2: src/CMakeFiles/core2.dir/rule
 src/CMakeFiles/core2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/clean
 .PHONY : src/CMakeFiles/core2.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/wClock.dir
+
+# All Build rule for target.
+src/CMakeFiles/wClock.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/wClock.dir/build.make src/CMakeFiles/wClock.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/wClock.dir/build.make src/CMakeFiles/wClock.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles --progress-num=11,12 "Built target wClock"
+.PHONY : src/CMakeFiles/wClock.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/wClock.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/wClock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles 0
+.PHONY : src/CMakeFiles/wClock.dir/rule
+
+# Convenience name for target.
+wClock: src/CMakeFiles/wClock.dir/rule
+.PHONY : wClock
+
+# clean rule for target.
+src/CMakeFiles/wClock.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/wClock.dir/build.make src/CMakeFiles/wClock.dir/clean
+.PHONY : src/CMakeFiles/wClock.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -92,7 +92,7 @@ timer_EXTERNAL_OBJECTS =
 
 src/timer: src/CMakeFiles/timer.dir/timer.c.o
 src/timer: src/CMakeFiles/timer.dir/build.make
-src/timer: /usr/lib/libraylib.so
+src/timer: /usr/local/lib64/libraylib.a
 src/timer: src/CMakeFiles/timer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable timer"
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/timer.dir/link.txt --verbose=$(VERBOSE)

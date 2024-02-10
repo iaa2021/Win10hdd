@@ -92,7 +92,7 @@ clock_EXTERNAL_OBJECTS =
 
 src/clock: src/CMakeFiles/clock.dir/clock.c.o
 src/clock: src/CMakeFiles/clock.dir/build.make
-src/clock: /usr/lib/libraylib.so
+src/clock: /usr/local/lib64/libraylib.a
 src/clock: src/CMakeFiles/clock.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable clock"
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clock.dir/link.txt --verbose=$(VERBOSE)
