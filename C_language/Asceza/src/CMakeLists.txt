@@ -9,8 +9,14 @@ if(WIN32)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Dependencies
-set(RAYLIB_VERSION 4.5.0)
-find_package(raylib ${RAYLIB_VERSION} QUIET) # QUIET or REQUIRED
+set(RAYLIB_VERSION 5.0)
+# Set path to Raylib directory
+set(RAYLIB_DIR "C:/raylib/raylib" CACHE PATH "Path to Raylib")
+
+# Find Raylib
+find_package(raylib 5.0 REQUIRED PATHS ${RAYLIB_DIR}/cmake)
+
+#find_package(raylib ${RAYLIB_VERSION} QUIET) # QUIET or REQUIRED
 if (NOT raylib_FOUND) # If there's none, fetch and build raylib
   include(FetchContent)
   FetchContent_Declare(
