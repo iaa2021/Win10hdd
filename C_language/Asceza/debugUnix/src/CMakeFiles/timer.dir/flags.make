@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/.
 
-C_FLAGS = -g -std=gnu17 -I/usr/include
+C_FLAGS = -g -std=gnu17 -I/usr/local/include
 

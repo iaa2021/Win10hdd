@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/wClock.dir/wClock.c.o -o wClock 

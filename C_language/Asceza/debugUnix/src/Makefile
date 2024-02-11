@@ -186,6 +186,20 @@ core2/fast:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/build
 .PHONY : core2/fast
 
+# Convenience name for target.
+src/CMakeFiles/wClock.dir/rule:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/wClock.dir/rule
+.PHONY : src/CMakeFiles/wClock.dir/rule
+
+# Convenience name for target.
+wClock: src/CMakeFiles/wClock.dir/rule
+.PHONY : wClock
+
+# fast build rule for target.
+wClock/fast:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/wClock.dir/build.make src/CMakeFiles/wClock.dir/build
+.PHONY : wClock/fast
+
 clock.o: clock.c.o
 .PHONY : clock.o
 
@@ -306,6 +320,30 @@ timer.c.s:
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/timer.dir/build.make src/CMakeFiles/timer.dir/timer.c.s
 .PHONY : timer.c.s
 
+wClock.o: wClock.c.o
+.PHONY : wClock.o
+
+# target to build an object file
+wClock.c.o:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/wClock.dir/build.make src/CMakeFiles/wClock.dir/wClock.c.o
+.PHONY : wClock.c.o
+
+wClock.i: wClock.c.i
+.PHONY : wClock.i
+
+# target to preprocess a source file
+wClock.c.i:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/wClock.dir/build.make src/CMakeFiles/wClock.dir/wClock.c.i
+.PHONY : wClock.c.i
+
+wClock.s: wClock.c.s
+.PHONY : wClock.s
+
+# target to generate assembly for a file
+wClock.c.s:
+	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/wClock.dir/build.make src/CMakeFiles/wClock.dir/wClock.c.s
+.PHONY : wClock.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -319,6 +357,7 @@ help:
 	@echo "... core2"
 	@echo "... first"
 	@echo "... timer"
+	@echo "... wClock"
 	@echo "... clock.o"
 	@echo "... clock.i"
 	@echo "... clock.s"
@@ -334,6 +373,9 @@ help:
 	@echo "... timer.o"
 	@echo "... timer.i"
 	@echo "... timer.s"
+	@echo "... wClock.o"
+	@echo "... wClock.i"
+	@echo "... wClock.s"
 .PHONY : help
 
 

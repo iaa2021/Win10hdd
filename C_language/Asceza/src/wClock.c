@@ -19,7 +19,11 @@ int main(){
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGH, "CLOCK");
 
     SetTargetFPS(10); /*max number of frames per second*/
-
+    while(!WindowShouldClose()){
+        BeginDrawing();
+        ClearBackground(GREEN);
+        EndDrawing();
+    }
     CloseWindow();
-     return 0;
+    return 0;
 }

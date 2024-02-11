@@ -34,10 +34,11 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
 endif()
 elseif(UNIX)
 
-set(RAYLIB_DIR "/usr")
+#set(RAYLIB_DIR "/usr")
+set(RAYLIB_DIR "/home/iaa")
 
-find_package(raylib REQUIRED PATHS ${RAYLIB_DIR}/lib/cmake)
-#find_package(raylib 5.0.0 REQUIRED)
+#find_package(raylib REQUIRED PATHS ${RAYLIB_DIR}/lib/cmake)
+find_package(raylib 5.0.0 REQUIRED)
 endif()
 
 add_executable(first first.c)

@@ -181,6 +181,19 @@ core2/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core2.dir/build.make src/CMakeFiles/core2.dir/build
 .PHONY : core2/fast
 
+#=============================================================================
+# Target rules for targets named wClock
+
+# Build rule for target.
+wClock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wClock
+.PHONY : wClock
+
+# fast build rule for target.
+wClock/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/wClock.dir/build.make src/CMakeFiles/wClock.dir/build
+.PHONY : wClock/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,6 +207,7 @@ help:
 	@echo "... core2"
 	@echo "... first"
 	@echo "... timer"
+	@echo "... wClock"
 .PHONY : help
 
 

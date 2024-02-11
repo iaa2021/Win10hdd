@@ -92,7 +92,7 @@ core1_EXTERNAL_OBJECTS =
 
 src/core1: src/CMakeFiles/core1.dir/core1.c.o
 src/core1: src/CMakeFiles/core1.dir/build.make
-src/core1: /usr/lib/libraylib.so
+src/core1: /usr/local/lib64/libraylib.a
 src/core1: src/CMakeFiles/core1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable core1"
 	cd /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core1.dir/link.txt --verbose=$(VERBOSE)
