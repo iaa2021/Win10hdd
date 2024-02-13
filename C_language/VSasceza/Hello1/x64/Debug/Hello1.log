@@ -1,0 +1,25 @@
+﻿  Hello2.c
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(16,29): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(16,50): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(19,37): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(19,44): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(23,37): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(23,44): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(26,29): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(26,50): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(28,40): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(29,39): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(30,39): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(37,23): warning C4133: 'function': incompatible types - from 'time_t *' to 'tm *const '
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(37,27): warning C4133: 'function': incompatible types - from 'tm *' to 'const time_t *const '
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(37,31): warning C4047: '=': 'tm *' differs in levels of indirection from 'errno_t'
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(56,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(57,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(58,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(67,14): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(95,33): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(95,54): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\Hello2.c(98,23): warning C4133: 'function': incompatible types - from 'char [20]' to 'int *'
+  Hello1.vcxproj -> C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\VSasceza\Hello1\x64\Debug\Hello1.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
