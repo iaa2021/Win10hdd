@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja",
+  "command": "/usr/bin/cc -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -O3 -DNDEBUG -std=gnu17 -o src/CMakeFiles/first.dir/first.c.o -c /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/first.c",
+  "file": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/first.c"
+},
+{
+  "directory": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja",
+  "command": "/usr/bin/cc -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -O3 -DNDEBUG -std=gnu17 -o src/CMakeFiles/timer.dir/timer.c.o -c /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/timer.c",
+  "file": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/timer.c"
+},
+{
+  "directory": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja",
+  "command": "/usr/bin/cc -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -O3 -DNDEBUG -std=gnu17 -o src/CMakeFiles/clock.dir/clock.c.o -c /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/clock.c",
+  "file": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/clock.c"
+},
+{
+  "directory": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja",
+  "command": "/usr/bin/cc -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -O3 -DNDEBUG -std=gnu17 -o src/CMakeFiles/core1.dir/core1.c.o -c /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/core1.c",
+  "file": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/core1.c"
+},
+{
+  "directory": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja",
+  "command": "/usr/bin/cc -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -O3 -DNDEBUG -std=gnu17 -o src/CMakeFiles/core2.dir/core2.c.o -c /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/core2.c",
+  "file": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/core2.c"
+},
+{
+  "directory": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja",
+  "command": "/usr/bin/cc -O3 -DNDEBUG -o src/CMakeFiles/wClock.dir/wClock.c.o -c /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/wClock.c",
+  "file": "/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/wClock.c"
+}
+]

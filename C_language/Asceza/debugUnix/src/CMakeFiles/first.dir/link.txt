@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/first.dir/first.c.o -o first  -Wl,-rpath,/usr/local/lib64 -lm /usr/local/lib64/libraylib.a -L/usr/local/lib64 -lraylib 
+/usr/bin/cc -g CMakeFiles/first.dir/first.c.o -o first  -Wl,-rpath,/usr/local/lib -lm /usr/local/lib/libraylib.a 
