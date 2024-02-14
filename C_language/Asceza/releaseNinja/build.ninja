@@ -80,7 +80,7 @@ build cmake_object_order_depends_target_first: phony || src/CMakeFiles/first.dir
 build src/CMakeFiles/first.dir/first.c.o: C_COMPILER__first_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/first.c || cmake_object_order_depends_target_first
   DEP_FILE = src/CMakeFiles/first.dir/first.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -I/home/iaa/raylib -I/usr/local/lib
   OBJECT_DIR = src/CMakeFiles/first.dir
   OBJECT_FILE_DIR = src/CMakeFiles/first.dir
 
@@ -94,7 +94,7 @@ build src/CMakeFiles/first.dir/first.c.o: C_COMPILER__first_Release /home/iaa/De
 
 build src/first: C_EXECUTABLE_LINKER__first_Release src/CMakeFiles/first.dir/first.c.o | /usr/local/lib/libraylib.a
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a  -L/usr/local/lib  -lraylib
   OBJECT_DIR = src/CMakeFiles/first.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -113,7 +113,7 @@ build cmake_object_order_depends_target_timer: phony || src/CMakeFiles/timer.dir
 build src/CMakeFiles/timer.dir/timer.c.o: C_COMPILER__timer_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/timer.c || cmake_object_order_depends_target_timer
   DEP_FILE = src/CMakeFiles/timer.dir/timer.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -I/home/iaa/raylib -I/usr/local/lib
   OBJECT_DIR = src/CMakeFiles/timer.dir
   OBJECT_FILE_DIR = src/CMakeFiles/timer.dir
 
@@ -127,7 +127,7 @@ build src/CMakeFiles/timer.dir/timer.c.o: C_COMPILER__timer_Release /home/iaa/De
 
 build src/timer: C_EXECUTABLE_LINKER__timer_Release src/CMakeFiles/timer.dir/timer.c.o | /usr/local/lib/libraylib.a
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a  -L/usr/local/lib  -lraylib
   OBJECT_DIR = src/CMakeFiles/timer.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -146,7 +146,7 @@ build cmake_object_order_depends_target_clock: phony || src/CMakeFiles/clock.dir
 build src/CMakeFiles/clock.dir/clock.c.o: C_COMPILER__clock_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/clock.c || cmake_object_order_depends_target_clock
   DEP_FILE = src/CMakeFiles/clock.dir/clock.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -I/home/iaa/raylib -I/usr/local/lib
   OBJECT_DIR = src/CMakeFiles/clock.dir
   OBJECT_FILE_DIR = src/CMakeFiles/clock.dir
 
@@ -160,7 +160,7 @@ build src/CMakeFiles/clock.dir/clock.c.o: C_COMPILER__clock_Release /home/iaa/De
 
 build src/clock: C_EXECUTABLE_LINKER__clock_Release src/CMakeFiles/clock.dir/clock.c.o | /usr/local/lib/libraylib.a
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a  -L/usr/local/lib  -lraylib
   OBJECT_DIR = src/CMakeFiles/clock.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -179,7 +179,7 @@ build cmake_object_order_depends_target_core1: phony || src/CMakeFiles/core1.dir
 build src/CMakeFiles/core1.dir/core1.c.o: C_COMPILER__core1_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/core1.c || cmake_object_order_depends_target_core1
   DEP_FILE = src/CMakeFiles/core1.dir/core1.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -I/home/iaa/raylib -I/usr/local/lib
   OBJECT_DIR = src/CMakeFiles/core1.dir
   OBJECT_FILE_DIR = src/CMakeFiles/core1.dir
 
@@ -193,7 +193,7 @@ build src/CMakeFiles/core1.dir/core1.c.o: C_COMPILER__core1_Release /home/iaa/De
 
 build src/core1: C_EXECUTABLE_LINKER__core1_Release src/CMakeFiles/core1.dir/core1.c.o | /usr/local/lib/libraylib.a
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a  -L/usr/local/lib  -lraylib
   OBJECT_DIR = src/CMakeFiles/core1.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -212,7 +212,7 @@ build cmake_object_order_depends_target_core2: phony || src/CMakeFiles/core2.dir
 build src/CMakeFiles/core2.dir/core2.c.o: C_COMPILER__core2_Release /home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/core2.c || cmake_object_order_depends_target_core2
   DEP_FILE = src/CMakeFiles/core2.dir/core2.c.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu17
-  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/.
+  INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -I/home/iaa/raylib -I/usr/local/lib
   OBJECT_DIR = src/CMakeFiles/core2.dir
   OBJECT_FILE_DIR = src/CMakeFiles/core2.dir
 
@@ -226,7 +226,7 @@ build src/CMakeFiles/core2.dir/core2.c.o: C_COMPILER__core2_Release /home/iaa/De
 
 build src/core2: C_EXECUTABLE_LINKER__core2_Release src/CMakeFiles/core2.dir/core2.c.o | /usr/local/lib/libraylib.a
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lm  /usr/local/lib/libraylib.a  -L/usr/local/lib  -lraylib
   OBJECT_DIR = src/CMakeFiles/core2.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.11)
 project(asceza1 VERSION 1.2.3)
 
+include_directories(/usr/local/include)
+
 configure_file(config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)
 configure_file(config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h)
 
@@ -35,31 +37,11 @@ endif()
 elseif(UNIX)
 
 #set(RAYLIB_DIR "/usr")
-#set(RAYLIB_DIR "/home/iaa")
+set(RAYLIB_DIR "/home/iaa")
 
-#find_package(raylib REQUIRED PATHS ${RAYLIB_DIR}/raylib/cmake)
+find_package(raylib REQUIRED PATHS ${RAYLIB_DIR}/raylib/cmake)
 #find_package(raylib 5.0.0 REQUIRED)
-# Generate compile_commands.json
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Dependencies
-set(RAYLIB_VERSION 5.0)
-find_package(raylib ${RAYLIB_VERSION} QUIET) # QUIET or REQUIRED
-if (NOT raylib_FOUND) # If there's none, fetch and build raylib
-  include(FetchContent)
-  FetchContent_Declare(
-    raylib
-    DOWNLOAD_EXTRACT_TIMESTAMP OFF
-    URL https://github.com/raysan5/raylib/archive/refs/tags/${RAYLIB_VERSION}.tar.gz
-  )
-  FetchContent_GetProperties(raylib)
-  if (NOT raylib_POPULATED) # Have we downloaded raylib yet?
-    set(FETCHCONTENT_QUIET NO)
-    FetchContent_Populate(raylib)
-    set(BUILD_EXAMPLES OFF CACHE BOOL "" FORCE) # don't build the supplied examples
-    add_subdirectory(${raylib_SOURCE_DIR} ${raylib_BINARY_DIR})
-  endif()
-endif()
 endif()
 
 add_executable(first first.c)
@@ -78,8 +60,8 @@ set_target_properties(${target} PROPERTIES
     C_STANDARD_REQUIRED ON
 )
 target_include_directories(${target} PRIVATE ${CMAKE_CURRENT_BINARY_DIR} 
-PRIVATE . )
+PRIVATE . PUBLIC ~/raylib PUBLIC /usr/local/lib)
 
-target_link_libraries(${target} PRIVATE m PRIVATE raylib)
+target_link_libraries(${target} PUBLIC m raylib -L/usr/local/lib -lraylib)
 
 endforeach()

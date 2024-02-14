@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/.
+C_INCLUDES = -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/debugUnix/src -I/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/src/. -I/home/iaa/raylib -I/usr/local/lib
 
 C_FLAGS = -g -std=gnu17
 

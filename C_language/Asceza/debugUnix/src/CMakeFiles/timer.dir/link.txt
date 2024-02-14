@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/timer.dir/timer.c.o -o timer  -Wl,-rpath,/usr/local/lib -lm /usr/local/lib/libraylib.a 
+/usr/bin/cc -g CMakeFiles/timer.dir/timer.c.o -o timer  -Wl,-rpath,/usr/local/lib -lm /usr/local/lib/libraylib.a -L/usr/local/lib -lraylib 
