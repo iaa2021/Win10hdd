@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.11)
 project(asceza1 VERSION 1.2.3)
 
+include_directories(/usr/local/include)
+
 configure_file(config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)
 configure_file(config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h)
 
@@ -38,8 +40,9 @@ elseif(UNIX)
 #set(RAYLIB_DIR "/usr")
 set(RAYLIB_DIR "/home/iaa")
 
-#find_package(raylib REQUIRED PATHS ${RAYLIB_DIR}/lib/cmake)
-find_package(raylib 5.0.0 REQUIRED)
+find_package(raylib REQUIRED PATHS ${RAYLIB_DIR}/raylib/cmake)
+#find_package(raylib 5.0.0 REQUIRED)
+
 endif()
 
 add_executable(first first.c)
@@ -58,8 +61,8 @@ set_target_properties(${target} PROPERTIES
     C_STANDARD_REQUIRED ON
 )
 target_include_directories(${target} PRIVATE ${CMAKE_CURRENT_BINARY_DIR} 
-PRIVATE . )
+PRIVATE . PUBLIC ~/raylib PUBLIC /usr/local/lib)
 
-target_link_libraries(${target} PRIVATE m PRIVATE raylib)
+target_link_libraries(${target} PUBLIC m raylib -L/usr/local/lib -lraylib)
 
 endforeach()

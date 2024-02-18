@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/core2.dir/core2.c.o -o core2  -Wl,-rpath,/usr/local/lib64 -lm /usr/local/lib64/libraylib.a -L/usr/local/lib64 -lraylib 
+/usr/bin/cc -g CMakeFiles/core2.dir/core2.c.o -o core2  -Wl,-rpath,/usr/local/lib -lm /usr/local/lib/libraylib.a -L/usr/local/lib -lraylib 

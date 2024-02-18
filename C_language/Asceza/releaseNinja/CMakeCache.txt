@@ -29,11 +29,11 @@ CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-12
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-12
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -55,11 +55,11 @@ CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-12
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-12
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -107,7 +107,7 @@ CMAKE_INSTALL_PREFIX:PATH=/usr/local
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
 
 //Program used to build from build.ninja files.
-CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/ninja-build
+CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/ninja
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -218,9 +218,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/usr/bin/strip
 
-//Path to a program.
-CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
-
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
@@ -231,7 +228,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
-PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
 //Value Computed by CMake
 asceza1_BINARY_DIR:STATIC=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza/releaseNinja/src
@@ -251,17 +248,14 @@ asceza_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 asceza_SOURCE_DIR:STATIC=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza
 
-//Path to a library.
-pkgcfg_lib_PC_RAYLIB_raylib:FILEPATH=/usr/local/lib64/libraylib.a
-
 //The directory containing a CMake configuration file for raylib.
-raylib_DIR:PATH=/usr/local/lib64/cmake/raylib
+raylib_DIR:PATH=/usr/local/lib/cmake/raylib
 
 //Path to a file.
 raylib_INCLUDE_DIR:PATH=/usr/local/include
 
 //Path to a library.
-raylib_LIBRARY:FILEPATH=/usr/local/lib64/libraylib.a
+raylib_LIBRARY:FILEPATH=/usr/local/lib/libraylib.a
 
 
 ########################
@@ -277,9 +271,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asce
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=27
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=25
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=7
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
@@ -320,8 +314,6 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
-//Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=/usr/bin/ccmake
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -350,7 +342,7 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/iaa/Desktop/gitStore/Win10hdd/C_language/Asceza
 //Install .so files without execute permission.
-CMAKE_INSTALL_SO_NO_EXE:INTERNAL=0
+CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
@@ -380,7 +372,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/share/cmake
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.25
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -407,60 +399,40 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_TAPI
-CMAKE_TAPI-ADVANCED:INTERNAL=1
 //uname command
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding raylib
-FIND_PACKAGE_MESSAGE_DETAILS_raylib:INTERNAL=[/usr/local/lib64/libraylib.a][/usr/local/include][v(5.0.0)]
-PC_RAYLIB_CFLAGS:INTERNAL=-I/usr/local/include
+FIND_PACKAGE_MESSAGE_DETAILS_raylib:INTERNAL=[/usr/local/lib/libraylib.a][/usr/local/include][v()]
+PC_RAYLIB_CFLAGS:INTERNAL=
 PC_RAYLIB_CFLAGS_I:INTERNAL=
 PC_RAYLIB_CFLAGS_OTHER:INTERNAL=
-PC_RAYLIB_FOUND:INTERNAL=1
-PC_RAYLIB_INCLUDEDIR:INTERNAL=/usr/local/include
-PC_RAYLIB_INCLUDE_DIRS:INTERNAL=/usr/local/include
-PC_RAYLIB_LDFLAGS:INTERNAL=-L/usr/local/lib64;-lraylib
-PC_RAYLIB_LDFLAGS_OTHER:INTERNAL=
-PC_RAYLIB_LIBDIR:INTERNAL=/usr/local/lib64
-PC_RAYLIB_LIBRARIES:INTERNAL=raylib
-PC_RAYLIB_LIBRARY_DIRS:INTERNAL=/usr/local/lib64
+PC_RAYLIB_FOUND:INTERNAL=
+PC_RAYLIB_INCLUDEDIR:INTERNAL=
+PC_RAYLIB_LIBDIR:INTERNAL=
 PC_RAYLIB_LIBS:INTERNAL=
 PC_RAYLIB_LIBS_L:INTERNAL=
 PC_RAYLIB_LIBS_OTHER:INTERNAL=
 PC_RAYLIB_LIBS_PATHS:INTERNAL=
-PC_RAYLIB_MODULE_NAME:INTERNAL=raylib
-PC_RAYLIB_PREFIX:INTERNAL=/usr/local
-PC_RAYLIB_STATIC_CFLAGS:INTERNAL=-I/usr/local/include
+PC_RAYLIB_MODULE_NAME:INTERNAL=
+PC_RAYLIB_PREFIX:INTERNAL=
+PC_RAYLIB_STATIC_CFLAGS:INTERNAL=
 PC_RAYLIB_STATIC_CFLAGS_I:INTERNAL=
 PC_RAYLIB_STATIC_CFLAGS_OTHER:INTERNAL=
-PC_RAYLIB_STATIC_INCLUDE_DIRS:INTERNAL=/usr/local/include
-PC_RAYLIB_STATIC_LDFLAGS:INTERNAL=-L/usr/local/lib64;-lraylib
-PC_RAYLIB_STATIC_LDFLAGS_OTHER:INTERNAL=
 PC_RAYLIB_STATIC_LIBDIR:INTERNAL=
-PC_RAYLIB_STATIC_LIBRARIES:INTERNAL=raylib
-PC_RAYLIB_STATIC_LIBRARY_DIRS:INTERNAL=/usr/local/lib64
 PC_RAYLIB_STATIC_LIBS:INTERNAL=
 PC_RAYLIB_STATIC_LIBS_L:INTERNAL=
 PC_RAYLIB_STATIC_LIBS_OTHER:INTERNAL=
 PC_RAYLIB_STATIC_LIBS_PATHS:INTERNAL=
-PC_RAYLIB_VERSION:INTERNAL=5.0.0
-PC_RAYLIB_raylib_INCLUDEDIR:INTERNAL=
-PC_RAYLIB_raylib_LIBDIR:INTERNAL=
-PC_RAYLIB_raylib_PREFIX:INTERNAL=
-PC_RAYLIB_raylib_VERSION:INTERNAL=
+PC_RAYLIB_VERSION:INTERNAL=
 //ADVANCED property for variable: PKG_CONFIG_ARGN
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
-__pkg_config_arguments_PC_RAYLIB:INTERNAL=QUIET;raylib
 __pkg_config_checked_PC_RAYLIB:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PC_RAYLIB_raylib
-pkgcfg_lib_PC_RAYLIB_raylib-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/local/lib64
 //ADVANCED property for variable: raylib_INCLUDE_DIR
 raylib_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: raylib_LIBRARY
