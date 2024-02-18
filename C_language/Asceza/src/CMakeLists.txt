@@ -14,6 +14,7 @@ set(RAYLIB_VERSION 5.0)
 set(RAYLIB_DIR "C:/raylib/raylib" CACHE PATH "Path to Raylib")
 
 # Find Raylib
+#find_package(raylib CONFIG REQUIRED)
 find_package(raylib 5.0 REQUIRED PATHS ${RAYLIB_DIR}/cmake)
 
 #find_package(raylib ${RAYLIB_VERSION} QUIET) # QUIET or REQUIRED
