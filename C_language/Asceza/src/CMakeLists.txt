@@ -6,20 +6,20 @@ include_directories(/usr/local/include)
 configure_file(config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)
 configure_file(config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h)
 
+add_executable(first first.c)
+add_executable(timer timer.c)
+add_executable(clock clock.c)
+add_executable(core1 core1.c)
+add_executable(core2 core2.c)
+add_executable(wClock wClock.c)
+
 if(WIN32)
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Dependencies
-set(RAYLIB_VERSION 5.0)
-# Set path to Raylib directory
-set(RAYLIB_DIR "C:/raylib/raylib" CACHE PATH "Path to Raylib")
-
-# Find Raylib
-#find_package(raylib CONFIG REQUIRED)
-find_package(raylib 5.0 REQUIRED PATHS ${RAYLIB_DIR}/cmake)
-
-#find_package(raylib ${RAYLIB_VERSION} QUIET) # QUIET or REQUIRED
+set(RAYLIB_VERSION 4.5.0)
+find_package(raylib ${RAYLIB_VERSION} QUIET) # QUIET or REQUIRED
 if (NOT raylib_FOUND) # If there's none, fetch and build raylib
   include(FetchContent)
   FetchContent_Declare(
@@ -35,6 +35,19 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
     add_subdirectory(${raylib_SOURCE_DIR} ${raylib_BINARY_DIR})
   endif()
 endif()
+
+# Web Configurations
+if (${PLATFORM} STREQUAL "Web")
+    # Tell Emscripten to build an example.html file.
+    set_target_properties(${PROJECT_NAME} PROPERTIES SUFFIX ".html")
+endif()
+
+# Checks if OSX and links appropriate frameworks (Only required on MacOS)
+if (APPLE)
+    target_link_libraries(${PROJECT_NAME} "-framework IOKit")
+    target_link_libraries(${PROJECT_NAME} "-framework Cocoa")
+    target_link_libraries(${PROJECT_NAME} "-framework OpenGL")
+endif()
 elseif(UNIX)
 
 #set(RAYLIB_DIR "/usr")
@@ -44,13 +57,6 @@ find_package(raylib REQUIRED PATHS ${RAYLIB_DIR}/raylib/cmake)
 #find_package(raylib 5.0.0 REQUIRED)
 
 endif()
-
-add_executable(first first.c)
-add_executable(timer timer.c)
-add_executable(clock clock.c)
-add_executable(core1 core1.c)
-add_executable(core2 core2.c)
-add_executable(wClock wClock.c)
 
 set(targets first timer clock core1 core2)
 

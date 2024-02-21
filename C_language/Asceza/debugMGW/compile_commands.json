@@ -1,35 +1,5 @@
 [
 {
-  "directory": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/first.dir/includes_C.rsp -g -std=gnu17 -o CMakeFiles\\first.dir\\first.c.obj -c C:\\Users\\ivano\\Desktop\\gitStore\\Win10hdd\\C_language\\Asceza\\src\\first.c",
-  "file": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/src/first.c"
-},
-{
-  "directory": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/timer.dir/includes_C.rsp -g -std=gnu17 -o CMakeFiles\\timer.dir\\timer.c.obj -c C:\\Users\\ivano\\Desktop\\gitStore\\Win10hdd\\C_language\\Asceza\\src\\timer.c",
-  "file": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/src/timer.c"
-},
-{
-  "directory": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/clock.dir/includes_C.rsp -g -std=gnu17 -o CMakeFiles\\clock.dir\\clock.c.obj -c C:\\Users\\ivano\\Desktop\\gitStore\\Win10hdd\\C_language\\Asceza\\src\\clock.c",
-  "file": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/src/clock.c"
-},
-{
-  "directory": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/core1.dir/includes_C.rsp -g -std=gnu17 -o CMakeFiles\\core1.dir\\core1.c.obj -c C:\\Users\\ivano\\Desktop\\gitStore\\Win10hdd\\C_language\\Asceza\\src\\core1.c",
-  "file": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/src/core1.c"
-},
-{
-  "directory": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/core2.dir/includes_C.rsp -g -std=gnu17 -o CMakeFiles\\core2.dir\\core2.c.obj -c C:\\Users\\ivano\\Desktop\\gitStore\\Win10hdd\\C_language\\Asceza\\src\\core2.c",
-  "file": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/src/core2.c"
-},
-{
-  "directory": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\wClock.dir\\wClock.c.obj -c C:\\Users\\ivano\\Desktop\\gitStore\\Win10hdd\\C_language\\Asceza\\src\\wClock.c",
-  "file": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/src/wClock.c"
-},
-{
   "directory": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-build/raylib",
   "command": "C:\\MinGW\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/raylib.dir/includes_C.rsp -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o CMakeFiles\\raylib.dir\\rcore.c.obj -c C:\\Users\\ivano\\Desktop\\gitStore\\Win10hdd\\C_language\\Asceza\\debugMGW\\_deps\\raylib-src\\src\\rcore.c",
   "file": "C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Asceza/debugMGW/_deps/raylib-src/src/rcore.c"

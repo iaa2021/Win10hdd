@@ -69,6 +69,7 @@ include src/CMakeFiles/wClock.dir/progress.make
 include src/CMakeFiles/wClock.dir/flags.make
 
 src/CMakeFiles/wClock.dir/wClock.c.obj: src/CMakeFiles/wClock.dir/flags.make
+src/CMakeFiles/wClock.dir/wClock.c.obj: src/CMakeFiles/wClock.dir/includes_C.rsp
 src/CMakeFiles/wClock.dir/wClock.c.obj: ../src/wClock.c
 src/CMakeFiles/wClock.dir/wClock.c.obj: src/CMakeFiles/wClock.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ivano\Desktop\gitStore\Win10hdd\C_language\Asceza\debugMGW\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/wClock.dir/wClock.c.obj"

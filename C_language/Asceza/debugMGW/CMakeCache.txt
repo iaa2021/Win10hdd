@@ -20,6 +20,12 @@ BUILD_EXAMPLES:BOOL=OFF
 // 
 BUILD_SHARED_LIBS:BOOL=OFF
 
+//The directory containing a CMake configuration file for C:/raylib/raylib/cmake.
+"C:/raylib/raylib/cmake_DIR":PATH=C:/raylib/raylib/cmake_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for C:/raylib/raylib.
+"C:/raylib/raylib_DIR":PATH=C:/raylib/raylib_DIR-NOTFOUND
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/MinGW/bin/addr2line.exe
 
@@ -577,7 +583,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
