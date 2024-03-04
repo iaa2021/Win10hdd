@@ -21,11 +21,11 @@ int main()
     printf( "Project version is %d", (PROJECT_VERSION_MAJOR) );
     printf( ".%d", PROJECT_VERSION_MINOR );
     printf( ".%d", PROJECT_VERSION_PATCH );
-    printf( "\nExersise 10.6, struct customer.\n" );
+    printf( "\nExercise 10.6, struct customer.\n" );
     customerPtr = &customerRecord;
     customerRecord.lastName; customerPtr->personal.phoneNumber;
     customerRecord.personal.address;
-    printf( "\nExersise 10.8, union integer.\n" );
+    printf( "\nExercise 10.8, union integer.\n" );
     printf( "\nInput char, int, short and long values:\n" );
     scanf( "%c", &intKit.c);
     scanf( "%d", &intKit.i );
