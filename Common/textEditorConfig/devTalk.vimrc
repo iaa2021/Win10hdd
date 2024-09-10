@@ -1,5 +1,5 @@
 call plug#begin() "installing plugins
-Plug 'Valloric/YouCompleteMe':
+Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 call plug#end()
 set number "line numbers
