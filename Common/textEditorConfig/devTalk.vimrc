@@ -6,6 +6,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-scripts/DoxygenToolkit.vim' "c, c++, Python
+Plug 'puremourning/vimspector'
 call plug#end()
 set number "line numbers
 set hls "search highlighting
