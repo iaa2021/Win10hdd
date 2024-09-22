@@ -1,7 +1,7 @@
 call plug#begin() "installing plugins
+Plug 'puremourning/vimspector'
 Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-Plug 'vim-scripts/DoxygenToolkit.vim' "c, c++, Python
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
