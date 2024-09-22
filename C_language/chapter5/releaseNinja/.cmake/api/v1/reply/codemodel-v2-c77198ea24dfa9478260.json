@@ -86,77 +86,77 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "crebs::@145eef247bfb46b6828c",
-					"jsonFile" : "target-crebs-Release-e747246e8b0a0afadfff.json",
+					"jsonFile" : "target-crebs-Release-85bad2c1d6f7cc3e3026.json",
 					"name" : "crebs",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex5_17::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex5_17-Release-a11c5287e3d6100e1c47.json",
+					"jsonFile" : "target-ex5_17-Release-6eee40f43608b6f9d8b8.json",
 					"name" : "ex5_17",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex5_23::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex5_23-Release-0c78c9eedac5dca9b408.json",
+					"jsonFile" : "target-ex5_23-Release-b193ae2f53e5605ec9f0.json",
 					"name" : "ex5_23",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex5_26::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex5_26-Release-8d02d15f3a5bcc679dd1.json",
+					"jsonFile" : "target-ex5_26-Release-ee287e7df6963669227a.json",
 					"name" : "ex5_26",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex5_28::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex5_28-Release-7f87661d0ee807d0cd46.json",
+					"jsonFile" : "target-ex5_28-Release-901617cb10dbcfc73fa8.json",
 					"name" : "ex5_28",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex5_29::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex5_29-Release-8bbb1f0cc9b5cd6ae889.json",
+					"jsonFile" : "target-ex5_29-Release-4ef44eb5138b310a8c2f.json",
 					"name" : "ex5_29",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex5_32::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex5_32-Release-ef1720bd9a4ad2795b10.json",
+					"jsonFile" : "target-ex5_32-Release-184dc32bcb057930a327.json",
 					"name" : "ex5_32",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex5_35::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex5_35-Release-275dd3432b052146d298.json",
+					"jsonFile" : "target-ex5_35-Release-dc8452269c928bbe5f04.json",
 					"name" : "ex5_35",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex5_37::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex5_37-Release-34c24a7af369db0b6206.json",
+					"jsonFile" : "target-ex5_37-Release-6c8031c68f66047c3038.json",
 					"name" : "ex5_37",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "ex5_46::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ex5_46-Release-d5c24723cef0c56abf26.json",
+					"jsonFile" : "target-ex5_46-Release-69d936ca645597fb588d.json",
 					"name" : "ex5_46",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "multiCrebs::@145eef247bfb46b6828c",
-					"jsonFile" : "target-multiCrebs-Release-258e1fbf8a8cb6aea5bf.json",
+					"jsonFile" : "target-multiCrebs-Release-1b4692ef3d6e3f86e935.json",
 					"name" : "multiCrebs",
 					"projectIndex" : 1
 				}
@@ -172,6 +172,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }
