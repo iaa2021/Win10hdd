@@ -15,3 +15,4 @@ syntax on "code highlighting
 map <C-n> :NERDTreeToggle<CR>
 "mapping Ctrl-n to run nerdtree
 let g:vimspector_enable_mappings='HUMAN' "hot keys"
+set mouse=a
