@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/ex5_35"
+			"path" : "src/ex5_26"
 		}
 	],
 	"backtrace" : 1,
@@ -26,19 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 29,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 24,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -78,7 +78,7 @@
 			]
 		}
 	],
-	"id" : "ex5_35::@145eef247bfb46b6828c",
+	"id" : "ex5_26::@145eef247bfb46b6828c",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -94,8 +94,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "ex5_35",
-	"nameOnDisk" : "ex5_35",
+	"name" : "ex5_26",
+	"nameOnDisk" : "ex5_26",
 	"paths" : 
 	{
 		"build" : "src",
@@ -116,7 +116,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/ex5_35.c",
+			"path" : "src/ex5_26.c",
 			"sourceGroupIndex" : 0
 		}
 	],
