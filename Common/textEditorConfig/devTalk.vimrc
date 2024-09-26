@@ -1,4 +1,5 @@
 call plug#begin() "installing plugins
+Plug 'junegunn/vim-plug'
 Plug 'puremourning/vimspector'
 Plug 'Valloric/YouCompleteMe'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
