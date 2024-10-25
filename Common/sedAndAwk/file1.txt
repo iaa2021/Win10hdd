@@ -1,6 +1,19 @@
-1
-2
-11
-22
-111
-222
+This script illustrates the mechanics of collecting input and holding on to it until
+another pattern is matched. It’s important to pay attention to flow control in the
+script. The first procedure in the script does not reach bottom because we don’t
+want any output yet. The second procedure does reach bottom, clearing the pat-
+ter n space and the hold space before we begin collecting lines for the next para-
+graph.
+
+This script also illustrates how to use addressing to set up exclusive addresses, in
+which a line must match one or the other address. You can also set up addresses
+to handle various exceptions in the input and thereby improve the reliability of a
+script. For instance, in the previous script, what happens if the last line in the
+input file is not blank? All the lines collected since the last blank line will not be
+output. There are several ways to handle this, but a rather clever one is to manu-
+facture a blank line that the blank-line procedure will match later in the script.
+
+ In other words, if the last line contains a line of text, we will copy the text to the
+hold space and clear the contents of the pattern space with the substitute com-
+mand. We make the current line blank so that it matches the procedure that out-
+puts what has been collected in the hold space. Here’s the procedure:
