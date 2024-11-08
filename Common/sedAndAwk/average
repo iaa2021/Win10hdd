@@ -2,5 +2,11 @@
 {
 total = $2 + $3 + $4 + $5 + $6
 avg = total / 5
-print NR "." $1, avg
+#if(avg >= 65)
+#grade = "pass"
+#else
+#grade = "fail"
+avg >= 65 ? grade = "pass" : grade = "fail"
+#print NR "." $1, avg,  grade
+printf("%3d.%-9s %3.2f %5s\n", NR, $1, avg, grade)
 }
