@@ -1,0 +1,14 @@
+{
+total = 0
+for(i = 2; i <= NF; i++ )
+total += $i
+
+total /= NF
+array[NR][1] = $1
+array[NR][2] = total
+}
+
+END{
+for(i = 1; i <= NR; i++)
+printf("%s\t%.2f\n", array[i][1], array[i][2])
+}
