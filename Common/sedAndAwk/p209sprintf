@@ -1,0 +1,7 @@
+BEGIN{
+	for(i = 97; i <= 122; ++i){
+newletter = sprintf("%c", i)
+printf("%c, ", newletter)
+
+	}
+}
