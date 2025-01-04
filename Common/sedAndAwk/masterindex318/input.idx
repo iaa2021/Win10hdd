@@ -48,14 +48,77 @@ $1 ~ /::/ {
 				else
 				   sub(/   *\(/, ":(", $1)
 				}
-			}
+			
 			else{ # otherwise, just look for comma
 			       sub(/, */, ":", $1)
 	        	}
 		}
-		#else {
+		else {
 			#added to insert semicolon in "See"
-		#	if ($1 ~ /:[^;]+ *[\(][sS]ee/)
-		#	    sub(/  *[^\(]/, ";[(]", $1)
-		#	} #End of 4
-		
+			if ($1 ~ /:[^;]+ *[\(][sS]ee/)
+			    sub(/  *[^\(]/, ";[(]", $1)
+			}
+         }# End of 4
+#5 match See Alsos and fix for sort at end
+	 $1 ~ / *\([Ss]ee +[Aa]lso/ {
+		 # add "~zz" for sort at end
+		 sub(/\([Ss]ee +[Aa]lso/, "~zz(see also", $1)
+		     if($1 ~ /:[^; ]+ *~zz/){
+			     sub(/ *~zz/, "; ~zz", $1)
+			     }
+		# if no page number
+			     if($2 == ""){
+				     print $0 ":"
+				     next
+				     }	 
+				     else{
+					     # output two entries:
+					     # print See Also entry w/out page number
+					     print $1 ":"
+					     # remove See Also
+					     sub(/ *~zz\(see also.*$/, "", $1)
+					     sub(/;/, "", $1)
+					     # print as normal entry
+					     if($1 ~ /:/)
+						     print $1 ":" $2
+					     else
+						     print $1 "::" $2
+					     next
+					     }   # End of 5  
+		 }
+#6 Process entries without page number (See entries)
+		 (NF == 1 || $2 == "" || $1 ~ /\([Ss]ee/){
+                    # if a "See" entry
+			 if($1 ~ /\([Ss]ee/){
+				 if($1 ~ /:/)
+					 print $1 ":"
+				 else
+					 print $1 ":"
+				 next
+				 }
+				 else{
+					 # if not a See entry, generate an error
+					 printerr("No page number")
+					 next
+					 }
+			 }	# End of 6
+			# printerr's variant from chatgpt 
+			# function printerr(msg){
+			#		 print "Error:", msg > /dev/tty 
+			#		 }
+#7  If the colon is used as the delimiter
+					 $1 ~ /:/{
+						 # output entry:page
+						 print $1 ":" $2
+						 next
+						 } # End of 7
+#8 Match entries with only primary keys
+						 {
+							 print $1 "::" $2
+							 } # End of 8
+# supporting functions printerr -- print error message and current record
+							 # Arg : message to be displayed
+							 function printerr(msg){
+								 # print message, record number and record
+								 printf("ERROR:%s (%d) %s\n", msg, NR, $0) > "/dev/tty"
+								 }							 							 
