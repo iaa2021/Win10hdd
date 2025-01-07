@@ -1,0 +1,48 @@
+#!/work/bin/nawk -f
+# ------------------------------------------------
+# pagenums.idx -- collect pages for common entries
+# Author: Dale Dougherty
+# Version 1.1 7/10/90
+#
+# input should be PRIMARY:SECONDARY:PAGE:VOLUME
+# ------------------------------------------------
+BEGIN { FS = ":"; OFS = "" }
+# main routine -- apply to all input lines
+{
+	# assign fields to variables
+	PRIMARY = $1
+	SECONDARY = $2
+	PAGE = $3
+	VOLUME = $4
+
+	# check for a see also and collect it in array
+	if( SECONDARY ~ /[^\(][Ss]ee + [Aa]lso/) {
+		#create tmp copy & remove "~zz" from copy
+                tmpSecondary = SECONDARY
+		sub(/~zz\([Ss]ee + [Aa]lso */, "", tmpSecondary)
+		sub(/\) */, "", tmpSecondary)
+		#remove secondary key along with "~zz"
+		sub(/^.*~zz\([Ss]ee + [Aa]lso */, "", SECONDARY)
+		sub(/\) */, "", SECONDARY)
+		# assign copy to next element of seeAlsoList
+		seeAlsoList[++eachSeeAlso] = SECONDARY "; "
+		prevPrimary = PRIMARY
+		# assign copy to previous secondary key
+		prevSecondary = tmpSecondary
+		next
+		} # end test for see Also
+                 # Conditionals to compare keys of current record to previous
+                 # record. If Primary and Secondary keys are the same, only
+                 # the page number is printed.
+                 # test to see if each PRIMARY key matches previous key
+		if(PRIMARY == prevPrimary){
+                        # test to see if VOLUME matches
+			# print only VOLUME:PAGE
+			if(VOLUME == prevVOLUME)
+				printf(",%s", PAGE)
+			else{
+                                printf("; ")
+			volpage(VOLUME, PAGE)
+				}
+			}
+}
