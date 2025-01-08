@@ -119,5 +119,5 @@ $1 ~ /::/ {
 							 # Arg : message to be displayed
 							 function printerr(msg){
 								 # print message, record number and record
-								 printf("ERROR:%s (%d) %s\n", msg, NR, $0) > "/dev/null"
+								 printf("ERROR:%s (%d) %s\n", msg, NR, $0) > "/dev/stderr"
 								 }							 							 
