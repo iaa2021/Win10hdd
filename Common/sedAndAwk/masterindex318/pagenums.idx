@@ -36,6 +36,8 @@ BEGIN { FS = ":"; OFS = "" }
                  # the page number is printed.
                  # test to see if each PRIMARY key matches previous key
 		if(PRIMARY == prevPrimary){
+			# test to see if each SECONDARY key matches previous key
+			if(SECONDARY == prevSECONDARY)
                         # test to see if VOLUME matches
 			# print only VOLUME:PAGE
 			if(VOLUME == prevVOLUME)
@@ -44,5 +46,59 @@ BEGIN { FS = ":"; OFS = "" }
                                 printf("; ")
 			volpage(VOLUME, PAGE)
 				}
+				else{
+				#if array of See Alsos, output them now
+					if(eachSeeAlso) outputSeeAlso(2)
+				#print PRIMARY:SECONDARY:VOLUME:PAGE
+					printf("\n%s:%s:", PRIMARY, SECONDARY)
+					volpage(VOLUME, PAGE)
+					}
+			} # end of test for PRIMARY == prev
+			else{ #PRIMARY != prev
+			     # if we have an array of See Alsos, output them now
+			      if(eachSeeAlso) outputSeeAlso(1)
+			      if(NR != 1)
+			      printf("\n")
+			      if(NF == 1)
+			      printf("%s:", $0)
+			      }
+			      else{
+				      printf("%s:%s:", PRIMARY, SECONDARY)
+			              volpage(VOLUME, PAGE)
+				      }
+			      }	
+			prevPrimary = PRIMARY
+			prevSecondary = SECONDARY
+			prevVolume = VOLUME
+		 # end of main routine
+
+		END{
+			# in case last entry has "see Also"
+			if(eachSeeAlso) outputSeeAlso(1)
+				printf("\n")
 			}
-}
+		# outputSeeAlso function -- list elements of seeAlsoList
+			function outputSeeAlso(LEVEL){
+				# LEVEL - indicates which key we need to output
+				if(LEVEL == 1)
+					printf("\n%s:(See also ", prevPrimary)
+			         else{
+				      sub(/;.*$/, "", prevSecondary)
+				      printf("\n%s:%s; (See also ", prevPrimary, prevSecondary)
+						       }
+			         sub(/; $/, ".):", seeAlsoList[eachSeeAlso])
+				 for(i = 1; i <= eachSeeAlso; ++i)
+					 printf("%s", seeAlsoList[1])
+				 eachSeeAlso = 0
+				}
+	        # volpage function -- determine whether or not to print volume info
+	        # two args: volume & page
+				function volpage(v, p){
+				# if VOLUME is empty then print PAGE only
+			        if( v == "" )
+					printf("%s", p)
+				else
+			        # otherwise print VOLUME^PAGE
+				        printf("%s^%s", v, p)
+					}
+
