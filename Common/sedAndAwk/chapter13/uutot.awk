@@ -29,4 +29,38 @@
      	         "%2d:%02d:%02.0f %5.0f %5.0f %4d %4d\n";
 	fmt2 = "Totals %9.3f %9.3f %9.3f %2d:%02d:%02.0f " \
 	         "%2d:%02d:%02.0f %5.0f %5.0f %4d %4d\n";
-		 	
+		 {
+			 if($6 !~ xmitting) # should never be
+				 next;
+			 direction = ($6 == sending ? 1 : 2)
+
+			 site = substr($1,1,index($1,bang) -1);
+			 if(site in dosome || doall){
+				 remote[site];
+				 bytes[site,direction] += $7;
+				 time[site,direction] += $9;
+				 files[site,direction]++;
+			 }		 	
+		 }
+		 END{
+			 print hdr1 hdr2 hdr3;
+			 for(k in remote) {
+				 rbyte += bytes[k,2]; sbyte += bytes[k,1];
+				 rtime += time[k,2];  stime += time[k,1];
+				 rfiles += files[k,2]; sfiles += files[k,1];
+				 printf(fmt1, k, bytes[k,2]/kbyte, bytes[k,1]/kbyte,
+					(bytes[k,2]+bytes[k,1])/kbyte,
+					time[k,2]/3600, (time[k,2]%3600)/60, time[k,2]%60,
+					time[k,1]/3600, (time[k,1]%3600)/60, time[k,1]%60,
+					bytes[k,2] && time[k,2] ? bytes[k,2]/time[k,2] : 0,
+					bytes[k,1] && time[k,1] ? bytes[k,1]/time[k,1] : 0,
+					files[k,2], files[k,1]);
+			 }
+			 print hdr3
+			 printf(fmt2, rbyte/(kbyte), (sbyte)/kbyte, (rbyte+sbyte)/kbyte,
+				rtime/3600, (rtime%3600)/60, rtime%60,
+				stime/3600, (stime%3600)/60, stime%60,
+				rbyte && rtime ? rbyte/rtime : 0,
+				sbyte && stime ? sbyte/stime : 0,
+				rfiles, sfiles);
+		 }
