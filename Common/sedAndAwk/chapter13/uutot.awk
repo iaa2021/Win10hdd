@@ -14,6 +14,7 @@
 		 	ARGV[i] = "";
 		}
 	}
+	{
 	kbyte = 1024  # 1000 if you are not picky or super accurative
 	bang = "!";
 	sending = "->";
@@ -42,6 +43,7 @@
 				 files[site,direction]++;
 			 }		 	
 		 }
+	 }
 		 END{
 			 print hdr1 hdr2 hdr3;
 			 for(k in remote) {
