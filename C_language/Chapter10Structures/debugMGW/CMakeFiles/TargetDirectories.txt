@@ -1,0 +1,9 @@
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugMGW/CMakeFiles/edit_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugMGW/CMakeFiles/rebuild_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugMGW/src/CMakeFiles/ex10_3.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugMGW/src/CMakeFiles/ex10_6.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugMGW/src/CMakeFiles/ex10_10.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugMGW/src/CMakeFiles/ex10_13.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugMGW/src/CMakeFiles/ex10_17.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugMGW/src/CMakeFiles/edit_cache.dir
+C:/Users/ivano/Desktop/gitStore/Win10hdd/C_language/Chapter10Structures/debugMGW/src/CMakeFiles/rebuild_cache.dir
