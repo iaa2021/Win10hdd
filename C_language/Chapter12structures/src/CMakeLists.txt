@@ -1,4 +1,4 @@
-cmake_minimum_required( VERSION 3.5 )
+cmake_minimum_required( VERSION 3.10 )
 project( chapter13 VERSION 13.1.3 )
 
 configure_file( config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h )
@@ -24,6 +24,11 @@ add_executable(ex12_23 ex12_23.c tree.h)
 add_executable(ex12_24 ex12_24.c tree.h)
 add_executable(ex13_4 ex13_4.c)
 add_executable(ex13_8 ex13_8.c)
+
+set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
+add_compile_options(-std=c17)
 
 set(targets p533 list clemens152 stack544 queue554 tree ex12_4 vlfunc ex12_6 ex12_9 ex12_10
 ex12_15 ex12_17 ex12_19 ex12_20 ex12_22 ex12_23 ex12_24 ex13_4 ex13_8) 

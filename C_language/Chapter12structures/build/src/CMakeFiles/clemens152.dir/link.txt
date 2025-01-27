@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/clemens152.dir/clemens152.c.o -o clemens152  -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/p533.dir/p533.c.o -o p533  -lm 

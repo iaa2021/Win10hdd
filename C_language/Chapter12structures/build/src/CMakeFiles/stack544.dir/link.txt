@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/stack544.dir/stack544.c.o -o stack544  -lm 

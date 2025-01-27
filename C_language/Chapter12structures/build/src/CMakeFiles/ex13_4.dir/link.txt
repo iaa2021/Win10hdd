@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ex13_4.dir/ex13_4.c.o -o ex13_4  -lm 
