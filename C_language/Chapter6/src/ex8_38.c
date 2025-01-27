@@ -1,7 +1,7 @@
 #include "config.h"
 #include "stdio.h"
 #include "string.h"
-#include "math.h"
+#include <math.h>
 #define SIZE 80 
 #define SIZE1 40
 void wordNumbers( double );
@@ -73,7 +73,7 @@ int main()
 }
 void wordNumbers( double sum )
 {
-    int number = floor( sum ), cents = (int)(sum * 100) - number;
+    double number1 = floor( sum ); int number = (int)number1; int cents = (int)(sum * 100) - number;
     char *array[3][9] = {
         { "one", "two", "three", "four", "five", "six", "seven", \
         "eight", "nine" },

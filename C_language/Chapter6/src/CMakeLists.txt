@@ -25,6 +25,7 @@ set_target_properties( ${target} PROPERTIES
 C_STANDARD 17
 C_STANDARD_REQUIRED ON
 )
+target_link_libraries( ${target} PRIVATE m)
 
 target_include_directories( ${target} PRIVATE ${CMAKE_CURRENT_BINARY_DIR}
  PRIVATE . ) 
