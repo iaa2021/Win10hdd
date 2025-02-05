@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: myapp
+ labels: 
+   env: prod
+   app: main
+   tier: frontend
+   owner: iaa
+spec:
+   containers:
+    - name: mycont-web
+      image: nginx:latest
+      ports:
+      - containerPort: 80  
+    - name: mycont-api
+      image: tomcat:latest
+      ports:
+      - containerPort: 8080
+  
