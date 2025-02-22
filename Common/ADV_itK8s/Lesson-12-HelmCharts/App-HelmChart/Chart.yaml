@@ -1,0 +1,15 @@
+apiVersion: v2
+appVersion: 1.2.3
+description: My Helm chart for Kubernetes
+keywords:
+- apache
+- http
+- https
+- denisastahov
+maintainers:
+- email: denis@astahov.net
+  name: Denis Astahov
+  url: www.astahov.net
+name: App-HelmChart
+type: application
+version: 0.1.0
