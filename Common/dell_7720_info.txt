@@ -1,0 +1,9 @@
+From Dell’s parts catalog and teardown guides, the compatible fans are usually:
+
+Component	Dell Part Number	OEM Manufacturer	Model Name
+CPU Fan	0W7K6P, 04V6V3, or 0MHP1X	Sunon / Forcecon / AVC	Often “Sunon MG75090V1-C120-S9A”
+GPU Fan	0R2CJ9, 0PVDG3, or 0Y90C9	Sunon / AVC		“Sunon MG75090V1-B090-S9A” or similar
+Base Board Information Manufacturer: Dell Inc. Product Name: 04M3YM Version: A00
+ Serial Number: .71NL1Y1.CN4864337M0425.
+ Asset Tag: Features: Board is a hosting board Board is replaceable Location In Chassis: Part Component
+
