@@ -1,13 +1,97 @@
-Стик—Stick(AppleTV+),4июольф,второйшансиОуэнУилсон
-ДжиннииДжорджия—Ginny&Georgia(Netflix),5июовыйсезонтайныстановятсяявными
-Королевыбарракуд—BarracudaQueens(Netflix),5июовыйсезонограблениепо-шведски2.0
-Соломинка—Straw(Netflix),6июогдаотчаяниетолкаетзачерту
-Детективпоискусству—ArtDetectives(AcornTV),9июогдакартиныдорожеденег
-Набережная—TheWaterfront(Netflix),19июемейныетайныуводы
-Позолоченныйвек—TheGildedAge(Max),22июовыйсезонбольшеблеска,большеинтриг?
-Железноесердце—Ironheart(Disney+),24июагияпротивтехнологийвЧикаго
-Медведь—TheBear(Hulu/Disney+),25июовыйсезонснованакухню,сновавбой
-Обратныйотсчёт—Countdown(PrimeVideo),25июклсспасаетЛос-Анджелес
-Игравкальмара—SquidGame(Netflix),27июовыйсезонпоследняяставкаСонКиХуна
-Дым—Smoke(AppleTV+),27июеройилиподжигатель?
-Наутилус—Nautilus(AMC,AMC+),29июовоепрочтениекапитанаНемо
+I.Rocky linux
+sudo nano /etc/X11/xorg.conf.d/10-monitor.conf
+in this file paste:
+ection "ServerFlags"
+    Option "BlankTime" "0"
+    Option "StandbyTime" "0"
+    Option "SuspendTime" "0"
+    Option "OffTime" "0"
+EndSection
+than save and reboot
+1. Disable ALL screen blanking and power saving
+
+Run:
+
+xset s off
+xset -dpms
+xset s noblank
+
+Edit GRUB
+GRUB_CMDLINE_LINUX="crashkernel=auto resume=UUID=74ce4842-593a-491a-8042-e360b97a20af rhgb quiet i915.enable_dc=0 modprobe.blacklist=nouveau nouveau.modeset=0 consoleblank=0"
+
+Then rebuild grub:
+
+BIOS systems:
+
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+
+UEFI systems:
+
+sudo grub2-mkconfig -o /boot/efi/EFI/rocky/grub.cfg
+
+Reboot.
+
+2. Disable Intel panel self refresh (VERY common fix)
+
+Create:
+
+sudo nano /etc/modprobe.d/i915.conf
+
+Put:
+
+options i915 enable_psr=0
+
+Then rebuild initramfs:
+
+sudo dracut -f
+
+Reboot.
+
+This fixes many black screen/flicker/external monitor dropouts on Intel HD 4000 laptops.
+
+Disable Intel PSR (highest probability fix)
+
+Create:
+
+sudo nano /etc/modprobe.d/i915.conf
+
+Add:
+
+options i915 enable_psr=0 enable_fbc=0
+
+Then rebuild initramfs:
+
+sudo dracut -f
+
+Reboot.
+
+2. Add kernel boot parameters
+
+Edit GRUB:
+
+sudo nano /etc/default/grub
+
+Find:
+
+GRUB_CMDLINE_LINUX=
+
+Add these inside the quotes:
+
+i915.enable_psr=0 i915.enable_fbc=0 intel_idle.max_cstate=1
+
+Example:
+
+GRUB_CMDLINE_LINUX="rhgb quiet i915.enable_psr=0 i915.enable_fbc=0 intel_idle.max_cstate=1"
+
+Then rebuild grub:
+
+BIOS:
+
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+
+UEFI:
+
+sudo grub2-mkconfig -o /boot/efi/EFI/rocky/grub.cfg
+
+Reboot again.
+
